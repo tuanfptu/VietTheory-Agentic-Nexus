@@ -1,0 +1,69 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.uv-cache/
+.coverage
+.coverage.*
+htmlcov/
+/tmp/
+
+# Virtual environments and packaging
+.venv/
+.venv-ocr/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+/API KEY/
+/benchmark_private/
+
+# Source documents and generated data/model artifacts
+*.pdf
+/artifacts/
+/models/
+/checkpoints/
+/indexes/
+/data/raw/
+/data/interim/
+/data/processed/
+/data/cache/
+*.faiss
+*.index
+*.onnx
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Logs and local databases
+*.log
+*.sqlite
+*.sqlite3

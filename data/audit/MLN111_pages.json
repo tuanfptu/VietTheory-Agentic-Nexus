@@ -1,0 +1,5987 @@
+[
+  {
+    "pdf_page": 0,
+    "printed_page": null,
+    "quality": {
+      "char_count": 96,
+      "word_count": 19,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 18,
+      "vietnamese_ratio": 0.2647,
+      "replacement_char_count": 0,
+      "quality_score": 0.5,
+      "needs_ocr": true
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 4,
+      "left_blocks": 1,
+      "right_blocks": 1
+    }
+  },
+  {
+    "pdf_page": 1,
+    "printed_page": "2",
+    "quality": {
+      "char_count": 334,
+      "word_count": 59,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 17,
+      "vietnamese_ratio": 0.1043,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 16,
+      "left_blocks": 10,
+      "right_blocks": 6
+    }
+  },
+  {
+    "pdf_page": 2,
+    "printed_page": "3",
+    "quality": {
+      "char_count": 225,
+      "word_count": 39,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 35,
+      "vietnamese_ratio": 0.2893,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 30,
+      "left_blocks": 22,
+      "right_blocks": 19
+    }
+  },
+  {
+    "pdf_page": 3,
+    "printed_page": "4",
+    "quality": {
+      "char_count": 1321,
+      "word_count": 259,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 263,
+      "vietnamese_ratio": 0.2922,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 27,
+      "left_blocks": 10,
+      "right_blocks": 1
+    }
+  },
+  {
+    "pdf_page": 4,
+    "printed_page": "5",
+    "quality": {
+      "char_count": 646,
+      "word_count": 122,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 101,
+      "vietnamese_ratio": 0.2494,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 17,
+      "left_blocks": 9,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 5,
+    "printed_page": "6",
+    "quality": {
+      "char_count": 2631,
+      "word_count": 567,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 594,
+      "vietnamese_ratio": 0.3051,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 6,
+    "printed_page": "7",
+    "quality": {
+      "char_count": 1263,
+      "word_count": 274,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 259,
+      "vietnamese_ratio": 0.2856,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 23,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 7,
+    "printed_page": "8",
+    "quality": {
+      "char_count": 2123,
+      "word_count": 459,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 428,
+      "vietnamese_ratio": 0.2742,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 1
+    }
+  },
+  {
+    "pdf_page": 8,
+    "printed_page": "9",
+    "quality": {
+      "char_count": 2700,
+      "word_count": 590,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 573,
+      "vietnamese_ratio": 0.2842,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 9,
+    "printed_page": "10",
+    "quality": {
+      "char_count": 2677,
+      "word_count": 577,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 555,
+      "vietnamese_ratio": 0.2892,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 10,
+    "printed_page": "11",
+    "quality": {
+      "char_count": 2833,
+      "word_count": 560,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 557,
+      "vietnamese_ratio": 0.2691,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 11,
+    "printed_page": "12",
+    "quality": {
+      "char_count": 2689,
+      "word_count": 541,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 522,
+      "vietnamese_ratio": 0.2659,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 12,
+    "printed_page": "13",
+    "quality": {
+      "char_count": 2565,
+      "word_count": 512,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 446,
+      "vietnamese_ratio": 0.2365,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 13,
+    "printed_page": "14",
+    "quality": {
+      "char_count": 2410,
+      "word_count": 526,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 506,
+      "vietnamese_ratio": 0.2822,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 14,
+    "printed_page": "15",
+    "quality": {
+      "char_count": 2560,
+      "word_count": 543,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 493,
+      "vietnamese_ratio": 0.2712,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 15,
+    "printed_page": "16",
+    "quality": {
+      "char_count": 2630,
+      "word_count": 558,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 526,
+      "vietnamese_ratio": 0.274,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 16,
+    "printed_page": "17",
+    "quality": {
+      "char_count": 2612,
+      "word_count": 523,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 468,
+      "vietnamese_ratio": 0.2479,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 17,
+    "printed_page": "18",
+    "quality": {
+      "char_count": 2488,
+      "word_count": 505,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 451,
+      "vietnamese_ratio": 0.247,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 18,
+    "printed_page": "19",
+    "quality": {
+      "char_count": 2657,
+      "word_count": 568,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 554,
+      "vietnamese_ratio": 0.2763,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 19,
+    "printed_page": "20",
+    "quality": {
+      "char_count": 2520,
+      "word_count": 550,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 537,
+      "vietnamese_ratio": 0.2968,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 20,
+    "printed_page": "21",
+    "quality": {
+      "char_count": 2501,
+      "word_count": 542,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 538,
+      "vietnamese_ratio": 0.2877,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 21,
+    "printed_page": "22",
+    "quality": {
+      "char_count": 2508,
+      "word_count": 557,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 527,
+      "vietnamese_ratio": 0.2823,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 22,
+    "printed_page": "23",
+    "quality": {
+      "char_count": 2608,
+      "word_count": 562,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 552,
+      "vietnamese_ratio": 0.2825,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 23,
+    "printed_page": "24",
+    "quality": {
+      "char_count": 2507,
+      "word_count": 528,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 530,
+      "vietnamese_ratio": 0.2842,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 24,
+    "printed_page": "25",
+    "quality": {
+      "char_count": 2340,
+      "word_count": 494,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 482,
+      "vietnamese_ratio": 0.2801,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 25,
+    "printed_page": "26",
+    "quality": {
+      "char_count": 2363,
+      "word_count": 497,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 516,
+      "vietnamese_ratio": 0.2947,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 26,
+    "printed_page": "27",
+    "quality": {
+      "char_count": 2453,
+      "word_count": 523,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 529,
+      "vietnamese_ratio": 0.2928,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 27,
+    "printed_page": "28",
+    "quality": {
+      "char_count": 2273,
+      "word_count": 495,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 472,
+      "vietnamese_ratio": 0.2815,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 28,
+    "printed_page": "29",
+    "quality": {
+      "char_count": 2546,
+      "word_count": 566,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 556,
+      "vietnamese_ratio": 0.2986,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 29,
+    "printed_page": "30",
+    "quality": {
+      "char_count": 2503,
+      "word_count": 550,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 537,
+      "vietnamese_ratio": 0.2939,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 30,
+    "printed_page": "31",
+    "quality": {
+      "char_count": 2464,
+      "word_count": 534,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 504,
+      "vietnamese_ratio": 0.2847,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 31,
+    "printed_page": "32",
+    "quality": {
+      "char_count": 2438,
+      "word_count": 523,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 499,
+      "vietnamese_ratio": 0.2783,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 32,
+    "printed_page": "33",
+    "quality": {
+      "char_count": 2545,
+      "word_count": 551,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 515,
+      "vietnamese_ratio": 0.277,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 33,
+    "printed_page": "34",
+    "quality": {
+      "char_count": 2536,
+      "word_count": 552,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 540,
+      "vietnamese_ratio": 0.286,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 34,
+    "printed_page": "35",
+    "quality": {
+      "char_count": 2469,
+      "word_count": 535,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 518,
+      "vietnamese_ratio": 0.2897,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 35,
+    "printed_page": "36",
+    "quality": {
+      "char_count": 2501,
+      "word_count": 537,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 494,
+      "vietnamese_ratio": 0.2775,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": "37",
+    "quality": {
+      "char_count": 2509,
+      "word_count": 538,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 491,
+      "vietnamese_ratio": 0.2705,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": "38",
+    "quality": {
+      "char_count": 2564,
+      "word_count": 552,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 490,
+      "vietnamese_ratio": 0.2595,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": "39",
+    "quality": {
+      "char_count": 2448,
+      "word_count": 527,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 503,
+      "vietnamese_ratio": 0.2914,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": "40",
+    "quality": {
+      "char_count": 2573,
+      "word_count": 558,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 542,
+      "vietnamese_ratio": 0.2931,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 2,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": "41",
+    "quality": {
+      "char_count": 2395,
+      "word_count": 513,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 458,
+      "vietnamese_ratio": 0.2723,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": "42",
+    "quality": {
+      "char_count": 2656,
+      "word_count": 571,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 532,
+      "vietnamese_ratio": 0.271,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": "43",
+    "quality": {
+      "char_count": 2637,
+      "word_count": 574,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 532,
+      "vietnamese_ratio": 0.2739,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": "44",
+    "quality": {
+      "char_count": 2510,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 510,
+      "vietnamese_ratio": 0.2793,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": "45",
+    "quality": {
+      "char_count": 2514,
+      "word_count": 541,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 511,
+      "vietnamese_ratio": 0.2711,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": "46",
+    "quality": {
+      "char_count": 2434,
+      "word_count": 525,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 508,
+      "vietnamese_ratio": 0.2843,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": "47",
+    "quality": {
+      "char_count": 2461,
+      "word_count": 518,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 483,
+      "vietnamese_ratio": 0.2701,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": "48",
+    "quality": {
+      "char_count": 2575,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 524,
+      "vietnamese_ratio": 0.2807,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": "49",
+    "quality": {
+      "char_count": 2488,
+      "word_count": 524,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 491,
+      "vietnamese_ratio": 0.2708,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": "50",
+    "quality": {
+      "char_count": 2648,
+      "word_count": 572,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 560,
+      "vietnamese_ratio": 0.2893,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": "51",
+    "quality": {
+      "char_count": 2423,
+      "word_count": 513,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 500,
+      "vietnamese_ratio": 0.2834,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 51,
+    "printed_page": "52",
+    "quality": {
+      "char_count": 2554,
+      "word_count": 548,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 545,
+      "vietnamese_ratio": 0.2893,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 52,
+    "printed_page": "53",
+    "quality": {
+      "char_count": 2579,
+      "word_count": 563,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 548,
+      "vietnamese_ratio": 0.2869,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 53,
+    "printed_page": "54",
+    "quality": {
+      "char_count": 2559,
+      "word_count": 553,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 576,
+      "vietnamese_ratio": 0.3038,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 54,
+    "printed_page": "55",
+    "quality": {
+      "char_count": 2474,
+      "word_count": 536,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 507,
+      "vietnamese_ratio": 0.2766,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 55,
+    "printed_page": "56",
+    "quality": {
+      "char_count": 2596,
+      "word_count": 560,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 537,
+      "vietnamese_ratio": 0.2755,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 56,
+    "printed_page": "57",
+    "quality": {
+      "char_count": 2538,
+      "word_count": 561,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 516,
+      "vietnamese_ratio": 0.274,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 57,
+    "printed_page": "58",
+    "quality": {
+      "char_count": 2420,
+      "word_count": 518,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 511,
+      "vietnamese_ratio": 0.2809,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 58,
+    "printed_page": "59",
+    "quality": {
+      "char_count": 2480,
+      "word_count": 529,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 513,
+      "vietnamese_ratio": 0.2758,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 59,
+    "printed_page": "60",
+    "quality": {
+      "char_count": 2661,
+      "word_count": 583,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 626,
+      "vietnamese_ratio": 0.3128,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 60,
+    "printed_page": "61",
+    "quality": {
+      "char_count": 2518,
+      "word_count": 548,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 569,
+      "vietnamese_ratio": 0.302,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 31,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 61,
+    "printed_page": "62",
+    "quality": {
+      "char_count": 2637,
+      "word_count": 577,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 585,
+      "vietnamese_ratio": 0.3034,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 62,
+    "printed_page": "63",
+    "quality": {
+      "char_count": 2531,
+      "word_count": 543,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 532,
+      "vietnamese_ratio": 0.2862,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 63,
+    "printed_page": "64",
+    "quality": {
+      "char_count": 2709,
+      "word_count": 598,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 589,
+      "vietnamese_ratio": 0.2917,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 64,
+    "printed_page": "65",
+    "quality": {
+      "char_count": 2510,
+      "word_count": 559,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 539,
+      "vietnamese_ratio": 0.2903,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 65,
+    "printed_page": "66",
+    "quality": {
+      "char_count": 2749,
+      "word_count": 612,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 633,
+      "vietnamese_ratio": 0.3131,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 66,
+    "printed_page": "67",
+    "quality": {
+      "char_count": 431,
+      "word_count": 97,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 82,
+      "vietnamese_ratio": 0.2742,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 8,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 67,
+    "printed_page": "68",
+    "quality": {
+      "char_count": 2086,
+      "word_count": 453,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 418,
+      "vietnamese_ratio": 0.2727,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 68,
+    "printed_page": "69",
+    "quality": {
+      "char_count": 2547,
+      "word_count": 544,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 522,
+      "vietnamese_ratio": 0.2797,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 69,
+    "printed_page": "70",
+    "quality": {
+      "char_count": 2614,
+      "word_count": 552,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 518,
+      "vietnamese_ratio": 0.2677,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 70,
+    "printed_page": "71",
+    "quality": {
+      "char_count": 2597,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 533,
+      "vietnamese_ratio": 0.2859,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 71,
+    "printed_page": "72",
+    "quality": {
+      "char_count": 2628,
+      "word_count": 571,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 536,
+      "vietnamese_ratio": 0.2877,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 72,
+    "printed_page": "73",
+    "quality": {
+      "char_count": 2560,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 542,
+      "vietnamese_ratio": 0.2906,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 73,
+    "printed_page": "74",
+    "quality": {
+      "char_count": 2559,
+      "word_count": 558,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 547,
+      "vietnamese_ratio": 0.2974,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 74,
+    "printed_page": "75",
+    "quality": {
+      "char_count": 2462,
+      "word_count": 530,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 506,
+      "vietnamese_ratio": 0.2814,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 75,
+    "printed_page": "76",
+    "quality": {
+      "char_count": 2583,
+      "word_count": 556,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 540,
+      "vietnamese_ratio": 0.2807,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 76,
+    "printed_page": "77",
+    "quality": {
+      "char_count": 2456,
+      "word_count": 539,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 537,
+      "vietnamese_ratio": 0.2998,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 77,
+    "printed_page": "78",
+    "quality": {
+      "char_count": 2604,
+      "word_count": 567,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 572,
+      "vietnamese_ratio": 0.3017,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 78,
+    "printed_page": "79",
+    "quality": {
+      "char_count": 2507,
+      "word_count": 544,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 539,
+      "vietnamese_ratio": 0.292,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 79,
+    "printed_page": "80",
+    "quality": {
+      "char_count": 2598,
+      "word_count": 572,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 569,
+      "vietnamese_ratio": 0.2954,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 80,
+    "printed_page": "81",
+    "quality": {
+      "char_count": 2523,
+      "word_count": 547,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 573,
+      "vietnamese_ratio": 0.3111,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 81,
+    "printed_page": "82",
+    "quality": {
+      "char_count": 2409,
+      "word_count": 507,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 471,
+      "vietnamese_ratio": 0.2658,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 82,
+    "printed_page": "83",
+    "quality": {
+      "char_count": 2332,
+      "word_count": 513,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 467,
+      "vietnamese_ratio": 0.2755,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 83,
+    "printed_page": "84",
+    "quality": {
+      "char_count": 2539,
+      "word_count": 562,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 551,
+      "vietnamese_ratio": 0.292,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 84,
+    "printed_page": "85",
+    "quality": {
+      "char_count": 2722,
+      "word_count": 602,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 584,
+      "vietnamese_ratio": 0.288,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 85,
+    "printed_page": "86",
+    "quality": {
+      "char_count": 2431,
+      "word_count": 532,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 490,
+      "vietnamese_ratio": 0.2789,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 86,
+    "printed_page": "87",
+    "quality": {
+      "char_count": 2480,
+      "word_count": 531,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 478,
+      "vietnamese_ratio": 0.2679,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 87,
+    "printed_page": "88",
+    "quality": {
+      "char_count": 2671,
+      "word_count": 599,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 609,
+      "vietnamese_ratio": 0.3074,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 88,
+    "printed_page": "89",
+    "quality": {
+      "char_count": 2604,
+      "word_count": 582,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 566,
+      "vietnamese_ratio": 0.3022,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 89,
+    "printed_page": "90",
+    "quality": {
+      "char_count": 2692,
+      "word_count": 581,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 563,
+      "vietnamese_ratio": 0.2889,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 90,
+    "printed_page": "91",
+    "quality": {
+      "char_count": 2413,
+      "word_count": 538,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 556,
+      "vietnamese_ratio": 0.3101,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 91,
+    "printed_page": "92",
+    "quality": {
+      "char_count": 2497,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 526,
+      "vietnamese_ratio": 0.2898,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 92,
+    "printed_page": "93",
+    "quality": {
+      "char_count": 2531,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 566,
+      "vietnamese_ratio": 0.3053,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 93,
+    "printed_page": "94",
+    "quality": {
+      "char_count": 2402,
+      "word_count": 533,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 515,
+      "vietnamese_ratio": 0.2951,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 94,
+    "printed_page": "95",
+    "quality": {
+      "char_count": 2480,
+      "word_count": 547,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 565,
+      "vietnamese_ratio": 0.3086,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 95,
+    "printed_page": "96",
+    "quality": {
+      "char_count": 2558,
+      "word_count": 570,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 561,
+      "vietnamese_ratio": 0.2971,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 96,
+    "printed_page": "97",
+    "quality": {
+      "char_count": 2655,
+      "word_count": 585,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 586,
+      "vietnamese_ratio": 0.2979,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 97,
+    "printed_page": "98",
+    "quality": {
+      "char_count": 2638,
+      "word_count": 585,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 584,
+      "vietnamese_ratio": 0.3034,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 98,
+    "printed_page": "99",
+    "quality": {
+      "char_count": 2544,
+      "word_count": 543,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 508,
+      "vietnamese_ratio": 0.2782,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 99,
+    "printed_page": "100",
+    "quality": {
+      "char_count": 2416,
+      "word_count": 533,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 512,
+      "vietnamese_ratio": 0.2883,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 100,
+    "printed_page": "101",
+    "quality": {
+      "char_count": 2430,
+      "word_count": 536,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 516,
+      "vietnamese_ratio": 0.2938,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 101,
+    "printed_page": "102",
+    "quality": {
+      "char_count": 2473,
+      "word_count": 550,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 565,
+      "vietnamese_ratio": 0.3148,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 102,
+    "printed_page": "103",
+    "quality": {
+      "char_count": 2463,
+      "word_count": 533,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 539,
+      "vietnamese_ratio": 0.2996,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 103,
+    "printed_page": "104",
+    "quality": {
+      "char_count": 2502,
+      "word_count": 529,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 517,
+      "vietnamese_ratio": 0.2784,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 104,
+    "printed_page": "105",
+    "quality": {
+      "char_count": 2417,
+      "word_count": 508,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 471,
+      "vietnamese_ratio": 0.2678,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 105,
+    "printed_page": "106",
+    "quality": {
+      "char_count": 2462,
+      "word_count": 519,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 480,
+      "vietnamese_ratio": 0.2732,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 106,
+    "printed_page": "107",
+    "quality": {
+      "char_count": 2593,
+      "word_count": 541,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 535,
+      "vietnamese_ratio": 0.284,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 107,
+    "printed_page": "108",
+    "quality": {
+      "char_count": 2635,
+      "word_count": 568,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 570,
+      "vietnamese_ratio": 0.2892,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 108,
+    "printed_page": "109",
+    "quality": {
+      "char_count": 2497,
+      "word_count": 544,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 593,
+      "vietnamese_ratio": 0.3192,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 109,
+    "printed_page": "110",
+    "quality": {
+      "char_count": 2764,
+      "word_count": 615,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 616,
+      "vietnamese_ratio": 0.3008,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 110,
+    "printed_page": "111",
+    "quality": {
+      "char_count": 2701,
+      "word_count": 594,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 579,
+      "vietnamese_ratio": 0.2915,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 111,
+    "printed_page": "112",
+    "quality": {
+      "char_count": 2578,
+      "word_count": 556,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 566,
+      "vietnamese_ratio": 0.2999,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 112,
+    "printed_page": "113",
+    "quality": {
+      "char_count": 2756,
+      "word_count": 608,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 648,
+      "vietnamese_ratio": 0.315,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 113,
+    "printed_page": "114",
+    "quality": {
+      "char_count": 2581,
+      "word_count": 565,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 576,
+      "vietnamese_ratio": 0.3074,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 114,
+    "printed_page": "115",
+    "quality": {
+      "char_count": 2565,
+      "word_count": 554,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 552,
+      "vietnamese_ratio": 0.2969,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 115,
+    "printed_page": "116",
+    "quality": {
+      "char_count": 2630,
+      "word_count": 554,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 573,
+      "vietnamese_ratio": 0.2989,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 116,
+    "printed_page": "117",
+    "quality": {
+      "char_count": 2493,
+      "word_count": 529,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 534,
+      "vietnamese_ratio": 0.2905,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 117,
+    "printed_page": "118",
+    "quality": {
+      "char_count": 2636,
+      "word_count": 569,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 586,
+      "vietnamese_ratio": 0.3005,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 118,
+    "printed_page": "119",
+    "quality": {
+      "char_count": 2487,
+      "word_count": 533,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 527,
+      "vietnamese_ratio": 0.2889,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 119,
+    "printed_page": "120",
+    "quality": {
+      "char_count": 2593,
+      "word_count": 554,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 536,
+      "vietnamese_ratio": 0.284,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 120,
+    "printed_page": "121",
+    "quality": {
+      "char_count": 2604,
+      "word_count": 563,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 585,
+      "vietnamese_ratio": 0.3037,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 121,
+    "printed_page": "122",
+    "quality": {
+      "char_count": 2606,
+      "word_count": 573,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 600,
+      "vietnamese_ratio": 0.316,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 122,
+    "printed_page": "123",
+    "quality": {
+      "char_count": 2641,
+      "word_count": 580,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 593,
+      "vietnamese_ratio": 0.3006,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 123,
+    "printed_page": "124",
+    "quality": {
+      "char_count": 2591,
+      "word_count": 540,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 518,
+      "vietnamese_ratio": 0.2715,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 124,
+    "printed_page": "125",
+    "quality": {
+      "char_count": 2395,
+      "word_count": 513,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 500,
+      "vietnamese_ratio": 0.2798,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 125,
+    "printed_page": "126",
+    "quality": {
+      "char_count": 2527,
+      "word_count": 534,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 507,
+      "vietnamese_ratio": 0.2714,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 126,
+    "printed_page": "127",
+    "quality": {
+      "char_count": 2345,
+      "word_count": 498,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 500,
+      "vietnamese_ratio": 0.2917,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 127,
+    "printed_page": "128",
+    "quality": {
+      "char_count": 2668,
+      "word_count": 585,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 564,
+      "vietnamese_ratio": 0.2831,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 128,
+    "printed_page": "129",
+    "quality": {
+      "char_count": 2605,
+      "word_count": 561,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 583,
+      "vietnamese_ratio": 0.3091,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 129,
+    "printed_page": "130",
+    "quality": {
+      "char_count": 2437,
+      "word_count": 527,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 563,
+      "vietnamese_ratio": 0.3166,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 130,
+    "printed_page": "131",
+    "quality": {
+      "char_count": 2643,
+      "word_count": 570,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 597,
+      "vietnamese_ratio": 0.3011,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 131,
+    "printed_page": "132",
+    "quality": {
+      "char_count": 2648,
+      "word_count": 573,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 614,
+      "vietnamese_ratio": 0.3081,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 132,
+    "printed_page": "133",
+    "quality": {
+      "char_count": 2471,
+      "word_count": 532,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 529,
+      "vietnamese_ratio": 0.2853,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 133,
+    "printed_page": "134",
+    "quality": {
+      "char_count": 2586,
+      "word_count": 560,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 540,
+      "vietnamese_ratio": 0.2857,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 134,
+    "printed_page": "135",
+    "quality": {
+      "char_count": 2441,
+      "word_count": 524,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 502,
+      "vietnamese_ratio": 0.2789,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 135,
+    "printed_page": "136",
+    "quality": {
+      "char_count": 2605,
+      "word_count": 576,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 575,
+      "vietnamese_ratio": 0.303,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 136,
+    "printed_page": "137",
+    "quality": {
+      "char_count": 2685,
+      "word_count": 587,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 602,
+      "vietnamese_ratio": 0.301,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 137,
+    "printed_page": "138",
+    "quality": {
+      "char_count": 2687,
+      "word_count": 597,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 684,
+      "vietnamese_ratio": 0.3458,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 138,
+    "printed_page": "139",
+    "quality": {
+      "char_count": 2549,
+      "word_count": 568,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 620,
+      "vietnamese_ratio": 0.3289,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 139,
+    "printed_page": "140",
+    "quality": {
+      "char_count": 2507,
+      "word_count": 532,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 533,
+      "vietnamese_ratio": 0.2905,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 140,
+    "printed_page": "141",
+    "quality": {
+      "char_count": 2524,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 579,
+      "vietnamese_ratio": 0.3142,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 141,
+    "printed_page": "142",
+    "quality": {
+      "char_count": 2774,
+      "word_count": 595,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 607,
+      "vietnamese_ratio": 0.2939,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 142,
+    "printed_page": "143",
+    "quality": {
+      "char_count": 2425,
+      "word_count": 517,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 535,
+      "vietnamese_ratio": 0.2979,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 143,
+    "printed_page": "144",
+    "quality": {
+      "char_count": 2752,
+      "word_count": 616,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 669,
+      "vietnamese_ratio": 0.331,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 144,
+    "printed_page": "145",
+    "quality": {
+      "char_count": 2630,
+      "word_count": 569,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 592,
+      "vietnamese_ratio": 0.3072,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 145,
+    "printed_page": "146",
+    "quality": {
+      "char_count": 2576,
+      "word_count": 566,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 569,
+      "vietnamese_ratio": 0.3001,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 146,
+    "printed_page": "147",
+    "quality": {
+      "char_count": 2393,
+      "word_count": 513,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 476,
+      "vietnamese_ratio": 0.2722,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 147,
+    "printed_page": "148",
+    "quality": {
+      "char_count": 2473,
+      "word_count": 524,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 513,
+      "vietnamese_ratio": 0.2782,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 148,
+    "printed_page": "149",
+    "quality": {
+      "char_count": 2590,
+      "word_count": 547,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 502,
+      "vietnamese_ratio": 0.2728,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 149,
+    "printed_page": "150",
+    "quality": {
+      "char_count": 2479,
+      "word_count": 532,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 523,
+      "vietnamese_ratio": 0.2938,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 150,
+    "printed_page": "151",
+    "quality": {
+      "char_count": 2638,
+      "word_count": 557,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 551,
+      "vietnamese_ratio": 0.283,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 151,
+    "printed_page": "152",
+    "quality": {
+      "char_count": 2465,
+      "word_count": 527,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 515,
+      "vietnamese_ratio": 0.2901,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 152,
+    "printed_page": "153",
+    "quality": {
+      "char_count": 2608,
+      "word_count": 562,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 589,
+      "vietnamese_ratio": 0.3024,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 153,
+    "printed_page": "154",
+    "quality": {
+      "char_count": 2608,
+      "word_count": 553,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 540,
+      "vietnamese_ratio": 0.283,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 154,
+    "printed_page": "155",
+    "quality": {
+      "char_count": 2323,
+      "word_count": 496,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 482,
+      "vietnamese_ratio": 0.2845,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 9,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 155,
+    "printed_page": "156",
+    "quality": {
+      "char_count": 2619,
+      "word_count": 559,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 542,
+      "vietnamese_ratio": 0.2841,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 156,
+    "printed_page": "157",
+    "quality": {
+      "char_count": 2446,
+      "word_count": 525,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 504,
+      "vietnamese_ratio": 0.2812,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 157,
+    "printed_page": "158",
+    "quality": {
+      "char_count": 2448,
+      "word_count": 511,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 509,
+      "vietnamese_ratio": 0.2853,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 158,
+    "printed_page": "159",
+    "quality": {
+      "char_count": 2678,
+      "word_count": 588,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 590,
+      "vietnamese_ratio": 0.298,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 159,
+    "printed_page": "160",
+    "quality": {
+      "char_count": 2354,
+      "word_count": 513,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 520,
+      "vietnamese_ratio": 0.2966,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 160,
+    "printed_page": "161",
+    "quality": {
+      "char_count": 2475,
+      "word_count": 528,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 545,
+      "vietnamese_ratio": 0.3029,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 161,
+    "printed_page": "162",
+    "quality": {
+      "char_count": 581,
+      "word_count": 123,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 110,
+      "vietnamese_ratio": 0.2703,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 15,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 162,
+    "printed_page": "163",
+    "quality": {
+      "char_count": 2252,
+      "word_count": 495,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 467,
+      "vietnamese_ratio": 0.2813,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 163,
+    "printed_page": "164",
+    "quality": {
+      "char_count": 2634,
+      "word_count": 567,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 550,
+      "vietnamese_ratio": 0.2955,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 164,
+    "printed_page": "165",
+    "quality": {
+      "char_count": 2589,
+      "word_count": 577,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 564,
+      "vietnamese_ratio": 0.2987,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 165,
+    "printed_page": "166",
+    "quality": {
+      "char_count": 2642,
+      "word_count": 581,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 569,
+      "vietnamese_ratio": 0.2981,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 166,
+    "printed_page": "167",
+    "quality": {
+      "char_count": 2539,
+      "word_count": 554,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 555,
+      "vietnamese_ratio": 0.3005,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 167,
+    "printed_page": "168",
+    "quality": {
+      "char_count": 2802,
+      "word_count": 618,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 651,
+      "vietnamese_ratio": 0.3124,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 168,
+    "printed_page": "169",
+    "quality": {
+      "char_count": 2511,
+      "word_count": 542,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 551,
+      "vietnamese_ratio": 0.2983,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 169,
+    "printed_page": "170",
+    "quality": {
+      "char_count": 2668,
+      "word_count": 579,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 547,
+      "vietnamese_ratio": 0.2794,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 170,
+    "printed_page": "171",
+    "quality": {
+      "char_count": 2481,
+      "word_count": 543,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 538,
+      "vietnamese_ratio": 0.2969,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 171,
+    "printed_page": "172",
+    "quality": {
+      "char_count": 2535,
+      "word_count": 550,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 562,
+      "vietnamese_ratio": 0.3007,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 172,
+    "printed_page": "173",
+    "quality": {
+      "char_count": 2566,
+      "word_count": 556,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 585,
+      "vietnamese_ratio": 0.3089,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 173,
+    "printed_page": "174",
+    "quality": {
+      "char_count": 2465,
+      "word_count": 529,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 526,
+      "vietnamese_ratio": 0.2885,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 174,
+    "printed_page": "175",
+    "quality": {
+      "char_count": 2415,
+      "word_count": 542,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 516,
+      "vietnamese_ratio": 0.2928,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 175,
+    "printed_page": "176",
+    "quality": {
+      "char_count": 2660,
+      "word_count": 592,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 611,
+      "vietnamese_ratio": 0.3092,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 176,
+    "printed_page": "177",
+    "quality": {
+      "char_count": 2581,
+      "word_count": 566,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 577,
+      "vietnamese_ratio": 0.3046,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 177,
+    "printed_page": "178",
+    "quality": {
+      "char_count": 2562,
+      "word_count": 573,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 579,
+      "vietnamese_ratio": 0.3105,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 178,
+    "printed_page": "179",
+    "quality": {
+      "char_count": 2626,
+      "word_count": 567,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 573,
+      "vietnamese_ratio": 0.3002,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 179,
+    "printed_page": "180",
+    "quality": {
+      "char_count": 2726,
+      "word_count": 610,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 624,
+      "vietnamese_ratio": 0.3059,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 180,
+    "printed_page": "181",
+    "quality": {
+      "char_count": 2468,
+      "word_count": 544,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 530,
+      "vietnamese_ratio": 0.2958,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 181,
+    "printed_page": "182",
+    "quality": {
+      "char_count": 2670,
+      "word_count": 600,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 598,
+      "vietnamese_ratio": 0.3026,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 182,
+    "printed_page": "183",
+    "quality": {
+      "char_count": 2620,
+      "word_count": 585,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 543,
+      "vietnamese_ratio": 0.2865,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 183,
+    "printed_page": "184",
+    "quality": {
+      "char_count": 2554,
+      "word_count": 565,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 531,
+      "vietnamese_ratio": 0.2846,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 184,
+    "printed_page": "185",
+    "quality": {
+      "char_count": 2572,
+      "word_count": 576,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 576,
+      "vietnamese_ratio": 0.3075,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 185,
+    "printed_page": "186",
+    "quality": {
+      "char_count": 2932,
+      "word_count": 606,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 492,
+      "vietnamese_ratio": 0.2287,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 30,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 186,
+    "printed_page": "187",
+    "quality": {
+      "char_count": 2874,
+      "word_count": 611,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 510,
+      "vietnamese_ratio": 0.2461,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 31,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 187,
+    "printed_page": "188",
+    "quality": {
+      "char_count": 2479,
+      "word_count": 545,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 512,
+      "vietnamese_ratio": 0.278,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 188,
+    "printed_page": "189",
+    "quality": {
+      "char_count": 2314,
+      "word_count": 519,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 501,
+      "vietnamese_ratio": 0.3025,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 189,
+    "printed_page": "190",
+    "quality": {
+      "char_count": 2839,
+      "word_count": 630,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 593,
+      "vietnamese_ratio": 0.2879,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 190,
+    "printed_page": "191",
+    "quality": {
+      "char_count": 2646,
+      "word_count": 596,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 566,
+      "vietnamese_ratio": 0.29,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 191,
+    "printed_page": "192",
+    "quality": {
+      "char_count": 2673,
+      "word_count": 617,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 581,
+      "vietnamese_ratio": 0.2973,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 192,
+    "printed_page": "193",
+    "quality": {
+      "char_count": 2748,
+      "word_count": 601,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 608,
+      "vietnamese_ratio": 0.296,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 193,
+    "printed_page": "194",
+    "quality": {
+      "char_count": 2424,
+      "word_count": 551,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 523,
+      "vietnamese_ratio": 0.2995,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 194,
+    "printed_page": "195",
+    "quality": {
+      "char_count": 2512,
+      "word_count": 561,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 535,
+      "vietnamese_ratio": 0.2889,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 195,
+    "printed_page": "196",
+    "quality": {
+      "char_count": 2539,
+      "word_count": 559,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 523,
+      "vietnamese_ratio": 0.2867,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 196,
+    "printed_page": "197",
+    "quality": {
+      "char_count": 2766,
+      "word_count": 613,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 598,
+      "vietnamese_ratio": 0.2894,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 0,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 197,
+    "printed_page": "198",
+    "quality": {
+      "char_count": 2637,
+      "word_count": 583,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 546,
+      "vietnamese_ratio": 0.2826,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 198,
+    "printed_page": "199",
+    "quality": {
+      "char_count": 2640,
+      "word_count": 587,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 564,
+      "vietnamese_ratio": 0.2879,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 199,
+    "printed_page": "200",
+    "quality": {
+      "char_count": 2561,
+      "word_count": 559,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 515,
+      "vietnamese_ratio": 0.2721,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 200,
+    "printed_page": "201",
+    "quality": {
+      "char_count": 2727,
+      "word_count": 585,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 588,
+      "vietnamese_ratio": 0.2902,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 201,
+    "printed_page": "202",
+    "quality": {
+      "char_count": 2671,
+      "word_count": 596,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 583,
+      "vietnamese_ratio": 0.2941,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 202,
+    "printed_page": "203",
+    "quality": {
+      "char_count": 2714,
+      "word_count": 600,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 580,
+      "vietnamese_ratio": 0.2881,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 203,
+    "printed_page": "204",
+    "quality": {
+      "char_count": 2542,
+      "word_count": 568,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 576,
+      "vietnamese_ratio": 0.3065,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 204,
+    "printed_page": "205",
+    "quality": {
+      "char_count": 2721,
+      "word_count": 612,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 602,
+      "vietnamese_ratio": 0.2994,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 205,
+    "printed_page": "206",
+    "quality": {
+      "char_count": 2559,
+      "word_count": 564,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 571,
+      "vietnamese_ratio": 0.2997,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 206,
+    "printed_page": "207",
+    "quality": {
+      "char_count": 2375,
+      "word_count": 513,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 508,
+      "vietnamese_ratio": 0.2931,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 207,
+    "printed_page": "208",
+    "quality": {
+      "char_count": 2439,
+      "word_count": 547,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 546,
+      "vietnamese_ratio": 0.3085,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 208,
+    "printed_page": "209",
+    "quality": {
+      "char_count": 2480,
+      "word_count": 535,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 522,
+      "vietnamese_ratio": 0.2908,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 209,
+    "printed_page": "210",
+    "quality": {
+      "char_count": 2595,
+      "word_count": 560,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 557,
+      "vietnamese_ratio": 0.2964,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 210,
+    "printed_page": "211",
+    "quality": {
+      "char_count": 2546,
+      "word_count": 565,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 570,
+      "vietnamese_ratio": 0.3022,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 211,
+    "printed_page": "212",
+    "quality": {
+      "char_count": 2650,
+      "word_count": 594,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 606,
+      "vietnamese_ratio": 0.3114,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 212,
+    "printed_page": "213",
+    "quality": {
+      "char_count": 2625,
+      "word_count": 583,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 578,
+      "vietnamese_ratio": 0.2986,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 213,
+    "printed_page": "214",
+    "quality": {
+      "char_count": 2476,
+      "word_count": 546,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 543,
+      "vietnamese_ratio": 0.2997,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 214,
+    "printed_page": "215",
+    "quality": {
+      "char_count": 2675,
+      "word_count": 599,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 594,
+      "vietnamese_ratio": 0.298,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 215,
+    "printed_page": "216",
+    "quality": {
+      "char_count": 2304,
+      "word_count": 506,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 510,
+      "vietnamese_ratio": 0.3058,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 216,
+    "printed_page": "217",
+    "quality": {
+      "char_count": 2476,
+      "word_count": 538,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 535,
+      "vietnamese_ratio": 0.294,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 217,
+    "printed_page": "218",
+    "quality": {
+      "char_count": 2606,
+      "word_count": 573,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 614,
+      "vietnamese_ratio": 0.316,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 218,
+    "printed_page": "219",
+    "quality": {
+      "char_count": 2713,
+      "word_count": 600,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 578,
+      "vietnamese_ratio": 0.286,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 219,
+    "printed_page": "220",
+    "quality": {
+      "char_count": 2227,
+      "word_count": 492,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 498,
+      "vietnamese_ratio": 0.3016,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 220,
+    "printed_page": "221",
+    "quality": {
+      "char_count": 2624,
+      "word_count": 573,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 562,
+      "vietnamese_ratio": 0.2952,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 221,
+    "printed_page": "222",
+    "quality": {
+      "char_count": 2491,
+      "word_count": 547,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 547,
+      "vietnamese_ratio": 0.312,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 222,
+    "printed_page": "223",
+    "quality": {
+      "char_count": 2302,
+      "word_count": 511,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 502,
+      "vietnamese_ratio": 0.3035,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 223,
+    "printed_page": "224",
+    "quality": {
+      "char_count": 2461,
+      "word_count": 524,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 497,
+      "vietnamese_ratio": 0.2806,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 224,
+    "printed_page": "225",
+    "quality": {
+      "char_count": 2492,
+      "word_count": 540,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 546,
+      "vietnamese_ratio": 0.3042,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 225,
+    "printed_page": "226",
+    "quality": {
+      "char_count": 2380,
+      "word_count": 518,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 511,
+      "vietnamese_ratio": 0.2966,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 226,
+    "printed_page": "227",
+    "quality": {
+      "char_count": 2588,
+      "word_count": 579,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 606,
+      "vietnamese_ratio": 0.3195,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 227,
+    "printed_page": "228",
+    "quality": {
+      "char_count": 2612,
+      "word_count": 564,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 568,
+      "vietnamese_ratio": 0.2969,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 228,
+    "printed_page": "229",
+    "quality": {
+      "char_count": 2405,
+      "word_count": 521,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 522,
+      "vietnamese_ratio": 0.3007,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 229,
+    "printed_page": "230",
+    "quality": {
+      "char_count": 2370,
+      "word_count": 523,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 513,
+      "vietnamese_ratio": 0.2996,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 230,
+    "printed_page": "231",
+    "quality": {
+      "char_count": 2569,
+      "word_count": 547,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 548,
+      "vietnamese_ratio": 0.2985,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 231,
+    "printed_page": "232",
+    "quality": {
+      "char_count": 2397,
+      "word_count": 515,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 522,
+      "vietnamese_ratio": 0.3003,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 232,
+    "printed_page": "233",
+    "quality": {
+      "char_count": 2413,
+      "word_count": 544,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 511,
+      "vietnamese_ratio": 0.2954,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 233,
+    "printed_page": "234",
+    "quality": {
+      "char_count": 2408,
+      "word_count": 516,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 513,
+      "vietnamese_ratio": 0.2897,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 234,
+    "printed_page": "235",
+    "quality": {
+      "char_count": 2482,
+      "word_count": 547,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 555,
+      "vietnamese_ratio": 0.3029,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 235,
+    "printed_page": "236",
+    "quality": {
+      "char_count": 2478,
+      "word_count": 541,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 526,
+      "vietnamese_ratio": 0.2925,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 236,
+    "printed_page": "237",
+    "quality": {
+      "char_count": 2280,
+      "word_count": 479,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 483,
+      "vietnamese_ratio": 0.2938,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 237,
+    "printed_page": "238",
+    "quality": {
+      "char_count": 2373,
+      "word_count": 498,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 511,
+      "vietnamese_ratio": 0.2966,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 238,
+    "printed_page": "239",
+    "quality": {
+      "char_count": 2637,
+      "word_count": 568,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 575,
+      "vietnamese_ratio": 0.3009,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 239,
+    "printed_page": "240",
+    "quality": {
+      "char_count": 2571,
+      "word_count": 574,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 563,
+      "vietnamese_ratio": 0.3016,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 240,
+    "printed_page": "241",
+    "quality": {
+      "char_count": 2430,
+      "word_count": 553,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 543,
+      "vietnamese_ratio": 0.3142,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 241,
+    "printed_page": "242",
+    "quality": {
+      "char_count": 2459,
+      "word_count": 557,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 550,
+      "vietnamese_ratio": 0.3145,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 242,
+    "printed_page": "243",
+    "quality": {
+      "char_count": 2471,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 538,
+      "vietnamese_ratio": 0.2938,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 243,
+    "printed_page": "244",
+    "quality": {
+      "char_count": 2472,
+      "word_count": 562,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 552,
+      "vietnamese_ratio": 0.3033,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 244,
+    "printed_page": "245",
+    "quality": {
+      "char_count": 2443,
+      "word_count": 540,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 522,
+      "vietnamese_ratio": 0.2924,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 245,
+    "printed_page": "246",
+    "quality": {
+      "char_count": 2362,
+      "word_count": 531,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 517,
+      "vietnamese_ratio": 0.3016,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 9,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 246,
+    "printed_page": "247",
+    "quality": {
+      "char_count": 2514,
+      "word_count": 561,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 562,
+      "vietnamese_ratio": 0.3108,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 247,
+    "printed_page": "248",
+    "quality": {
+      "char_count": 2513,
+      "word_count": 539,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 528,
+      "vietnamese_ratio": 0.2862,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 248,
+    "printed_page": "249",
+    "quality": {
+      "char_count": 2551,
+      "word_count": 563,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 528,
+      "vietnamese_ratio": 0.2866,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 249,
+    "printed_page": "250",
+    "quality": {
+      "char_count": 2554,
+      "word_count": 568,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 562,
+      "vietnamese_ratio": 0.3091,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 250,
+    "printed_page": "251",
+    "quality": {
+      "char_count": 2603,
+      "word_count": 583,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 557,
+      "vietnamese_ratio": 0.288,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 251,
+    "printed_page": "252",
+    "quality": {
+      "char_count": 2623,
+      "word_count": 575,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 548,
+      "vietnamese_ratio": 0.2898,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 252,
+    "printed_page": "253",
+    "quality": {
+      "char_count": 2371,
+      "word_count": 532,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 535,
+      "vietnamese_ratio": 0.3147,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 253,
+    "printed_page": "254",
+    "quality": {
+      "char_count": 2433,
+      "word_count": 537,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 544,
+      "vietnamese_ratio": 0.3063,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 254,
+    "printed_page": "255",
+    "quality": {
+      "char_count": 2566,
+      "word_count": 569,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 535,
+      "vietnamese_ratio": 0.2873,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 255,
+    "printed_page": "256",
+    "quality": {
+      "char_count": 2562,
+      "word_count": 568,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 551,
+      "vietnamese_ratio": 0.298,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 256,
+    "printed_page": "257",
+    "quality": {
+      "char_count": 2512,
+      "word_count": 549,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 522,
+      "vietnamese_ratio": 0.2886,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 257,
+    "printed_page": "258",
+    "quality": {
+      "char_count": 2667,
+      "word_count": 581,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 551,
+      "vietnamese_ratio": 0.284,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 258,
+    "printed_page": "259",
+    "quality": {
+      "char_count": 2510,
+      "word_count": 537,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 515,
+      "vietnamese_ratio": 0.2833,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 259,
+    "printed_page": "260",
+    "quality": {
+      "char_count": 2625,
+      "word_count": 578,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 580,
+      "vietnamese_ratio": 0.3005,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 260,
+    "printed_page": "261",
+    "quality": {
+      "char_count": 2664,
+      "word_count": 580,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 600,
+      "vietnamese_ratio": 0.3017,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 1,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 261,
+    "printed_page": "262",
+    "quality": {
+      "char_count": 2629,
+      "word_count": 568,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 553,
+      "vietnamese_ratio": 0.2901,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 262,
+    "printed_page": "263",
+    "quality": {
+      "char_count": 2460,
+      "word_count": 548,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 541,
+      "vietnamese_ratio": 0.3026,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 263,
+    "printed_page": "264",
+    "quality": {
+      "char_count": 2598,
+      "word_count": 572,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 561,
+      "vietnamese_ratio": 0.2939,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 264,
+    "printed_page": "265",
+    "quality": {
+      "char_count": 2722,
+      "word_count": 584,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 581,
+      "vietnamese_ratio": 0.2936,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 265,
+    "printed_page": "266",
+    "quality": {
+      "char_count": 2559,
+      "word_count": 567,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 548,
+      "vietnamese_ratio": 0.2986,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 266,
+    "printed_page": "267",
+    "quality": {
+      "char_count": 2694,
+      "word_count": 604,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 576,
+      "vietnamese_ratio": 0.2943,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 267,
+    "printed_page": "268",
+    "quality": {
+      "char_count": 2651,
+      "word_count": 576,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 537,
+      "vietnamese_ratio": 0.2718,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 268,
+    "printed_page": "269",
+    "quality": {
+      "char_count": 2626,
+      "word_count": 573,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 574,
+      "vietnamese_ratio": 0.2936,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 269,
+    "printed_page": "270",
+    "quality": {
+      "char_count": 2639,
+      "word_count": 578,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 593,
+      "vietnamese_ratio": 0.3026,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 270,
+    "printed_page": "271",
+    "quality": {
+      "char_count": 2601,
+      "word_count": 571,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 583,
+      "vietnamese_ratio": 0.3013,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 271,
+    "printed_page": "272",
+    "quality": {
+      "char_count": 2565,
+      "word_count": 560,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 561,
+      "vietnamese_ratio": 0.2939,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 272,
+    "printed_page": "273",
+    "quality": {
+      "char_count": 2467,
+      "word_count": 540,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 557,
+      "vietnamese_ratio": 0.3071,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 273,
+    "printed_page": "274",
+    "quality": {
+      "char_count": 2380,
+      "word_count": 520,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 505,
+      "vietnamese_ratio": 0.2866,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 31,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 274,
+    "printed_page": "275",
+    "quality": {
+      "char_count": 2615,
+      "word_count": 569,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 573,
+      "vietnamese_ratio": 0.3032,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 275,
+    "printed_page": "276",
+    "quality": {
+      "char_count": 2625,
+      "word_count": 574,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 572,
+      "vietnamese_ratio": 0.3115,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 30,
+      "left_blocks": 2,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 276,
+    "printed_page": "277",
+    "quality": {
+      "char_count": 2431,
+      "word_count": 526,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 535,
+      "vietnamese_ratio": 0.3153,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 30,
+      "left_blocks": 4,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 277,
+    "printed_page": "278",
+    "quality": {
+      "char_count": 2492,
+      "word_count": 539,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 547,
+      "vietnamese_ratio": 0.2984,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 5,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 278,
+    "printed_page": "279",
+    "quality": {
+      "char_count": 2302,
+      "word_count": 487,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 497,
+      "vietnamese_ratio": 0.2983,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 7,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 279,
+    "printed_page": "280",
+    "quality": {
+      "char_count": 2750,
+      "word_count": 589,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 586,
+      "vietnamese_ratio": 0.2923,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 3,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 280,
+    "printed_page": "281",
+    "quality": {
+      "char_count": 1676,
+      "word_count": 367,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 341,
+      "vietnamese_ratio": 0.2797,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 1,
+    "layout": {
+      "multi_column": false,
+      "block_count": 26,
+      "left_blocks": 6,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 281,
+    "printed_page": "282",
+    "quality": {
+      "char_count": 2063,
+      "word_count": 420,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 326,
+      "vietnamese_ratio": 0.2464,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 33,
+      "left_blocks": 8,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 282,
+    "printed_page": "283",
+    "quality": {
+      "char_count": 1724,
+      "word_count": 359,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 310,
+      "vietnamese_ratio": 0.2756,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 32,
+      "left_blocks": 11,
+      "right_blocks": 0
+    }
+  },
+  {
+    "pdf_page": 283,
+    "printed_page": "284",
+    "quality": {
+      "char_count": 674,
+      "word_count": 136,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 114,
+      "vietnamese_ratio": 0.267,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 3,
+    "layout": {
+      "multi_column": false,
+      "block_count": 25,
+      "left_blocks": 15,
+      "right_blocks": 1
+    }
+  },
+  {
+    "pdf_page": 284,
+    "printed_page": "285",
+    "quality": {
+      "char_count": 648,
+      "word_count": 117,
+      "unicode_error_ratio": 0.0,
+      "vietnamese_char_count": 93,
+      "vietnamese_ratio": 0.236,
+      "replacement_char_count": 0,
+      "quality_score": 1.0,
+      "needs_ocr": false
+    },
+    "heading_count": 0,
+    "layout": {
+      "multi_column": false,
+      "block_count": 28,
+      "left_blocks": 12,
+      "right_blocks": 0
+    }
+  }
+]

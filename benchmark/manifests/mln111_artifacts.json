@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "artifact_manifest_id": "mln111_corpus_2026_07_1",
+  "subject_code": "MLN111",
+  "source_artifact_sha256": "d5d0d953c9a0350d0eb25d2ba4e12f2e8968542650001d4bd16d6d2ae012f4ce",
+  "chunk_artifact_sha256": "3e890e72595e32751e85d8a0e7a02baab25904fb3dafdb9c20928079a9c8c044",
+  "chunking_config_sha256": "44d69981bc094678d5d88550d2e78eaa86d2c54616e67879a2df84f9e74f22e3",
+  "chunk_schema_version": "1.0",
+  "retrieval_corpus_version": "2026.07.1"
+}

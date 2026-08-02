@@ -1,0 +1,42 @@
+{
+  "valid": true,
+  "stale": false,
+  "question_count": 70,
+  "issues": [],
+  "distribution": {
+    "split": {
+      "development": 70
+    },
+    "difficulty": {
+      "easy": 21,
+      "medium": 31,
+      "hard": 18
+    },
+    "question_type": {
+      "definition": 8,
+      "explanation": 8,
+      "paraphrase": 9,
+      "synthesis": 14,
+      "misconception": 4,
+      "temporal": 4,
+      "entity": 4,
+      "cause_effect": 8,
+      "enumeration": 4,
+      "comparison": 13,
+      "application": 1
+    },
+    "reasoning_scope": {
+      "single_chunk": 59,
+      "multi_hop": 2,
+      "multi_chunk": 9
+    },
+    "chapter_scope": {
+      "single_chapter": 70
+    },
+    "answerability": {
+      "answerable": 66,
+      "false_premise": 2,
+      "out_of_scope": 2
+    }
+  }
+}

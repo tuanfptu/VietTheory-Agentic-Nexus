@@ -1,0 +1,681 @@
+[
+  {
+    "file": "Giáo trình HCM202.pdf",
+    "subject_code": "HCM202",
+    "subject_name": "Tư tưởng Hồ Chí Minh",
+    "file_size_mb": 11.6,
+    "total_pages": 271,
+    "pages_with_text": 0,
+    "pages_needing_ocr": 271,
+    "ocr_page_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "avg_chars_per_page": 0,
+    "avg_quality_score": 0.0,
+    "total_headings_detected": 0,
+    "heading_samples": [],
+    "font_size_distribution": {},
+    "multi_column_pages": [],
+    "multi_column_count": 0,
+    "repeated_headers_footers": [],
+    "total_images": 0,
+    "total_table_indicator_lines": 0,
+    "page_offset_samples": [],
+    "sample_texts": []
+  },
+  {
+    "file": "Giáo trình MLN111.pdf",
+    "subject_code": "MLN111",
+    "subject_name": "Triết học Mác – Lênin",
+    "file_size_mb": 2.1,
+    "total_pages": 285,
+    "pages_with_text": 284,
+    "pages_needing_ocr": 1,
+    "ocr_page_indices": [
+      0
+    ],
+    "avg_chars_per_page": 2469,
+    "avg_quality_score": 0.998,
+    "total_headings_detected": 27,
+    "heading_samples": [
+      {
+        "text": "C. Mác và Ph. Ăngghen thực hiện và các giai đoạn hình thành, phát triển triết học Mác -",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 311,
+        "pdf_page": 7
+      },
+      {
+        "text": "C. Helvetius (Henvêtiút) (Pháp), B. Spinoza (Xpinôda) (Hà Lan)... V.I. Lênin đặc biệt",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 6,
+        "pdf_page": 15
+      },
+      {
+        "text": "C. Mác và Ph. Ăngghen xây dựng vào những năm 40 của thế kỷ XIX, sau đó được V.I.",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 1067,
+        "pdf_page": 21
+      },
+      {
+        "text": "C. Mác và Ph. Ăngghen còn ở chỗ tạo được sự thống nhất giữa chủ nghĩa duy vật với",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 1233,
+        "pdf_page": 27
+      },
+      {
+        "text": "C. Mác và Ph. Ăngghen đã từng là những người theo học triết học Hegel. Sau này, cả",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 1490,
+        "pdf_page": 30
+      },
+      {
+        "text": "C. Mác sinh ngày 5/5/1818 tại Trier, Vương quốc Phổ (nay thuộc tiểu bang Rheinland",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 256,
+        "pdf_page": 34
+      },
+      {
+        "text": "C. Mác tư tưởng cộng sản chủ nghĩa chưa được hình thành, nhưng ông cho rằng đó là",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 696,
+        "pdf_page": 35
+      },
+      {
+        "text": "C. Mác luận chứng cho tính tất yếu của chủ nghĩa cộng sản trong sự phát triển xã hội,",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 395,
+        "pdf_page": 38
+      },
+      {
+        "text": "C. Mác và Ph. Ăngghen.",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 829,
+        "pdf_page": 39
+      },
+      {
+        "text": "C. Mác và Ph. Ăngghen đã đưa ra phương pháp tiếp cận khoa học để nhận thức chủ",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 853,
+        "pdf_page": 39
+      },
+      {
+        "text": "C. CÂU HỎI ÔN TẬP",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 5,
+        "pdf_page": 66
+      },
+      {
+        "text": "Chương 2",
+        "pattern": "^(Chương|CHƯƠNG)\\s+[IVXLCDM\\d]+",
+        "position": 6,
+        "pdf_page": 67
+      },
+      {
+        "text": "C. Mác không đưa ra một định nghĩa về vật chất, nhưng đã vận dụng đúng đắn quan",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 1056,
+        "pdf_page": 72
+      },
+      {
+        "text": "C. Mác, Ph. Ăngghen và V.I. Lênin không đưa ra một định nghĩa thống nhất nào về",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 1057,
+        "pdf_page": 105
+      },
+      {
+        "text": "C. CÂU HỎI ÔN TẬP",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 7,
+        "pdf_page": 161
+      }
+    ],
+    "font_size_distribution": {
+      "13.0": 70339,
+      "9.5": 1549,
+      "10.0": 343,
+      "11.0": 32,
+      "8.5": 27,
+      "10.6": 1
+    },
+    "multi_column_pages": [],
+    "multi_column_count": 0,
+    "repeated_headers_footers": [],
+    "total_images": 0,
+    "total_table_indicator_lines": 0,
+    "page_offset_samples": [
+      {
+        "pdf_page": 1,
+        "printed": 2,
+        "offset": -1
+      },
+      {
+        "pdf_page": 2,
+        "printed": 3,
+        "offset": -1
+      },
+      {
+        "pdf_page": 3,
+        "printed": 4,
+        "offset": -1
+      },
+      {
+        "pdf_page": 4,
+        "printed": 5,
+        "offset": -1
+      },
+      {
+        "pdf_page": 5,
+        "printed": 6,
+        "offset": -1
+      },
+      {
+        "pdf_page": 6,
+        "printed": 7,
+        "offset": -1
+      },
+      {
+        "pdf_page": 7,
+        "printed": 8,
+        "offset": -1
+      },
+      {
+        "pdf_page": 8,
+        "printed": 9,
+        "offset": -1
+      },
+      {
+        "pdf_page": 9,
+        "printed": 10,
+        "offset": -1
+      },
+      {
+        "pdf_page": 10,
+        "printed": 11,
+        "offset": -1
+      },
+      {
+        "pdf_page": 11,
+        "printed": 12,
+        "offset": -1
+      },
+      {
+        "pdf_page": 12,
+        "printed": 13,
+        "offset": -1
+      },
+      {
+        "pdf_page": 13,
+        "printed": 14,
+        "offset": -1
+      },
+      {
+        "pdf_page": 14,
+        "printed": 15,
+        "offset": -1
+      },
+      {
+        "pdf_page": 15,
+        "printed": 16,
+        "offset": -1
+      }
+    ],
+    "sample_texts": [
+      {
+        "pdf_page": 14,
+        "printed_page": "15",
+        "snippet": "15\ntriết học ở phương Tây thời kỳ bao gồm tất cả những tri thức mà con người có được, \ntrước hết là các tri thức thuộc khoa học tự nhiên sau này như toán học, vật lý học, \nthiên văn học... Theo S. Hawking, I. Kant (Cantơ) là người đứng ở đỉnh cao nhất trong \nsố các nhà triết học vĩ đại của nhân loại - những người coi “toàn bộ kiến thức của loài \nngười trong đó có khoa học tự nhiên là thuộc lĩnh vực của họ”1. Đây là nguyên nhân làm \nnảy sinh quan niệm vừa tích cực vừa tiêu cực rằng, triết học l",
+        "quality_score": 1.0
+      },
+      {
+        "pdf_page": 42,
+        "printed_page": "43",
+        "snippet": "43\nbiểu triết học cổ điển Đức, đặc biệt trong triết học Hegel. C. Mác và Ph. Ăngghen đã chỉ ra \ncơ sở duy tâm của triết học Hegel, vạch ra mâu thuẫn chủ yếu giữa hệ thống triết học bảo \nthủ, giáo điều với phương pháp biện chứng cách mạng. Hệ thống triết học của Hegel đã coi \nthường nội dung đời sống thực tế và xuyên tạc bức tranh khoa học hiện thực. Phép biện \nchứng duy tâm của Hegel đã bất lực trước sự phân tích thực tiễn, phân tích sự phát triển \ncủa nền sản xuất vật chất và đặc biệt là bất",
+        "quality_score": 1.0
+      },
+      {
+        "pdf_page": 85,
+        "printed_page": "86",
+        "snippet": "86 \nthức của chính con người. Những quan hệ vật chất xã hội tồn tại khách quan, nhưng lại là \nkết quả của hoạt động thực tiễn của con người. Con người có vai trò năng động, sáng tạo \nto lớn trong thế giới vật chất, chứ hoàn toàn không hề bất lực trước nó. \nNhư vậy, thế giới bao gồm cả tự nhiên và xã hội, về bản chất là vật chất, thống nhất ở \ntính vật chất. Ph. Ăngghen kết luận: “Tính thống nhất thực sự của thế giới là ở tính vật \nchất của nó, và tính vật chất này được chứng minh không phải bằ",
+        "quality_score": 1.0
+      },
+      {
+        "pdf_page": 142,
+        "printed_page": "143",
+        "snippet": "143\ndẫn đến vận động là tác động lẫn nhau giữa các sự vật, hiện tượng (bên ngoài) và sự \ntác động lẫn nhau giữa các mặt đối lập của cùng một sự vật, hiện tượng (bên trong); \nnhưng chỉ có sự tác động lẫn nhau giữa các mặt đối lập (bên trong) mới làm cho sự vật, \nhiện tượng phát triển. \nMối quan hệ giữa các khái niệm của quy luật chỉ ra rằng, mâu thuẫn giữa các mặt đối \nlập trong sự vật, hiện tượng là nguyên nhân, giải quyết mâu thuẫn đó là động lực của sự \nvận động, phát triển. Vì vậy, sự vận đ",
+        "quality_score": 1.0
+      },
+      {
+        "pdf_page": 228,
+        "printed_page": "229",
+        "snippet": "229\nquyền lực tuyệt đối. Khẩu dụ của vua được coi ngang bằng với pháp luật. Nhà nước \nphong kiến phân quyền là hình thức nhà nước mà ở đó, quyền lực bị phân tán bởi nhiều \nthế lực phong kiến cát cứ ở các địa phương khác nhau. Chính quyền trung ương chỉ tồn \ntại trên danh nghĩa, hình thức. Thực tế, vua, hoàng đế chỉ là bù nhìn, không có thực \nquyền. \nVề bản chất, dù tồn tại dưới hình thức phân quyền hay tập quyền thì nhà nước phong \nkiến vẫn là công cụ thống trị và là nhà nước của giai cấp địa",
+        "quality_score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "Giáo trình MLN122.pdf",
+    "subject_code": "MLN122",
+    "subject_name": "Kinh tế Chính trị Mác – Lênin",
+    "file_size_mb": 1.8,
+    "total_pages": 262,
+    "pages_with_text": 262,
+    "pages_needing_ocr": 0,
+    "ocr_page_indices": [],
+    "avg_chars_per_page": 1506,
+    "avg_quality_score": 0.998,
+    "total_headings_detected": 29,
+    "heading_samples": [
+      {
+        "text": "Chương 1",
+        "pattern": "^(Chương|CHƯƠNG)\\s+[IVXLCDM\\d]+",
+        "position": 4,
+        "pdf_page": 7
+      },
+      {
+        "text": "C. Mác, Ph. Ăngghen (1820 - 1895) cũng là người có công lao vĩ",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 5,
+        "pdf_page": 12
+      },
+      {
+        "text": "C. Mác trình bày một cách khoa học và chỉnh thể các phạm trù cơ",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 300,
+        "pdf_page": 12
+      },
+      {
+        "text": "C. Mác, Ph. Ăngghen và V.I. Lênin, dựa trên cơ sở kế thừa và phát",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 5,
+        "pdf_page": 14
+      },
+      {
+        "text": "C. Mác - Ph. Ăngghen sáng lập, được V.I. Lênin và các đảng cộng",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 1403,
+        "pdf_page": 26
+      },
+      {
+        "text": "Chương 2",
+        "pattern": "^(Chương|CHƯƠNG)\\s+[IVXLCDM\\d]+",
+        "position": 5,
+        "pdf_page": 28
+      },
+      {
+        "text": "Chương 3",
+        "pattern": "^(Chương|CHƯƠNG)\\s+[IVXLCDM\\d]+",
+        "position": 5,
+        "pdf_page": 74
+      },
+      {
+        "text": "Chương 3 sẽ được trình bày với ba nội dung: i) Lý luận của C.",
+        "pattern": "^(Chương|CHƯƠNG)\\s+[IVXLCDM\\d]+",
+        "position": 652,
+        "pdf_page": 74
+      },
+      {
+        "text": "C. Mác viết: “Sức lao động hay năng lực lao động là toàn bộ",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 608,
+        "pdf_page": 76
+      },
+      {
+        "text": "C. Mác kết luận: Bộ phận tư bản tồn tại dưới hình thái sức lao",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 1067,
+        "pdf_page": 82
+      },
+      {
+        "text": "C. Mác nhận thấy có một sự bất công sâu sắc về mặt xã hội. C.",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 1241,
+        "pdf_page": 87
+      },
+      {
+        "text": "C. Mác gọi việc này là chênh lệch giữa tư bản sử dụng và tư",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 990,
+        "pdf_page": 94
+      },
+      {
+        "text": "C. Mác cho rằng, nền sản xuất có thể được quan sát qua hình",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 724,
+        "pdf_page": 95
+      },
+      {
+        "text": "400.000 USD + 50.000 USD + 100.000 USD + 100.000",
+        "pattern": "^\\d+\\.\\d+\\.?\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 517,
+        "pdf_page": 98
+      },
+      {
+        "text": "C. Mác khái quát: “Giá trị thặng dư, được quan niệm là con đẻ",
+        "pattern": "^[IVXLCDM]+\\.\\s+[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸ]",
+        "position": 924,
+        "pdf_page": 99
+      }
+    ],
+    "font_size_distribution": {
+      "11.0": 35875,
+      "10.6": 2954,
+      "10.1": 2652,
+      "12.0": 287,
+      "9.6": 159,
+      "13.0": 9,
+      "7.0": 3,
+      "7.9": 2
+    },
+    "multi_column_pages": [
+      204
+    ],
+    "multi_column_count": 1,
+    "repeated_headers_footers": [],
+    "total_images": 0,
+    "total_table_indicator_lines": 0,
+    "page_offset_samples": [
+      {
+        "pdf_page": 0,
+        "printed": 1,
+        "offset": -1
+      },
+      {
+        "pdf_page": 1,
+        "printed": 2,
+        "offset": -1
+      },
+      {
+        "pdf_page": 2,
+        "printed": 3,
+        "offset": -1
+      },
+      {
+        "pdf_page": 3,
+        "printed": 4,
+        "offset": -1
+      },
+      {
+        "pdf_page": 4,
+        "printed": 5,
+        "offset": -1
+      },
+      {
+        "pdf_page": 5,
+        "printed": 6,
+        "offset": -1
+      },
+      {
+        "pdf_page": 6,
+        "printed": 7,
+        "offset": -1
+      },
+      {
+        "pdf_page": 7,
+        "printed": 8,
+        "offset": -1
+      },
+      {
+        "pdf_page": 8,
+        "printed": 9,
+        "offset": -1
+      },
+      {
+        "pdf_page": 9,
+        "printed": 10,
+        "offset": -1
+      },
+      {
+        "pdf_page": 10,
+        "printed": 11,
+        "offset": -1
+      },
+      {
+        "pdf_page": 11,
+        "printed": 12,
+        "offset": -1
+      },
+      {
+        "pdf_page": 12,
+        "printed": 13,
+        "offset": -1
+      },
+      {
+        "pdf_page": 13,
+        "printed": 14,
+        "offset": -1
+      },
+      {
+        "pdf_page": 14,
+        "printed": 15,
+        "offset": -1
+      }
+    ],
+    "sample_texts": [
+      {
+        "pdf_page": 13,
+        "printed_page": "14",
+        "snippet": "14\nbật là kết quả nghiên cứu chỉ ra những đặc điểm kinh tế của độc \nquyền, độc quyền nhà nước trong chủ nghĩa tư bản giai đoạn cuối thế \nkỷ XIX đầu thế kỷ XX, những vấn đề kinh tế chính trị của thời kỳ quá \nđộ lên chủ nghĩa xã hội... Với ý nghĩa đó, lý thuyết kinh tế chính trị \nnày được định danh với tên gọi kinh tế chính trị Mác - Lênin.  \nSau khi V.I. Lênin qua đời, các nhà nghiên cứu kinh tế của các \nđảng cộng sản trên thế giới tiếp tục nghiên cứu, bổ sung và phát \ntriển kinh tế chính trị M",
+        "quality_score": 1.0
+      },
+      {
+        "pdf_page": 39,
+        "printed_page": "40",
+        "snippet": "40\nhàng hóa chỉ được bộc lộ ra trong quá trình trao đổi thông qua các \nhình thái biểu hiện của nó. Theo tiến trình lịch sử phát triển của sản \nxuất và trao đổi hàng hóa, những hình thái của giá trị cũng trải qua \nquá trình phát triển từ thấp tới cao. Quá trình này cũng chính là lịch \nsử hình thành tiền tệ. Nghiên cứu lịch sử hình thành tiền tệ sẽ giúp \nlý giải một cách khoa học nguyên nhân vì sao tiền có thể mua được \nhàng hóa. Cụ thể: \n- Hình thái giá trị giản đơn hay ngẫu nhiên  \nĐây là hình",
+        "quality_score": 1.0
+      },
+      {
+        "pdf_page": 78,
+        "printed_page": "79",
+        "snippet": "79\nđó là trong khi sử dụng nó, không những giá trị của nó được bảo \ntồn mà còn tạo ra được lượng giá trị lớn hơn. Đây chính là chìa \nkhóa chỉ rõ nguồn gốc của giá trị lớn hơn giá trị thặng dư nêu trên \ndo hao phí sức lao động mà có.  \nc) Sự sản xuất giá trị thặng dư  \nQuá trình sản xuất giá trị thặng dư là sự thống nhất của quá \ntrình tạo ra và làm tăng giá trị.  \nĐể có được giá trị thặng dư, nền sản xuất xã hội phải đạt đến một \ntrình độ nhất định. Trình độ đó phản ánh việc người lao động chỉ",
+        "quality_score": 1.0
+      },
+      {
+        "pdf_page": 131,
+        "printed_page": "132",
+        "snippet": "132\nlà sự kết hợp) đã tạo ra những biểu hiện mới trong mối quan hệ \ngiữa các tổ chức độc quyền và cơ quan nhà nước từ trung ương \nđến địa phương. \nb) Sự hình thành, phát triển sở hữu nhà nước  \nSở hữu trong độc quyền nhà nước là sở hữu tập thể của giai \ncấp tư sản, của tư bản độc quyền có nhiệm vụ ủng hộ và phục vụ \nlợi ích của tư bản độc quyền nhằm duy trì sự tồn tại, phát triển của \nchủ nghĩa tư bản. Nó biểu hiện không những ở chỗ sở hữu nhà \nnước tăng lên mà còn ở sự tăng cường mối quan hệ",
+        "quality_score": 1.0
+      },
+      {
+        "pdf_page": 209,
+        "printed_page": "210",
+        "snippet": "210\nkhông còn đủ khả năng đáp ứng nhu cầu của sản xuất và yêu cầu \ncải tiến kỹ thuật. Tư bản buộc phải liên kết lại dưới hình thức công \nty cổ phần và sự phát triển của loại hình công ty này cho phép mở \nrộng chủ thể sở hữu tư bản ra các thành phần khác của xã hội. \nThực tế trên buộc các nước phải điều chỉnh chế độ sở hữu, thực \nhiện đa dạng hóa sở hữu, lấy sở hữu tư nhân làm nòng cốt đồng \nthời phát huy sức mạnh và ưu thế tối đa của sở hữu nhà nước và \nkhu vực kinh tế nhà nước. Cùng với sự ph",
+        "quality_score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "Giáo trình MLN131.pdf",
+    "subject_code": "MLN131",
+    "subject_name": "Chủ nghĩa Xã hội Khoa học",
+    "file_size_mb": 28.3,
+    "total_pages": 273,
+    "pages_with_text": 0,
+    "pages_needing_ocr": 273,
+    "ocr_page_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "avg_chars_per_page": 0,
+    "avg_quality_score": 0.0,
+    "total_headings_detected": 0,
+    "heading_samples": [],
+    "font_size_distribution": {},
+    "multi_column_pages": [],
+    "multi_column_count": 0,
+    "repeated_headers_footers": [],
+    "total_images": 0,
+    "total_table_indicator_lines": 0,
+    "page_offset_samples": [],
+    "sample_texts": []
+  },
+  {
+    "file": "Giáo trình VNR202.pdf",
+    "subject_code": "VNR202",
+    "subject_name": "Lịch sử Đảng Cộng sản Việt Nam",
+    "file_size_mb": 78.3,
+    "total_pages": 230,
+    "pages_with_text": 0,
+    "pages_needing_ocr": 230,
+    "ocr_page_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "avg_chars_per_page": 0,
+    "avg_quality_score": 0.0,
+    "total_headings_detected": 0,
+    "heading_samples": [],
+    "font_size_distribution": {},
+    "multi_column_pages": [],
+    "multi_column_count": 0,
+    "repeated_headers_footers": [],
+    "total_images": 0,
+    "total_table_indicator_lines": 0,
+    "page_offset_samples": [],
+    "sample_texts": []
+  }
+]

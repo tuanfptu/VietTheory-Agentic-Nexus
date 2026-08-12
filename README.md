@@ -1,36 +1,39 @@
 # VietTheory-RAG — MLN111 Assistant
 
-Trợ lí hội thoại chuyên biệt cho giáo trình **Triết học Mác–Lênin (MLN111)**. Hệ thống
-truy xuất đúng đoạn giáo trình, trả lời bằng tiếng Việt, dẫn tới trang PDF, hiểu câu hỏi nối
-tiếp và lưu lịch sử riêng cho từng tài khoản.
+A citation-grounded conversational assistant for the **Marxist–Leninist Philosophy (MLN111)**
+textbook. The system retrieves relevant passages, answers in Vietnamese, cites exact PDF pages,
+understands conversational follow-ups, and maintains private chat history for each account.
 
 [![MLN111 Assistant demo](docs/assets/mln111-assistant-demo.png)](https://drive.google.com/drive/folders/1P9UV9NdyWku3mCpswza__0zfxnKPtfmK?usp=sharing)
 
-**[Xem video demo đầy đủ trên Google Drive](https://drive.google.com/drive/folders/1P9UV9NdyWku3mCpswza__0zfxnKPtfmK?usp=sharing)**
+**[Watch the complete demo on Google Drive](https://drive.google.com/drive/folders/1P9UV9NdyWku3mCpswza__0zfxnKPtfmK?usp=sharing)**
 
-> Phạm vi production hiện tại chỉ gồm MLN111. Các PDF và artifacts môn khác được bảo toàn
-> trong workspace nhưng không được runtime nạp hoặc dùng để trả lời.
+> The production scope is intentionally restricted to MLN111. PDFs and artifacts from other
+> subjects remain preserved in the local workspace, but the runtime neither loads nor uses them.
 
-## Điểm nổi bật
+## Highlights
 
-- Hybrid retrieval: BM25 + Qwen3 dense embedding, hợp nhất bằng Reciprocal Rank Fusion.
-- Query planning cho câu so sánh; Qwen3 cross-encoder rerank trên NVIDIA CUDA.
-- Heading-aware parent/child chunks: child để tìm chính xác, parent để cung cấp đủ ngữ cảnh.
-- Evidence gate và một lần corrective retrieval trước khi từ chối.
-- Gemini sinh JSON có cấu trúc; citation được canonicalize, khử trùng và kiểm tra tất định.
-- Hội thoại nhiều lượt, xử lý các tham chiếu như “chúng”, “ý đó”, “định nghĩa đó”.
-- Tài khoản riêng, mật khẩu hash bằng scrypt, session token lưu dưới dạng SHA-256.
-- Mỗi tài khoản chỉ xem và thao tác được lịch sử của chính mình.
-- Giao diện Streamlit kiểu chat, nguồn có thể mở để đọc toàn bộ parent passage.
+- Hybrid retrieval with BM25 and Qwen3 dense embeddings, fused through Reciprocal Rank Fusion.
+- Comparison-aware query planning and Qwen3 cross-encoder reranking on NVIDIA CUDA.
+- Heading-aware parent/child chunks: children improve retrieval precision, while parents provide
+  complete context for generation and citations.
+- A calibrated evidence gate with at most one corrective-retrieval attempt before refusal.
+- Gemini structured generation with canonicalized, deduplicated, and deterministically verified
+  citations.
+- Multi-turn conversations that resolve references such as “they,” “that idea,” and “that
+  definition” without contaminating retrieval with older topics.
+- Private accounts with scrypt password hashing and SHA-256 session-token storage.
+- Ownership checks that isolate every user's conversation history.
+- A ChatGPT-style Streamlit interface with expandable full-passage citations.
 
-## Pipeline hệ thống
+## System Pipeline
 
 ```mermaid
 flowchart TB
     subgraph OFFLINE["1. Offline corpus preparation"]
-        PDF["MLN111 PDF"] --> EX["PyMuPDF + bbox"]
+        PDF["MLN111 PDF"] --> EX["PyMuPDF + bounding boxes"]
         EX --> CH["Parent / child chunks"]
-        CH --> IX["Qwen3 Embedding + FAISS index"]
+        CH --> IX["Qwen3 embeddings + FAISS index"]
     end
 
     subgraph RETRIEVAL["2. Hybrid retrieval"]
@@ -56,56 +59,55 @@ flowchart TB
     IX -. "offline artifacts" .-> DE
 ```
 
-Luồng chi tiết và trách nhiệm từng module nằm tại
-[docs/architecture.md](docs/architecture.md).
+See [docs/architecture.md](docs/architecture.md) for module responsibilities and design details.
 
-| Bước | Input → Output | Kỹ thuật chính |
+| Step | Input → Output | Main technique |
 |---:|---|---|
-| 1 | PDF → page/block/line có tọa độ | PyMuPDF, bbox preservation, OCR fallback |
-| 2 | Page structure → parent/child chunks | Heading-aware parsing, stable IDs |
-| 3 | Câu hỏi → lexical candidates | Vietnamese-friendly BM25 |
-| 4 | Câu hỏi → semantic candidates | Qwen3-Embedding-0.6B + FAISS cosine |
-| 5 | Hai danh sách → fused candidates | Reciprocal Rank Fusion + chunk deduplication |
-| 6 | Câu so sánh → candidates đủ hai vế | Comparison query planner + round-robin merge |
-| 7 | Candidates → thứ hạng liên quan | Qwen3-Reranker-0.6B cross-encoder trên CUDA |
-| 8 | Child hits → đoạn nguồn đầy đủ | Parent expansion, sibling deduplication |
-| 9 | Evidence → accept/rewrite/refuse | Calibrated evidence gate, tối đa một retry |
-| 10 | Evidence → câu trả lời JSON | Gemini Flash Lite, temperature 0.1, JSON schema |
-| 11 | Answer → grounded answer | Canonical span, citation deduplication, verifier |
-| 12 | Response → UI và lịch sử riêng | FastAPI, Streamlit, SQLite ownership checks |
+| 1 | PDF → positioned pages, blocks, and lines | PyMuPDF, bounding-box preservation, OCR fallback |
+| 2 | Page structure → parent/child chunks | Heading-aware parsing and stable IDs |
+| 3 | Question → lexical candidates | Vietnamese-friendly BM25 |
+| 4 | Question → semantic candidates | Qwen3-Embedding-0.6B and FAISS cosine search |
+| 5 | Two rankings → fused candidates | Reciprocal Rank Fusion and chunk deduplication |
+| 6 | Comparison → candidates covering both sides | Query variants and round-robin merge |
+| 7 | Candidates → relevance ranking | Qwen3-Reranker-0.6B cross-encoder on CUDA |
+| 8 | Child hits → complete source passages | Parent expansion and sibling deduplication |
+| 9 | Evidence → accept, rewrite, or refuse | Calibrated evidence gate with one retry |
+| 10 | Evidence → structured answer | Gemini Flash Lite, temperature 0.1, JSON schema |
+| 11 | Answer → grounded answer | Canonical spans, citation deduplication, verifier |
+| 12 | Response → UI and private history | FastAPI, Streamlit, and SQLite ownership checks |
 
-## Model và kỹ thuật
+## Models and Techniques
 
-| Thành phần | Lựa chọn | Vai trò |
+| Component | Selection | Purpose |
 |---|---|---|
-| Lexical retrieval | BM25 | Bắt từ khóa, thuật ngữ và tên riêng chính xác |
-| Dense retrieval | Qwen3-Embedding-0.6B | Tìm paraphrase và tương đồng ngữ nghĩa tiếng Việt |
-| Vector search | FAISS cosine | Tìm kiếm vector cục bộ, index có manifest và mapping kiểm tra được |
-| Fusion | Reciprocal Rank Fusion | Kết hợp thứ hạng BM25 và dense không phụ thuộc thang điểm |
-| Query planning | Comparison query variants | Bảo đảm hai vế của câu so sánh đều có candidates |
-| Reranking | Qwen3-Reranker-0.6B | Cross-encoder chấm lại candidates trên GPU |
-| Context | Parent expansion | Dẫn nguồn dài, đủ ý nhưng vẫn truy xuất bằng child chính xác |
-| Generation | Gemini Flash Lite | Tạo câu trả lời tiếng Việt theo JSON schema |
-| Grounding | Evidence gate + verifier | Từ chối ngoài phạm vi và kiểm tra claim–citation |
-| Serving | FastAPI + Streamlit | API, tài khoản, lịch sử và giao diện chat |
-| Persistence | SQLite | Users, hashed sessions, conversations và feedback cục bộ |
+| Lexical retrieval | BM25 | Exact terms, named entities, and textbook vocabulary |
+| Dense retrieval | Qwen3-Embedding-0.6B | Vietnamese paraphrase and semantic matching |
+| Vector search | FAISS cosine | Local search with validated manifests and vector mappings |
+| Fusion | Reciprocal Rank Fusion | Combines BM25 and dense rankings without score calibration |
+| Query planning | Comparison query variants | Ensures both concepts receive retrieval candidates |
+| Reranking | Qwen3-Reranker-0.6B | GPU cross-encoder relevance scoring |
+| Context expansion | Parent expansion | Complete source passages from precise child hits |
+| Generation | Gemini Flash Lite | Vietnamese answers constrained by an `Answer` JSON schema |
+| Grounding | Evidence gate and verifier | Scope refusal and deterministic claim–citation validation |
+| Serving | FastAPI and Streamlit | API, authentication, history, and chat interface |
+| Persistence | SQLite | Users, hashed sessions, conversations, and feedback |
 
-Runtime mặc định dùng `Qwen/Qwen3-Embedding-0.6B` revision
-`97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3` và `Qwen3-Reranker-0.6B`.
-Model được nạp từ `models/` và không được commit vào Git.
+The default runtime uses `Qwen/Qwen3-Embedding-0.6B` revision
+`97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3` and `Qwen3-Reranker-0.6B`. Model weights
+are loaded from `models/` and are never committed to Git.
 
-## Benchmark MLN111 v1.0
+## MLN111 Benchmark v1.0
 
-Benchmark đã **frozen ngày 2026-08-12**:
+The benchmark was **frozen on 2026-08-12**:
 
-- 70 câu development đã human-verified và được công khai;
-- 30 câu hidden test đã human-verified, nội dung và gold giữ private;
-- 21 easy, 31 medium, 18 hard;
-- 59 single-chunk và 11 multi-chunk;
-- 66 answerable, 2 false-premise và 2 out-of-scope;
-- schema, corpus manifest và SHA-256 được cố định trong release manifest.
+- 70 public, human-verified development questions;
+- 30 private, human-verified hidden-test questions;
+- 21 easy, 31 medium, and 18 hard development questions;
+- 59 single-chunk and 11 multi-chunk development questions;
+- 66 answerable, two false-premise, and two out-of-scope development questions;
+- frozen schema, corpus manifest, and SHA-256 integrity records.
 
-### Bảng kết quả benchmark
+### Benchmark Results
 
 | Metric | Development | Hidden test |
 |---|---:|---:|
@@ -126,42 +128,43 @@ Benchmark đã **frozen ngày 2026-08-12**:
 | Latency p50 | 10.32 s | 10.33 s |
 | Latency p95 | 11.15 s | 10.86 s |
 
-**Cấu hình đo:** BM25 + Qwen3-Embedding-0.6B → RRF → Qwen3-Reranker-0.6B;
-`candidate_k=12`, đánh giá đến `top_k=10`. Cấu hình được frozen trước khi chạy hidden test.
+**Evaluation configuration:** BM25 + Qwen3-Embedding-0.6B → RRF →
+Qwen3-Reranker-0.6B, with `candidate_k=12` and evaluation through `top_k=10`. The
+configuration was frozen before the hidden test was evaluated.
 
-Development retrieval metrics dùng **68/70 câu có thể chấm retrieval**; hidden dùng **28/30**.
-Mỗi split có hai câu out-of-scope được validator giữ trong benchmark nhưng không đưa vào retrieval
-denominator. Hidden test chỉ công khai aggregate metrics để tránh tuning theo test. Chi tiết tại
-[docs/benchmark.md](docs/benchmark.md).
+Development retrieval metrics cover **68/70** questions; hidden metrics cover **28/30**. Each
+split contains two explicit out-of-scope questions that remain validated benchmark items but are
+excluded from the retrieval denominator. Only aggregate hidden metrics are published to prevent
+test-set tuning. See [docs/benchmark.md](docs/benchmark.md) for details.
 
-## Cấu trúc repository
+## Repository Structure
 
 ```text
 src/viettheory/
-├── extraction/       PDF extraction, OCR fallback, bbox và structure parsing
-├── chunking/         baseline và structured parent/child chunking
-├── retrieval/        BM25, FAISS dense, RRF, planner, reranker, parent expansion
+├── extraction/       PDF extraction, OCR fallback, bounding boxes, structure parsing
+├── chunking/         baseline and structured parent/child chunking
+├── retrieval/        BM25, FAISS, RRF, query planner, reranker, parent expansion
 ├── pipeline/         routing, evidence gate, generation, citation verification
 ├── backend/          FastAPI, authentication, conversations, feedback
-├── frontend/         Streamlit UI và assets
-├── evaluation/       retrieval/evidence-group metrics
-└── runtime.py        assembly production MLN111-only
+├── frontend/         Streamlit UI and assets
+├── evaluation/       retrieval and evidence-group metrics
+└── runtime.py        MLN111-only production assembly
 
-benchmark/v1.0/       public development split và frozen manifest
-benchmark_private/    hidden test, review và reports; luôn Git-ignored
-scripts/              benchmark preparation và evaluation
-tests/                unit, contract, isolation và smoke tests
+benchmark/v1.0/       public development split and frozen release manifest
+benchmark_private/    hidden test, reviews, and reports; always Git-ignored
+scripts/              benchmark preparation and evaluation
+tests/                unit, contract, isolation, and smoke tests
 ```
 
-## Cài đặt
+## Installation
 
-Yêu cầu:
+Requirements:
 
-- Python 3.11 trở lên;
-- NVIDIA GPU có CUDA cho cấu hình production;
-- model embedding/reranker cục bộ trong `models/`;
-- corpus/index MLN111 đã xử lý trong `data/processed/MLN111/structured_v1/`;
-- Gemini API key hợp lệ.
+- Python 3.11 or newer;
+- an NVIDIA CUDA-capable GPU for the production configuration;
+- local embedding and reranker models under `models/`;
+- processed MLN111 corpus and index under `data/processed/MLN111/structured_v1/`;
+- a valid Gemini API key.
 
 ```powershell
 python -m venv .venv
@@ -169,9 +172,9 @@ python -m venv .venv
 Copy-Item .env.example .env
 ```
 
-Điền `GEMINI_API_KEY` vào `.env`. Không commit `.env` hoặc chụp key trong ảnh/video.
+Set `GEMINI_API_KEY` in `.env`. Never commit `.env` or expose the key in screenshots or videos.
 
-## Chạy local
+## Run Locally
 
 Terminal 1 — API:
 
@@ -179,15 +182,15 @@ Terminal 1 — API:
 .\.venv\Scripts\mln111-api.exe
 ```
 
-Đợi `Application startup complete`, sau đó terminal 2 — UI:
+Wait for `Application startup complete`, then start the UI in terminal 2:
 
 ```powershell
 .\.venv\Scripts\python.exe -m streamlit run src\viettheory\frontend\app.py
 ```
 
-Mở `http://localhost:8501`; health endpoint là `http://127.0.0.1:8000/health`.
+Open `http://localhost:8501`. API health is available at `http://127.0.0.1:8000/health`.
 
-## Kiểm tra chất lượng
+## Quality Checks
 
 ```powershell
 .\.venv\Scripts\python.exe -m ruff check src tests
@@ -196,28 +199,32 @@ Mở `http://localhost:8501`; health endpoint là `http://127.0.0.1:8000/health`
 .\.venv\Scripts\python.exe -m pytest -q
 ```
 
-Trạng thái release hiện tại: **84 tests passed**, Ruff clean, format clean và Mypy strict clean.
+Current release status: **84 tests passed**, Ruff clean, format clean, and Mypy strict clean.
 
-## Bảo mật và quyền dữ liệu
+## Security and Data Rights
 
-- `.env`, `API KEY/`, PDFs, models, indexes, processed data, SQLite và logs bị Git ignore.
-- Password được hash bằng scrypt với salt ngẫu nhiên; không lưu plaintext.
-- Session token là opaque random token; database chỉ lưu SHA-256 và thời hạn 7 ngày.
-- Conversation ownership được kiểm tra ở mọi endpoint list/read/chat/delete.
-- Hidden benchmark không nằm trong Git history; chỉ aggregate metrics và checksums được public.
-- Giảng viên đã cho phép sử dụng, công khai và phân phối lại PDF; repository vẫn không commit
-  PDF để tránh Git history phình lớn. Chi tiết: [docs/data-license.md](docs/data-license.md).
-- Quick Tunnel chỉ dành cho demo tạm; triển khai 24/7 cần GPU host, HTTPS và secret management.
+- `.env`, `API KEY/`, PDFs, model weights, indexes, processed data, SQLite databases, and logs are
+  Git-ignored.
+- Passwords are hashed with scrypt and a random salt; plaintext passwords are never stored.
+- Session tokens are opaque random values; only SHA-256 digests and seven-day expiration times are
+  stored.
+- Conversation ownership is enforced on every list, read, chat, and delete endpoint.
+- Hidden benchmark content never enters Git history; only aggregate metrics and checksums are
+  public.
+- The lecturer granted permission to use, publish, and redistribute the textbook PDF. The PDF is
+  still excluded from Git to prevent repository bloat. See [docs/data-license.md](docs/data-license.md).
+- Quick Tunnels are intended only for temporary demos. A 24/7 deployment requires a GPU host,
+  managed HTTPS, and proper secret management.
 
-## Trạng thái và giới hạn
+## Status and Limitations
 
-- Product đã hoạt động end-to-end cho MLN111 và có benchmark v1.0 frozen.
-- Runtime hiện tối ưu cho một GPU local và một process API.
-- SQLite phù hợp demo/single-host; production nhiều replica nên chuyển sang PostgreSQL.
-- API chưa có email verification, password reset, rate limiting hoặc RBAC quản trị.
-- Internet search không được bật; câu hỏi ngoài MLN111 được từ chối rõ ràng.
-- PDFs và model weights không đi kèm repository; người chạy phải chuẩn bị artifacts cục bộ.
+- The product is operational end to end for MLN111 and has a frozen v1.0 benchmark.
+- The runtime is optimized for one local GPU and one API process.
+- SQLite is appropriate for a demo or single host; multiple replicas should use PostgreSQL.
+- Email verification, password reset, rate limiting, and administrative RBAC are not implemented.
+- Internet search is disabled; questions outside MLN111 are explicitly refused.
+- PDF files and model weights are not bundled with the repository and must be prepared locally.
 
-## Tác giả
+## Author
 
-Trợ lí được tạo bởi **Tuân**, một gymer thích học Triết.
+Created by **Tuan**, a gym enthusiast who enjoys studying philosophy.

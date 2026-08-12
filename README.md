@@ -26,20 +26,34 @@ tiếp và lưu lịch sử riêng cho từng tài khoản.
 ## Pipeline hệ thống
 
 ```mermaid
-flowchart LR
-    PDF["MLN111 PDF"] --> EX["PyMuPDF extraction + bbox"]
-    EX --> CH["Heading-aware parent/child chunks"]
-    CH --> BM["BM25"]
-    CH --> DE["Qwen3 Embedding + FAISS"]
-    BM --> RRF["Reciprocal Rank Fusion"]
-    DE --> RRF
-    RRF --> RR["Qwen3 GPU Reranker"]
-    RR --> PE["Parent expansion"]
-    PE --> EG["Evidence gate"]
-    EG --> GM["Gemini structured generation"]
-    GM --> CV["Citation verification"]
-    CV --> API["FastAPI + account isolation"]
-    API --> UI["Streamlit conversational UI"]
+flowchart TB
+    subgraph OFFLINE["1. Offline corpus preparation"]
+        PDF["MLN111 PDF"] --> EX["PyMuPDF + bbox"]
+        EX --> CH["Parent / child chunks"]
+        CH --> IX["Qwen3 Embedding + FAISS index"]
+    end
+
+    subgraph RETRIEVAL["2. Hybrid retrieval"]
+        Q["User question"] --> BM["BM25"]
+        Q --> DE["Dense search"]
+        BM --> RRF["RRF fusion"]
+        DE --> RRF
+        RRF --> RR["Qwen3 GPU reranker"]
+        RR --> PE["Parent expansion"]
+    end
+
+    subgraph ANSWER["3. Grounded answer"]
+        PE --> EG["Evidence gate"]
+        EG --> GM["Gemini JSON answer"]
+        GM --> CV["Citation verifier"]
+    end
+
+    subgraph APP["4. Application"]
+        CV --> API["FastAPI + private accounts"]
+        API --> UI["Streamlit chat"]
+    end
+
+    IX -. "offline artifacts" .-> DE
 ```
 
 Luồng chi tiết và trách nhiệm từng module nằm tại
@@ -95,23 +109,29 @@ Benchmark đã **frozen ngày 2026-08-12**:
 
 | Metric | Development | Hidden test |
 |---|---:|---:|
-| Recall@1 | 82.35% | — |
-| Recall@3 | 97.06% | — |
+| Evaluated retrieval questions | 68 | 28 |
+| Recall@1 | 82.35% | 64.29% |
+| Recall@3 | 97.06% | 82.14% |
 | Recall@5 | **97.06%** | **92.86%** |
-| Recall@10 | 97.06% | — |
-| MRR | 89.22% | — |
-| nDCG@5 | 87.70% | — |
-| Evidence Group Recall@5 | 93.67% | — |
+| Recall@10 | 97.06% | 92.86% |
+| MRR | 89.22% | 75.12% |
+| nDCG@5 | 87.70% | 78.04% |
+| Evidence Group Recall@1 | 73.42% | 60.00% |
+| Evidence Group Recall@3 | 91.14% | 80.00% |
+| Evidence Group Recall@5 | 93.67% | 93.33% |
+| Evidence Group Recall@10 | 94.94% | 93.33% |
+| Partial Evidence Coverage@5 | 94.85% | 92.86% |
 | Full Evidence Success@5 | **92.65%** | **92.86%** |
-| Latency p50 | 10.32 s | — |
-| Latency p95 | 11.15 s | — |
+| Full Evidence Success@10 | 94.12% | 92.86% |
+| Latency p50 | 10.32 s | 10.33 s |
+| Latency p95 | 11.15 s | 10.86 s |
 
 **Cấu hình đo:** BM25 + Qwen3-Embedding-0.6B → RRF → Qwen3-Reranker-0.6B;
 `candidate_k=12`, đánh giá đến `top_k=10`. Cấu hình được frozen trước khi chạy hidden test.
 
-Development retrieval metrics dùng **68 câu có thể chấm retrieval**; hai câu out-of-scope
-được validator giữ trong bộ 70 nhưng không đưa vào retrieval denominator. Hidden test chỉ công
-khai aggregate metrics để tránh tuning theo test. Chi tiết tại
+Development retrieval metrics dùng **68/70 câu có thể chấm retrieval**; hidden dùng **28/30**.
+Mỗi split có hai câu out-of-scope được validator giữ trong benchmark nhưng không đưa vào retrieval
+denominator. Hidden test chỉ công khai aggregate metrics để tránh tuning theo test. Chi tiết tại
 [docs/benchmark.md](docs/benchmark.md).
 
 ## Cấu trúc repository

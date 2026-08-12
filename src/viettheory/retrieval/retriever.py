@@ -64,17 +64,46 @@ class DenseRetriever:
             raise ValueError("index, manifest, and mapping vector counts differ")
         self._chunks = tuple(chunk_by_id[mapping.chunk_id] for mapping in mappings)
         self._embedder = embedder
+        self.subject_code = self._chunks[0].subject_code
+        if any(chunk.subject_code != self.subject_code for chunk in self._chunks):
+            raise ValueError("dense index must contain exactly one subject")
 
-    def search(self, query: str, *, top_k: int = 5) -> tuple[RetrievedEvidence, ...]:
+    @property
+    def dimension(self) -> int:
+        return self._manifest.dimension
+
+    @property
+    def model_identity(self) -> tuple[str, str]:
+        return self._manifest.model_id, self._manifest.model_revision
+
+    def search(
+        self,
+        query: str,
+        *,
+        top_k: int = 5,
+        subject_codes: frozenset[str] | None = None,
+    ) -> tuple[RetrievedEvidence, ...]:
         if not query.strip():
             raise ValueError("query must not be blank")
         if top_k <= 0:
             raise ValueError("top_k must be positive")
+        if subject_codes and self.subject_code not in subject_codes:
+            return ()
         vector = np.asarray(
             self._embedder.encode_queries([query], batch_size=1),
             dtype=np.float32,
             order="C",
         )
+        return self.search_vector(vector, top_k=top_k)
+
+    def search_vector(
+        self,
+        vector: NDArray[np.float32],
+        *,
+        top_k: int = 5,
+    ) -> tuple[RetrievedEvidence, ...]:
+        """Search a precomputed query vector, enabling one GPU encode for many indexes."""
+        vector = np.asarray(vector, dtype=np.float32, order="C").copy()
         if vector.shape != (1, self._manifest.dimension):
             raise ValueError("query embedder returned an invalid shape")
         if not np.isfinite(vector).all() or np.linalg.norm(vector) == 0:
@@ -84,7 +113,7 @@ class DenseRetriever:
         scores, vector_ids = self._index.search(vector, limit)
         return tuple(
             RetrievedEvidence(
-                evidence_id=f"dense_{int(vector_id)}",
+                evidence_id=f"dense_{self.subject_code}_{int(vector_id)}",
                 chunk=self._chunks[int(vector_id)],
                 score=float(score),
                 rank=rank,

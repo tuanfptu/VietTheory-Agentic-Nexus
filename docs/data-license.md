@@ -1,7 +1,8 @@
 # Data Rights and Distribution
 
 The project owner has confirmed that permission was obtained from the lecturer to use,
-publish, and redistribute the five source textbook PDFs included in the project corpus.
+publish, and redistribute the source textbook PDFs. The active product and benchmark
+scope is now exclusively the MLN111 textbook.
 
 This authorization applies to the source documents; it does not automatically define
 the software license for VietTheory-RAG. Source code and document licensing must remain

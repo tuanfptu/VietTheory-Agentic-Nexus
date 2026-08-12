@@ -2,9 +2,10 @@
 
 from __future__ import annotations
 
+import math
 from enum import StrEnum
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, model_validator
 
 from viettheory.schema import RetrievedEvidence
 
@@ -21,11 +22,13 @@ class GateThresholds(BaseModel):
 
     model_config = ConfigDict(extra="forbid", frozen=True)
 
-    sufficient_score: float = Field(ge=-1.0, le=1.0)
-    related_score: float = Field(ge=-1.0, le=1.0)
+    sufficient_score: float
+    related_score: float
 
     @model_validator(mode="after")
     def ordered(self) -> GateThresholds:
+        if not math.isfinite(self.sufficient_score) or not math.isfinite(self.related_score):
+            raise ValueError("gate thresholds must be finite")
         if self.related_score > self.sufficient_score:
             raise ValueError("related_score cannot exceed sufficient_score")
         return self

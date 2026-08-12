@@ -105,6 +105,25 @@ def test_answer_accepts_claim_level_citation() -> None:
     assert answer.citations[0].source_span.printed_page == "1"
 
 
+def test_citation_accepts_full_context_passage() -> None:
+    span = SourceSpan(
+        page_id="page_1",
+        pdf_page=0,
+        printed_page="1",
+        bbox=(10.0, 20.0, 100.0, 35.0),
+        text="Câu trực tiếp được dẫn.",
+    )
+
+    citation = Citation(
+        citation_id="citation_1",
+        evidence_id="evidence_1",
+        source_span=span,
+        context_text="Một đoạn giáo trình đầy đủ chứa câu trực tiếp được dẫn.",
+    )
+
+    assert citation.context_text.startswith("Một đoạn giáo trình")
+
+
 def test_stable_id_is_repeatable_and_namespaced() -> None:
     first = stable_id("chunk", "doc", 1, 2)
 

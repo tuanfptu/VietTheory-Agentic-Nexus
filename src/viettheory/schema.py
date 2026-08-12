@@ -1,4 +1,4 @@
-"""Versioned, validated contracts shared by the VietTheory-RAG pipeline."""
+"""Versioned, validated contracts shared by the MLN111 pipeline."""
 
 from __future__ import annotations
 
@@ -208,6 +208,7 @@ class Citation(VietTheoryModel):
     citation_id: NonEmptyText
     evidence_id: NonEmptyText
     source_span: SourceSpan
+    context_text: str | None = None
 
 
 class Claim(VietTheoryModel):

@@ -1,6 +1,6 @@
 from viettheory.pipeline.evidence_gate import GateThresholds
 from viettheory.pipeline.generator import GeneratorAdapter
-from viettheory.pipeline.orchestrator import RagPipeline
+from viettheory.pipeline.orchestrator import RagPipeline, _contextual_question
 from viettheory.schema import Answer, Chunk, Citation, Claim, RetrievedEvidence, SourceSpan
 
 
@@ -18,6 +18,32 @@ def _evidence(score: float = 0.9) -> RetrievedEvidence:
     return RetrievedEvidence(
         evidence_id="S1", chunk=chunk, score=score, rank=1, retrieval_method="rrf"
     )
+
+
+def test_context_is_used_only_for_elliptical_followups() -> None:
+    context = ("user: Vật chất là gì?", "assistant: Vật chất là thực tại khách quan.")
+
+    standalone = _contextual_question("Nguồn gốc của ý thức là gì?", context)
+    followup = _contextual_question("Vì sao định nghĩa đó quan trọng?", context)
+
+    assert standalone == "Nguồn gốc của ý thức là gì?"
+    assert "Ngữ cảnh hội thoại trước" in followup
+    assert "Vật chất là gì?" in followup
+
+
+def test_plural_pronoun_uses_only_immediately_previous_turn() -> None:
+    context = (
+        "user: Cái chung và cái riêng là gì?",
+        "assistant: Cái chung tồn tại trong cái riêng.",
+        "user: So sánh vật chất và ý thức.",
+        "assistant: Vật chất quyết định ý thức và ý thức tác động trở lại vật chất.",
+    )
+
+    followup = _contextual_question("Vậy mối quan hệ giữa chúng là gì?", context)
+
+    assert "So sánh vật chất và ý thức" in followup
+    assert "Vật chất quyết định ý thức" in followup
+    assert "Cái chung và cái riêng" not in followup
 
 
 class StubRetriever:

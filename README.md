@@ -23,7 +23,7 @@ tiếp và lưu lịch sử riêng cho từng tài khoản.
 - Mỗi tài khoản chỉ xem và thao tác được lịch sử của chính mình.
 - Giao diện Streamlit kiểu chat, nguồn có thể mở để đọc toàn bộ parent passage.
 
-## Kiến trúc
+## Pipeline hệ thống
 
 ```mermaid
 flowchart LR
@@ -44,6 +44,21 @@ flowchart LR
 
 Luồng chi tiết và trách nhiệm từng module nằm tại
 [docs/architecture.md](docs/architecture.md).
+
+| Bước | Input → Output | Kỹ thuật chính |
+|---:|---|---|
+| 1 | PDF → page/block/line có tọa độ | PyMuPDF, bbox preservation, OCR fallback |
+| 2 | Page structure → parent/child chunks | Heading-aware parsing, stable IDs |
+| 3 | Câu hỏi → lexical candidates | Vietnamese-friendly BM25 |
+| 4 | Câu hỏi → semantic candidates | Qwen3-Embedding-0.6B + FAISS cosine |
+| 5 | Hai danh sách → fused candidates | Reciprocal Rank Fusion + chunk deduplication |
+| 6 | Câu so sánh → candidates đủ hai vế | Comparison query planner + round-robin merge |
+| 7 | Candidates → thứ hạng liên quan | Qwen3-Reranker-0.6B cross-encoder trên CUDA |
+| 8 | Child hits → đoạn nguồn đầy đủ | Parent expansion, sibling deduplication |
+| 9 | Evidence → accept/rewrite/refuse | Calibrated evidence gate, tối đa một retry |
+| 10 | Evidence → câu trả lời JSON | Gemini Flash Lite, temperature 0.1, JSON schema |
+| 11 | Answer → grounded answer | Canonical span, citation deduplication, verifier |
+| 12 | Response → UI và lịch sử riêng | FastAPI, Streamlit, SQLite ownership checks |
 
 ## Model và kỹ thuật
 
@@ -76,7 +91,7 @@ Benchmark đã **frozen ngày 2026-08-12**:
 - 66 answerable, 2 false-premise và 2 out-of-scope;
 - schema, corpus manifest và SHA-256 được cố định trong release manifest.
 
-### Kết quả retrieval
+### Bảng kết quả benchmark
 
 | Metric | Development | Hidden test |
 |---|---:|---:|
@@ -90,6 +105,9 @@ Benchmark đã **frozen ngày 2026-08-12**:
 | Full Evidence Success@5 | **92.65%** | **92.86%** |
 | Latency p50 | 10.32 s | — |
 | Latency p95 | 11.15 s | — |
+
+**Cấu hình đo:** BM25 + Qwen3-Embedding-0.6B → RRF → Qwen3-Reranker-0.6B;
+`candidate_k=12`, đánh giá đến `top_k=10`. Cấu hình được frozen trước khi chạy hidden test.
 
 Development retrieval metrics dùng **68 câu có thể chấm retrieval**; hai câu out-of-scope
 được validator giữ trong bộ 70 nhưng không đưa vào retrieval denominator. Hidden test chỉ công

@@ -23,17 +23,21 @@ def _evidence(score: float) -> RetrievedEvidence:
     )
 
 
-def test_router_detects_subject_and_question_type() -> None:
+def test_router_detects_question_type() -> None:
     route = route_question("Khái niệm phép biện chứng duy vật là gì?")
-    assert route.subject_codes == frozenset({"MLN111"})
     assert route.question_type is QuestionType.DEFINITION
-    assert not route.obvious_out_of_domain
+    assert not route.obvious_out_of_scope
 
 
-def test_router_rejects_only_obvious_out_of_domain() -> None:
+def test_router_rejects_only_obvious_out_of_scope() -> None:
     route = route_question("Thời tiết hôm nay thế nào?")
-    assert route.obvious_out_of_domain
-    assert not route.subject_codes
+    assert route.obvious_out_of_scope
+
+
+def test_router_detects_comparison() -> None:
+    route = route_question("So sánh chủ nghĩa duy vật trước Mác và triết học Mác-Lênin.")
+
+    assert route.question_type is QuestionType.COMPARISON
 
 
 def test_gate_allows_only_one_rewrite() -> None:
@@ -43,6 +47,13 @@ def test_gate_allows_only_one_rewrite() -> None:
         decide_evidence((_evidence(0.5),), thresholds, already_retried=True).action
         is GateAction.REFUSE_INSUFFICIENT
     )
+
+
+def test_gate_accepts_reranker_logit_thresholds() -> None:
+    thresholds = GateThresholds(sufficient_score=-1.0, related_score=-5.0)
+
+    assert thresholds.sufficient_score == -1.0
+    assert thresholds.related_score == -5.0
 
 
 def test_calibration_uses_labeled_dev_scores() -> None:

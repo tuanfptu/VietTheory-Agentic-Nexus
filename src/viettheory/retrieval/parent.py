@@ -4,8 +4,19 @@ from __future__ import annotations
 
 from collections.abc import Iterable
 from pathlib import Path
+from typing import Protocol
 
 from viettheory.schema import Chunk, RetrievedEvidence
+
+
+class ChildRetriever(Protocol):
+    def search(
+        self,
+        query: str,
+        *,
+        top_k: int,
+        subject_codes: frozenset[str] | None = None,
+    ) -> tuple[RetrievedEvidence, ...]: ...
 
 
 class ParentChunkStore:
@@ -64,3 +75,48 @@ def expand_to_parents(
         )
         for rank, (parent, score) in enumerate(expanded, start=1)
     )
+
+
+class ParentExpandedRetriever:
+    """Retrieve precise children, then provide their bounded parent context."""
+
+    def __init__(
+        self,
+        child_retriever: ChildRetriever,
+        store: ParentChunkStore,
+        *,
+        child_pool_multiplier: int = 3,
+    ) -> None:
+        if child_pool_multiplier <= 0:
+            raise ValueError("child_pool_multiplier must be positive")
+        self._child_retriever = child_retriever
+        self._store = store
+        self._child_pool_multiplier = child_pool_multiplier
+
+    def search(
+        self,
+        query: str,
+        *,
+        top_k: int = 5,
+        subject_codes: frozenset[str] | None = None,
+    ) -> tuple[RetrievedEvidence, ...]:
+        children = self._child_retriever.search(
+            query,
+            top_k=top_k * self._child_pool_multiplier,
+            subject_codes=subject_codes,
+        )
+        return expand_to_parents(children, self._store, top_k=top_k)
+
+    def search_children(
+        self,
+        query: str,
+        *,
+        top_k: int = 10,
+        subject_codes: frozenset[str] | None = None,
+    ) -> tuple[RetrievedEvidence, ...]:
+        """Expose child rankings for benchmark evaluation without parent-ID mismatch."""
+        return self._child_retriever.search(
+            query,
+            top_k=top_k,
+            subject_codes=subject_codes,
+        )

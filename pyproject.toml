@@ -3,13 +3,13 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "viettheory-rag"
-version = "0.1.0"
-description = "Citation-grounded RAG for Vietnamese political-theory textbooks."
+name = "mln111-assistant"
+version = "1.0.0"
+description = "Citation-grounded conversational RAG for the MLN111 textbook."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Proprietary" }
-authors = [{ name = "VietTheory-RAG contributors" }]
+authors = [{ name = "Tuan" }]
 dependencies = [
   "PyMuPDF>=1.24,<2",
   "pydantic>=2.8,<3",
@@ -39,13 +39,14 @@ viettheory-ocr = "viettheory.extraction.ocr_cli:main"
 viettheory-chunk = "viettheory.chunking.cli:main"
 viettheory-structure-chunk = "viettheory.chunking.structured_cli:main"
 viettheory-index = "viettheory.retrieval.cli:main"
-viettheory-ui = "viettheory.frontend.app:main"
+mln111-api = "viettheory.backend.cli:main"
+mln111-ui = "viettheory.frontend.app:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
-viettheory = ["py.typed"]
+viettheory = ["py.typed", "frontend/assets/*.png"]
 
 [tool.pytest.ini_options]
 addopts = "-ra --strict-config --strict-markers"

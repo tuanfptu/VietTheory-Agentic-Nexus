@@ -1,0 +1,30 @@
+{
+  "benchmark_version": "1.0.0",
+  "split": "development",
+  "retrieval_configuration": {
+    "lexical": "BM25",
+    "dense": "Qwen/Qwen3-Embedding-0.6B",
+    "fusion": "RRF",
+    "reranker": "Qwen/Qwen3-Reranker-0.6B",
+    "candidate_k": 12,
+    "top_k": 10
+  },
+  "metrics": {
+    "evaluated_questions": 68,
+    "recall_at_1": 0.8235294117647058,
+    "recall_at_3": 0.9705882352941176,
+    "recall_at_5": 0.9705882352941176,
+    "recall_at_10": 0.9705882352941176,
+    "mrr": 0.892156862745098,
+    "ndcg_at_5": 0.8770026627137658,
+    "group_recall_at_1": 0.7341772151898734,
+    "group_recall_at_3": 0.9113924050632911,
+    "group_recall_at_5": 0.9367088607594937,
+    "group_recall_at_10": 0.9493670886075949,
+    "partial_evidence_coverage_at_5": 0.9485294117647058,
+    "full_evidence_success_at_5": 0.9264705882352942,
+    "full_evidence_success_at_10": 0.9411764705882353,
+    "latency_p50_ms": 10317.018450019532,
+    "latency_p95_ms": 11149.11559500033
+  }
+}

@@ -31,11 +31,12 @@ def test_tokenizer_preserves_vietnamese_diacritics() -> None:
 
 
 def test_bm25_ranks_exact_vietnamese_terms_and_filters_subject() -> None:
-    relevant = _chunk("c1", "MLN122", "Nguồn gốc của giá trị thặng dư")
+    relevant = _chunk("c1", "MLN111", "Định nghĩa vật chất của V.I. Lênin")
     other = _chunk("c2", "MLN111", "Phép biện chứng duy vật")
     retriever = BM25Retriever((other, relevant))
-    result = retriever.search("giá trị thặng dư", top_k=5, subject_codes=frozenset({"MLN122"}))
-    assert [item.chunk.chunk_id for item in result] == ["c1"]
+    result = retriever.search("định nghĩa vật chất", top_k=5, subject_codes=frozenset({"MLN111"}))
+    assert result[0].chunk.chunk_id == "c1"
+    assert {item.chunk.subject_code for item in result} == {"MLN111"}
 
 
 def test_rrf_deduplicates_and_rewards_consensus() -> None:

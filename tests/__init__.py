@@ -1,1 +1,1 @@
-"""VietTheory-RAG test package."""
+"""MLN111 Assistant test package."""

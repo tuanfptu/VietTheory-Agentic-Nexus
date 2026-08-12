@@ -8,7 +8,13 @@ from viettheory.schema import RetrievedEvidence
 
 
 class Searcher(Protocol):
-    def search(self, query: str, *, top_k: int) -> tuple[RetrievedEvidence, ...]: ...
+    def search(
+        self,
+        query: str,
+        *,
+        top_k: int,
+        subject_codes: frozenset[str] | None = None,
+    ) -> tuple[RetrievedEvidence, ...]: ...
 
 
 def reciprocal_rank_fusion(
@@ -68,8 +74,8 @@ class HybridRetriever:
         top_k: int = 5,
         subject_codes: frozenset[str] | None = None,
     ) -> tuple[RetrievedEvidence, ...]:
-        lexical = self._lexical.search(query, top_k=self._candidate_k)
-        dense = self._dense.search(query, top_k=self._candidate_k)
+        lexical = self._lexical.search(query, top_k=self._candidate_k, subject_codes=subject_codes)
+        dense = self._dense.search(query, top_k=self._candidate_k, subject_codes=subject_codes)
         return reciprocal_rank_fusion(
             (lexical, dense),
             top_k=top_k,

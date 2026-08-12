@@ -43,6 +43,12 @@ credentials*.json
 secrets*.json
 /API KEY/
 /benchmark_private/
+/benchmark/drafts/
+/benchmark/review/
+/benchmark/mln111_questions.jsonl
+/benchmark/mln111_review.md
+/benchmark/ocr_tesseract_sample.json
+/DEMO/
 
 # Source documents and generated data/model artifacts
 *.pdf
@@ -62,6 +68,9 @@ secrets*.json
 *.pt
 *.pth
 *.ckpt
+
+# Local-only or unused UI media
+/src/viettheory/frontend/assets/academic-results-other-subjects.png
 
 # Logs and local databases
 *.log

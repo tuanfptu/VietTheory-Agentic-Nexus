@@ -62,8 +62,32 @@ the two explicit out-of-scope questions are validated but excluded from the retr
 | Latency p50 | 10.32 s |
 | Latency p95 | 11.15 s |
 
-Hidden aggregate Recall@5 and Full Evidence Success@5 are both `0.9286`. Hidden per-question
-results remain private so the test set cannot become a tuning target.
+## Hidden aggregate metrics
+
+The hidden split has 30 verified questions. Its 28 retrieval-answerable items were evaluated once
+after configuration freeze; two explicit out-of-scope items are excluded from the denominator.
+
+| Metric | Value |
+|---|---:|
+| Recall@1 | 0.6429 |
+| Recall@3 | 0.8214 |
+| Recall@5 | 0.9286 |
+| Recall@10 | 0.9286 |
+| MRR | 0.7512 |
+| nDCG@5 | 0.7804 |
+| Evidence Group Recall@1 | 0.6000 |
+| Evidence Group Recall@3 | 0.8000 |
+| Evidence Group Recall@5 | 0.9333 |
+| Evidence Group Recall@10 | 0.9333 |
+| Partial Evidence Coverage@5 | 0.9286 |
+| Full Evidence Success@5 | 0.9286 |
+| Full Evidence Success@10 | 0.9286 |
+| Latency p50 | 10.33 s |
+| Latency p95 | 10.86 s |
+
+The private hidden report SHA-256 is pinned in `release_manifest.json` and was verified before
+publishing these aggregate values. Hidden questions, gold evidence and per-question results remain
+private so the test set cannot become a tuning target.
 
 ## Reproduction
 

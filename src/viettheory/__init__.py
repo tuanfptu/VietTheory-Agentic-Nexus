@@ -1,4 +1,4 @@
-"""Core package for the MLN111 Assistant."""
+"""Shared package for the five-subject VietTheory-RAG framework."""
 
 __all__ = ["__version__"]
 

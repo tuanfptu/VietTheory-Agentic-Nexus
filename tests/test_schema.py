@@ -121,6 +121,7 @@ def test_citation_accepts_full_context_passage() -> None:
         context_text="Một đoạn giáo trình đầy đủ chứa câu trực tiếp được dẫn.",
     )
 
+    assert citation.context_text is not None
     assert citation.context_text.startswith("Một đoạn giáo trình")
 
 

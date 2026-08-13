@@ -1,0 +1,192 @@
+{
+  "all_subjects_ready": true,
+  "registry_version": "five_subject_v1",
+  "schema_version": "1.0",
+  "subjects": [
+    {
+      "checks": {
+        "chapter_count": true,
+        "children_checksum": true,
+        "extraction_mode": true,
+        "headings_checksum": true,
+        "index_checksum": true,
+        "index_chunk_checksum": true,
+        "mapping_checksum": true,
+        "mapping_coverage": true,
+        "page_count": true,
+        "pages_checksum": true,
+        "parent_links": true,
+        "parents_checksum": true,
+        "structured_source_checksum": true,
+        "subject_identity": true,
+        "subject_purity": true,
+        "vector_count": true
+      },
+      "counts": {
+        "chapters": 3,
+        "children": 602,
+        "headings": 231,
+        "pages": 285,
+        "parents": 174,
+        "vectors": 602
+      },
+      "extraction_mode": "native",
+      "model": {
+        "dimension": 1024,
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+      },
+      "name": "Marxist-Leninist Philosophy",
+      "ready": true,
+      "subject": "MLN111"
+    },
+    {
+      "checks": {
+        "chapter_count": true,
+        "children_checksum": true,
+        "extraction_mode": true,
+        "headings_checksum": true,
+        "index_checksum": true,
+        "index_chunk_checksum": true,
+        "mapping_checksum": true,
+        "mapping_coverage": true,
+        "page_count": true,
+        "pages_checksum": true,
+        "parent_links": true,
+        "parents_checksum": true,
+        "structured_source_checksum": true,
+        "subject_identity": true,
+        "subject_purity": true,
+        "vector_count": true
+      },
+      "counts": {
+        "chapters": 6,
+        "children": 346,
+        "headings": 183,
+        "pages": 262,
+        "parents": 147,
+        "vectors": 346
+      },
+      "extraction_mode": "native",
+      "model": {
+        "dimension": 1024,
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+      },
+      "name": "Marxist-Leninist Political Economy",
+      "ready": true,
+      "subject": "MLN122"
+    },
+    {
+      "checks": {
+        "chapter_count": true,
+        "children_checksum": true,
+        "extraction_mode": true,
+        "headings_checksum": true,
+        "index_checksum": true,
+        "index_chunk_checksum": true,
+        "mapping_checksum": true,
+        "mapping_coverage": true,
+        "page_count": true,
+        "pages_checksum": true,
+        "parent_links": true,
+        "parents_checksum": true,
+        "structured_source_checksum": true,
+        "subject_identity": true,
+        "subject_purity": true,
+        "vector_count": true
+      },
+      "counts": {
+        "chapters": 7,
+        "children": 334,
+        "headings": 122,
+        "pages": 273,
+        "parents": 137,
+        "vectors": 334
+      },
+      "extraction_mode": "ocr",
+      "model": {
+        "dimension": 1024,
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+      },
+      "name": "Scientific Socialism",
+      "ready": true,
+      "subject": "MLN131"
+    },
+    {
+      "checks": {
+        "chapter_count": true,
+        "children_checksum": true,
+        "extraction_mode": true,
+        "headings_checksum": true,
+        "index_checksum": true,
+        "index_chunk_checksum": true,
+        "mapping_checksum": true,
+        "mapping_coverage": true,
+        "page_count": true,
+        "pages_checksum": true,
+        "parent_links": true,
+        "parents_checksum": true,
+        "structured_source_checksum": true,
+        "subject_identity": true,
+        "subject_purity": true,
+        "vector_count": true
+      },
+      "counts": {
+        "chapters": 6,
+        "children": 331,
+        "headings": 86,
+        "pages": 271,
+        "parents": 112,
+        "vectors": 331
+      },
+      "extraction_mode": "ocr",
+      "model": {
+        "dimension": 1024,
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+      },
+      "name": "Ho Chi Minh Ideology",
+      "ready": true,
+      "subject": "HCM202"
+    },
+    {
+      "checks": {
+        "chapter_count": true,
+        "children_checksum": true,
+        "extraction_mode": true,
+        "headings_checksum": true,
+        "index_checksum": true,
+        "index_chunk_checksum": true,
+        "mapping_checksum": true,
+        "mapping_coverage": true,
+        "page_count": true,
+        "pages_checksum": true,
+        "parent_links": true,
+        "parents_checksum": true,
+        "structured_source_checksum": true,
+        "subject_identity": true,
+        "subject_purity": true,
+        "vector_count": true
+      },
+      "counts": {
+        "chapters": 3,
+        "children": 490,
+        "headings": 7,
+        "pages": 230,
+        "parents": 100,
+        "vectors": 490
+      },
+      "extraction_mode": "ocr",
+      "model": {
+        "dimension": 1024,
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+      },
+      "name": "History of the Communist Party of Vietnam",
+      "ready": true,
+      "subject": "VNR202"
+    }
+  ]
+}

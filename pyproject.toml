@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mln111-assistant"
+name = "viettheory-rag"
 version = "1.0.0"
-description = "Citation-grounded conversational RAG for the MLN111 textbook."
+description = "Citation-grounded RAG research framework for five Vietnamese political-theory subjects."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Proprietary" }

@@ -96,7 +96,9 @@ def _register(client: TestClient, username: str) -> str:
         "/auth/register", json={"username": username, "password": "strong-password-123"}
     )
     assert response.status_code == 201
-    return response.json()["access_token"]
+    access_token = response.json()["access_token"]
+    assert isinstance(access_token, str)
+    return access_token
 
 
 def test_accounts_have_isolated_conversation_histories(tmp_path: Path) -> None:

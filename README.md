@@ -1,17 +1,39 @@
-# VietTheory-RAG — MLN111 Assistant
+# VietTheory-RAG
 
-**A citation-grounded conversational RAG system for the Vietnamese Marxist–Leninist Philosophy textbook.**
+**A research-grade, citation-grounded RAG framework for five Vietnamese political-theory
+subjects.**
 
-VietTheory-RAG retrieves evidence from MLN111, answers in Vietnamese, cites exact PDF pages,
-resolves conversational follow-ups, and keeps each account's chat history private.
+VietTheory-RAG is being developed as one shared data, retrieval, generation, agentic, and
+evaluation framework for MLN111, MLN122, MLN131, HCM202, and VNR202. It retrieves textbook
+evidence, answers in Vietnamese, cites exact PDF pages, resolves conversational follow-ups, and
+keeps each account's chat history private.
 
 [![MLN111 Assistant demo](docs/assets/mln111-assistant-demo.png)](https://drive.google.com/drive/folders/1P9UV9NdyWku3mCpswza__0zfxnKPtfmK?usp=sharing)
 
 **[Watch the full demo](https://drive.google.com/drive/folders/1P9UV9NdyWku3mCpswza__0zfxnKPtfmK?usp=sharing)** ·
 **[Architecture](docs/architecture.md)** · **[Benchmark protocol](docs/benchmark.md)**
 
-> The production boundary is intentionally restricted to **MLN111**. Materials from other
-> subjects are preserved locally but are not loaded by the runtime.
+> **Current release boundary:** all five corpora have validated extraction, parent/child chunks,
+> provenance, and dense indexes. The conversational runtime and frozen quantitative benchmark are
+> still MLN111-only. The other four subjects are not claimed as production-ready until shared
+> routing and human-reviewed transfer benchmarks are complete.
+>
+> **Ready means artifact/index integrity ready—not benchmark-ready or production-ready.**
+
+## Five-subject scope
+
+| Subject | Textbook | Extraction | Pages | Searchable children | Data/index gate |
+|---|---|---|---:|---:|---|
+| MLN111 | Marxist-Leninist Philosophy | Native PDF | 285 | 602 | Passed |
+| MLN122 | Marxist-Leninist Political Economy | Native PDF | 262 | 346 | Passed |
+| MLN131 | Scientific Socialism | Tesseract OCR | 273 | 334 | Passed |
+| HCM202 | Ho Chi Minh Ideology | Tesseract OCR | 271 | 331 | Passed |
+| VNR202 | History of the Communist Party of Vietnam | Tesseract OCR | 230 | 490 | Passed |
+
+The deterministic artifact audit validates all five subjects. See the
+[five-subject protocol](docs/five-subject-protocol.md),
+[implementation roadmap](docs/five-subject-roadmap.md), and
+[machine-readable readiness report](reports/five_subject_readiness.json).
 
 ## Problem
 
@@ -21,7 +43,7 @@ context to explain an argument, handle questions requiring several pieces of evi
 where every claim came from. It must also refuse unsupported or out-of-scope questions instead of
 producing a plausible-sounding answer.
 
-The project therefore targets four coupled problems:
+The project therefore targets five coupled problems:
 
 1. **Retrieval:** find the correct evidence for direct, paraphrased, comparative, and multi-part
    questions.
@@ -30,6 +52,8 @@ The project therefore targets four coupled problems:
    allowing older topics to contaminate retrieval.
 4. **Productization:** provide authentication, isolated chat history, a usable interface, and a
    reproducible evaluation contract.
+5. **Cross-subject generalization:** develop the method deeply on MLN111, then apply it unchanged
+   to four additional subjects and measure transfer rather than silently retuning each corpus.
 
 ## Design Questions
 

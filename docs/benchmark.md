@@ -49,18 +49,40 @@ the two explicit out-of-scope questions are validated but excluded from the retr
 
 | Metric | Value |
 |---|---:|
-| Recall@1 | 0.8235 |
-| Recall@3 | 0.9706 |
-| Recall@5 | 0.9706 |
-| Recall@10 | 0.9706 |
-| MRR | 0.8922 |
-| nDCG@5 | 0.8770 |
+| Recall@1 | 0.8382 |
+| Recall@3 | 0.9853 |
+| Recall@5 | 0.9853 |
+| Recall@10 | 0.9853 |
+| MRR | 0.9069 |
+| nDCG@5 | 0.8878 |
 | Evidence Group Recall@5 | 0.9367 |
-| Partial Evidence Coverage@5 | 0.9485 |
+| Partial Evidence Coverage@5 | 0.9559 |
 | Full Evidence Success@5 | 0.9265 |
 | Full Evidence Success@10 | 0.9412 |
-| Latency p50 | 10.32 s |
-| Latency p95 | 11.15 s |
+| Latency p50 | 11.41 s |
+| Latency p95 | 11.91 s |
+
+## Development ablations
+
+The controlled development ablation uses all 68 retrieval-answerable questions. Fixed-size gold
+evidence is mapped from verified structured children through exact shared source spans. The full
+machine-readable results and runner are available at
+`benchmark/reports/mln111_v1_ablations.json` and `scripts/evaluate_mln111_ablations.py`.
+
+| Configuration | Recall@1 | Recall@5 | MRR | nDCG@5 | Full evidence@5 |
+|---|---:|---:|---:|---:|---:|
+| Fixed BM25 | 0.5294 | 0.8676 | 0.6693 | 0.5304 | 0.8676 |
+| Fixed dense | 0.6618 | 0.8971 | 0.7645 | 0.5969 | 0.8676 |
+| Fixed hybrid RRF | 0.7500 | 0.9559 | 0.8286 | 0.6372 | 0.9559 |
+| Structured BM25 | 0.5147 | 0.8529 | 0.6633 | 0.6760 | 0.7794 |
+| Structured dense | 0.5882 | 0.9265 | 0.7415 | 0.7534 | 0.8529 |
+| Structured hybrid RRF | 0.6176 | 0.9559 | 0.7648 | 0.7819 | 0.8971 |
+| Structured hybrid + reranker | 0.8382 | 0.9853 | 0.9069 | 0.8878 | 0.9265 |
+| Structured planner + hybrid + reranker | 0.8382 | 0.9853 | 0.9069 | 0.8878 | 0.9265 |
+
+These are quality-only ablations computed from cached query embeddings and rankings; their wall
+times are not online latency measurements. The separately frozen canonical full-system report
+above remains the release result used for development/hidden comparison.
 
 ## Hidden aggregate metrics
 

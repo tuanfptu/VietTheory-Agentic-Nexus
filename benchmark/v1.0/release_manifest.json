@@ -23,16 +23,32 @@
   },
   "evaluation": {
     "configuration_frozen": true,
-    "development_recall_at_5": 0.9705882352941176,
+    "development_recall_at_1": 0.8382352941176471,
+    "development_recall_at_5": 0.9852941176470589,
     "development_full_evidence_success_at_5": 0.9264705882352942,
     "hidden_recall_at_5": 0.9285714285714286,
     "hidden_full_evidence_success_at_5": 0.9285714285714286
   },
   "integrity": {
+    "checksum_policy": "SHA-256 over UTF-8 text normalized to LF",
+    "development_evaluation_sha256": "ab7f1419735945812a0c329a98d49ed013d81f546c80ae0b387f50b04cd1b1f4",
+    "development_ablation_sha256": "76094d3778753ced5211dfedd1444bdb2030ba12a930062c88f7bae9276e99da",
+    "development_delta_sha256": "8383eda418276cdcd2fae83d73a8d89b8b5804c9a39d4def6c0373941a427362",
+    "structured_children_sha256": "3e890e72595e32751e85d8a0e7a02baab25904fb3dafdb9c20928079a9c8c044",
     "hidden_validation_sha256": "e1fc73e918b2af427bd3440441d97ed65d61f8cc4900f6174a10a6d02c58ce65",
     "hidden_evaluation_sha256": "5515a27e675bb6b2433b02c5b2c9cc76f0f17f0eb8c80bdbe0eec702fcb9627e",
     "hidden_human_review_sha256": "925be41f8cc84fc5e8c9a68f52e325757d85efcb61aa1643a8d41135908799b1"
   },
-  "frozen_at": "2026-08-12",
+  "baseline": {
+    "id": "B0",
+    "definition": "structured children + BM25 + Qwen3 dense + RRF + Qwen3 reranker",
+    "comparison_planner": "negative_ablation",
+    "candidate_k": 12,
+    "top_k": 10,
+    "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
+    "embedding_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "reranker_model": "Qwen/Qwen3-Reranker-0.6B"
+  },
+  "frozen_at": "2026-08-13",
   "freeze_policy": "Any gold or schema change requires a new benchmark version."
 }

@@ -27,13 +27,38 @@ def main() -> None:
     )
     pipeline = build_pipeline()
     retriever = cast(ParentExpandedRetriever, pipeline._retriever)
+    per_query: list[dict[str, object]] = []
+    question_by_text = {question.question: question for question in questions}
 
     def retrieve(question: str, top_k: int):  # type: ignore[no-untyped-def]
-        return retriever.search_children(
+        results = retriever.search_children(
             question,
             top_k=top_k,
             subject_codes=frozenset({"MLN111"}),
         )
+        item = question_by_text[question]
+        gold_ids = frozenset(
+            child_id
+            for group in item.gold_evidence_groups
+            if group.required
+            for child_id in group.all_child_ids
+        )
+        retrieved_ids = [result.chunk.chunk_id for result in results]
+        per_query.append(
+            {
+                "question_id": item.id,
+                "retrieved_ids": retrieved_ids,
+                "first_gold_rank": next(
+                    (
+                        rank
+                        for rank, child_id in enumerate(retrieved_ids, start=1)
+                        if child_id in gold_ids
+                    ),
+                    None,
+                ),
+            }
+        )
+        return results
 
     metrics = evaluate_retrieval(
         questions,
@@ -52,6 +77,7 @@ def main() -> None:
             "top_k": 10,
         },
         "metrics": asdict(metrics),
+        "per_query": per_query,
     }
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(

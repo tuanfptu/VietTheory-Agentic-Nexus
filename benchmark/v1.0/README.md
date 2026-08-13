@@ -11,12 +11,12 @@ change now requires a new benchmark version.
 
 ## Public development result
 
-- Recall@1: 0.8235
-- Recall@3: 0.9706
-- Recall@5: 0.9706
-- MRR: 0.8922
-- nDCG@5: 0.8770
+- Recall@1: 0.8382
+- Recall@3: 0.9853
+- Recall@5: 0.9853
+- MRR: 0.9069
+- nDCG@5: 0.8878
 - Full Evidence Success@5: 0.9265
-- Latency p50: 10.32 seconds
+- Latency p50: 11.41 seconds
 
 See `release_manifest.json` for integrity hashes and release status.

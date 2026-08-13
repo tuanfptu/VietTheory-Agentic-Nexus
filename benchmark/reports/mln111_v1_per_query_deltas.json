@@ -1,0 +1,4333 @@
+{
+  "benchmark_version": "1.0.0",
+  "comparisons": {
+    "bm25_to_dense": {
+      "before": "structured_bm25",
+      "after": "structured_dense",
+      "summary": {
+        "win": 20,
+        "loss": 14,
+        "mixed": 0,
+        "tie": 34
+      },
+      "queries": [
+        {
+          "question_id": "mln111_0001",
+          "question": "Vật chất được V.I. Lênin định nghĩa như thế nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0002",
+          "question": "Ý thức là gì theo quan điểm duy vật biện chứng?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": null,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0003",
+          "question": "Thực tiễn là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": 2,
+          "rank_delta": 9,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0004",
+          "question": "Phủ định biện chứng là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0005",
+          "question": "Phương thức sản xuất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 5,
+          "after_rank": 1,
+          "rank_delta": 4,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0006",
+          "question": "Lực lượng sản xuất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": 1,
+          "rank_delta": 10,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0011",
+          "question": "Vì sao thực tiễn được xem là tiêu chuẩn của chân lý?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0012",
+          "question": "Vì sao ý thức có nguồn gốc xã hội chứ không chỉ nguồn gốc tự nhiên?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0013",
+          "question": "Giải thích vì sao phương thức sản xuất là sự thống nhất của hai loại quan hệ.",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 6,
+          "after_rank": 1,
+          "rank_delta": 5,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0016",
+          "question": "Theo Lênin, cái gì tồn tại bên ngoài và không phụ thuộc cảm giác của con người?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 4,
+          "after_rank": 4,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0017",
+          "question": "Hoạt động nào mang tính vật chất-cảm tính và nhằm biến đổi tự nhiên, xã hội?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0018",
+          "question": "Yếu tố nào kết hợp người lao động và tư liệu sản xuất?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0021",
+          "question": "Phân tích đồng thời nguồn gốc tự nhiên và xã hội của ý thức.",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": false,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0022",
+          "question": "Nêu quan hệ giữa lực lượng sản xuất, quan hệ sản xuất và phương thức sản xuất.",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 4,
+          "after_rank": 1,
+          "rank_delta": 3,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0024",
+          "question": "Ý thức là thực thể bẩm sinh tồn tại độc lập với xã hội, đúng hay sai?",
+          "difficulty": "medium",
+          "question_types": [
+            "misconception"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": null,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0025",
+          "question": "Phủ định biện chứng xóa bỏ sạch mọi yếu tố của cái cũ, đúng hay sai?",
+          "difficulty": "medium",
+          "question_types": [
+            "misconception"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0031",
+          "question": "Ai là người đầu tiên sử dụng khái niệm thế giới quan trong tác phẩm Phê phán năng lực phán đoán vào năm nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "temporal",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0032",
+          "question": "Nội dung thứ nhất trong định nghĩa vật chất của V.I. Lênin là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0033",
+          "question": "Theo Ph. Ăngghen, lao động sản xuất có vai trò như thế nào đối với sự hình thành và phát triển của con người?",
+          "difficulty": "easy",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0034",
+          "question": "Trình bày khái quát ba hình thức cơ bản của chủ nghĩa duy vật trong lịch sử triết học.",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase",
+            "enumeration"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": null,
+          "after_rank": 1,
+          "rank_delta": 10,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0035",
+          "question": "Các nhà duy vật thời cổ đại ở Hy Lạp - La Mã, Trung Quốc, Ấn Độ đã quan niệm như thế nào về vật chất?",
+          "difficulty": "easy",
+          "question_types": [
+            "explanation",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0036",
+          "question": "Quy luật về mối quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng tác động như thế nào trong lịch sử?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0037",
+          "question": "Ph. Ăngghen đã dựa vào những thành tựu khoa học để chia vận động của vật chất thành mấy hình thức cơ bản và đó là những hình thức nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "enumeration"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0038",
+          "question": "Theo triết học Mác - Lênin, vấn đề nền tảng và là điểm xuất phát để giải quyết tất cả các vấn đề khác của mọi triết học là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": null,
+          "rank_delta": -10,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": false,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0039",
+          "question": "Theo C. Mác và Ph. Ăngghen, động lực cốt lõi nào thúc đẩy con người hoạt động trong tiến trình lịch sử và phương thức tồn tại của con người là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0040",
+          "question": "Leucippus và Democritos sống vào khoảng thời gian nào và quan niệm vật chất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "temporal"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0041",
+          "question": "Những đại biểu nào được xem là đỉnh cao xuất sắc của triết học cổ điển Đức bên cạnh chủ nghĩa duy vật Anh và Pháp thế kỷ XVII - XVIII?",
+          "difficulty": "easy",
+          "question_types": [
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0047",
+          "question": "Cơ sở hạ tầng đóng vai trò quyết định như thế nào đối với nguồn gốc, tính chất và sự biến đổi của kiến trúc thượng tầng trong xã hội?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0048",
+          "question": "Lực lượng sản xuất có cấu trúc gồm những mặt nào và đóng vai trò gì trong quá trình sản xuất?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 1,
+          "rank_delta": 2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0049",
+          "question": "Bên cạnh quyền lực nhà nước, các bộ phận khác của kiến trúc thượng tầng tác động đến cơ sở hạ tầng thông qua những cơ chế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation",
+            "application"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0050",
+          "question": "Chủ nghĩa duy vật thế kỷ XVII - XVIII mang những đặc điểm siêu hình, máy móc nào và nguyên nhân chính là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0051",
+          "question": "Nhất nguyên luận và nhị nguyên luận khác nhau như thế nào trong cách giải quyết vấn đề bản nguyên của thế giới?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0052",
+          "question": "Các định nghĩa về triết học thường bao hàm những nội dung chủ yếu nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0053",
+          "question": "Định nghĩa vật chất của V.I. Lênin mang lại ý nghĩa phương pháp luận và thế giới quan gì cho các khoa học hiện đại?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0054",
+          "question": "Lực lượng sản xuất và quan hệ sản xuất khác nhau ra sao về tính chất và vai trò trong phương thức sản xuất?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 4,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0055",
+          "question": "Nguyên nhân nào đã làm nảy sinh quan niệm vừa tích cực vừa tiêu cực rằng triết học là khoa học của mọi khoa học?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0056",
+          "question": "Nguyên nhân nào dẫn đến quan niệm sai lầm của chủ nghĩa cơ giới trong việc lý giải các biến đổi của thế giới sinh vật và xã hội?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0057",
+          "question": "Sản xuất vật chất đóng vai trò là cơ sở của sự tồn tại và phát triển xã hội như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0058",
+          "question": "Hai mặt của vấn đề cơ bản trong triết học bao gồm những nội dung cụ thể nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "enumeration"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 2,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0059",
+          "question": "Quan niệm về vật chất của chủ nghĩa duy tâm và chủ nghĩa duy vật trước C. Mác khác nhau như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0060",
+          "question": "Nguyên nhân xét cho cùng dẫn đến sự biến đổi của cơ sở hạ tầng và kiến trúc thượng tầng là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0061",
+          "question": "Những lập trường giai cấp khác nhau đã tạo ra các biến thể chủ nghĩa xã hội nào, và sự xuất hiện của giai cấp vô sản cách mạng tạo cơ sở xã hội cho lý luận mới ra sao?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0062",
+          "question": "Theo chủ nghĩa duy vật biện chứng, mối quan hệ giữa hiện tượng vật chất và hiện tượng tinh thần được thể hiện như thế nào trên phương diện nhận thức luận?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 4,
+          "after_rank": 2,
+          "rank_delta": 2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0063",
+          "question": "Lý luận hình thái kinh tế - xã hội mang lại giá trị khoa học và ý nghĩa cách mạng như thế nào đối với nhận thức lịch sử?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0064",
+          "question": "Những nguyên nhân nhận thức và nguồn gốc xã hội nào đã dẫn đến sự ra đời của chủ nghĩa duy tâm trong triết học?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0065",
+          "question": "Theo quan niệm của triết học Mác - Lênin, phạm trù vật chất có sự khác biệt như thế nào so với bản thân các sự vật và hiện tượng cụ thể trong thế giới khách quan?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0066",
+          "question": "Hãy tổng hợp các yếu tố cấu thành phương thức sản xuất và mối quan hệ giữa chúng trong quá trình sản xuất vật chất của xã hội.",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis",
+            "enumeration"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 7,
+          "after_rank": 1,
+          "rank_delta": 6,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0067",
+          "question": "Những điểm hạn chế trong cách nhìn nhận về thế giới của các nhà triết học duy vật thời kỳ cận đại được thể hiện như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 7,
+          "after_rank": 7,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0068",
+          "question": "Yếu tố nào quyết định năng suất lao động xã hội và vì sao lực lượng sản xuất có tính khách quan?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0069",
+          "question": "Sự khác biệt cơ bản giữa thuyết khả tri và thuyết bất khả tri trong việc giải quyết mặt thứ hai vấn đề cơ bản của triết học là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0070",
+          "question": "Các phát minh vật lý học từ năm 1895 đến năm 1916 đã minh chứng điều gì về cấu trúc của nguyên tử và thế giới vật chất?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis",
+            "temporal"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0071",
+          "question": "Theo giáo trình, các tài liệu triết học thành văn thời cổ đại Hy Lạp còn được bảo tồn ở mức độ nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0080",
+          "question": "Học thuyết hình thái kinh tế - xã hội đã định hướng con đường quá độ lên chủ nghĩa xã hội ở Việt Nam và bản chất của việc bỏ qua chế độ tư bản chủ nghĩa như thế nào?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0081",
+          "question": "Chủ nghĩa duy tâm chủ quan và chủ nghĩa duy tâm khách quan có điểm gì khác biệt cơ bản trong việc thừa nhận tính thứ nhất của ý thức và thực thể tinh thần?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0082",
+          "question": "Học thuyết hình thái kinh tế - xã hội bao gồm những quan điểm cơ bản nào và đóng vai trò gì tại Việt Nam hiện nay?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 3,
+          "rank_delta": -2,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0083",
+          "question": "Khoa học hiện đại đã chứng minh điều gì về giới hữu cơ và giới vô cơ, đồng thời thế giới vật chất tồn tại như thế nào theo chủ nghĩa duy vật biện chứng?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0084",
+          "question": "Phương pháp biện chứng và tư duy của nhà siêu hình có điểm gì khác biệt cơ bản trong cách nhận thức về sự vật, hiện tượng?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 4,
+          "rank_delta": -2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0085",
+          "question": "Việc C. Mác và Ph. Ăngghen đưa thực tiễn vào triết học đã giúp giải quyết những vấn đề nào và đóng góp gì cho chủ nghĩa duy vật lịch sử?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 7,
+          "after_rank": 2,
+          "rank_delta": 5,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0086",
+          "question": "Phạm trù tồn tại được hiểu như thế nào và vai trò của việc thừa nhận sự tồn tại của thế giới đối với tư duy triết học là gì?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0087",
+          "question": "Quan điểm về vật tự nó của Kant và quan niệm của Hume có điểm gì khác biệt cốt lõi?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0088",
+          "question": "Sự phát triển của lực lượng sản xuất được biểu hiện ở những mặt và trình độ nào, và khoa học hiện đại có vai trò gì?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0089",
+          "question": "Những nguyên nhân nào đã dẫn đến tình trạng khủng hoảng và sự xuất hiện của chủ nghĩa duy tâm vật lý học trong giới khoa học tự nhiên?",
+          "difficulty": "hard",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0090",
+          "question": "Triết học cổ điển Đức có vai trò gì đối với sự ra đời của triết học Mác, và C. Mác đã kế thừa phép biện chứng Hegel như thế nào?",
+          "difficulty": "hard",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0091",
+          "question": "Trong bối cảnh nền kinh tế tri thức hiện nay, sự phát triển của khoa học và công nghệ tác động ra sao đến lực lượng sản xuất?",
+          "difficulty": "hard",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0092",
+          "question": "Ph. Ăngghen đã cắt nghĩa như thế nào về nguồn gốc hình thành nội hàm của phạm trù vật chất và vận động?",
+          "difficulty": "hard",
+          "question_types": [
+            "explanation",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 3,
+          "rank_delta": -2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0093",
+          "question": "Thế giới quan tôn giáo và thế giới quan đúng đắn khác nhau như thế nào về cơ sở hình thành và ý nghĩa đối với hoạt động thực tiễn của con người?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 9,
+          "after_rank": 1,
+          "rank_delta": 8,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0094",
+          "question": "Lực lượng sản xuất và quan hệ sản xuất có mối quan hệ biện chứng như thế nào trong tiến trình lịch sử, và quy luật này đòi hỏi điều gì khi muốn xóa bỏ quan hệ sản xuất cũ để thiết lập quan hệ sản xuất mới?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 4,
+          "after_rank": 4,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0095",
+          "question": "Quan điểm của chủ nghĩa duy tâm về vận động là gì và Ph. Ăngghen cùng V.I. Lênin đã bác bỏ quan điểm đó ra sao?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 5,
+          "after_rank": 9,
+          "rank_delta": -4,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "loss"
+        }
+      ]
+    },
+    "dense_to_hybrid": {
+      "before": "structured_dense",
+      "after": "structured_hybrid_rrf",
+      "summary": {
+        "win": 19,
+        "loss": 9,
+        "mixed": 1,
+        "tie": 39
+      },
+      "queries": [
+        {
+          "question_id": "mln111_0001",
+          "question": "Vật chất được V.I. Lênin định nghĩa như thế nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0002",
+          "question": "Ý thức là gì theo quan điểm duy vật biện chứng?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": null,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0003",
+          "question": "Thực tiễn là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 4,
+          "rank_delta": -2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0004",
+          "question": "Phủ định biện chứng là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0005",
+          "question": "Phương thức sản xuất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0006",
+          "question": "Lực lượng sản xuất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 7,
+          "rank_delta": -6,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": false,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0011",
+          "question": "Vì sao thực tiễn được xem là tiêu chuẩn của chân lý?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0012",
+          "question": "Vì sao ý thức có nguồn gốc xã hội chứ không chỉ nguồn gốc tự nhiên?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0013",
+          "question": "Giải thích vì sao phương thức sản xuất là sự thống nhất của hai loại quan hệ.",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0016",
+          "question": "Theo Lênin, cái gì tồn tại bên ngoài và không phụ thuộc cảm giác của con người?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 4,
+          "after_rank": 3,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0017",
+          "question": "Hoạt động nào mang tính vật chất-cảm tính và nhằm biến đổi tự nhiên, xã hội?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0018",
+          "question": "Yếu tố nào kết hợp người lao động và tư liệu sản xuất?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0021",
+          "question": "Phân tích đồng thời nguồn gốc tự nhiên và xã hội của ý thức.",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0022",
+          "question": "Nêu quan hệ giữa lực lượng sản xuất, quan hệ sản xuất và phương thức sản xuất.",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0024",
+          "question": "Ý thức là thực thể bẩm sinh tồn tại độc lập với xã hội, đúng hay sai?",
+          "difficulty": "medium",
+          "question_types": [
+            "misconception"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": 5,
+          "rank_delta": 6,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0025",
+          "question": "Phủ định biện chứng xóa bỏ sạch mọi yếu tố của cái cũ, đúng hay sai?",
+          "difficulty": "medium",
+          "question_types": [
+            "misconception"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0031",
+          "question": "Ai là người đầu tiên sử dụng khái niệm thế giới quan trong tác phẩm Phê phán năng lực phán đoán vào năm nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "temporal",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0032",
+          "question": "Nội dung thứ nhất trong định nghĩa vật chất của V.I. Lênin là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0033",
+          "question": "Theo Ph. Ăngghen, lao động sản xuất có vai trò như thế nào đối với sự hình thành và phát triển của con người?",
+          "difficulty": "easy",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0034",
+          "question": "Trình bày khái quát ba hình thức cơ bản của chủ nghĩa duy vật trong lịch sử triết học.",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase",
+            "enumeration"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 3,
+          "rank_delta": -2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0035",
+          "question": "Các nhà duy vật thời cổ đại ở Hy Lạp - La Mã, Trung Quốc, Ấn Độ đã quan niệm như thế nào về vật chất?",
+          "difficulty": "easy",
+          "question_types": [
+            "explanation",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0036",
+          "question": "Quy luật về mối quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng tác động như thế nào trong lịch sử?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0037",
+          "question": "Ph. Ăngghen đã dựa vào những thành tựu khoa học để chia vận động của vật chất thành mấy hình thức cơ bản và đó là những hình thức nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "enumeration"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0038",
+          "question": "Theo triết học Mác - Lênin, vấn đề nền tảng và là điểm xuất phát để giải quyết tất cả các vấn đề khác của mọi triết học là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": 3,
+          "rank_delta": 8,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0039",
+          "question": "Theo C. Mác và Ph. Ăngghen, động lực cốt lõi nào thúc đẩy con người hoạt động trong tiến trình lịch sử và phương thức tồn tại của con người là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0040",
+          "question": "Leucippus và Democritos sống vào khoảng thời gian nào và quan niệm vật chất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "temporal"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0041",
+          "question": "Những đại biểu nào được xem là đỉnh cao xuất sắc của triết học cổ điển Đức bên cạnh chủ nghĩa duy vật Anh và Pháp thế kỷ XVII - XVIII?",
+          "difficulty": "easy",
+          "question_types": [
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0047",
+          "question": "Cơ sở hạ tầng đóng vai trò quyết định như thế nào đối với nguồn gốc, tính chất và sự biến đổi của kiến trúc thượng tầng trong xã hội?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0048",
+          "question": "Lực lượng sản xuất có cấu trúc gồm những mặt nào và đóng vai trò gì trong quá trình sản xuất?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0049",
+          "question": "Bên cạnh quyền lực nhà nước, các bộ phận khác của kiến trúc thượng tầng tác động đến cơ sở hạ tầng thông qua những cơ chế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation",
+            "application"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0050",
+          "question": "Chủ nghĩa duy vật thế kỷ XVII - XVIII mang những đặc điểm siêu hình, máy móc nào và nguyên nhân chính là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0051",
+          "question": "Nhất nguyên luận và nhị nguyên luận khác nhau như thế nào trong cách giải quyết vấn đề bản nguyên của thế giới?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0052",
+          "question": "Các định nghĩa về triết học thường bao hàm những nội dung chủ yếu nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0053",
+          "question": "Định nghĩa vật chất của V.I. Lênin mang lại ý nghĩa phương pháp luận và thế giới quan gì cho các khoa học hiện đại?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0054",
+          "question": "Lực lượng sản xuất và quan hệ sản xuất khác nhau ra sao về tính chất và vai trò trong phương thức sản xuất?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 4,
+          "after_rank": 2,
+          "rank_delta": 2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0055",
+          "question": "Nguyên nhân nào đã làm nảy sinh quan niệm vừa tích cực vừa tiêu cực rằng triết học là khoa học của mọi khoa học?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0056",
+          "question": "Nguyên nhân nào dẫn đến quan niệm sai lầm của chủ nghĩa cơ giới trong việc lý giải các biến đổi của thế giới sinh vật và xã hội?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0057",
+          "question": "Sản xuất vật chất đóng vai trò là cơ sở của sự tồn tại và phát triển xã hội như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": false,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0058",
+          "question": "Hai mặt của vấn đề cơ bản trong triết học bao gồm những nội dung cụ thể nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "enumeration"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0059",
+          "question": "Quan niệm về vật chất của chủ nghĩa duy tâm và chủ nghĩa duy vật trước C. Mác khác nhau như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0060",
+          "question": "Nguyên nhân xét cho cùng dẫn đến sự biến đổi của cơ sở hạ tầng và kiến trúc thượng tầng là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0061",
+          "question": "Những lập trường giai cấp khác nhau đã tạo ra các biến thể chủ nghĩa xã hội nào, và sự xuất hiện của giai cấp vô sản cách mạng tạo cơ sở xã hội cho lý luận mới ra sao?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0062",
+          "question": "Theo chủ nghĩa duy vật biện chứng, mối quan hệ giữa hiện tượng vật chất và hiện tượng tinh thần được thể hiện như thế nào trên phương diện nhận thức luận?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0063",
+          "question": "Lý luận hình thái kinh tế - xã hội mang lại giá trị khoa học và ý nghĩa cách mạng như thế nào đối với nhận thức lịch sử?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0064",
+          "question": "Những nguyên nhân nhận thức và nguồn gốc xã hội nào đã dẫn đến sự ra đời của chủ nghĩa duy tâm trong triết học?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0065",
+          "question": "Theo quan niệm của triết học Mác - Lênin, phạm trù vật chất có sự khác biệt như thế nào so với bản thân các sự vật và hiện tượng cụ thể trong thế giới khách quan?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0066",
+          "question": "Hãy tổng hợp các yếu tố cấu thành phương thức sản xuất và mối quan hệ giữa chúng trong quá trình sản xuất vật chất của xã hội.",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis",
+            "enumeration"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0067",
+          "question": "Những điểm hạn chế trong cách nhìn nhận về thế giới của các nhà triết học duy vật thời kỳ cận đại được thể hiện như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 7,
+          "after_rank": 6,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0068",
+          "question": "Yếu tố nào quyết định năng suất lao động xã hội và vì sao lực lượng sản xuất có tính khách quan?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0069",
+          "question": "Sự khác biệt cơ bản giữa thuyết khả tri và thuyết bất khả tri trong việc giải quyết mặt thứ hai vấn đề cơ bản của triết học là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0070",
+          "question": "Các phát minh vật lý học từ năm 1895 đến năm 1916 đã minh chứng điều gì về cấu trúc của nguyên tử và thế giới vật chất?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis",
+            "temporal"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0071",
+          "question": "Theo giáo trình, các tài liệu triết học thành văn thời cổ đại Hy Lạp còn được bảo tồn ở mức độ nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0080",
+          "question": "Học thuyết hình thái kinh tế - xã hội đã định hướng con đường quá độ lên chủ nghĩa xã hội ở Việt Nam và bản chất của việc bỏ qua chế độ tư bản chủ nghĩa như thế nào?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0081",
+          "question": "Chủ nghĩa duy tâm chủ quan và chủ nghĩa duy tâm khách quan có điểm gì khác biệt cơ bản trong việc thừa nhận tính thứ nhất của ý thức và thực thể tinh thần?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0082",
+          "question": "Học thuyết hình thái kinh tế - xã hội bao gồm những quan điểm cơ bản nào và đóng vai trò gì tại Việt Nam hiện nay?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 3,
+          "after_rank": 2,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0083",
+          "question": "Khoa học hiện đại đã chứng minh điều gì về giới hữu cơ và giới vô cơ, đồng thời thế giới vật chất tồn tại như thế nào theo chủ nghĩa duy vật biện chứng?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0084",
+          "question": "Phương pháp biện chứng và tư duy của nhà siêu hình có điểm gì khác biệt cơ bản trong cách nhận thức về sự vật, hiện tượng?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 4,
+          "after_rank": 3,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0085",
+          "question": "Việc C. Mác và Ph. Ăngghen đưa thực tiễn vào triết học đã giúp giải quyết những vấn đề nào và đóng góp gì cho chủ nghĩa duy vật lịch sử?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 3,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0086",
+          "question": "Phạm trù tồn tại được hiểu như thế nào và vai trò của việc thừa nhận sự tồn tại của thế giới đối với tư duy triết học là gì?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0087",
+          "question": "Quan điểm về vật tự nó của Kant và quan niệm của Hume có điểm gì khác biệt cốt lõi?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0088",
+          "question": "Sự phát triển của lực lượng sản xuất được biểu hiện ở những mặt và trình độ nào, và khoa học hiện đại có vai trò gì?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0089",
+          "question": "Những nguyên nhân nào đã dẫn đến tình trạng khủng hoảng và sự xuất hiện của chủ nghĩa duy tâm vật lý học trong giới khoa học tự nhiên?",
+          "difficulty": "hard",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0090",
+          "question": "Triết học cổ điển Đức có vai trò gì đối với sự ra đời của triết học Mác, và C. Mác đã kế thừa phép biện chứng Hegel như thế nào?",
+          "difficulty": "hard",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0091",
+          "question": "Trong bối cảnh nền kinh tế tri thức hiện nay, sự phát triển của khoa học và công nghệ tác động ra sao đến lực lượng sản xuất?",
+          "difficulty": "hard",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0092",
+          "question": "Ph. Ăngghen đã cắt nghĩa như thế nào về nguồn gốc hình thành nội hàm của phạm trù vật chất và vận động?",
+          "difficulty": "hard",
+          "question_types": [
+            "explanation",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 1,
+          "rank_delta": 2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0093",
+          "question": "Thế giới quan tôn giáo và thế giới quan đúng đắn khác nhau như thế nào về cơ sở hình thành và ý nghĩa đối với hoạt động thực tiễn của con người?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 4,
+          "rank_delta": -3,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "mixed"
+        },
+        {
+          "question_id": "mln111_0094",
+          "question": "Lực lượng sản xuất và quan hệ sản xuất có mối quan hệ biện chứng như thế nào trong tiến trình lịch sử, và quy luật này đòi hỏi điều gì khi muốn xóa bỏ quan hệ sản xuất cũ để thiết lập quan hệ sản xuất mới?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 4,
+          "after_rank": 3,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0095",
+          "question": "Quan điểm của chủ nghĩa duy tâm về vận động là gì và Ph. Ăngghen cùng V.I. Lênin đã bác bỏ quan điểm đó ra sao?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 9,
+          "after_rank": 1,
+          "rank_delta": 8,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "win"
+        }
+      ]
+    },
+    "hybrid_to_reranker": {
+      "before": "structured_hybrid_rrf",
+      "after": "structured_hybrid_reranker",
+      "summary": {
+        "win": 21,
+        "loss": 2,
+        "mixed": 1,
+        "tie": 44
+      },
+      "queries": [
+        {
+          "question_id": "mln111_0001",
+          "question": "Vật chất được V.I. Lênin định nghĩa như thế nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "loss"
+        },
+        {
+          "question_id": "mln111_0002",
+          "question": "Ý thức là gì theo quan điểm duy vật biện chứng?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": null,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0003",
+          "question": "Thực tiễn là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 4,
+          "after_rank": 2,
+          "rank_delta": 2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0004",
+          "question": "Phủ định biện chứng là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0005",
+          "question": "Phương thức sản xuất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0006",
+          "question": "Lực lượng sản xuất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 7,
+          "after_rank": 1,
+          "rank_delta": 6,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0011",
+          "question": "Vì sao thực tiễn được xem là tiêu chuẩn của chân lý?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0012",
+          "question": "Vì sao ý thức có nguồn gốc xã hội chứ không chỉ nguồn gốc tự nhiên?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0013",
+          "question": "Giải thích vì sao phương thức sản xuất là sự thống nhất của hai loại quan hệ.",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0016",
+          "question": "Theo Lênin, cái gì tồn tại bên ngoài và không phụ thuộc cảm giác của con người?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 1,
+          "rank_delta": 2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0017",
+          "question": "Hoạt động nào mang tính vật chất-cảm tính và nhằm biến đổi tự nhiên, xã hội?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0018",
+          "question": "Yếu tố nào kết hợp người lao động và tư liệu sản xuất?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0021",
+          "question": "Phân tích đồng thời nguồn gốc tự nhiên và xã hội của ý thức.",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": false,
+          "outcome": "mixed"
+        },
+        {
+          "question_id": "mln111_0022",
+          "question": "Nêu quan hệ giữa lực lượng sản xuất, quan hệ sản xuất và phương thức sản xuất.",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0024",
+          "question": "Ý thức là thực thể bẩm sinh tồn tại độc lập với xã hội, đúng hay sai?",
+          "difficulty": "medium",
+          "question_types": [
+            "misconception"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 5,
+          "after_rank": 1,
+          "rank_delta": 4,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0025",
+          "question": "Phủ định biện chứng xóa bỏ sạch mọi yếu tố của cái cũ, đúng hay sai?",
+          "difficulty": "medium",
+          "question_types": [
+            "misconception"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0031",
+          "question": "Ai là người đầu tiên sử dụng khái niệm thế giới quan trong tác phẩm Phê phán năng lực phán đoán vào năm nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "temporal",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0032",
+          "question": "Nội dung thứ nhất trong định nghĩa vật chất của V.I. Lênin là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0033",
+          "question": "Theo Ph. Ăngghen, lao động sản xuất có vai trò như thế nào đối với sự hình thành và phát triển của con người?",
+          "difficulty": "easy",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0034",
+          "question": "Trình bày khái quát ba hình thức cơ bản của chủ nghĩa duy vật trong lịch sử triết học.",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase",
+            "enumeration"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 3,
+          "after_rank": 2,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0035",
+          "question": "Các nhà duy vật thời cổ đại ở Hy Lạp - La Mã, Trung Quốc, Ấn Độ đã quan niệm như thế nào về vật chất?",
+          "difficulty": "easy",
+          "question_types": [
+            "explanation",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0036",
+          "question": "Quy luật về mối quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng tác động như thế nào trong lịch sử?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0037",
+          "question": "Ph. Ăngghen đã dựa vào những thành tựu khoa học để chia vận động của vật chất thành mấy hình thức cơ bản và đó là những hình thức nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "enumeration"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0038",
+          "question": "Theo triết học Mác - Lênin, vấn đề nền tảng và là điểm xuất phát để giải quyết tất cả các vấn đề khác của mọi triết học là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 1,
+          "rank_delta": 2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0039",
+          "question": "Theo C. Mác và Ph. Ăngghen, động lực cốt lõi nào thúc đẩy con người hoạt động trong tiến trình lịch sử và phương thức tồn tại của con người là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0040",
+          "question": "Leucippus và Democritos sống vào khoảng thời gian nào và quan niệm vật chất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "temporal"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0041",
+          "question": "Những đại biểu nào được xem là đỉnh cao xuất sắc của triết học cổ điển Đức bên cạnh chủ nghĩa duy vật Anh và Pháp thế kỷ XVII - XVIII?",
+          "difficulty": "easy",
+          "question_types": [
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0047",
+          "question": "Cơ sở hạ tầng đóng vai trò quyết định như thế nào đối với nguồn gốc, tính chất và sự biến đổi của kiến trúc thượng tầng trong xã hội?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0048",
+          "question": "Lực lượng sản xuất có cấu trúc gồm những mặt nào và đóng vai trò gì trong quá trình sản xuất?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0049",
+          "question": "Bên cạnh quyền lực nhà nước, các bộ phận khác của kiến trúc thượng tầng tác động đến cơ sở hạ tầng thông qua những cơ chế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation",
+            "application"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0050",
+          "question": "Chủ nghĩa duy vật thế kỷ XVII - XVIII mang những đặc điểm siêu hình, máy móc nào và nguyên nhân chính là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0051",
+          "question": "Nhất nguyên luận và nhị nguyên luận khác nhau như thế nào trong cách giải quyết vấn đề bản nguyên của thế giới?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0052",
+          "question": "Các định nghĩa về triết học thường bao hàm những nội dung chủ yếu nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0053",
+          "question": "Định nghĩa vật chất của V.I. Lênin mang lại ý nghĩa phương pháp luận và thế giới quan gì cho các khoa học hiện đại?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0054",
+          "question": "Lực lượng sản xuất và quan hệ sản xuất khác nhau ra sao về tính chất và vai trò trong phương thức sản xuất?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0055",
+          "question": "Nguyên nhân nào đã làm nảy sinh quan niệm vừa tích cực vừa tiêu cực rằng triết học là khoa học của mọi khoa học?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0056",
+          "question": "Nguyên nhân nào dẫn đến quan niệm sai lầm của chủ nghĩa cơ giới trong việc lý giải các biến đổi của thế giới sinh vật và xã hội?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0057",
+          "question": "Sản xuất vật chất đóng vai trò là cơ sở của sự tồn tại và phát triển xã hội như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0058",
+          "question": "Hai mặt của vấn đề cơ bản trong triết học bao gồm những nội dung cụ thể nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "enumeration"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0059",
+          "question": "Quan niệm về vật chất của chủ nghĩa duy tâm và chủ nghĩa duy vật trước C. Mác khác nhau như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0060",
+          "question": "Nguyên nhân xét cho cùng dẫn đến sự biến đổi của cơ sở hạ tầng và kiến trúc thượng tầng là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0061",
+          "question": "Những lập trường giai cấp khác nhau đã tạo ra các biến thể chủ nghĩa xã hội nào, và sự xuất hiện của giai cấp vô sản cách mạng tạo cơ sở xã hội cho lý luận mới ra sao?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0062",
+          "question": "Theo chủ nghĩa duy vật biện chứng, mối quan hệ giữa hiện tượng vật chất và hiện tượng tinh thần được thể hiện như thế nào trên phương diện nhận thức luận?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0063",
+          "question": "Lý luận hình thái kinh tế - xã hội mang lại giá trị khoa học và ý nghĩa cách mạng như thế nào đối với nhận thức lịch sử?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0064",
+          "question": "Những nguyên nhân nhận thức và nguồn gốc xã hội nào đã dẫn đến sự ra đời của chủ nghĩa duy tâm trong triết học?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0065",
+          "question": "Theo quan niệm của triết học Mác - Lênin, phạm trù vật chất có sự khác biệt như thế nào so với bản thân các sự vật và hiện tượng cụ thể trong thế giới khách quan?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0066",
+          "question": "Hãy tổng hợp các yếu tố cấu thành phương thức sản xuất và mối quan hệ giữa chúng trong quá trình sản xuất vật chất của xã hội.",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis",
+            "enumeration"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0067",
+          "question": "Những điểm hạn chế trong cách nhìn nhận về thế giới của các nhà triết học duy vật thời kỳ cận đại được thể hiện như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 6,
+          "after_rank": 3,
+          "rank_delta": 3,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0068",
+          "question": "Yếu tố nào quyết định năng suất lao động xã hội và vì sao lực lượng sản xuất có tính khách quan?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0069",
+          "question": "Sự khác biệt cơ bản giữa thuyết khả tri và thuyết bất khả tri trong việc giải quyết mặt thứ hai vấn đề cơ bản của triết học là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0070",
+          "question": "Các phát minh vật lý học từ năm 1895 đến năm 1916 đã minh chứng điều gì về cấu trúc của nguyên tử và thế giới vật chất?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis",
+            "temporal"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0071",
+          "question": "Theo giáo trình, các tài liệu triết học thành văn thời cổ đại Hy Lạp còn được bảo tồn ở mức độ nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0080",
+          "question": "Học thuyết hình thái kinh tế - xã hội đã định hướng con đường quá độ lên chủ nghĩa xã hội ở Việt Nam và bản chất của việc bỏ qua chế độ tư bản chủ nghĩa như thế nào?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0081",
+          "question": "Chủ nghĩa duy tâm chủ quan và chủ nghĩa duy tâm khách quan có điểm gì khác biệt cơ bản trong việc thừa nhận tính thứ nhất của ý thức và thực thể tinh thần?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0082",
+          "question": "Học thuyết hình thái kinh tế - xã hội bao gồm những quan điểm cơ bản nào và đóng vai trò gì tại Việt Nam hiện nay?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 1,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0083",
+          "question": "Khoa học hiện đại đã chứng minh điều gì về giới hữu cơ và giới vô cơ, đồng thời thế giới vật chất tồn tại như thế nào theo chủ nghĩa duy vật biện chứng?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0084",
+          "question": "Phương pháp biện chứng và tư duy của nhà siêu hình có điểm gì khác biệt cơ bản trong cách nhận thức về sự vật, hiện tượng?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 2,
+          "rank_delta": 1,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0085",
+          "question": "Việc C. Mác và Ph. Ăngghen đưa thực tiễn vào triết học đã giúp giải quyết những vấn đề nào và đóng góp gì cho chủ nghĩa duy vật lịch sử?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 1,
+          "rank_delta": 2,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0086",
+          "question": "Phạm trù tồn tại được hiểu như thế nào và vai trò của việc thừa nhận sự tồn tại của thế giới đối với tư duy triết học là gì?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0087",
+          "question": "Quan điểm về vật tự nó của Kant và quan niệm của Hume có điểm gì khác biệt cốt lõi?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0088",
+          "question": "Sự phát triển của lực lượng sản xuất được biểu hiện ở những mặt và trình độ nào, và khoa học hiện đại có vai trò gì?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0089",
+          "question": "Những nguyên nhân nào đã dẫn đến tình trạng khủng hoảng và sự xuất hiện của chủ nghĩa duy tâm vật lý học trong giới khoa học tự nhiên?",
+          "difficulty": "hard",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0090",
+          "question": "Triết học cổ điển Đức có vai trò gì đối với sự ra đời của triết học Mác, và C. Mác đã kế thừa phép biện chứng Hegel như thế nào?",
+          "difficulty": "hard",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0091",
+          "question": "Trong bối cảnh nền kinh tế tri thức hiện nay, sự phát triển của khoa học và công nghệ tác động ra sao đến lực lượng sản xuất?",
+          "difficulty": "hard",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0092",
+          "question": "Ph. Ăngghen đã cắt nghĩa như thế nào về nguồn gốc hình thành nội hàm của phạm trù vật chất và vận động?",
+          "difficulty": "hard",
+          "question_types": [
+            "explanation",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0093",
+          "question": "Thế giới quan tôn giáo và thế giới quan đúng đắn khác nhau như thế nào về cơ sở hình thành và ý nghĩa đối với hoạt động thực tiễn của con người?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 4,
+          "after_rank": 1,
+          "rank_delta": 3,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0094",
+          "question": "Lực lượng sản xuất và quan hệ sản xuất có mối quan hệ biện chứng như thế nào trong tiến trình lịch sử, và quy luật này đòi hỏi điều gì khi muốn xóa bỏ quan hệ sản xuất cũ để thiết lập quan hệ sản xuất mới?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 3,
+          "after_rank": 3,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": true,
+          "outcome": "win"
+        },
+        {
+          "question_id": "mln111_0095",
+          "question": "Quan điểm của chủ nghĩa duy tâm về vận động là gì và Ph. Ăngghen cùng V.I. Lênin đã bác bỏ quan điểm đó ra sao?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 2,
+          "rank_delta": -1,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "loss"
+        }
+      ]
+    },
+    "reranker_to_planner": {
+      "before": "structured_hybrid_reranker",
+      "after": "structured_hybrid_planner_reranker",
+      "summary": {
+        "win": 0,
+        "loss": 0,
+        "mixed": 0,
+        "tie": 68
+      },
+      "queries": [
+        {
+          "question_id": "mln111_0001",
+          "question": "Vật chất được V.I. Lênin định nghĩa như thế nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0002",
+          "question": "Ý thức là gì theo quan điểm duy vật biện chứng?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": null,
+          "after_rank": null,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0003",
+          "question": "Thực tiễn là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0004",
+          "question": "Phủ định biện chứng là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0005",
+          "question": "Phương thức sản xuất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0006",
+          "question": "Lực lượng sản xuất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0011",
+          "question": "Vì sao thực tiễn được xem là tiêu chuẩn của chân lý?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0012",
+          "question": "Vì sao ý thức có nguồn gốc xã hội chứ không chỉ nguồn gốc tự nhiên?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0013",
+          "question": "Giải thích vì sao phương thức sản xuất là sự thống nhất của hai loại quan hệ.",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0016",
+          "question": "Theo Lênin, cái gì tồn tại bên ngoài và không phụ thuộc cảm giác của con người?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0017",
+          "question": "Hoạt động nào mang tính vật chất-cảm tính và nhằm biến đổi tự nhiên, xã hội?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0018",
+          "question": "Yếu tố nào kết hợp người lao động và tư liệu sản xuất?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0021",
+          "question": "Phân tích đồng thời nguồn gốc tự nhiên và xã hội của ý thức.",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0022",
+          "question": "Nêu quan hệ giữa lực lượng sản xuất, quan hệ sản xuất và phương thức sản xuất.",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0024",
+          "question": "Ý thức là thực thể bẩm sinh tồn tại độc lập với xã hội, đúng hay sai?",
+          "difficulty": "medium",
+          "question_types": [
+            "misconception"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0025",
+          "question": "Phủ định biện chứng xóa bỏ sạch mọi yếu tố của cái cũ, đúng hay sai?",
+          "difficulty": "medium",
+          "question_types": [
+            "misconception"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0031",
+          "question": "Ai là người đầu tiên sử dụng khái niệm thế giới quan trong tác phẩm Phê phán năng lực phán đoán vào năm nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "temporal",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0032",
+          "question": "Nội dung thứ nhất trong định nghĩa vật chất của V.I. Lênin là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0033",
+          "question": "Theo Ph. Ăngghen, lao động sản xuất có vai trò như thế nào đối với sự hình thành và phát triển của con người?",
+          "difficulty": "easy",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0034",
+          "question": "Trình bày khái quát ba hình thức cơ bản của chủ nghĩa duy vật trong lịch sử triết học.",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase",
+            "enumeration"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0035",
+          "question": "Các nhà duy vật thời cổ đại ở Hy Lạp - La Mã, Trung Quốc, Ấn Độ đã quan niệm như thế nào về vật chất?",
+          "difficulty": "easy",
+          "question_types": [
+            "explanation",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0036",
+          "question": "Quy luật về mối quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng tác động như thế nào trong lịch sử?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0037",
+          "question": "Ph. Ăngghen đã dựa vào những thành tựu khoa học để chia vận động của vật chất thành mấy hình thức cơ bản và đó là những hình thức nào?",
+          "difficulty": "easy",
+          "question_types": [
+            "enumeration"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0038",
+          "question": "Theo triết học Mác - Lênin, vấn đề nền tảng và là điểm xuất phát để giải quyết tất cả các vấn đề khác của mọi triết học là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "definition"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0039",
+          "question": "Theo C. Mác và Ph. Ăngghen, động lực cốt lõi nào thúc đẩy con người hoạt động trong tiến trình lịch sử và phương thức tồn tại của con người là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0040",
+          "question": "Leucippus và Democritos sống vào khoảng thời gian nào và quan niệm vật chất là gì?",
+          "difficulty": "easy",
+          "question_types": [
+            "temporal"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0041",
+          "question": "Những đại biểu nào được xem là đỉnh cao xuất sắc của triết học cổ điển Đức bên cạnh chủ nghĩa duy vật Anh và Pháp thế kỷ XVII - XVIII?",
+          "difficulty": "easy",
+          "question_types": [
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0047",
+          "question": "Cơ sở hạ tầng đóng vai trò quyết định như thế nào đối với nguồn gốc, tính chất và sự biến đổi của kiến trúc thượng tầng trong xã hội?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0048",
+          "question": "Lực lượng sản xuất có cấu trúc gồm những mặt nào và đóng vai trò gì trong quá trình sản xuất?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0049",
+          "question": "Bên cạnh quyền lực nhà nước, các bộ phận khác của kiến trúc thượng tầng tác động đến cơ sở hạ tầng thông qua những cơ chế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation",
+            "application"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0050",
+          "question": "Chủ nghĩa duy vật thế kỷ XVII - XVIII mang những đặc điểm siêu hình, máy móc nào và nguyên nhân chính là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0051",
+          "question": "Nhất nguyên luận và nhị nguyên luận khác nhau như thế nào trong cách giải quyết vấn đề bản nguyên của thế giới?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0052",
+          "question": "Các định nghĩa về triết học thường bao hàm những nội dung chủ yếu nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0053",
+          "question": "Định nghĩa vật chất của V.I. Lênin mang lại ý nghĩa phương pháp luận và thế giới quan gì cho các khoa học hiện đại?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0054",
+          "question": "Lực lượng sản xuất và quan hệ sản xuất khác nhau ra sao về tính chất và vai trò trong phương thức sản xuất?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0055",
+          "question": "Nguyên nhân nào đã làm nảy sinh quan niệm vừa tích cực vừa tiêu cực rằng triết học là khoa học của mọi khoa học?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0056",
+          "question": "Nguyên nhân nào dẫn đến quan niệm sai lầm của chủ nghĩa cơ giới trong việc lý giải các biến đổi của thế giới sinh vật và xã hội?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0057",
+          "question": "Sản xuất vật chất đóng vai trò là cơ sở của sự tồn tại và phát triển xã hội như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0058",
+          "question": "Hai mặt của vấn đề cơ bản trong triết học bao gồm những nội dung cụ thể nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "enumeration"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0059",
+          "question": "Quan niệm về vật chất của chủ nghĩa duy tâm và chủ nghĩa duy vật trước C. Mác khác nhau như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0060",
+          "question": "Nguyên nhân xét cho cùng dẫn đến sự biến đổi của cơ sở hạ tầng và kiến trúc thượng tầng là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0061",
+          "question": "Những lập trường giai cấp khác nhau đã tạo ra các biến thể chủ nghĩa xã hội nào, và sự xuất hiện của giai cấp vô sản cách mạng tạo cơ sở xã hội cho lý luận mới ra sao?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0062",
+          "question": "Theo chủ nghĩa duy vật biện chứng, mối quan hệ giữa hiện tượng vật chất và hiện tượng tinh thần được thể hiện như thế nào trên phương diện nhận thức luận?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0063",
+          "question": "Lý luận hình thái kinh tế - xã hội mang lại giá trị khoa học và ý nghĩa cách mạng như thế nào đối với nhận thức lịch sử?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0064",
+          "question": "Những nguyên nhân nhận thức và nguồn gốc xã hội nào đã dẫn đến sự ra đời của chủ nghĩa duy tâm trong triết học?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0065",
+          "question": "Theo quan niệm của triết học Mác - Lênin, phạm trù vật chất có sự khác biệt như thế nào so với bản thân các sự vật và hiện tượng cụ thể trong thế giới khách quan?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0066",
+          "question": "Hãy tổng hợp các yếu tố cấu thành phương thức sản xuất và mối quan hệ giữa chúng trong quá trình sản xuất vật chất của xã hội.",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis",
+            "enumeration"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0067",
+          "question": "Những điểm hạn chế trong cách nhìn nhận về thế giới của các nhà triết học duy vật thời kỳ cận đại được thể hiện như thế nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 3,
+          "after_rank": 3,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0068",
+          "question": "Yếu tố nào quyết định năng suất lao động xã hội và vì sao lực lượng sản xuất có tính khách quan?",
+          "difficulty": "medium",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0069",
+          "question": "Sự khác biệt cơ bản giữa thuyết khả tri và thuyết bất khả tri trong việc giải quyết mặt thứ hai vấn đề cơ bản của triết học là gì?",
+          "difficulty": "medium",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0070",
+          "question": "Các phát minh vật lý học từ năm 1895 đến năm 1916 đã minh chứng điều gì về cấu trúc của nguyên tử và thế giới vật chất?",
+          "difficulty": "medium",
+          "question_types": [
+            "synthesis",
+            "temporal"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0071",
+          "question": "Theo giáo trình, các tài liệu triết học thành văn thời cổ đại Hy Lạp còn được bảo tồn ở mức độ nào?",
+          "difficulty": "medium",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0080",
+          "question": "Học thuyết hình thái kinh tế - xã hội đã định hướng con đường quá độ lên chủ nghĩa xã hội ở Việt Nam và bản chất của việc bỏ qua chế độ tư bản chủ nghĩa như thế nào?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0081",
+          "question": "Chủ nghĩa duy tâm chủ quan và chủ nghĩa duy tâm khách quan có điểm gì khác biệt cơ bản trong việc thừa nhận tính thứ nhất của ý thức và thực thể tinh thần?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0082",
+          "question": "Học thuyết hình thái kinh tế - xã hội bao gồm những quan điểm cơ bản nào và đóng vai trò gì tại Việt Nam hiện nay?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0083",
+          "question": "Khoa học hiện đại đã chứng minh điều gì về giới hữu cơ và giới vô cơ, đồng thời thế giới vật chất tồn tại như thế nào theo chủ nghĩa duy vật biện chứng?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0084",
+          "question": "Phương pháp biện chứng và tư duy của nhà siêu hình có điểm gì khác biệt cơ bản trong cách nhận thức về sự vật, hiện tượng?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0085",
+          "question": "Việc C. Mác và Ph. Ăngghen đưa thực tiễn vào triết học đã giúp giải quyết những vấn đề nào và đóng góp gì cho chủ nghĩa duy vật lịch sử?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0086",
+          "question": "Phạm trù tồn tại được hiểu như thế nào và vai trò của việc thừa nhận sự tồn tại của thế giới đối với tư duy triết học là gì?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0087",
+          "question": "Quan điểm về vật tự nó của Kant và quan niệm của Hume có điểm gì khác biệt cốt lõi?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0088",
+          "question": "Sự phát triển của lực lượng sản xuất được biểu hiện ở những mặt và trình độ nào, và khoa học hiện đại có vai trò gì?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0089",
+          "question": "Những nguyên nhân nào đã dẫn đến tình trạng khủng hoảng và sự xuất hiện của chủ nghĩa duy tâm vật lý học trong giới khoa học tự nhiên?",
+          "difficulty": "hard",
+          "question_types": [
+            "cause_effect"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0090",
+          "question": "Triết học cổ điển Đức có vai trò gì đối với sự ra đời của triết học Mác, và C. Mác đã kế thừa phép biện chứng Hegel như thế nào?",
+          "difficulty": "hard",
+          "question_types": [
+            "explanation"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0091",
+          "question": "Trong bối cảnh nền kinh tế tri thức hiện nay, sự phát triển của khoa học và công nghệ tác động ra sao đến lực lượng sản xuất?",
+          "difficulty": "hard",
+          "question_types": [
+            "paraphrase"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0092",
+          "question": "Ph. Ăngghen đã cắt nghĩa như thế nào về nguồn gốc hình thành nội hàm của phạm trù vật chất và vận động?",
+          "difficulty": "hard",
+          "question_types": [
+            "explanation",
+            "entity"
+          ],
+          "reasoning_scope": "single_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0093",
+          "question": "Thế giới quan tôn giáo và thế giới quan đúng đắn khác nhau như thế nào về cơ sở hình thành và ý nghĩa đối với hoạt động thực tiễn của con người?",
+          "difficulty": "hard",
+          "question_types": [
+            "comparison"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 1,
+          "after_rank": 1,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0094",
+          "question": "Lực lượng sản xuất và quan hệ sản xuất có mối quan hệ biện chứng như thế nào trong tiến trình lịch sử, và quy luật này đòi hỏi điều gì khi muốn xóa bỏ quan hệ sản xuất cũ để thiết lập quan hệ sản xuất mới?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 3,
+          "after_rank": 3,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": true,
+          "after_full_evidence_at_5": true,
+          "outcome": "tie"
+        },
+        {
+          "question_id": "mln111_0095",
+          "question": "Quan điểm của chủ nghĩa duy tâm về vận động là gì và Ph. Ăngghen cùng V.I. Lênin đã bác bỏ quan điểm đó ra sao?",
+          "difficulty": "hard",
+          "question_types": [
+            "synthesis"
+          ],
+          "reasoning_scope": "multi_chunk",
+          "before_rank": 2,
+          "after_rank": 2,
+          "rank_delta": 0,
+          "before_full_evidence_at_5": false,
+          "after_full_evidence_at_5": false,
+          "outcome": "tie"
+        }
+      ]
+    }
+  },
+  "residual_failures": {
+    "count": 5,
+    "by_difficulty": {
+      "easy": 1,
+      "hard": 3,
+      "medium": 1
+    },
+    "by_reasoning_scope": {
+      "single_chunk": 1,
+      "multi_chunk": 4
+    },
+    "by_question_type": {
+      "definition": 1,
+      "synthesis": 3,
+      "explanation": 1
+    },
+    "queries": [
+      {
+        "question_id": "mln111_0002",
+        "question": "Ý thức là gì theo quan điểm duy vật biện chứng?",
+        "difficulty": "easy",
+        "question_types": [
+          "definition"
+        ],
+        "reasoning_scope": "single_chunk",
+        "gold_ids": [
+          "child_03e5028e78e625dddaa5"
+        ],
+        "retrieved_ids": [
+          "child_71def1e7021001d9c769",
+          "child_c276e01ad2f1d3130911",
+          "child_72846332fe76b6203e87",
+          "child_dcb8bc2cfd64d2e8e0db",
+          "child_95f0da82f67290d50403",
+          "child_dc42628f01b95412a354",
+          "child_5f47192211c697fc8012",
+          "child_538888c9d120c42f19cf",
+          "child_928ee808f95ca1ab9873",
+          "child_18ded0bdb26e4bca7f74"
+        ],
+        "first_gold_rank": null,
+        "group_first_ranks": {
+          "g1": null
+        },
+        "full_evidence_at_5": false
+      },
+      {
+        "question_id": "mln111_0021",
+        "question": "Phân tích đồng thời nguồn gốc tự nhiên và xã hội của ý thức.",
+        "difficulty": "hard",
+        "question_types": [
+          "synthesis"
+        ],
+        "reasoning_scope": "multi_chunk",
+        "gold_ids": [
+          "child_03e5028e78e625dddaa5",
+          "child_ab75b8ccaa7dad1c6164"
+        ],
+        "retrieved_ids": [
+          "child_ab75b8ccaa7dad1c6164",
+          "child_65e980bb6417ed885bae",
+          "child_71def1e7021001d9c769",
+          "child_d2ff442ca2f04e494da7",
+          "child_c276e01ad2f1d3130911",
+          "child_b0b9b31f9cdfd76bc465",
+          "child_03e5028e78e625dddaa5",
+          "child_e74b96daa4ed9a7c0907",
+          "child_a4b2dbedaaa3b6b4b708",
+          "child_f3405377150b14f685e3"
+        ],
+        "first_gold_rank": 1,
+        "group_first_ranks": {
+          "g1": 7,
+          "g2": 1
+        },
+        "full_evidence_at_5": false
+      },
+      {
+        "question_id": "mln111_0057",
+        "question": "Sản xuất vật chất đóng vai trò là cơ sở của sự tồn tại và phát triển xã hội như thế nào?",
+        "difficulty": "medium",
+        "question_types": [
+          "explanation"
+        ],
+        "reasoning_scope": "multi_chunk",
+        "gold_ids": [
+          "child_9113296711fa4ffdc8f3",
+          "child_bee4d2a36405d1cd639e"
+        ],
+        "retrieved_ids": [
+          "child_bee4d2a36405d1cd639e",
+          "child_2c96470f1c683d265425",
+          "child_81534a02cb16c156c996",
+          "child_9c531d9ee5eef8b86de7",
+          "child_9d9be2bc4c2a8d131d2e",
+          "child_5c9d9430f3e9cdeae446",
+          "child_4ef8d62779825279ca07",
+          "child_9810599e4bbc25c101e9",
+          "child_136a5c1de25105bdd736",
+          "child_0ad75d491ccea6d09211"
+        ],
+        "first_gold_rank": 1,
+        "group_first_ranks": {
+          "g1": 1,
+          "g2": null
+        },
+        "full_evidence_at_5": false
+      },
+      {
+        "question_id": "mln111_0082",
+        "question": "Học thuyết hình thái kinh tế - xã hội bao gồm những quan điểm cơ bản nào và đóng vai trò gì tại Việt Nam hiện nay?",
+        "difficulty": "hard",
+        "question_types": [
+          "synthesis"
+        ],
+        "reasoning_scope": "multi_chunk",
+        "gold_ids": [
+          "child_97edbb18a9a828166b7c",
+          "child_db1a34a31abe5c090a58"
+        ],
+        "retrieved_ids": [
+          "child_97edbb18a9a828166b7c",
+          "child_83f301e41110a9b2d812",
+          "child_d8d7cb4635dae1726a07",
+          "child_8970ffead5db0a73ce18",
+          "child_c7e173d6721e55bdfc58",
+          "child_4113d90835bb7eae012e",
+          "child_f7e5fa1588575689bc1d",
+          "child_b646bf0498da979a3bff",
+          "child_d88963a5b50869ba0ee8",
+          "child_af38ce98a99f8ccecb30"
+        ],
+        "first_gold_rank": 1,
+        "group_first_ranks": {
+          "g1": 1,
+          "g2": null
+        },
+        "full_evidence_at_5": false
+      },
+      {
+        "question_id": "mln111_0095",
+        "question": "Quan điểm của chủ nghĩa duy tâm về vận động là gì và Ph. Ăngghen cùng V.I. Lênin đã bác bỏ quan điểm đó ra sao?",
+        "difficulty": "hard",
+        "question_types": [
+          "synthesis"
+        ],
+        "reasoning_scope": "multi_chunk",
+        "gold_ids": [
+          "child_bb62f095b3c817322e17",
+          "child_ffaee3fc5b72d3b24ab1"
+        ],
+        "retrieved_ids": [
+          "child_8204a0b51deeb76b0300",
+          "child_bb62f095b3c817322e17",
+          "child_ef6b7a74da5f62f7a0e4",
+          "child_028e07ed481cc9495f54",
+          "child_4dea809cfe3de9c445ce",
+          "child_822482d87015d4921ffa",
+          "child_f9126f32b2e819dac450",
+          "child_ca4c1a0e3c4d0f313c98",
+          "child_e6a2b5ae39bee40bfd76",
+          "child_69b27b4d9845d4024702"
+        ],
+        "first_gold_rank": 2,
+        "group_first_ranks": {
+          "g1": null,
+          "g2": 2
+        },
+        "full_evidence_at_5": false
+      }
+    ]
+  }
+}

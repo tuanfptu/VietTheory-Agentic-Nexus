@@ -33,7 +33,11 @@ keeps each account's chat history private.
 The deterministic artifact audit validates all five subjects. See the
 [five-subject protocol](docs/five-subject-protocol.md),
 [implementation roadmap](docs/five-subject-roadmap.md), and
+[advanced research program](docs/advanced-research-program.md), plus the
 [machine-readable readiness report](reports/five_subject_readiness.json).
+
+The [Natural QA v2 foundation](benchmark/v2/README.md) defines the 5 × 50 pilot, four human-review
+gates, and the staged path toward 1,250 reviewed natural questions.
 
 ## Problem
 

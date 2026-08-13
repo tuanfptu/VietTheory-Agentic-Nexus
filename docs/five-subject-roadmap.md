@@ -72,6 +72,19 @@
 - Run subject-specific hidden tests and the cross-subject hidden set once.
 - Publish aggregate hidden results without leaking question-level gold.
 
+## Post-v1 research phases
+
+After the five-subject core and bounded evidence-recovery path are proven, advanced capabilities
+follow the gated [Advanced Research Program](advanced-research-program.md):
+
+1. provenance-backed GraphRAG and graph benchmark;
+2. typed tool use and tool-selection evaluation;
+3. conversation/learning memory and privacy evaluation;
+4. multi-agent coordination only if a single-controller bottleneck is measured.
+
+Each capability requires an isolated baseline, ablation, cost analysis, and failure analysis. A
+negative result may remove a feature from the production path without invalidating the research.
+
 ## Human bottlenecks
 
 The remaining high-effort work is human verification of natural questions, controlled sufficiency

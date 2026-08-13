@@ -63,9 +63,14 @@ two rounds and two targeted recovery queries.
 | Recovery | Missing/partial controlled cases | Corrective action |
 | Cross-subject hidden | Separate versioned set | Routing and confusion |
 
-Natural QA targets are 300–400 MLN111 questions and 200–250 for each remaining subject. Candidate
-generation and review proceed in 50-question batches; quality and human verification take priority
-over reaching a headline count.
+Natural QA v2 targets 250 questions for each of the five subjects. Candidate generation and review
+proceed in 50-question batches; quality and human verification take priority over reaching a
+headline count. The frozen MLN111 v1 records remain historical evaluation artifacts and are not
+silently counted as reviewed Natural QA v2 cases.
+
+Natural QA v2 now uses a concrete final target of 250 questions per subject. The pilot quota,
+four-gate review contract, deterministic portfolio plan, and validation commands are documented in
+[`benchmark/v2/README.md`](../benchmark/v2/README.md).
 
 ## Freeze and leakage rules
 

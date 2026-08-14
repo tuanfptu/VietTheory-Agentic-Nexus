@@ -1,0 +1,15 @@
+﻿case_id,source_question_id,subject_code,expected_label,question,source_difficulty,provided_parent_ids,provided_context_texts,decision,label_valid,context_valid,difficulty_valid,reviewer_notes
+es_mln131_0035_wrongaspect,mln131_0035,MLN131,wrong_aspect,"Thời kỳ quá độ lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp nào, và lực lượng nào đóng vai trò đội tiên phong lãnh đạo họ hợp lực tạo sức mạnh tổng hợp?",hard,parent_3f6081edba00468ad78c,"C. CÂU HỎI ÔN TẬP
+1. Phân tích rõ eơ cấu xã hội - giai cấp trong thời kỳ
+quá độ lên chủ nghĩa xã hội và liên hệ ở Việt Nam?
+2. Trong thời kỳ quá độ lên chủ nghĩa xã hội, vì sao
+phải thực hiện liên minh giai cấp, tầng lớp? Phân tích vị
+trí, vai trò của các giai cấp, tầng lớp cơ bản trong cơ cấu xã
+hội - giai cấp Việt Nam?
+3. Phân tích nội dung của liên minh giai cấp, tầng lớp
+trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam và
+đề xuất phương hướng, giải pháp nhằm tăng cường khối
+liên minh giai cấp, tầng lớp ở nước ta hiện nay?
+4. Làm rõ trách nhiệm của thanh niên, sinh viên trong
+việc góp phần củng cố khối liên minh giai cấp, tầng lớp và
+xây dựng khối đại đoàn kết toàn dân?",,,,,

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 
 from pydantic import BaseModel
@@ -12,7 +13,7 @@ from viettheory.chunking.structured import (
     StructuredChunkingConfig,
     chunk_pages_structured,
 )
-from viettheory.extraction.structure_parser import parse_structure
+from viettheory.extraction.structure_parser import HeadingOverride, parse_structure
 from viettheory.schema import Page
 
 
@@ -30,6 +31,8 @@ def main() -> int:
     parser.add_argument("--child-target-tokens", type=int, default=400)
     parser.add_argument("--child-overlap-tokens", type=int, default=50)
     parser.add_argument("--parent-target-tokens", type=int, default=1500)
+    parser.add_argument("--version", default="heading_parent_child_v1")
+    parser.add_argument("--structure-overrides", type=Path)
     args = parser.parse_args()
     pages = tuple(
         Page.model_validate_json(line)
@@ -39,9 +42,18 @@ def main() -> int:
         child_target_tokens=args.child_target_tokens,
         child_overlap_tokens=args.child_overlap_tokens,
         parent_target_tokens=args.parent_target_tokens,
+        version=args.version,
     )
-    structure = parse_structure(pages)
-    chunks = chunk_pages_structured(pages, config)
+    overrides = (
+        tuple(
+            HeadingOverride.model_validate(item)
+            for item in json.loads(args.structure_overrides.read_text(encoding="utf-8"))
+        )
+        if args.structure_overrides is not None
+        else ()
+    )
+    structure = parse_structure(pages, overrides)
+    chunks = chunk_pages_structured(pages, config, structure=structure)
     _write_jsonl(args.output_dir / "headings.jsonl", structure.headings)
     _write_jsonl(args.output_dir / "parents.jsonl", chunks.parents)
     _write_jsonl(args.output_dir / "children.jsonl", chunks.children)
@@ -49,6 +61,7 @@ def main() -> int:
         source_pages=args.pages_jsonl,
         output_dir=args.output_dir,
         config=config,
+        structure_overrides=args.structure_overrides,
     )
     (args.output_dir / "manifest.json").write_text(
         manifest.model_dump_json(indent=2),

@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/development_32.jsonl",
+      "sha256": "ec6abbacc553cb7f356b8dedf7b3c264bc010d5b8c051ae49c9f0afcf84462fd"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/j1_development.json",
+      "sha256": "7e96553d2063bd88cb0c8a535c30cae6b30a31fd0268ee1165177d7c01732464"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/j1_error_analysis.md",
+      "sha256": "2d955dc9380fc4fe868a327eceb3b28fcf8ee03231df411c2e325e10691d1020"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/j1_freeze.json",
+      "sha256": "8ac3392441287dec03863e1ebafa2520b800d1cd8b318b1bd2811dc6d27822e7"
+    },
+    {
+      "path": "scripts/run_evidence_judge.py",
+      "sha256": "011d6025ea897e13212fc4b272234b70823f300d8ddea6bac5382f7a269ee6c5"
+    },
+    {
+      "path": "src/viettheory/evidence_judge.py",
+      "sha256": "e52bbee92df8059c2675141c1381ad0b380d52a3d208747616c631a948930c34"
+    }
+  ],
+  "hidden_or_heldout_included": false,
+  "schema_version": "1.0"
+}

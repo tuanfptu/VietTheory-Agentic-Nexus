@@ -1,0 +1,38 @@
+{
+  "answerability": {
+    "answerable": 472,
+    "detail_not_stated": 2,
+    "false_premise": 12,
+    "insufficient_evidence": 2,
+    "out_of_scope": 10,
+    "wrong_subject": 2
+  },
+  "benchmark_version": "natural_qa_v2_gold_v1.0",
+  "categories": {
+    "comparison_relationship": 78,
+    "direct": 138,
+    "explanation": 110,
+    "multi_chunk": 73,
+    "multi_hop_cross_chapter": 24,
+    "negative": 28,
+    "synthesis": 49
+  },
+  "final_review_approved": 48,
+  "final_review_rows": 48,
+  "final_review_workbook_sha256": "76f127848a3f4e2aab5697029d222cbf50daf85163d6cebc4614317bbbc19ae3",
+  "followup_source_sha256": "a1d7824a79043f2ad75d74cd441163d8be0b78fae482c9217317ca22bfe62984",
+  "gold_jsonl_sha256": "7cfda26bc064a35e4f438b9048f02bf82c521161785373bbb6023729cb49b1e9",
+  "record_count": 500,
+  "release_ready": true,
+  "review_status": {
+    "verified": 500
+  },
+  "schema_version": "1.0",
+  "subjects": {
+    "HCM202": 100,
+    "MLN111": 100,
+    "MLN122": 100,
+    "MLN131": 100,
+    "VNR202": 100
+  }
+}

@@ -9,7 +9,7 @@ from viettheory.ids import stable_id
 from viettheory.pipeline.citation_verifier import verify_citations
 from viettheory.pipeline.evidence_gate import GateAction, GateThresholds, decide_evidence
 from viettheory.pipeline.generator import GenerationError, GeneratorAdapter
-from viettheory.pipeline.pre_router import route_question
+from viettheory.pipeline.pre_router import route_question, route_subject
 from viettheory.schema import Answer, RetrievedEvidence
 
 
@@ -45,6 +45,8 @@ class RagPipeline:
         *,
         rewriter: QueryRewriter | None = None,
         top_k: int = 5,
+        subject_codes: frozenset[str] = frozenset({"MLN111"}),
+        scope_label: str = "giáo trình MLN111",
     ) -> None:
         if top_k <= 0:
             raise ValueError("top_k must be positive")
@@ -53,20 +55,43 @@ class RagPipeline:
         self._thresholds = thresholds
         self._rewriter = rewriter or IdentityRewriter()
         self._top_k = top_k
+        if not subject_codes:
+            raise ValueError("subject_codes must not be empty")
+        if not scope_label.strip():
+            raise ValueError("scope_label must not be blank")
+        self._subject_codes = subject_codes
+        self._scope_label = scope_label
 
-    def ask(self, question: str, context: tuple[str, ...] = ()) -> Answer:
+    def ask(
+        self,
+        question: str,
+        context: tuple[str, ...] = (),
+        *,
+        subject_code: str | None = None,
+    ) -> Answer:
         contextual_question = _contextual_question(question, context)
         route = route_question(contextual_question)
         if route.obvious_out_of_scope:
-            return _refusal(question, "Câu hỏi nằm ngoài phạm vi giáo trình MLN111.")
-        subjects = frozenset({"MLN111"})
+            return _refusal(question, f"Câu hỏi nằm ngoài phạm vi {self._scope_label}.")
+        active_subjects = self._subject_codes
+        if subject_code is not None:
+            normalized = subject_code.upper()
+            if normalized not in self._subject_codes:
+                raise ValueError(f"Môn học chưa được hỗ trợ trong pipeline này: {subject_code}")
+            active_subjects = frozenset({normalized})
+        elif len(self._subject_codes) > 1:
+            routed_subject = route_subject(contextual_question, self._subject_codes)
+            if routed_subject is not None:
+                active_subjects = frozenset({routed_subject})
         evidence = self._retriever.search(
-            contextual_question, top_k=self._top_k, subject_codes=subjects
+            contextual_question, top_k=self._top_k, subject_codes=active_subjects
         )
         decision = decide_evidence(evidence, self._thresholds)
         if decision.action is GateAction.REWRITE:
             rewritten = self._rewriter.rewrite(contextual_question)
-            evidence = self._retriever.search(rewritten, top_k=self._top_k, subject_codes=subjects)
+            evidence = self._retriever.search(
+                rewritten, top_k=self._top_k, subject_codes=active_subjects
+            )
             decision = decide_evidence(evidence, self._thresholds, already_retried=True)
         if decision.action is GateAction.REFUSE_OUT_OF_DOMAIN:
             return _refusal(question, "Không tìm thấy bằng chứng phù hợp trong giáo trình.")

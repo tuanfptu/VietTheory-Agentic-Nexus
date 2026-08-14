@@ -19,6 +19,7 @@ from viettheory.benchmark import (
     ExpectedBehavior,
     GenerationMetadata,
     GoldEvidenceGroup,
+    QuestionType,
     ReasoningScope,
     ReviewStatus,
 )
@@ -76,16 +77,19 @@ class NaturalQuestionV2(NaturalBenchmarkModel):
     chapter_labels: tuple[NonEmpty, ...]
     section_labels: tuple[NonEmpty, ...] = ()
     question: NonEmpty
+    question_types: tuple[QuestionType, ...]
     primary_category: BenchmarkCategory
     difficulty: Difficulty
     reasoning_scope: ReasoningScope
     chapter_scope: ChapterScope
     answerability: Answerability
+    unanswerable_reason: str | None = None
     negative_type: NegativeType | None = None
     expected_behavior: ExpectedBehavior
     gold_answer: str | None = None
     required_evidence_groups: tuple[GoldEvidenceGroup, ...] = ()
     required_concepts: tuple[NonEmpty, ...] = ()
+    forbidden_claims: tuple[NonEmpty, ...] = ()
     split: BenchmarkSplit
     generation: GenerationMetadata
     artifact_manifest_ids: tuple[NonEmpty, ...]
@@ -105,11 +109,17 @@ class NaturalQuestionV2(NaturalBenchmarkModel):
                 raise ValueError("answerable questions require gold answer and evidence")
             if self.negative_type is not None:
                 raise ValueError("answerable questions cannot have negative_type")
+            if self.unanswerable_reason is not None:
+                raise ValueError("answerable questions cannot have unanswerable_reason")
         else:
             if self.primary_category is not BenchmarkCategory.NEGATIVE:
                 raise ValueError("unanswerable questions must use the negative category")
             if self.negative_type is None:
                 raise ValueError("unanswerable questions require negative_type")
+            if not self.unanswerable_reason:
+                raise ValueError("unanswerable questions require unanswerable_reason")
+        if not self.question_types:
+            raise ValueError("question_types must not be empty")
         if self.reasoning_scope is ReasoningScope.CROSS_SUBJECT:
             if len(evidence_subjects) < 2:
                 raise ValueError(

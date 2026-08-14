@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "subjects": {
+    "MLN131": {
+      "disagreements": [
+        {
+          "gemini_level": 3,
+          "gemini_type": "section",
+          "pdf_page": 158,
+          "reason": "no_deterministic_heading_on_anchor",
+          "source_block_ids": [
+            "ocr-line-block_83611455063a93fa3826",
+            "ocr-line-block_a1c2bb6c4871bed78055"
+          ],
+          "text": "Một là, xây dựng Nhà nước pháp quyền xã hội chủ nghĩa dưới sự lãnh đạo của Đảng."
+        },
+        {
+          "gemini_level": 3,
+          "gemini_type": "section",
+          "pdf_page": 158,
+          "reason": "no_deterministic_heading_on_anchor",
+          "source_block_ids": [
+            "ocr-line-block_f29ec5065f760553dcce",
+            "ocr-line-block_542b8da0c77dfa6bd139"
+          ],
+          "text": "Hai là, cải cách thể chế và phương thức hoạt động của Nhà nước."
+        },
+        {
+          "gemini_level": 3,
+          "gemini_type": "section",
+          "pdf_page": 159,
+          "reason": "no_deterministic_heading_on_anchor",
+          "source_block_ids": [
+            "ocr-line-block_8feeb664ca36567f44e4",
+            "ocr-line-block_0205656cb423cdc77ddc"
+          ],
+          "text": "Ba là, xây dựng đội ngũ cán bộ, công chức trong sạch, có năng lực."
+        },
+        {
+          "gemini_level": 3,
+          "gemini_type": "section",
+          "pdf_page": 159,
+          "reason": "no_deterministic_heading_on_anchor",
+          "source_block_ids": [
+            "ocr-line-block_456a3f43d8e11e6d6638",
+            "ocr-line-block_32ecfbab00370cdb436a"
+          ],
+          "text": "Bốn là, đấu tranh phòng, chống tham nhũng, lãng phí, thực hành tiết kiệm."
+        },
+        {
+          "gemini_level": 3,
+          "gemini_type": "section",
+          "pdf_page": 159,
+          "reason": "no_deterministic_heading_on_anchor",
+          "source_block_ids": [
+            "ocr-line-block_c0c5bcc08bb104cc6183"
+          ],
+          "text": "1. Khái niệm, bản chất của nền dân chủ xã hội chủ nghĩa?"
+        },
+        {
+          "gemini_level": 3,
+          "gemini_type": "section",
+          "pdf_page": 159,
+          "reason": "no_deterministic_heading_on_anchor",
+          "source_block_ids": [
+            "ocr-line-block_5e62500c992b09c0370d"
+          ],
+          "text": "2. Bắn chất và chức năng của nhà nước xã hội chủ nghĩa?"
+        },
+        {
+          "deterministic_levels": [
+            2
+          ],
+          "gemini_level": 3,
+          "gemini_type": "section",
+          "pdf_page": 235,
+          "reason": "hierarchy_level_mismatch",
+          "source_block_ids": [
+            "ocr-line-block_f00dc40a3d2a38e84727",
+            "ocr-line-block_7cacd702cdcc1ab87b16"
+          ],
+          "text": "I- KHÁI NIỆM, VỊ TRÍ VÀ CHỨC NĂNG CỦA GIA ĐÌNH"
+        }
+      ],
+      "gemini_alignment": {
+        "anchor_match_rate": 0.75,
+        "exact_level_rate": 0.7083,
+        "gemini_heading_count": 24,
+        "level_match": 17,
+        "level_mismatch": 1,
+        "unmatched": 6
+      },
+      "v1": {
+        "chaptered_children": 329,
+        "children": 334,
+        "covered_page_count": 269,
+        "covered_page_max": 268,
+        "covered_page_min": 0,
+        "heading_levels": {
+          "1": 7,
+          "2": 40,
+          "4": 73,
+          "5": 2
+        },
+        "headings": 122,
+        "parents": 137,
+        "unassigned_children": 5
+      },
+      "v2": {
+        "chaptered_children": 376,
+        "children": 381,
+        "covered_page_count": 266,
+        "covered_page_max": 265,
+        "covered_page_min": 0,
+        "heading_levels": {
+          "1": 7,
+          "2": 52,
+          "3": 154,
+          "4": 70
+        },
+        "headings": 283,
+        "parents": 226,
+        "unassigned_children": 5
+      }
+    },
+    "VNR202": {
+      "disagreements": [
+        {
+          "gemini_level": 4,
+          "gemini_type": "subsection",
+          "pdf_page": 15,
+          "reason": "no_deterministic_heading_on_anchor",
+          "source_block_ids": [
+            "ocr-line-block_57314b65716e34baa5b5"
+          ],
+          "text": "Phương pháp lịch sử"
+        }
+      ],
+      "gemini_alignment": {
+        "anchor_match_rate": 0.9375,
+        "exact_level_rate": 0.9375,
+        "gemini_heading_count": 16,
+        "level_match": 15,
+        "level_mismatch": 0,
+        "unmatched": 1
+      },
+      "v1": {
+        "chaptered_children": 455,
+        "children": 459,
+        "covered_page_count": 198,
+        "covered_page_max": 214,
+        "covered_page_min": 0,
+        "heading_levels": {
+          "1": 3,
+          "2": 6,
+          "3": 19
+        },
+        "headings": 28,
+        "parents": 106,
+        "unassigned_children": 4
+      },
+      "v2": {
+        "chaptered_children": 522,
+        "children": 526,
+        "covered_page_count": 224,
+        "covered_page_max": 228,
+        "covered_page_min": 0,
+        "heading_levels": {
+          "1": 4,
+          "2": 10,
+          "3": 55
+        },
+        "headings": 69,
+        "parents": 139,
+        "unassigned_children": 4
+      }
+    }
+  }
+}

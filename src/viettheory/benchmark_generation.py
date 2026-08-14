@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import re
 import unicodedata
-from collections.abc import Iterable
+from collections import Counter
+from collections.abc import Iterable, Mapping
 from pathlib import Path
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
@@ -17,6 +18,7 @@ from viettheory.benchmark import (
     QuestionType,
     ReasoningScope,
 )
+from viettheory.natural_benchmark import BenchmarkCategory, NegativeType
 from viettheory.schema import Chunk
 
 
@@ -73,6 +75,7 @@ class BenchmarkCandidate(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     question: str = Field(min_length=8)
+    primary_category: BenchmarkCategory
     answerability: Answerability
     unanswerable_reason: str | None = None
     expected_behavior: ExpectedBehavior
@@ -84,6 +87,7 @@ class BenchmarkCandidate(BaseModel):
     required_concepts: tuple[str, ...] = ()
     forbidden_claims: tuple[str, ...] = ()
     evidence_groups: tuple[CandidateEvidenceGroup, ...] = ()
+    negative_type: NegativeType | None = None
 
     @model_validator(mode="after")
     def validate_candidate(self) -> BenchmarkCandidate:
@@ -92,8 +96,12 @@ class BenchmarkCandidate(BaseModel):
                 raise ValueError("answerable candidates require an answer and evidence")
             if self.expected_behavior is not ExpectedBehavior.ANSWER:
                 raise ValueError("answerable candidates must expect an answer")
+            if self.primary_category is BenchmarkCategory.NEGATIVE or self.negative_type:
+                raise ValueError("answerable candidates cannot be negative")
         elif not self.unanswerable_reason:
             raise ValueError("unanswerable candidates require a reason")
+        elif self.primary_category is not BenchmarkCategory.NEGATIVE or not self.negative_type:
+            raise ValueError("unanswerable candidates require negative category and type")
         return self
 
 
@@ -137,3 +145,21 @@ def deduplicate_candidates(
             seen.add(key)
             unique.append(candidate)
     return tuple(unique)
+
+
+def quota_category_plan(
+    existing: Iterable[BenchmarkCandidate],
+    targets: Mapping[BenchmarkCategory, int],
+) -> tuple[BenchmarkCategory, ...]:
+    """Build a deterministic, interleaved plan for the remaining category quota."""
+    counts = Counter(candidate.primary_category for candidate in existing)
+    remaining = {
+        category: max(0, target - counts[category]) for category, target in targets.items()
+    }
+    plan: list[BenchmarkCategory] = []
+    while any(remaining.values()):
+        for category in targets:
+            if remaining[category] > 0:
+                plan.append(category)
+                remaining[category] -= 1
+    return tuple(plan)

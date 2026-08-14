@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "wrong_aspect_parent_overrides": {
+    "es_mln131_0035_wrongaspect": "parent_3f6081edba00468ad78c"
+  },
+  "reason": "The original parent partially supported class composition. The replacement is a topically matched review-question passage that states no answer proposition.",
+  "status": "pending_human_recheck"
+}

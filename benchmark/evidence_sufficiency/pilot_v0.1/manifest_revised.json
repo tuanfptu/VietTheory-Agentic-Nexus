@@ -1,0 +1,32 @@
+{
+  "adjudication_overrides": {
+    "es_mln131_0035_wrongaspect": "parent_3f6081edba00468ad78c"
+  },
+  "benchmark_version": "mln_evidence_sufficiency_pilot_v0.1",
+  "case_count": 48,
+  "contradiction_status": "exploratory; no synthetic negation cases generated",
+  "labels": {
+    "contradicted": 0,
+    "missing": 12,
+    "partial": 12,
+    "sufficient": 12,
+    "wrong_aspect": 12
+  },
+  "output_sha256": "cc1a43836a14cf0975677a4cc6153595bd5f6e54895d4076cb27131823523b15",
+  "review_status": "draft_pending_human_audit",
+  "source_question_count": 12,
+  "source_question_ids": [
+    "hcm202_0037",
+    "hcm202_0057",
+    "hcm202_0081",
+    "mln111_0031",
+    "mln111_0049",
+    "mln122_0005",
+    "mln122_0009",
+    "mln122_0044",
+    "mln131_0010",
+    "mln131_0028",
+    "mln131_0035",
+    "vnr202_0005"
+  ]
+}

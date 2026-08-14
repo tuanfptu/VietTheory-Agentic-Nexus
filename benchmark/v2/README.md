@@ -67,3 +67,22 @@ not automatically invalidate otherwise well-formed records.
 
 Split policy must group semantic families and shared evidence parents. Random splitting by question
 ID is prohibited.
+
+## Human review import (2026-08-14)
+
+Import the 500-row human review without promoting revised or rejected records:
+
+```powershell
+python scripts/import_natural_qa_v2_review.py `
+  benchmark/v2/review/natural_qa_v2_500_draft.jsonl `
+  benchmark/v2/reviews/human_2026-08-14/natural_qa_v2_500_verified.csv `
+  benchmark/v2/review/natural_qa_v2_500_reviewed.jsonl `
+  --manifest benchmark/v2/reviews/human_2026-08-14/review_manifest.json `
+  --verified-output benchmark/v2/review/natural_qa_v2_452_verified.jsonl `
+  --needs-action-output benchmark/v2/review/natural_qa_v2_48_needs_action.jsonl
+```
+
+This review contains 452 approved, 26 revise, and 22 rejected records. Only approved records are
+promoted to `verified`. Revised records remain `draft`; rejected records remain in the audit trail
+but are excluded from a Gold release. Corrected and replacement records require a new human check
+because their content hashes differ from the reviewed drafts.

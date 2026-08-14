@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "candidate_version": "0.1.0",
+  "b0": {
+    "configuration_frozen": true,
+    "benchmark": "Natural QA v2 development",
+    "hidden_accessed": false
+  },
+  "evidence_judge": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "j1-dev-2026-08-14",
+    "development_cases": 32,
+    "held_out_cases": 16,
+    "held_out_accessed": false
+  },
+  "recovery": {
+    "max_rounds": 2,
+    "max_queries_per_round": 2,
+    "activation_labels": ["partial", "missing"],
+    "contradiction_policy": "stop_and_abstain"
+  },
+  "graph": {
+    "max_hops": 2,
+    "provenance_required": true,
+    "default_enabled": false
+  },
+  "memory": {
+    "account_isolation_required": true,
+    "eligible_as_textbook_evidence": false,
+    "default_enabled": false
+  },
+  "controller": {
+    "max_tool_calls": 4,
+    "typed_results": true,
+    "default_enabled": false
+  },
+  "coordination": {
+    "baseline": "single_controller",
+    "candidate": "role_separated",
+    "default_enabled": false
+  }
+}

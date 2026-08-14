@@ -9,6 +9,7 @@ from viettheory.benchmark import (
     ExpectedBehavior,
     GenerationMetadata,
     GoldEvidenceGroup,
+    QuestionType,
     ReasoningScope,
     ReviewStatus,
 )
@@ -28,6 +29,7 @@ def _record(**overrides: object) -> NaturalQuestionV2:
         "subject_code": "MLN111",
         "chapter_labels": ("Chương 1",),
         "question": "Khái niệm được định nghĩa như thế nào?",
+        "question_types": (QuestionType.DEFINITION,),
         "primary_category": BenchmarkCategory.DIRECT,
         "difficulty": Difficulty.EASY,
         "reasoning_scope": ReasoningScope.SINGLE_CHUNK,

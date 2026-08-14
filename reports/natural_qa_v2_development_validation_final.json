@@ -1,0 +1,310 @@
+{
+  "distribution": {
+    "answerability": {
+      "answerable": 331,
+      "detail_not_stated": 2,
+      "false_premise": 9,
+      "insufficient_evidence": 1,
+      "out_of_scope": 6,
+      "wrong_subject": 1
+    },
+    "category": {
+      "comparison_relationship": 54,
+      "direct": 96,
+      "explanation": 78,
+      "multi_chunk": 51,
+      "multi_hop_cross_chapter": 17,
+      "negative": 19,
+      "synthesis": 35
+    },
+    "difficulty": {
+      "easy": 94,
+      "hard": 90,
+      "medium": 166
+    },
+    "review_status": {
+      "verified": 350
+    },
+    "subject": {
+      "HCM202": 70,
+      "MLN111": 70,
+      "MLN122": 70,
+      "MLN131": 70,
+      "VNR202": 70
+    }
+  },
+  "issues": [
+    "MLN111 exceeds pilot batch size",
+    "MLN111 exceeds direct quota",
+    "MLN111 exceeds explanation quota",
+    "MLN111 exceeds multi_chunk quota",
+    "MLN111 exceeds synthesis quota",
+    "MLN111 exceeds comparison_relationship quota",
+    "MLN122 exceeds pilot batch size",
+    "MLN122 exceeds direct quota",
+    "MLN122 exceeds explanation quota",
+    "MLN122 exceeds comparison_relationship quota",
+    "MLN122 exceeds multi_chunk quota",
+    "MLN122 exceeds synthesis quota",
+    "MLN122 exceeds multi_hop_cross_chapter quota",
+    "MLN131 exceeds pilot batch size",
+    "MLN131 exceeds direct quota",
+    "MLN131 exceeds explanation quota",
+    "MLN131 exceeds comparison_relationship quota",
+    "MLN131 exceeds multi_chunk quota",
+    "MLN131 exceeds synthesis quota",
+    "MLN131 exceeds multi_hop_cross_chapter quota",
+    "HCM202 exceeds pilot batch size",
+    "HCM202 exceeds direct quota",
+    "HCM202 exceeds explanation quota",
+    "HCM202 exceeds comparison_relationship quota",
+    "HCM202 exceeds multi_chunk quota",
+    "HCM202 exceeds synthesis quota",
+    "VNR202 exceeds pilot batch size",
+    "VNR202 exceeds direct quota",
+    "VNR202 exceeds explanation quota",
+    "VNR202 exceeds comparison_relationship quota",
+    "VNR202 exceeds multi_chunk quota",
+    "VNR202 exceeds synthesis quota"
+  ],
+  "subject_coverage": {
+    "HCM202": {
+      "batch_target": 50,
+      "category": {
+        "comparison_relationship": {
+          "current": 11,
+          "target": 8
+        },
+        "direct": {
+          "current": 19,
+          "target": 13
+        },
+        "explanation": {
+          "current": 15,
+          "target": 10
+        },
+        "multi_chunk": {
+          "current": 11,
+          "target": 7
+        },
+        "multi_hop_cross_chapter": {
+          "current": 3,
+          "target": 3
+        },
+        "negative": {
+          "current": 4,
+          "target": 4
+        },
+        "synthesis": {
+          "current": 7,
+          "target": 5
+        }
+      },
+      "chapter": {
+        "Chương 1": 7,
+        "Chương 2 :: CƠ SỞ, QUÁ TRÌNH HÌNH THÀNH": 14,
+        "Chương 3: TƯ TƯỞNG HỒ CHÍ MINH VỀ ĐỘC LẬP": 16,
+        "Chương 4: TƯ TƯỞNG HỒ CHÍ MINH": 17,
+        "Chương 5: TƯ TƯỞNG HỒ CHÍ MINH": 14,
+        "Chương 6": 14
+      },
+      "difficulty": {
+        "easy": 19,
+        "hard": 16,
+        "medium": 35
+      },
+      "total": 70
+    },
+    "MLN111": {
+      "batch_target": 50,
+      "category": {
+        "comparison_relationship": {
+          "current": 11,
+          "target": 8
+        },
+        "direct": {
+          "current": 20,
+          "target": 13
+        },
+        "explanation": {
+          "current": 15,
+          "target": 10
+        },
+        "multi_chunk": {
+          "current": 10,
+          "target": 7
+        },
+        "multi_hop_cross_chapter": {
+          "current": 3,
+          "target": 3
+        },
+        "negative": {
+          "current": 4,
+          "target": 4
+        },
+        "synthesis": {
+          "current": 7,
+          "target": 5
+        }
+      },
+      "chapter": {
+        "Chương 1: KHÁI LUẬN VỀ TRIẾT HỌC VÀ TRIẾT HỌC MÁC - LÊNIN": 19,
+        "Chương 2: CHỦ NGHĨA DUY VẬT BIỆN CHỨNG": 21,
+        "Chương 3: CHỦ NGHĨA DUY VẬT LỊCH SỬ": 31
+      },
+      "difficulty": {
+        "easy": 18,
+        "hard": 20,
+        "medium": 32
+      },
+      "total": 70
+    },
+    "MLN122": {
+      "batch_target": 50,
+      "category": {
+        "comparison_relationship": {
+          "current": 10,
+          "target": 8
+        },
+        "direct": {
+          "current": 20,
+          "target": 13
+        },
+        "explanation": {
+          "current": 15,
+          "target": 10
+        },
+        "multi_chunk": {
+          "current": 10,
+          "target": 7
+        },
+        "multi_hop_cross_chapter": {
+          "current": 4,
+          "target": 3
+        },
+        "negative": {
+          "current": 4,
+          "target": 4
+        },
+        "synthesis": {
+          "current": 7,
+          "target": 5
+        }
+      },
+      "chapter": {
+        "Chương 1: ĐỐI TƯỢNG, PHƯƠNG PHÁP NGHIÊN CỨU VÀ CHỨC NĂNG CỦA KINH TẾ CHÍNH TRỊ MÁC -": 19,
+        "Chương 2 HÀNG HÓA, THỊ TRƯỜNG VÀ VAI TRÒ CỦA CÁC CHỦ THỂ THAM GIA THỊ TRƯỜNG": 15,
+        "Chương 3: GIÁ TRỊ THẶNG DƯ TRONG NỀN KINH TẾ THỊ TRƯỜNG": 13,
+        "Chương 4 CẠNH TRANH VÀ ĐỘC QUYỀN TRONG NỀN KINH TẾ THỊ TRƯỜNG": 5,
+        "Chương 5: KINH TẾ THỊ TRƯỜNG ĐỊNH HƯỚNG XÃ HỘI CHỦ NGHĨA VÀ CÁC QUAN HỆ LỢI ÍCH KINH TẾ": 8,
+        "Chương 6: CÔNG NGHIỆP HÓA, HIỆN ĐẠI HÓA": 17
+      },
+      "difficulty": {
+        "easy": 21,
+        "hard": 20,
+        "medium": 29
+      },
+      "total": 70
+    },
+    "MLN131": {
+      "batch_target": 50,
+      "category": {
+        "comparison_relationship": {
+          "current": 11,
+          "target": 8
+        },
+        "direct": {
+          "current": 18,
+          "target": 13
+        },
+        "explanation": {
+          "current": 15,
+          "target": 10
+        },
+        "multi_chunk": {
+          "current": 10,
+          "target": 7
+        },
+        "multi_hop_cross_chapter": {
+          "current": 4,
+          "target": 3
+        },
+        "negative": {
+          "current": 4,
+          "target": 4
+        },
+        "synthesis": {
+          "current": 8,
+          "target": 5
+        }
+      },
+      "chapter": {
+        "Chương 1: NHẬP MÔN CHỦ NGHĨA XÃ HỘI KHOA HỌC": 22,
+        "Chương 2: SỨ MỆNH LỊCH SỬ": 9,
+        "Chương 3: CHỦ NGHĨA XÃ HỘI": 8,
+        "Chương 4: DÂN CHỦ XÃ HỘI CHỦ NGHĨA": 15,
+        "Chương 5: CƠ CẤU XÃ HỘI - GIAI CẤP VÀ LIÊN MINH": 8,
+        "Chương 6: VẤN ĐỀ DÂN TỘC VÀ TÔN GIÁO": 8,
+        "Chương 7: VẤN ĐỀ GIA ĐÌNH TRONG THỜI KỲ": 12
+      },
+      "difficulty": {
+        "easy": 18,
+        "hard": 18,
+        "medium": 34
+      },
+      "total": 70
+    },
+    "VNR202": {
+      "batch_target": 50,
+      "category": {
+        "comparison_relationship": {
+          "current": 11,
+          "target": 8
+        },
+        "direct": {
+          "current": 19,
+          "target": 13
+        },
+        "explanation": {
+          "current": 18,
+          "target": 10
+        },
+        "multi_chunk": {
+          "current": 10,
+          "target": 7
+        },
+        "multi_hop_cross_chapter": {
+          "current": 3,
+          "target": 3
+        },
+        "negative": {
+          "current": 3,
+          "target": 4
+        },
+        "synthesis": {
+          "current": 6,
+          "target": 5
+        }
+      },
+      "chapter": {
+        "Chương 1: ĐẢNG CỘNG SẢN VIỆT NAM RA ĐỜI VÀ LÃNH ĐẠO": 24,
+        "Chương 2: ĐẢNG LÃNH ĐẠO HAI CUỘC KHÁNG CHIẾN,": 30,
+        "Chương 3: ĐẢNG LÃNH ĐẠO CẢ NƯỚC QUÁ ĐỘ LÊN": 22
+      },
+      "difficulty": {
+        "easy": 18,
+        "hard": 16,
+        "medium": 36
+      },
+      "total": 70
+    }
+  },
+  "valid": false,
+  "warnings": [
+    "MLN111 section overrepresented: 1. Vật chất và phương thức tồn tại của vật chất (21 records)",
+    "MLN131 section overrepresented: B. NỘI DỤNG (34 records)",
+    "VNR202 section overrepresented: 1. Xây dựng và bảo vệ chính quyền cách mạng 1945-1946 (22 records)",
+    "mln122_0064 high question/answer lexical overlap: 0.76",
+    "vnr202_0060 high question/answer lexical overlap: 0.80"
+  ]
+}

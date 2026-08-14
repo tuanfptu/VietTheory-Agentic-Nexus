@@ -1,4 +1,4 @@
-"""ChatGPT-style Streamlit client for the MLN111 assistant."""
+"""ChatGPT-style Streamlit client for the five-subject VietTheory assistant."""
 
 from __future__ import annotations
 
@@ -13,23 +13,62 @@ import streamlit as st
 
 ASSET_DIR = Path(__file__).with_name("assets")
 CREATOR_LINE = "Trợ lí được tạo bởi Tuân, một gymer thích học Triết."
+SUBJECTS = {
+    "MLN111": "Triết học Mác - Lênin",
+    "MLN122": "Kinh tế Chính trị Mác - Lênin",
+    "MLN131": "Chủ nghĩa Xã hội Khoa học",
+    "HCM202": "Tư tưởng Hồ Chí Minh",
+    "VNR202": "Lịch sử Đảng Cộng sản Việt Nam",
+}
+SUGGESTIONS = {
+    "MLN111": (
+        "Vật chất theo định nghĩa của V.I. Lênin là gì?",
+        "Nguồn gốc của ý thức gồm những yếu tố nào?",
+        "Phân tích mối quan hệ giữa vật chất và ý thức.",
+        "Thực tiễn có vai trò gì đối với nhận thức?",
+    ),
+    "MLN122": (
+        "Hàng hóa có hai thuộc tính cơ bản nào?",
+        "Giá trị thặng dư được tạo ra như thế nào?",
+        "Kinh tế thị trường định hướng xã hội chủ nghĩa có đặc trưng gì?",
+        "Phân biệt tư bản bất biến và tư bản khả biến.",
+    ),
+    "MLN131": (
+        "Sứ mệnh lịch sử của giai cấp công nhân là gì?",
+        "Thời kỳ quá độ lên chủ nghĩa xã hội có đặc điểm gì?",
+        "Cơ cấu xã hội - giai cấp ở Việt Nam biến đổi như thế nào?",
+        "Phân biệt dân tộc quốc gia và dân tộc tộc người.",
+    ),
+    "HCM202": (
+        "Nguồn gốc hình thành tư tưởng Hồ Chí Minh là gì?",
+        "Hồ Chí Minh quan niệm thế nào về đại đoàn kết dân tộc?",
+        "Tư tưởng độc lập dân tộc gắn với chủ nghĩa xã hội được thể hiện ra sao?",
+        "Vì sao Đảng phải thường xuyên tự chỉnh đốn?",
+    ),
+    "VNR202": (
+        "Đảng Cộng sản Việt Nam ra đời trong hoàn cảnh nào?",
+        "Ý nghĩa lịch sử của Cách mạng Tháng Tám năm 1945 là gì?",
+        "Đường lối đổi mới được hình thành như thế nào?",
+        "Tóm tắt ba giai đoạn lớn trong lịch sử Đảng.",
+    ),
+}
 
 
 def _render_login_hero() -> None:
     """Introduce the product with a compact, playful proof point."""
-    st.title("📚 MLN111 Assistant")
-    st.markdown(
-        '### Muốn học MLN111 đỡ "triết lý" và dễ hiểu hơn? '
-        "Thử ngay trợ lí Triết học Mác-Lênin này nhé."
-    )
-    image_column, text_column = st.columns((1, 1.5), vertical_alignment="center")
-    image_column.image(
+    st.title("🧠 VietTheory Agentic Nexus")
+    st.markdown("### Hỏi đáp có dẫn nguồn từ 5 giáo trình chính trị tại Đại học FPT")
+    left, right = st.columns(2, vertical_alignment="center")
+    left.image(
         str(ASSET_DIR / "academic-result-mln111.png"),
         use_container_width=True,
     )
-    with text_column:
-        st.markdown("**Tác giả đã thử trước và kết quả cũng khá có sức thuyết phục :))**")
-        st.caption(CREATOR_LINE)
+    right.image(
+        str(ASSET_DIR / "academic-results-other-subjects.png"),
+        use_container_width=True,
+    )
+    st.markdown("**Tác giả đã học thử trước, kết quả cũng khá có sức thuyết phục :))**")
+    st.caption("Trợ lý được tạo bởi Tuân, một gymer thích học Triết và lý luận chính trị.")
 
 
 def _render_creator_details() -> None:
@@ -66,10 +105,10 @@ def _request_json(
         except (json.JSONDecodeError, UnicodeDecodeError):
             detail = None
         raise RuntimeError(
-            _friendly_error(detail) or f"MLN111 Assistant API trả lỗi HTTP {exc.code}"
+            _friendly_error(detail) or f"VietTheory API trả lỗi HTTP {exc.code}"
         ) from exc
     except (urllib.error.URLError, json.JSONDecodeError) as exc:
-        raise RuntimeError("Không kết nối được MLN111 Assistant API") from exc
+        raise RuntimeError("Không kết nối được VietTheory API") from exc
 
 
 def _friendly_error(detail: Any) -> str | None:
@@ -117,8 +156,10 @@ def _render_sources(answer: dict[str, Any]) -> None:
     for index, citation in enumerate(citations.values(), start=1):
         span = citation["source_span"]
         printed = span.get("printed_page") or "—"
+        page_id = str(span.get("page_id", "")).upper()
+        subject_code = next((code for code in SUBJECTS if code in page_id), "VietTheory")
         label = (
-            f"[{index}] MLN111 · PDF trang {span['pdf_page'] + 1} "
+            f"[{index}] {subject_code} · PDF trang {span['pdf_page'] + 1} "
             f"· trang in {printed} · Bấm để xem đoạn nguồn"
         )
         with st.expander(label):
@@ -167,7 +208,11 @@ def _apply_style() -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="MLN111 Assistant", page_icon="📚", layout="wide")
+    st.set_page_config(
+        page_title="VietTheory Agentic Nexus · 5 môn Chính trị FPT",
+        page_icon="🧠",
+        layout="wide",
+    )
     _apply_style()
     api_base = _api_base()
 
@@ -203,7 +248,6 @@ def main() -> None:
         return
 
     token = st.session_state.access_token
-
     try:
         conversations: list[dict[str, Any]] = _request_json(
             f"{api_base}/conversations", token=token
@@ -214,7 +258,7 @@ def main() -> None:
         return
 
     with st.sidebar:
-        st.markdown("## 📚 MLN111")
+        st.markdown("## 🧠 Agentic Nexus")
         st.caption(f"Đang đăng nhập: {st.session_state.username}")
         if st.button("Đăng xuất", use_container_width=True):
             try:
@@ -223,7 +267,7 @@ def main() -> None:
                 pass
             st.session_state.clear()
             st.rerun()
-        st.caption("Trợ lý Triết học Mác-Lênin")
+        st.caption("Trợ lý 5 môn lý luận chính trị tại Đại học FPT")
         if st.button("+ Cuộc trò chuyện mới", use_container_width=True, type="primary"):
             st.session_state.conversation_id = _new_conversation(api_base, token)
             st.rerun()
@@ -239,7 +283,7 @@ def main() -> None:
                 st.session_state.conversation_id = conversation["conversation_id"]
                 st.rerun()
         st.divider()
-        st.caption("Qwen GPU retrieval · Gemini generation · Citation theo PDF")
+        st.caption("Agentic RAG · Qwen GPU · Gemini · Dẫn nguồn theo PDF")
         with st.expander("Một chút về tác giả"):
             _render_creator_details()
 
@@ -258,15 +302,16 @@ def main() -> None:
     if not messages:
         st.title("Hôm nay bạn muốn học gì?")
         st.caption(
-            "Hỏi về giáo trình MLN111. Bạn có thể hỏi tiếp bằng 'ý đó', 'vì sao' "
+            "Hệ thống tự tìm trong 5 giáo trình chính trị FPT. "
+            "Bạn có thể hỏi tiếp bằng 'ý đó', 'vì sao' "
             "hoặc 'so sánh thêm' - hệ thống sẽ dùng ngữ cảnh cuộc trò chuyện."
         )
         cols = st.columns(2)
         suggestions = (
-            "Vật chất theo định nghĩa của Lênin là gì?",
-            "Thực tiễn có vai trò gì đối với nhận thức?",
-            "Phân biệt duy vật biện chứng và duy vật siêu hình.",
-            "Nguồn gốc của ý thức gồm những yếu tố nào?",
+            SUGGESTIONS["MLN111"][0],
+            SUGGESTIONS["MLN122"][2],
+            SUGGESTIONS["HCM202"][1],
+            SUGGESTIONS["VNR202"][3],
         )
         for index, suggestion in enumerate(suggestions):
             if cols[index % 2].button(
@@ -278,7 +323,7 @@ def main() -> None:
         for message in messages:
             _render_message(message)
 
-    question = st.chat_input("Nhắn tin cho trợ lý MLN111…")
+    question = st.chat_input("Nhắn tin cho trợ lý 5 môn Chính trị FPT…")
     question = question or st.session_state.pop("pending_question", None)
     if question:
         with st.chat_message("user"):

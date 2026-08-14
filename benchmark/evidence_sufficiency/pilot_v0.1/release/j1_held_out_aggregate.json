@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "benchmark_version": "mln_evidence_sufficiency_pilot_v0.1",
+  "split": "held_out_test",
+  "one_shot_after_j1_freeze": true,
+  "judge": "J1_gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "evidence_judge_v1",
+  "case_count": 16,
+  "gold_labels_not_sent_to_model": true,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "f1_by_label": {
+    "sufficient": 1.0,
+    "partial": 1.0,
+    "missing": 1.0,
+    "wrong_aspect": 1.0,
+    "contradicted": 0.0
+  },
+  "confusion": {
+    "sufficient": {
+      "sufficient": 4,
+      "partial": 0,
+      "missing": 0,
+      "wrong_aspect": 0,
+      "contradicted": 0
+    },
+    "partial": {
+      "sufficient": 0,
+      "partial": 4,
+      "missing": 0,
+      "wrong_aspect": 0,
+      "contradicted": 0
+    },
+    "missing": {
+      "sufficient": 0,
+      "partial": 0,
+      "missing": 4,
+      "wrong_aspect": 0,
+      "contradicted": 0
+    },
+    "wrong_aspect": {
+      "sufficient": 0,
+      "partial": 0,
+      "missing": 0,
+      "wrong_aspect": 4,
+      "contradicted": 0
+    },
+    "contradicted": {
+      "sufficient": 0,
+      "partial": 0,
+      "missing": 0,
+      "wrong_aspect": 0,
+      "contradicted": 0
+    }
+  },
+  "predicted_distribution": {
+    "missing": 4,
+    "partial": 4,
+    "sufficient": 4,
+    "wrong_aspect": 4
+  },
+  "per_case_data_public": false,
+  "private_artifact_checksums": {
+    "cases_sha256": "ee31f28418d18bb0eeee3b79b1483566d78b03544a33bbf2be1d9b98547eedfb",
+    "checkpoint_sha256": "223bd8f5e32e5d443065386cdbd79346c5d54f9337d53c31c19d72dfb70a4dd1",
+    "report_sha256": "8f4bb866e05d2f13bb82b26fce1f980c80db67f832611b1858851cc50a5e6bfa"
+  }
+}

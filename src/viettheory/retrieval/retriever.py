@@ -124,3 +124,50 @@ class DenseRetriever:
             )
             if vector_id >= 0
         )
+
+
+class DenseFanoutRetriever:
+    """Encode once, search multiple compatible subject indexes, then merge by cosine score."""
+
+    def __init__(self, retrievers: tuple[DenseRetriever, ...], embedder: QueryEmbedder) -> None:
+        if not retrievers:
+            raise ValueError("dense fanout requires at least one retriever")
+        identities = {retriever.model_identity for retriever in retrievers}
+        dimensions = {retriever.dimension for retriever in retrievers}
+        if len(identities) != 1 or len(dimensions) != 1:
+            raise ValueError("fanout indexes must share model identity and dimension")
+        if (embedder.model_id, embedder.model_revision) not in identities:
+            raise ValueError("fanout embedder does not match indexes")
+        self._retrievers = retrievers
+        self._embedder = embedder
+        self._dimension = next(iter(dimensions))
+
+    def search(
+        self,
+        query: str,
+        *,
+        top_k: int = 5,
+        subject_codes: frozenset[str] | None = None,
+    ) -> tuple[RetrievedEvidence, ...]:
+        if not query.strip():
+            raise ValueError("query must not be blank")
+        if top_k <= 0:
+            raise ValueError("top_k must be positive")
+        vector = np.asarray(
+            self._embedder.encode_queries([query], batch_size=1),
+            dtype=np.float32,
+            order="C",
+        )
+        if vector.shape != (1, self._dimension):
+            raise ValueError("query embedder returned an invalid shape")
+        candidates = [
+            item
+            for retriever in self._retrievers
+            if subject_codes is None or retriever.subject_code in subject_codes
+            for item in retriever.search_vector(vector, top_k=top_k)
+        ]
+        candidates.sort(key=lambda item: (-item.score, item.chunk.chunk_id))
+        return tuple(
+            item.model_copy(update={"rank": rank, "evidence_id": f"dense_global_{rank}"})
+            for rank, item in enumerate(candidates[:top_k], start=1)
+        )

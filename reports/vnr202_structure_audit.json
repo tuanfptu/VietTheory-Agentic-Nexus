@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "subject": "VNR202",
+  "source_pages_sha256": "7d9801f5ea69f37d8f79b4617ff8869da23dbf7587214311492a2b6c06f19a63",
+  "audit_method": "stratified_visual_and_ocr_text_review",
+  "sample_size": 25,
+  "sampled_pdf_pages_zero_based": [
+    6, 8, 11, 14, 21, 27, 37, 38, 45, 49, 63, 67, 68, 77, 84, 92, 94, 107,
+    123, 124, 136, 151, 180, 210, 225
+  ],
+  "sample_categories": {
+    "front_matter_and_contents": [6, 8, 11, 14],
+    "chapter_transitions": [21, 68, 124],
+    "heading_heavy": [27, 37, 38, 45, 49, 63, 77, 84, 92, 94, 107, 136, 225],
+    "review_or_transition_controls": [67, 123],
+    "normal_controls": [151, 180, 210]
+  },
+  "verdict": "confirmed_structure_under_segmentation",
+  "root_causes": [
+    "OCR line blocks do not preserve reliable font bold flags",
+    "Roman-numbered headings were accepted only when fully uppercase",
+    "Numbered headings required a bold flag",
+    "OCR footnotes beginning with an asterisk were misclassified as headings",
+    "Some OCR headings contain scoped prefix errors such as 'I ' or '1J.'"
+  ],
+  "before": {
+    "headings": 7,
+    "chapters": 3,
+    "parents": 100,
+    "children": 490,
+    "vectors": 490,
+    "headings_sha256": "76f4fd36d92fdc929794c6888d4cefe57a78dc45ef62731b3de03ea7f6494350",
+    "parents_sha256": "7f5441632c1d2abcba180e2093ffd6d422f9dfd9a4d40d2902ce0b816060bd87",
+    "children_sha256": "b9a6eeeb11a22efafc439006f9db38981977f5453671c244cedb729f2cac42c0"
+  },
+  "after": {
+    "headings": 28,
+    "heading_levels": {"chapter": 3, "division": 6, "section": 19},
+    "chapters": 3,
+    "parents": 106,
+    "children": 459,
+    "vectors": 459,
+    "headings_sha256": "844ef8de7f57e987fdb56c90a19caa4e8e7641236592520e2ea92d93569c35d7",
+    "parents_sha256": "9ae04bcfcd202378c83e2e617e8e99579672a22057390fc0485bcc0b0a794698",
+    "children_sha256": "e4897ab5dfc52227c0600fe7f2cee9d7455c85cd5560532aa168dd3d6b342291",
+    "index_sha256": "2450233960a028cc3fdfe27204fbf1a7d9f6048c25271b8ad3b066b566fb751b",
+    "mapping_sha256": "42cf41252a74945b571100f545b6f7b1e44521fc22af6484489bdb776cc5724b"
+  },
+  "implementation_scope": "general_structure_pipeline",
+  "vnr202_heading_allowlist_used": false,
+  "review_sections_excluded": true,
+  "readiness_passed": true
+}

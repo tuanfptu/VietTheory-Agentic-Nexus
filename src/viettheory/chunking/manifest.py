@@ -30,6 +30,7 @@ class StructuredArtifactManifest(BaseModel):
     parents_sha256: Sha256
     children_sha256: Sha256
     config_sha256: Sha256
+    structure_overrides_sha256: Sha256 | None = None
 
 
 def sha256_file(path: Path) -> str:
@@ -53,6 +54,7 @@ def build_structured_manifest(
     source_pages: Path,
     output_dir: Path,
     config: StructuredChunkingConfig,
+    structure_overrides: Path | None = None,
 ) -> StructuredArtifactManifest:
     return StructuredArtifactManifest(
         chunking_version=config.version,
@@ -64,4 +66,7 @@ def build_structured_manifest(
         parents_sha256=sha256_file(output_dir / "parents.jsonl"),
         children_sha256=sha256_file(output_dir / "children.jsonl"),
         config_sha256=config_sha256(config),
+        structure_overrides_sha256=(
+            sha256_file(structure_overrides) if structure_overrides is not None else None
+        ),
     )

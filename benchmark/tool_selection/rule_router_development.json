@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "split": "development",
+  "baseline": "deterministic_rule_router_v1",
+  "case_count": 12,
+  "acceptable_tool_accuracy": 1.0,
+  "unnecessary_call_rate": 0.0,
+  "per_case": [
+    {
+      "case_id": "tool_001",
+      "question": "Vật chất theo V.I. Lênin là gì?",
+      "subject_code": "MLN111",
+      "acceptable_tools": [
+        "retrieve_subject"
+      ],
+      "predicted": "retrieve_subject",
+      "correct": true
+    },
+    {
+      "case_id": "tool_002",
+      "question": "Nguồn gốc của ý thức là gì?",
+      "subject_code": "MLN111",
+      "acceptable_tools": [
+        "retrieve_subject"
+      ],
+      "predicted": "retrieve_subject",
+      "correct": true
+    },
+    {
+      "case_id": "tool_003",
+      "question": "Mối quan hệ giữa vật chất và ý thức là gì?",
+      "subject_code": "MLN111",
+      "acceptable_tools": [
+        "graph_search",
+        "retrieve_subject"
+      ],
+      "predicted": "graph_search",
+      "correct": true
+    },
+    {
+      "case_id": "tool_004",
+      "question": "Quan hệ giữa lực lượng sản xuất và quan hệ sản xuất ra sao?",
+      "subject_code": "MLN111",
+      "acceptable_tools": [
+        "graph_search"
+      ],
+      "predicted": "graph_search",
+      "correct": true
+    },
+    {
+      "case_id": "tool_005",
+      "question": "Đoạn này nằm ở trang nào của PDF?",
+      "subject_code": "MLN111",
+      "acceptable_tools": [
+        "lookup_source_page"
+      ],
+      "predicted": "lookup_source_page",
+      "correct": true
+    },
+    {
+      "case_id": "tool_006",
+      "question": "Kiểm tra trích dẫn của câu trả lời vừa rồi.",
+      "subject_code": "MLN111",
+      "acceptable_tools": [
+        "inspect_citation"
+      ],
+      "predicted": "inspect_citation",
+      "correct": true
+    },
+    {
+      "case_id": "tool_007",
+      "question": "So sánh cách tiếp cận của MLN111 và MLN131 theo hướng liên môn.",
+      "subject_code": null,
+      "acceptable_tools": [
+        "retrieve_cross_subject"
+      ],
+      "predicted": "retrieve_cross_subject",
+      "correct": true
+    },
+    {
+      "case_id": "tool_008",
+      "question": "Tìm bằng chứng giữa các môn về vai trò của thực tiễn.",
+      "subject_code": null,
+      "acceptable_tools": [
+        "retrieve_cross_subject"
+      ],
+      "predicted": "retrieve_cross_subject",
+      "correct": true
+    },
+    {
+      "case_id": "tool_009",
+      "question": "Giá trị thặng dư là gì?",
+      "subject_code": "MLN122",
+      "acceptable_tools": [
+        "retrieve_subject"
+      ],
+      "predicted": "retrieve_subject",
+      "correct": true
+    },
+    {
+      "case_id": "tool_010",
+      "question": "Tư tưởng Hồ Chí Minh về đại đoàn kết là gì?",
+      "subject_code": "HCM202",
+      "acceptable_tools": [
+        "retrieve_subject"
+      ],
+      "predicted": "retrieve_subject",
+      "correct": true
+    },
+    {
+      "case_id": "tool_011",
+      "question": "Sự kiện nào dẫn đến chuyển hướng chỉ đạo chiến lược?",
+      "subject_code": "VNR202",
+      "acceptable_tools": [
+        "graph_search",
+        "retrieve_subject"
+      ],
+      "predicted": "graph_search",
+      "correct": true
+    },
+    {
+      "case_id": "tool_012",
+      "question": "Cho tôi xem nguồn PDF của nhận định này.",
+      "subject_code": "VNR202",
+      "acceptable_tools": [
+        "lookup_source_page"
+      ],
+      "predicted": "lookup_source_page",
+      "correct": true
+    }
+  ]
+}

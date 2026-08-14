@@ -16,6 +16,10 @@
   before freezing VNR202 parent boundaries.
 - Record any OCR correction as a new corpus artifact version.
 
+Status: completed. The 25-page audit confirmed OCR under-segmentation; the general detector was
+corrected and VNR202 was rebuilt with 28 headings. See
+[`reports/vnr202_structure_audit.md`](../reports/vnr202_structure_audit.md).
+
 ## Gate 2 — shared retrieval runtime
 
 - Replace MLN111 constants with the frozen subject registry.

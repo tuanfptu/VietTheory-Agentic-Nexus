@@ -27,5 +27,5 @@ def test_global_logical_corpus_preserves_subject_provenance() -> None:
     catalog = UnifiedCorpusCatalog(Path("."))
     chunks = catalog.load_children(SearchMode.GLOBAL)
 
-    assert len(chunks) == 2103
+    assert len(chunks) == 2072
     assert {chunk.subject_code for chunk in chunks} == set(catalog.subject_codes)

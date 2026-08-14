@@ -4,7 +4,7 @@ from viettheory.pipeline.evidence_gate import (
     calibrate_sufficient_threshold,
     decide_evidence,
 )
-from viettheory.pipeline.pre_router import QuestionType, route_question
+from viettheory.pipeline.pre_router import QuestionType, route_question, route_subject
 from viettheory.schema import Chunk, RetrievedEvidence, SourceSpan
 
 
@@ -38,6 +38,22 @@ def test_router_detects_comparison() -> None:
     route = route_question("So sánh chủ nghĩa duy vật trước Mác và triết học Mác-Lênin.")
 
     assert route.question_type is QuestionType.COMPARISON
+
+
+def test_subject_router_sends_history_of_party_question_to_vnr202() -> None:
+    subject = route_subject(
+        "Tóm tắt ba giai đoạn lớn trong lịch sử Đảng.",
+        frozenset({"MLN111", "MLN122", "MLN131", "HCM202", "VNR202"}),
+    )
+    assert subject == "VNR202"
+
+
+def test_subject_router_keeps_ambiguous_question_global() -> None:
+    subject = route_subject(
+        "Hãy giải thích nội dung này.",
+        frozenset({"MLN111", "MLN122", "MLN131", "HCM202", "VNR202"}),
+    )
+    assert subject is None
 
 
 def test_gate_allows_only_one_rewrite() -> None:

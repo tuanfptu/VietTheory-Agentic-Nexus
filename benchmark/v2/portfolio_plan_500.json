@@ -1,0 +1,184 @@
+{
+  "schema_version": "2.0",
+  "benchmark_version": "natural_qa_v2_500_draft",
+  "natural_target_per_subject": 100,
+  "cross_subject_target": 75,
+  "evidence_sufficiency_target": 120,
+  "pilot_batches": [
+    {
+      "subject_code": "MLN111",
+      "batch_size": 100,
+      "batch_number": 1,
+      "quotas": [
+        {
+          "category": "direct",
+          "target": 26
+        },
+        {
+          "category": "explanation",
+          "target": 20
+        },
+        {
+          "category": "comparison_relationship",
+          "target": 16
+        },
+        {
+          "category": "multi_chunk",
+          "target": 14
+        },
+        {
+          "category": "synthesis",
+          "target": 10
+        },
+        {
+          "category": "multi_hop_cross_chapter",
+          "target": 6
+        },
+        {
+          "category": "negative",
+          "target": 8
+        }
+      ]
+    },
+    {
+      "subject_code": "MLN122",
+      "batch_size": 100,
+      "batch_number": 1,
+      "quotas": [
+        {
+          "category": "direct",
+          "target": 26
+        },
+        {
+          "category": "explanation",
+          "target": 20
+        },
+        {
+          "category": "comparison_relationship",
+          "target": 16
+        },
+        {
+          "category": "multi_chunk",
+          "target": 14
+        },
+        {
+          "category": "synthesis",
+          "target": 10
+        },
+        {
+          "category": "multi_hop_cross_chapter",
+          "target": 6
+        },
+        {
+          "category": "negative",
+          "target": 8
+        }
+      ]
+    },
+    {
+      "subject_code": "MLN131",
+      "batch_size": 100,
+      "batch_number": 1,
+      "quotas": [
+        {
+          "category": "direct",
+          "target": 26
+        },
+        {
+          "category": "explanation",
+          "target": 20
+        },
+        {
+          "category": "comparison_relationship",
+          "target": 16
+        },
+        {
+          "category": "multi_chunk",
+          "target": 14
+        },
+        {
+          "category": "synthesis",
+          "target": 10
+        },
+        {
+          "category": "multi_hop_cross_chapter",
+          "target": 6
+        },
+        {
+          "category": "negative",
+          "target": 8
+        }
+      ]
+    },
+    {
+      "subject_code": "HCM202",
+      "batch_size": 100,
+      "batch_number": 1,
+      "quotas": [
+        {
+          "category": "direct",
+          "target": 26
+        },
+        {
+          "category": "explanation",
+          "target": 20
+        },
+        {
+          "category": "comparison_relationship",
+          "target": 16
+        },
+        {
+          "category": "multi_chunk",
+          "target": 14
+        },
+        {
+          "category": "synthesis",
+          "target": 10
+        },
+        {
+          "category": "multi_hop_cross_chapter",
+          "target": 6
+        },
+        {
+          "category": "negative",
+          "target": 8
+        }
+      ]
+    },
+    {
+      "subject_code": "VNR202",
+      "batch_size": 100,
+      "batch_number": 1,
+      "quotas": [
+        {
+          "category": "direct",
+          "target": 26
+        },
+        {
+          "category": "explanation",
+          "target": 20
+        },
+        {
+          "category": "comparison_relationship",
+          "target": 16
+        },
+        {
+          "category": "multi_chunk",
+          "target": 14
+        },
+        {
+          "category": "synthesis",
+          "target": 10
+        },
+        {
+          "category": "multi_hop_cross_chapter",
+          "target": 6
+        },
+        {
+          "category": "negative",
+          "target": 8
+        }
+      ]
+    }
+  ]
+}

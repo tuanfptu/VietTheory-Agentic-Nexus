@@ -33,8 +33,8 @@ def test_health_reports_pipeline_readiness(tmp_path: Path) -> None:
     assert client.get("/health").json() == {
         "status": "ok",
         "pipeline_ready": True,
-        "subject": "MLN111",
-        "benchmark_version": "1.0.0",
+        "subject": "MLN111, MLN122, MLN131, HCM202, VNR202",
+        "benchmark_version": "2.0.0",
     }
 
 
@@ -43,6 +43,25 @@ def test_ask_returns_validated_answer(tmp_path: Path) -> None:
     response = client.post("/ask", json={"question": "Vật chất là gì?"})
     assert response.status_code == 200
     assert response.json()["question"] == "Vật chất là gì?"
+
+
+class SubjectStubPipeline(StubPipeline):
+    def __init__(self) -> None:
+        self.subject_code: str | None = None
+
+    def ask(self, question: str, *, subject_code: str | None = None) -> Answer:
+        self.subject_code = subject_code
+        return super().ask(question)
+
+
+def test_ask_forwards_selected_fpt_subject(tmp_path: Path) -> None:
+    pipeline = SubjectStubPipeline()
+    client = TestClient(create_app(pipeline, feedback_path=tmp_path / "feedback.db"))
+    response = client.post(
+        "/ask", json={"question": "Sứ mệnh lịch sử là gì?", "subject_code": "MLN131"}
+    )
+    assert response.status_code == 200
+    assert pipeline.subject_code == "MLN131"
 
 
 def test_unconfigured_ask_returns_service_unavailable(tmp_path: Path) -> None:

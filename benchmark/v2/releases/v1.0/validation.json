@@ -1,0 +1,277 @@
+{
+  "distribution": {
+    "answerability": {
+      "answerable": 472,
+      "detail_not_stated": 2,
+      "false_premise": 12,
+      "insufficient_evidence": 2,
+      "out_of_scope": 10,
+      "wrong_subject": 2
+    },
+    "category": {
+      "comparison_relationship": 78,
+      "direct": 138,
+      "explanation": 110,
+      "multi_chunk": 73,
+      "multi_hop_cross_chapter": 24,
+      "negative": 28,
+      "synthesis": 49
+    },
+    "difficulty": {
+      "easy": 136,
+      "hard": 127,
+      "medium": 237
+    },
+    "review_status": {
+      "verified": 500
+    },
+    "subject": {
+      "HCM202": 100,
+      "MLN111": 100,
+      "MLN122": 100,
+      "MLN131": 100,
+      "VNR202": 100
+    }
+  },
+  "issues": [],
+  "subject_coverage": {
+    "HCM202": {
+      "batch_target": 100,
+      "category": {
+        "comparison_relationship": {
+          "current": 16,
+          "target": 16
+        },
+        "direct": {
+          "current": 27,
+          "target": 27
+        },
+        "explanation": {
+          "current": 21,
+          "target": 21
+        },
+        "multi_chunk": {
+          "current": 15,
+          "target": 15
+        },
+        "multi_hop_cross_chapter": {
+          "current": 5,
+          "target": 5
+        },
+        "negative": {
+          "current": 6,
+          "target": 6
+        },
+        "synthesis": {
+          "current": 10,
+          "target": 10
+        }
+      },
+      "chapter": {
+        "Chương 1": 22,
+        "Chương 2 :: CƠ SỞ, QUÁ TRÌNH HÌNH THÀNH": 20,
+        "Chương 3: TƯ TƯỞNG HỒ CHÍ MINH VỀ ĐỘC LẬP": 17,
+        "Chương 4: TƯ TƯỞNG HỒ CHÍ MINH": 22,
+        "Chương 5: TƯ TƯỞNG HỒ CHÍ MINH": 17,
+        "Chương 6": 18
+      },
+      "difficulty": {
+        "easy": 27,
+        "hard": 23,
+        "medium": 50
+      },
+      "total": 100
+    },
+    "MLN111": {
+      "batch_target": 100,
+      "category": {
+        "comparison_relationship": {
+          "current": 16,
+          "target": 16
+        },
+        "direct": {
+          "current": 29,
+          "target": 29
+        },
+        "explanation": {
+          "current": 21,
+          "target": 21
+        },
+        "multi_chunk": {
+          "current": 15,
+          "target": 15
+        },
+        "multi_hop_cross_chapter": {
+          "current": 4,
+          "target": 4
+        },
+        "negative": {
+          "current": 5,
+          "target": 5
+        },
+        "synthesis": {
+          "current": 10,
+          "target": 10
+        }
+      },
+      "chapter": {
+        "Chương 1: KHÁI LUẬN VỀ TRIẾT HỌC VÀ TRIẾT HỌC MÁC - LÊNIN": 34,
+        "Chương 2: CHỦ NGHĨA DUY VẬT BIỆN CHỨNG": 33,
+        "Chương 3: CHỦ NGHĨA DUY VẬT LỊCH SỬ": 38
+      },
+      "difficulty": {
+        "easy": 26,
+        "hard": 28,
+        "medium": 46
+      },
+      "total": 100
+    },
+    "MLN122": {
+      "batch_target": 100,
+      "category": {
+        "comparison_relationship": {
+          "current": 14,
+          "target": 14
+        },
+        "direct": {
+          "current": 29,
+          "target": 29
+        },
+        "explanation": {
+          "current": 21,
+          "target": 21
+        },
+        "multi_chunk": {
+          "current": 14,
+          "target": 14
+        },
+        "multi_hop_cross_chapter": {
+          "current": 6,
+          "target": 6
+        },
+        "negative": {
+          "current": 6,
+          "target": 6
+        },
+        "synthesis": {
+          "current": 10,
+          "target": 10
+        }
+      },
+      "chapter": {
+        "Chương 1: ĐỐI TƯỢNG, PHƯƠNG PHÁP NGHIÊN CỨU VÀ CHỨC NĂNG CỦA KINH TẾ CHÍNH TRỊ MÁC -": 20,
+        "Chương 2 HÀNG HÓA, THỊ TRƯỜNG VÀ VAI TRÒ CỦA CÁC CHỦ THỂ THAM GIA THỊ TRƯỜNG": 19,
+        "Chương 3: GIÁ TRỊ THẶNG DƯ TRONG NỀN KINH TẾ THỊ TRƯỜNG": 18,
+        "Chương 4 CẠNH TRANH VÀ ĐỘC QUYỀN TRONG NỀN KINH TẾ THỊ TRƯỜNG": 15,
+        "Chương 5: KINH TẾ THỊ TRƯỜNG ĐỊNH HƯỚNG XÃ HỘI CHỦ NGHĨA VÀ CÁC QUAN HỆ LỢI ÍCH KINH TẾ": 19,
+        "Chương 6: CÔNG NGHIỆP HÓA, HIỆN ĐẠI HÓA": 18
+      },
+      "difficulty": {
+        "easy": 31,
+        "hard": 28,
+        "medium": 41
+      },
+      "total": 100
+    },
+    "MLN131": {
+      "batch_target": 100,
+      "category": {
+        "comparison_relationship": {
+          "current": 16,
+          "target": 16
+        },
+        "direct": {
+          "current": 26,
+          "target": 26
+        },
+        "explanation": {
+          "current": 21,
+          "target": 21
+        },
+        "multi_chunk": {
+          "current": 15,
+          "target": 15
+        },
+        "multi_hop_cross_chapter": {
+          "current": 5,
+          "target": 5
+        },
+        "negative": {
+          "current": 7,
+          "target": 7
+        },
+        "synthesis": {
+          "current": 10,
+          "target": 10
+        }
+      },
+      "chapter": {
+        "Chương 1: NHẬP MÔN CHỦ NGHĨA XÃ HỘI KHOA HỌC": 24,
+        "Chương 2: SỨ MỆNH LỊCH SỬ": 15,
+        "Chương 3: CHỦ NGHĨA XÃ HỘI": 15,
+        "Chương 4: DÂN CHỦ XÃ HỘI CHỦ NGHĨA": 15,
+        "Chương 5: CƠ CẤU XÃ HỘI - GIAI CẤP VÀ LIÊN MINH": 15,
+        "Chương 6: VẤN ĐỀ DÂN TỘC VÀ TÔN GIÁO": 18,
+        "Chương 7: VẤN ĐỀ GIA ĐÌNH TRONG THỜI KỲ": 14
+      },
+      "difficulty": {
+        "easy": 26,
+        "hard": 26,
+        "medium": 48
+      },
+      "total": 100
+    },
+    "VNR202": {
+      "batch_target": 100,
+      "category": {
+        "comparison_relationship": {
+          "current": 16,
+          "target": 16
+        },
+        "direct": {
+          "current": 27,
+          "target": 27
+        },
+        "explanation": {
+          "current": 26,
+          "target": 26
+        },
+        "multi_chunk": {
+          "current": 14,
+          "target": 14
+        },
+        "multi_hop_cross_chapter": {
+          "current": 4,
+          "target": 4
+        },
+        "negative": {
+          "current": 4,
+          "target": 4
+        },
+        "synthesis": {
+          "current": 9,
+          "target": 9
+        }
+      },
+      "chapter": {
+        "Chương 1: ĐẢNG CỘNG SẢN VIỆT NAM RA ĐỜI VÀ LÃNH ĐẠO": 37,
+        "Chương 2: ĐẢNG LÃNH ĐẠO HAI CUỘC KHÁNG CHIẾN,": 36,
+        "Chương 3: ĐẢNG LÃNH ĐẠO CẢ NƯỚC QUÁ ĐỘ LÊN": 34
+      },
+      "difficulty": {
+        "easy": 26,
+        "hard": 22,
+        "medium": 52
+      },
+      "total": 100
+    }
+  },
+  "valid": true,
+  "warnings": [
+    "MLN111 section overrepresented: 1. Vật chất và phương thức tồn tại của vật chất (32 records)",
+    "MLN131 section overrepresented: B. NỘI DỤNG (36 records)",
+    "mln111_0098 high question/answer lexical overlap: 0.75",
+    "mln122_0064 high question/answer lexical overlap: 0.76",
+    "vnr202_0060 high question/answer lexical overlap: 0.80"
+  ]
+}

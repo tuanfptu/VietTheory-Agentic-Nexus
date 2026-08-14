@@ -10,14 +10,32 @@ import urllib.request
 from abc import ABC, abstractmethod
 from typing import Any
 
-from pydantic import ValidationError
+from pydantic import BaseModel, ConfigDict, Field, ValidationError
 
 from viettheory.ids import stable_id
-from viettheory.schema import Answer, Citation, RetrievedEvidence
+from viettheory.schema import Answer, Citation, Claim, RetrievedEvidence
 
 
 class GenerationError(RuntimeError):
     """Raised when a provider cannot produce a valid grounded answer."""
+
+
+class GeneratedClaim(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    text: str = Field(min_length=1)
+    evidence_ids: tuple[str, ...] = Field(min_length=1)
+
+
+class GeneratedAnswer(BaseModel):
+    """Minimal provider contract; provenance is materialized locally."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    direct_answer: str = Field(min_length=1)
+    claims: tuple[GeneratedClaim, ...] = ()
+    refused: bool = False
+    refusal_reason: str | None = None
 
 
 class GeneratorAdapter(ABC):
@@ -50,11 +68,15 @@ class GeminiGenerator(GeneratorAdapter):
         api_key_env: str = "GEMINI_API_KEY",
         api_key: str | None = None,
         timeout_seconds: float = 60.0,
+        corpus_label: str = "giáo trình MLN111",
     ) -> None:
         self.model = model
         self.api_key_env = api_key_env
         self._api_key = api_key
         self.timeout_seconds = timeout_seconds
+        if not corpus_label.strip():
+            raise ValueError("corpus_label must not be blank")
+        self.corpus_label = corpus_label
 
     def generate(self, question: str, evidence: tuple[RetrievedEvidence, ...]) -> Answer:
         if not question.strip():
@@ -66,9 +88,9 @@ class GeminiGenerator(GeneratorAdapter):
             raise GenerationError(f"missing required environment variable: {self.api_key_env}")
 
         prompt = (
-            "Bạn là trợ lý học thuật chuyên giáo trình MLN111. "
+            f"Bạn là trợ lý học thuật chuyên {self.corpus_label}. "
             "Trả lời trực tiếp, tự nhiên và hữu ích bằng tiếng Việt, chỉ dựa trên evidence. "
-            "Mỗi claim thực tế phải trỏ tới citation hợp lệ. "
+            "Mỗi claim thực tế phải liệt kê evidence_ids hợp lệ đúng như Evidence JSON. "
             "Nếu evidence chỉ hỗ trợ một phần, hãy trả lời phần được hỗ trợ và nói ngắn gọn "
             "giới hạn còn lại; không từ chối toàn bộ khi đã có thể trả lời ý chính. "
             "Chỉ đặt refused=true khi evidence hoàn toàn không liên quan hoặc không thể tạo "
@@ -80,7 +102,7 @@ class GeminiGenerator(GeneratorAdapter):
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {
                 "responseMimeType": "application/json",
-                "responseJsonSchema": Answer.model_json_schema(),
+                "responseJsonSchema": GeneratedAnswer.model_json_schema(),
                 "temperature": 0.1,
             },
         }
@@ -94,27 +116,89 @@ class GeminiGenerator(GeneratorAdapter):
         )
         try:
             with urllib.request.urlopen(request, timeout=self.timeout_seconds) as response:
-                payload = json.loads(response.read().decode())
-            raw = json.loads(payload["candidates"][0]["content"]["parts"][0]["text"])
-            raw["answer_id"] = raw.get("answer_id") or stable_id("answer", question)
-            raw["question"] = question
-            # JSON has arrays, while the immutable internal contract uses tuples.
-            # Relax coercion only at this untrusted provider boundary.
-            answer = Answer.model_validate(raw, strict=False)
-        except (
-            urllib.error.URLError,
-            TimeoutError,
-            json.JSONDecodeError,
-            KeyError,
-            IndexError,
-            TypeError,
-            ValidationError,
-        ) as exc:
-            raise GenerationError("Gemini returned no valid structured answer") from exc
-        answer = _canonicalize_citations(answer, evidence)
-        answer = _deduplicate_citations(answer)
+                response_text = response.read().decode()
+        except urllib.error.HTTPError as exc:
+            raise GenerationError(f"Gemini request failed with HTTP {exc.code}") from exc
+        except (urllib.error.URLError, TimeoutError, UnicodeDecodeError) as exc:
+            raise GenerationError("Gemini request failed") from exc
+        try:
+            payload = json.loads(response_text)
+            generated_text = payload["candidates"][0]["content"]["parts"][0]["text"]
+        except (json.JSONDecodeError, KeyError, IndexError, TypeError) as exc:
+            raise GenerationError("Gemini response contained no structured candidate") from exc
+        try:
+            raw = json.loads(generated_text)
+        except (json.JSONDecodeError, TypeError) as exc:
+            raise GenerationError("Gemini candidate was not JSON") from exc
+        try:
+            generated = GeneratedAnswer.model_validate(raw, strict=False)
+        except ValidationError as exc:
+            errors = [
+                {"loc": error["loc"], "type": error["type"]}
+                for error in exc.errors(include_input=False)
+            ]
+            raise GenerationError(
+                "Gemini answer schema validation failed: " + json.dumps(errors, ensure_ascii=False)
+            ) from exc
+        answer = _materialize_answer(question, generated, evidence)
         _require_retrieved_sources(answer, evidence)
         return answer
+
+
+def _normalize_schema_versions(value: Any) -> None:
+    """Normalize provider-invented version aliases before strict validation."""
+    if isinstance(value, dict):
+        if "schema_version" in value:
+            value["schema_version"] = "1.0"
+        for child in value.values():
+            _normalize_schema_versions(child)
+    elif isinstance(value, list):
+        for child in value:
+            _normalize_schema_versions(child)
+
+
+def _materialize_answer(
+    question: str,
+    generated: GeneratedAnswer,
+    evidence: tuple[RetrievedEvidence, ...],
+) -> Answer:
+    """Build immutable claims/citations only from canonical retrieved evidence."""
+    allowed = {item.evidence_id: item for item in evidence}
+    used_ids = tuple(
+        dict.fromkeys(
+            evidence_id for claim in generated.claims for evidence_id in claim.evidence_ids
+        )
+    )
+    unknown = set(used_ids) - allowed.keys()
+    if unknown:
+        raise GenerationError("generated answer cites evidence outside retrieval")
+    citations = tuple(
+        Citation(
+            citation_id=stable_id("citation", question, evidence_id),
+            evidence_id=evidence_id,
+            source_span=allowed[evidence_id].chunk.source_spans[0],
+            context_text=allowed[evidence_id].chunk.text,
+        )
+        for evidence_id in used_ids
+    )
+    citation_ids = {citation.evidence_id: citation.citation_id for citation in citations}
+    claims = tuple(
+        Claim(
+            claim_id=stable_id("claim", question, index, claim.text),
+            text=claim.text,
+            citation_ids=tuple(citation_ids[evidence_id] for evidence_id in claim.evidence_ids),
+        )
+        for index, claim in enumerate(generated.claims, 1)
+    )
+    return Answer(
+        answer_id=stable_id("answer", question, generated.direct_answer),
+        question=question,
+        direct_answer=generated.direct_answer,
+        claims=claims,
+        citations=citations,
+        refused=generated.refused,
+        refusal_reason=generated.refusal_reason,
+    )
 
 
 def _canonicalize_citations(

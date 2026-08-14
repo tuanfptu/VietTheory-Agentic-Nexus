@@ -1,0 +1,29 @@
+{
+  "benchmark_version": "mln_evidence_sufficiency_pilot_v0.1",
+  "case_count": 48,
+  "contradiction_status": "exploratory; no synthetic negation cases generated",
+  "labels": {
+    "contradicted": 0,
+    "missing": 12,
+    "partial": 12,
+    "sufficient": 12,
+    "wrong_aspect": 12
+  },
+  "output_sha256": "fce6ec4238372c172a7cc48534154a6d655108986708d3597e73e2a182839440",
+  "review_status": "draft_pending_human_audit",
+  "source_question_count": 12,
+  "source_question_ids": [
+    "hcm202_0037",
+    "hcm202_0057",
+    "hcm202_0081",
+    "mln111_0031",
+    "mln111_0049",
+    "mln122_0005",
+    "mln122_0009",
+    "mln122_0044",
+    "mln131_0010",
+    "mln131_0028",
+    "mln131_0035",
+    "vnr202_0005"
+  ]
+}

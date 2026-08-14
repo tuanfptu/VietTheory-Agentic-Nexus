@@ -108,6 +108,19 @@ def test_grounded_answer_passes_end_to_end() -> None:
     assert generator.calls == 1
 
 
+def test_selected_subject_runs_through_shared_retriever() -> None:
+    retriever = StubRetriever((_evidence(),))
+    generator = StubGenerator()
+    pipeline = RagPipeline(
+        retriever,
+        generator,
+        GateThresholds(sufficient_score=0.7, related_score=0.3),
+        subject_codes=frozenset({"MLN111", "MLN131"}),
+    )
+    answer = pipeline.ask("Vật chất là gì?", subject_code="MLN111")
+    assert not answer.refused
+
+
 def test_related_evidence_retries_once_then_refuses() -> None:
     retriever = StubRetriever((_evidence(0.5),))
     generator = StubGenerator()

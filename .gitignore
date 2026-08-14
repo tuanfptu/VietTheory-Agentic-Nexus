@@ -11,10 +11,12 @@ __pycache__/
 .coverage.*
 htmlcov/
 /tmp/
+/outputs/
 
 # Virtual environments and packaging
 .venv/
 .venv-ocr/
+.venv-ppocr/
 venv/
 env/
 ENV/
@@ -45,6 +47,10 @@ secrets*.json
 /benchmark_private/
 /benchmark/drafts/
 /benchmark/review/
+/benchmark/v2/candidates/
+/benchmark/v2/drafts/
+/benchmark/v2/review/
+/benchmark/v2/reviews/
 /benchmark/mln111_questions.jsonl
 /benchmark/mln111_review.md
 /benchmark/ocr_tesseract_sample.json

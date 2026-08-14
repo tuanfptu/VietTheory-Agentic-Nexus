@@ -1,0 +1,34 @@
+{
+  "adjudicated_case": "es_mln131_0035_wrongaspect",
+  "benchmark_version": "mln_evidence_sufficiency_pilot_v0.1",
+  "contradiction_status": "exploratory; no synthetic contradiction cases",
+  "development": {
+    "count": 32,
+    "labels": {
+      "missing": 8,
+      "partial": 8,
+      "sufficient": 8,
+      "wrong_aspect": 8
+    },
+    "sha256": "ec6abbacc553cb7f356b8dedf7b3c264bc010d5b8c051ae49c9f0afcf84462fd",
+    "source_questions": 8
+  },
+  "held_out": {
+    "count": 16,
+    "labels": {
+      "missing": 4,
+      "partial": 4,
+      "sufficient": 4,
+      "wrong_aspect": 4
+    },
+    "location": "private",
+    "sha256": "ee31f28418d18bb0eeee3b79b1483566d78b03544a33bbf2be1d9b98547eedfb",
+    "source_questions": 4
+  },
+  "reviewed_cases": 48,
+  "schema_version": "0.1",
+  "source_cases_sha256": "cc1a43836a14cf0975677a4cc6153595bd5f6e54895d4076cb27131823523b15",
+  "source_review_sha256": "0c4171effa382e4491e5139398c2a2f99252ccc7b7d832991061a74241796d2b",
+  "split_policy": "grouped by source_question_id; four perturbations remain together",
+  "status": "verified"
+}

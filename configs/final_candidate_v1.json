@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "freeze_version": "viettheory_candidate_v1_2026-08-14",
+  "frozen": true,
+  "production_retrieval": "structured_hybrid_qwen_reranker_parent_expansion_B0",
+  "evidence_judge": {
+    "candidate": "J1_gemini_evidence_judge_v1",
+    "decision": "accept_for_held_out_evaluation",
+    "development_accuracy": 0.96875,
+    "development_macro_f1": 0.9686274509803922
+  },
+  "targeted_recovery": {
+    "candidate": "J1_missing_aspect_to_frozen_B0_v1",
+    "decision": "reject_from_default_path",
+    "development_recovery_success_rate": 0.13333333333333333,
+    "reason": "insufficient recovery quality"
+  },
+  "graph_rag": {
+    "candidate": "provenance_adjacent_parent_graph_v0",
+    "decision": "reject_from_default_path_keep_research_primitive",
+    "development_wins": 2,
+    "development_losses": 16
+  },
+  "memory": {
+    "candidate": "account_isolated_memory_contract_v1",
+    "decision": "accept_engineering_contract_not_answer_evidence",
+    "safety_checks_passed": 5,
+    "safety_checks_total": 5
+  },
+  "tool_controller": {
+    "candidate": "bounded_typed_controller_v1",
+    "decision": "accept_engineering_contract",
+    "rule_router_development_accuracy": 1.0,
+    "benchmark_status": "small_sanity_set"
+  },
+  "coordination": {
+    "baseline": "single_controller",
+    "candidate": "role_separated_B0_plus_graph_v0",
+    "decision": "reject_candidate_keep_single_controller",
+    "development_wins": 2,
+    "development_losses": 16
+  },
+  "natural_qa_hidden_accessed_at_freeze": false,
+  "evidence_sufficiency_held_out_accessed_at_freeze": false
+}

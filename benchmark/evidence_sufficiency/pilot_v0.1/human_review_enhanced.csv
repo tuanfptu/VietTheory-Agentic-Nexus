@@ -1,0 +1,3253 @@
+﻿case_id,source_question_id,subject_code,expected_label,question,source_difficulty,provided_parent_ids,provided_context_texts,decision,label_valid,context_valid,difficulty_valid,reviewer_notes
+es_hcm202_0037_missing,hcm202_0037,HCM202,missing,Việc khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng diễn ra trong mốc lịch sử nào và gắn liền với các sự kiện nào ảnh hưởng tới tư tưởng của Người?,hard,,,,,,,
+es_hcm202_0037_partial,hcm202_0037,HCM202,partial,Việc khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng diễn ra trong mốc lịch sử nào và gắn liền với các sự kiện nào ảnh hưởng tới tư tưởng của Người?,hard,parent_05f8d31d20a8217e3170,"cách mạng và khoa học của chủ nghĩa Mác - Lênin, kế :
+thừa di sản quý báu về tư tưởng và lý luận cách mạng của
+Chủ tịch Hồ Chí Minh”.
+Đại hội đại biểu toàn quốc lần thứ VHI của Đảng (năm
+1991) là một mốc lớn khi nêu cao tử tưởng Hồ Chí Minh.
+'Thực tế sự nghiệp cách mạng Việt Nam nói chung và của ;
+những năm đổi mới nói riêng đã chứng tổ rằng, không
+những chủ nghĩa Mác - Lênin, mà tư tưởng Hồ Chí Minh đã
+trở thành yếu tố chỉ đạo làm nên thắng lợi cho cách mạng
+Việt Nam. Chính vì thế, một trong những điểm mới của Đại
+hội VI là Đảng đã đánh giá đúng tầm vóc tư tưởng Hỗ Chí
+Minh. Đại hội VI của Đảng khẳng định: “Đảng lấy chủ
+nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng
+tư tưởng, kim chỉ nam cho hành động”?. Đại hội cũng nêu rõ: ¡
+“Tư tưởng Hồ Chí Minh chính là kết quả sự vận dụng sáng
+tạo chủ nghĩa Mác - Lênin trong điều kiện cụ thể của nước ta
+và trong thực tế tư tưởng Hồ Chí Minh đã trở thành một tài
+sản tỉnh thần quý báu của Đảng ta và của cả dân tộc. Việc
+khẳng định lấy chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh ¡
+1. Đảng Cộng sản Việt Nam: Văn kiện Đảng toàn tập, Sdd, |
+l 1.48, tr.292.
+} 2, 3. Đảng Cộng sắn Việt Nam: Văn kiện Đảng toàn tập, Sđd,
+Hi t.51, tr.147, 29-30.
+: |
+: làm nền tảng tư tưởng và kim chỉ nam cho hành động cũng
+› đã được ghi nhận trong Cương lĩnh xây dựng đất nước trong
+Ù thời kỳ quá độ lên chủ-nghĩa xã hội (Cương lĩnh năm 1991),
+Ế được bổ sung, phát triển năm 2011 và trong Hiến pháp nước
+1 Cộng hoà xã hội chủ nghĩa Việt Nam năm 1992, sửa đổi, bổ
+sung năm 2013.
+1 Tại Đại hội đại biểu toàn quốc lần thứ IX (tháng
+ồ 4/2001), Đảng ta đã nhận thức về tư tưởng Hồ Chí Minh
+A một cách đầy đủ hơn: “Tư tưởng Hồ Chí Minh là một hệ
+3 thống quan điểm toàn diện và sâu sắc về những vấn đề cơ
+à bắn của cách mạng Việt Nam, là kết quả của sự vận dụng
+j và phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều
+¡ kiện cụ thể của nước ta, kế thừa và phát triển các giá trị
+í truyền thống tốt đẹp của dân tộc, tiếp thu tỉnh hoa văn
+n hoá nhân loại”! |
+j Đại hội đại biểu toàn quốc lần thứ X của Đảng (tháng h
+: 4/2006), khi đề cập đến tư tưởng Hồ Chí Minh, đã nêu rõ: ¡
+5 “Sự nghiệp cách mạng của Đảng và của nhân dân ta 76 |
+: năm qua đã khẳng định rằng, tư tưởng vĩ đại của Người Ị
+ụ cùng với chủ nghĩa Mác - Lênin mãi mãi là nền tảng tư |
+c tưởng, kim chỉ nam cho hành động của Đảng và cách |
+h mạng Việt Nam, là tài sản tỉnh thần vô giá của Đảng và
+¡ dân tộc ta. Tư tưởng đó đã dẫn dắt chúng ta trên mỗi
+¿ 1. Đảng Cộng sản Việt Nam: Văn kiện Đảng toàn tập, Sđd,
+1.60, tr.130.
+|
+chặng đường xây dựng và phát triển đất nước, là ngọn cờ \
+thắng lợi của cách mạng Việt Nam, là sức mạnh tập hợp
+và đoàn kết toàn đân tộc trong sự nghiệp cách mạng của
+chúng ta hôm nay và mai sau”,
+Các kỳ Đại hội đại biểu toàn quốc tiếp sau của Đảng
+cũng luôn khẳng định công lao vĩ đại của Hồ Chí Minh
+đối với cách mạng Việt Nam, khẳng định tư tưởng, đạo
+đức, phong cách Hồ Chí Minh là những nhân tố không
+thể thiếu trong tư tưởng và hành động của toàn Đảng, U
+toàn quân, toàn dân Việt Nam trong sự nghiệp xây dựng
+và bảo vệ Tổ quốc. Đại hội XIII của Đảng (năm 2021)
+khẳng định quan điểm chỉ đạo là: “Kiên định và vận
+dụng phát triển sáng tạo chủ nghĩa Mác - Lênin, tư
+tưởng Hồ Chí Minh”?.
+Ở bình diện quốc tế, nhiều đẳng chính trị, nhiều chính
+phủ, nhiều tổ chức chính trị - xã hội, nhiều cá nhân đánh i
+giá cao phẩm chất, năng lực, vai trò của Hồ Chí Minh đối :
+với quá trình phát triển của dân tộc Việt Nam cũng như
+đối với quá trình phát triển văn minh tiến bộ của nhân
+loại. Tổ chức Giáo dục, Khoa học và Văn hóa của Liên hợp
+quốc (UNESCO), tại khóa họp Đại Hội đồng lần thứ 24 ở
+Pari, từ ngày 20/10 đến ngày 20/11/1987, đã ra Nghị quyết ¡
+1 Đẳng Cộng sản Việt Nam: Văn kiện Đại hội đại biểu toàn
+quốc lần thứ X, Nxb. Chính trị quốc gia, Hà Nội, 2006, tr.6-7.
+| 2. Đảng Cộng sản Việt Nam: Văn kiện Đại hội đại biểu toàn
+quốc lần thứ XIH, Nxb. Chính trị quốc gia, Hà Nội, 2021, tI, tr.109. |
+Ñ 18
+số 24C/18.6.5 về ký niệm 100 năm Ngày sinh của Chủ tịch
+Hồ Chí Minh, trong đó xác nhận “việc tổ chức kỷ niệm ¡
+] ngày sinh các nhân vật trí thức lỗi lạc và các danh nhân |
+văn hóa trên phạm vi quốc tế góp phần thực hiện các mục ị
+tiêu của UNESCO và đóng góp vào sự hiểu biết trên thế
+. giới”, trên cơ số đó “Ghi nhận năm 1990 sẽ đánh đấu 100
+) năm kỷ niệm Ngày sinh của Chủ tịch Hồ Chí Minh, Anh
+: hùng giải phóng dân tộc và Nhà văn hóa kiệt xuất của
+: Việt Nam”,
+) ì II- ĐỐI TƯỢNG NGHIÊN CỨU
+Ì
+) Môn học Tư tưởng Hồ Chí Minh là một nội dung của
+chuyên ngành Hồ Chí Minh học (nằm trong ngành Khoa
+' học chính tr). Đối tượng nghiên cứu của môn học Tư |
+' tưởng Hồ Chí Minh là toàn bộ những quan điểm của Hồ |
+¡ Chí Minh thể hiện trong đi sản của Người. Đó là hệ thống : |
+ï quan điểm toàn diện và sâu sắc về những vấn đề eơ bản |
+Ñ của cách mạng Việt Nam. Hệ thống quan điểm đó của Hồ !
+) Chí Minh được phần ánh trong những bài nói, bài viết, |
+3 trong hoạt động cách mạng và trong cuộc sống hằng ngày ]
+E của Người. Đồ là những vấn đề lý luận và thực tiễn được |
+2 1. Xem GS.TS. Mạch Quang Thắng, PGS.TS. Bùi Đình Phong,
+TS. Chu Đức Tính (Đồng chủ biên): UNESCO với sự kiện tôn vinh
+n Chủ tịch Hồ Chí Minh - Anh hùng giải phóng dân tộc, Nhà văn hóa
+. kiệt xuất, Nxb. Chính trị quốc gia, Hà Nội, 2013, tr.71-72.
+1]
+rút ra từ cuộc đời hoạt động rất phong phú ở cả trong nước Ể `
+và trên thế giới của Hồ Chí Minh, phấn đấu cho sự nghiệp
+giải phóng dân tộc, giải phóng xã hội, giải phóng giai cấp,
+giải phóng con người.
+Đối tượng nghiên cứu của môn học Tư tưởng Hồ Chí
+Minh còn là quá trình hệ thống quan điểm của Hồ Chí Minh
+vận động trong thực tiễn. Hay nói cách khác, đó là quá trình",,,,,
+es_hcm202_0037_sufficient,hcm202_0037,HCM202,sufficient,Việc khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng diễn ra trong mốc lịch sử nào và gắn liền với các sự kiện nào ảnh hưởng tới tư tưởng của Người?,hard,parent_05f8d31d20a8217e3170|parent_8b1d6fbb41abef9e0d6c,"cách mạng và khoa học của chủ nghĩa Mác - Lênin, kế :
+thừa di sản quý báu về tư tưởng và lý luận cách mạng của
+Chủ tịch Hồ Chí Minh”.
+Đại hội đại biểu toàn quốc lần thứ VHI của Đảng (năm
+1991) là một mốc lớn khi nêu cao tử tưởng Hồ Chí Minh.
+'Thực tế sự nghiệp cách mạng Việt Nam nói chung và của ;
+những năm đổi mới nói riêng đã chứng tổ rằng, không
+những chủ nghĩa Mác - Lênin, mà tư tưởng Hồ Chí Minh đã
+trở thành yếu tố chỉ đạo làm nên thắng lợi cho cách mạng
+Việt Nam. Chính vì thế, một trong những điểm mới của Đại
+hội VI là Đảng đã đánh giá đúng tầm vóc tư tưởng Hỗ Chí
+Minh. Đại hội VI của Đảng khẳng định: “Đảng lấy chủ
+nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng
+tư tưởng, kim chỉ nam cho hành động”?. Đại hội cũng nêu rõ: ¡
+“Tư tưởng Hồ Chí Minh chính là kết quả sự vận dụng sáng
+tạo chủ nghĩa Mác - Lênin trong điều kiện cụ thể của nước ta
+và trong thực tế tư tưởng Hồ Chí Minh đã trở thành một tài
+sản tỉnh thần quý báu của Đảng ta và của cả dân tộc. Việc
+khẳng định lấy chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh ¡
+1. Đảng Cộng sản Việt Nam: Văn kiện Đảng toàn tập, Sdd, |
+l 1.48, tr.292.
+} 2, 3. Đảng Cộng sắn Việt Nam: Văn kiện Đảng toàn tập, Sđd,
+Hi t.51, tr.147, 29-30.
+: |
+: làm nền tảng tư tưởng và kim chỉ nam cho hành động cũng
+› đã được ghi nhận trong Cương lĩnh xây dựng đất nước trong
+Ù thời kỳ quá độ lên chủ-nghĩa xã hội (Cương lĩnh năm 1991),
+Ế được bổ sung, phát triển năm 2011 và trong Hiến pháp nước
+1 Cộng hoà xã hội chủ nghĩa Việt Nam năm 1992, sửa đổi, bổ
+sung năm 2013.
+1 Tại Đại hội đại biểu toàn quốc lần thứ IX (tháng
+ồ 4/2001), Đảng ta đã nhận thức về tư tưởng Hồ Chí Minh
+A một cách đầy đủ hơn: “Tư tưởng Hồ Chí Minh là một hệ
+3 thống quan điểm toàn diện và sâu sắc về những vấn đề cơ
+à bắn của cách mạng Việt Nam, là kết quả của sự vận dụng
+j và phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều
+¡ kiện cụ thể của nước ta, kế thừa và phát triển các giá trị
+í truyền thống tốt đẹp của dân tộc, tiếp thu tỉnh hoa văn
+n hoá nhân loại”! |
+j Đại hội đại biểu toàn quốc lần thứ X của Đảng (tháng h
+: 4/2006), khi đề cập đến tư tưởng Hồ Chí Minh, đã nêu rõ: ¡
+5 “Sự nghiệp cách mạng của Đảng và của nhân dân ta 76 |
+: năm qua đã khẳng định rằng, tư tưởng vĩ đại của Người Ị
+ụ cùng với chủ nghĩa Mác - Lênin mãi mãi là nền tảng tư |
+c tưởng, kim chỉ nam cho hành động của Đảng và cách |
+h mạng Việt Nam, là tài sản tỉnh thần vô giá của Đảng và
+¡ dân tộc ta. Tư tưởng đó đã dẫn dắt chúng ta trên mỗi
+¿ 1. Đảng Cộng sản Việt Nam: Văn kiện Đảng toàn tập, Sđd,
+1.60, tr.130.
+|
+chặng đường xây dựng và phát triển đất nước, là ngọn cờ \
+thắng lợi của cách mạng Việt Nam, là sức mạnh tập hợp
+và đoàn kết toàn đân tộc trong sự nghiệp cách mạng của
+chúng ta hôm nay và mai sau”,
+Các kỳ Đại hội đại biểu toàn quốc tiếp sau của Đảng
+cũng luôn khẳng định công lao vĩ đại của Hồ Chí Minh
+đối với cách mạng Việt Nam, khẳng định tư tưởng, đạo
+đức, phong cách Hồ Chí Minh là những nhân tố không
+thể thiếu trong tư tưởng và hành động của toàn Đảng, U
+toàn quân, toàn dân Việt Nam trong sự nghiệp xây dựng
+và bảo vệ Tổ quốc. Đại hội XIII của Đảng (năm 2021)
+khẳng định quan điểm chỉ đạo là: “Kiên định và vận
+dụng phát triển sáng tạo chủ nghĩa Mác - Lênin, tư
+tưởng Hồ Chí Minh”?.
+Ở bình diện quốc tế, nhiều đẳng chính trị, nhiều chính
+phủ, nhiều tổ chức chính trị - xã hội, nhiều cá nhân đánh i
+giá cao phẩm chất, năng lực, vai trò của Hồ Chí Minh đối :
+với quá trình phát triển của dân tộc Việt Nam cũng như
+đối với quá trình phát triển văn minh tiến bộ của nhân
+loại. Tổ chức Giáo dục, Khoa học và Văn hóa của Liên hợp
+quốc (UNESCO), tại khóa họp Đại Hội đồng lần thứ 24 ở
+Pari, từ ngày 20/10 đến ngày 20/11/1987, đã ra Nghị quyết ¡
+1 Đẳng Cộng sản Việt Nam: Văn kiện Đại hội đại biểu toàn
+quốc lần thứ X, Nxb. Chính trị quốc gia, Hà Nội, 2006, tr.6-7.
+| 2. Đảng Cộng sản Việt Nam: Văn kiện Đại hội đại biểu toàn
+quốc lần thứ XIH, Nxb. Chính trị quốc gia, Hà Nội, 2021, tI, tr.109. |
+Ñ 18
+số 24C/18.6.5 về ký niệm 100 năm Ngày sinh của Chủ tịch
+Hồ Chí Minh, trong đó xác nhận “việc tổ chức kỷ niệm ¡
+] ngày sinh các nhân vật trí thức lỗi lạc và các danh nhân |
+văn hóa trên phạm vi quốc tế góp phần thực hiện các mục ị
+tiêu của UNESCO và đóng góp vào sự hiểu biết trên thế
+. giới”, trên cơ số đó “Ghi nhận năm 1990 sẽ đánh đấu 100
+) năm kỷ niệm Ngày sinh của Chủ tịch Hồ Chí Minh, Anh
+: hùng giải phóng dân tộc và Nhà văn hóa kiệt xuất của
+: Việt Nam”,
+) ì II- ĐỐI TƯỢNG NGHIÊN CỨU
+Ì
+) Môn học Tư tưởng Hồ Chí Minh là một nội dung của
+chuyên ngành Hồ Chí Minh học (nằm trong ngành Khoa
+' học chính tr). Đối tượng nghiên cứu của môn học Tư |
+' tưởng Hồ Chí Minh là toàn bộ những quan điểm của Hồ |
+¡ Chí Minh thể hiện trong đi sản của Người. Đó là hệ thống : |
+ï quan điểm toàn diện và sâu sắc về những vấn đề eơ bản |
+Ñ của cách mạng Việt Nam. Hệ thống quan điểm đó của Hồ !
+) Chí Minh được phần ánh trong những bài nói, bài viết, |
+3 trong hoạt động cách mạng và trong cuộc sống hằng ngày ]
+E của Người. Đồ là những vấn đề lý luận và thực tiễn được |
+2 1. Xem GS.TS. Mạch Quang Thắng, PGS.TS. Bùi Đình Phong,
+TS. Chu Đức Tính (Đồng chủ biên): UNESCO với sự kiện tôn vinh
+n Chủ tịch Hồ Chí Minh - Anh hùng giải phóng dân tộc, Nhà văn hóa
+. kiệt xuất, Nxb. Chính trị quốc gia, Hà Nội, 2013, tr.71-72.
+1]
+rút ra từ cuộc đời hoạt động rất phong phú ở cả trong nước Ể `
+và trên thế giới của Hồ Chí Minh, phấn đấu cho sự nghiệp
+giải phóng dân tộc, giải phóng xã hội, giải phóng giai cấp,
+giải phóng con người.
+Đối tượng nghiên cứu của môn học Tư tưởng Hồ Chí
+Minh còn là quá trình hệ thống quan điểm của Hồ Chí Minh
+vận động trong thực tiễn. Hay nói cách khác, đó là quá trình
+---
+b) Thực tiễn thế giới cuối thế kỷ XIX - đầu thế kỷ XX
+Vào cuối thế kỷ XIX - đầu thế kỷ XX, chủ nghĩa tư ị
+bản trên thế giới đã phát triển từ giai đoạn tự do cạnh
+tranh sang giai đoạn đế quốc chủ nghĩa. Một số nước đế |
+quốc Anh, Pháp, Mỹ, Tây Ban Nha, Ý, Đức, Nga, Nhật Bản,
+1, Hồ Chí Minh: Toàn tập, Sđd, t.19, tr.407. |
+|
+_ n1
+:
+. Bỉ, Bồ Đào Nha, Hà Lan, v.v. đã chỉ phối toàn bộ tình '
+hình thế giới. Phần lớn các nước châu Á, châu Phi và
+khu vực Mỹ Latinh đã trở thành thuộc địa và phụ thuộc
+của các nước đế quốc.
+- Tình hình đó đã làm sâu sắc thêm mâu thuẫn vốn có |
+trong lòng chủ nghĩa tư bản, đó là mâu thuẫn giữa giai Ị
+. cấp tư sản với giai cấp vô sản ở các nước tư bản; mâu
+Ể thuẫn giữa các nước đế quốc với nhau; mâu thuẫn giữa các
+dân tộc thuộc địa và phụ thuộc với chủ nghĩa đế quốc. .
+ĩ Sang đầu thế kỷ XX, những mâu thuẫn này ngày càng |
+phát triển gay gắt. Giành độc lập cho các dân tộc thuộc địa ]
+không chỉ là đòi hỏi của riêng họ, mà còn là mong muốn |
+chung của giai cấp vô sản quốc tế; tình hình đó đã thúc
+: đẩy phong trào giải phóng dân tộc trên thế giới phát triển.
+Cách mạng Tháng Mười Nga năm 1917 thành công là
+thắng lợi đầu tiên của chủ nghĩa Mác - Lênin ở một nước ¡
+lớn, rộng một phần sáu thế giới. Cách mạng Tháng Mười ĩ
+Nga đã đánh đổ giai cấp tư sản và giai cấp địa chủ phong
+kiến, lập nên một xã hội mới - xã hội xã hội chủ nghĩa.
+Cách mạng Tháng Mười Nga mở ra một thời đại mới trong
+lịch sử loài người - thời đại quá độ từ chủ nghĩa tư bản lên
+chủ nghĩa xã hội trên phạm vi toàn thế giới, mổ ra con !
+đường giải phóng cho các dân tộc bị áp bức trên thế giới. |
+Ngày 2/3/1919, Quốc tế Cộng sản ra đời ở Mátxcova
+¡ trở thành Bộ tham mưu, lãnh đạo phong trào cách mạng
+3 |
+]
+_-—Ñ "" ”x sm |
+thế giới. Dưới sự lãnh đạo của Lênin, Quốc tế Cộng sản -
+đẩy mạnh việc truyền bá chủ nghĩa. Mác - Lênin và kinh
+nghiệm Cách mạng Tháng Mười Nga ra khắp thế giới,
+thúc đẩy sự ra đời và hoạt động ngày càng mạnh mẽ của
+các đẳng cộng sản ở nhiều nước. Ệ
+Cách mạng Tháng Mười Nga thắng lợi, sự ra đời của
+Nhà nước Xôviết, Quốc tế Cộng sản và thực tiễn xây dựng ì
+chủ nghĩa xã hội ở Liên Xô cùng với sự phát triển mạnh
+mẽ phong trào cộng sản, công nhân và phong trào giải ;
+phóng dân tộc trên thế giới ảnh hưởng sâu sắc tới Hồ Chí
+Minh trên hành trình đi ra thế giới tìm mục tiêu và con
+đường cứu nước.
+9. Ơơ sở lý luận",,,,,
+es_hcm202_0037_wrongaspect,hcm202_0037,HCM202,wrong_aspect,Việc khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng diễn ra trong mốc lịch sử nào và gắn liền với các sự kiện nào ảnh hưởng tới tư tưởng của Người?,hard,parent_8be65a2824224f3b4c63,"| a) Tư tưởng Hồ Chí Minh góp phần mở ra cho các dân
+| tộc thuộc địa con đường giải phóng dân tộc gắn với sự tiến
+| bộ xã hội
+! C. Mác cho rằng, “mỗi thời đại xã hội đều cần có những
+| con người vĩ đại của nó, và nếu nó không tìm ra những
+| 67
+J
+|
+tì con người như thế, thì như Henvêtuýt đã nói, nó sẽ nặn ra ;
+ị họ”!. Hồ Chí Minh là nhân vật lịch sử, đáp ứng đúng yêu
+. cầu của dân tộc Việt Nam trong thời đại mới. Người không
+. chỉ là kết tính của dân tộc Việt Nam, mà còn là biểu tượng
+! của thời đại, của nhân loại tiến bộ, người Anh hùng giải
+phóng dân tộc tiêu biểu của thế ký XX.
+Cống hiến lý luận lớn đầu tiên của Hồ Chí Minh là về
+cách mạng giải phóng dân tộc. Cách mạng giải phóng dân -
+tộc muốn giành thắng lợi triệt để phải đi theo con đường L
+| cách mạng vô sản, được tiến hành bởi toàn thể nhân dân với.
+nòng cốt liên minh công nông dưới sự lãnh đạo của Đảng :
+Cộng sản. Cách mạng giải phóng dân tộc cần được tiến hành :
+chủ động, sáng tạo, có thể thắng lợi trước cách mạng vô sản ở
+chính quốc, bằng con đường bạo lực: Kết hợp đấu tranh P
+chính trị của quần chúng với đấu tranh vũ trang.
+'Tư tưởng Hồ Chí Minh về cách mạng giải phóng dân
+tộc bao gồm một hệ thống các luận điểm giải quyết một
+cách đúng đắn, sáng tạo vấn đề dân tộc và thuộc địa, dân
+tộc và giai cấp, độc lập dân tộc và chủ nghĩa xã hội, về
+cách mạng giải phóng dân tộc gắn với giải phóng giai cấp
+và giải phóng con người, góp phần bổ sung, phát triển kho
+tàng lý luận chủ nghĩa Mác - Lênin. Và trên thực tế, Chủ
+tịch Hồ Chí Minh là người đi tiên phong trong phong trào
+1. C. Mác và Ph. Ăngghen: Toàn tập, Nxb. Chính trị quốc gia,
+Hà Nội, 2004, t.7, tr.88. |
+68 bi
+†
+Ị giải phóng dân tộc, làm sụp đổ hệ thống thuộc địa của chủ !
+Ý nghĩa thực dân, được thế giới tôn vinh là Anh hùng giải
+| phóng dân tộc trong thời đại ngày nay. Tư tưởng Hồ Chí Minh
+¡ về cách mạng giải phóng dân tộc được đặt trên cơ sở hiện
+Ỉ thực của Việt Nam nhưng có ý nghĩa lớn đối với phong
+: trào cách mạng giải phóng dân tộc trên thế giới.
+Ị b) Tư tưởng Hồ Chí Minh góp phần tích cực vào cuộc
+| đấu tranh vì độc lập dân tộc, dân chủ, hòa bình, hợp tác và
+¡ phát triển trên thế giới
+ị Hồ Chí Minh là người Việt Nam đầu tiên khẳng định
+¡ hợp tác quốc tế là xu thế tất yếu của thời đại, phá bỏ sự
+Í biệt lập, mở đường cho sự phát triển, liên kết các dân tộc
+trong cuộc đấu tranh vì độc lập, tự do, hòa bình, dân chủ
+| và tiến bộ xã hội. Người là một nhà hoạt động quốc tế lỗi
+¡ lạc trong phong trào giải phóng dân tộc, phong trào cộng
+¡ sản, công nhân quốc tế và phong trào vì hòa bình, hợp tác ¿
+h và phát triển trên thế giới. :
+ị Ngay từ những năm 20 của thế kỷ XX, Hồ Chí Minh
+Í đã chỉ ra nhu cầu, khả năng, điều kiện hợp tác giữa các
+Í dân tộc. Điểm nổi bật trong tư tưởng của Người lúc bấy giờ
+. là sự hợp tác, đoàn kết giữa các dân tộc nhỏ yếu, lạc hậu,
+| bị áp bức tạo nên sức mạnh chống đế quốc, thực dân,
+| chống lại chính sách “chia để trị”, giành độc lập, tự do.
+| Hồ Chí Minh đã gắn cách mạng Việt Nam với các phong
+ị trào giải phóng dân tộc, phong trào đấu tranh của giai cấp
+| 69
+lo HN
+Ị
+công nhân trong các nước tư bản và phong trào cộng sản : ;
+quốc tế, phong trào vì hòa bình, hợp tác và phát triển. Ệ
+Hồ Chí Minh chủ trương hòa bình, hữu nghị, hợp tác
+lâu dài giữa các nước, không chỉ xuất phát từ những mục Ệ
+tiêu chính trị vì độc lập dân tộc, tiến bộ xã hội của thời đại, :
+mà còn vì sự phát triển nhanh chóng của lực lượng sản xuất :
+thế giới. Trong tư tưởng Hồ Chí Minh,hợp tác quốc tế không
+chỉ để giành độc lập dân tộc, mà còn là để xóa bỏ nghèo nàn, ¡
+lạc hậu, tiến kịp các nước tiên tiến và sâu xa là đặt chiến Ĩ ;
+lược phát triển đất nước gắn với những chuyển biến của thời ¡
+đại về chính trị, kinh tế, giữ vững độc lập của dân tộc mình
+đồng thời tôn trọng độc lập của các dân tộc khác. <_
+Một nội dung lớn trong tư tưởng Hồ Chí Minh là “Làm Í
+bạn với tất cả mọi nước dân chủ và không gây thù oán với Ệ
+một a?`. Hợp tác quốc tế trên cơ sở giữ vững độc lập chủ ¡
+quyền, bình đẳng cùng oó lợi; phát huy sức mạnh nội lực |
+của đân tộc kết hợp sức mạnh thời đại, đồng thời không :
+quên nghĩa vụ quốc tế. Ngọn cờ tư tưởng Hồ Chí Minh
+được giương cao đã thúc đẩy sự phát triển của Việt Nam
+trong quá trình hội nhập, đồng thời góp phần tích cực .
+củng cố hòa bình, thúc đẩy tình hữu nghị, sự hợp tác và l
+phát triển giữa các quốc gia trên thế giới ngày nay. Í
+Trong lòng nhân dân thế giới Hô Chí Minh là bất điệu
+Bạn bè năm châu khâm phục và coi Hồ Chí Minh là biểu | |
+1, Hồ Chí Minh: Toàn tập, Sđd, t5, tr.256. | |
+.
+[ tượng cao đẹp của những giá trị về tư tưởng, lương trì và
+í phẩm giá làm người.
+¡ Nhận thức về giá trị vô cùng to lớn của di sản tư tưởng
+Ĩ Hồ Chí Minh là cả một quá trình lâu dài, ngày càng đi đến
+¡ hoàn thiện và đầy đủ hơn. Tại Đại hội đại biểu toàn quốc
+¡ lần thứ XH, tổng kết 86 năm hoạt động, Đảng Cộng sản
+là Việt Nam khẳng định:
+Ỹ “Chủ tịch Hồ Chí Minh vĩ đại, lãnh tụ thiên tài của
+[ Đảng và nhân dân ta, Người thầy vĩ đại của cách mạng
+Ï Việt Nam, Người sáng lập, lãnh đạo và rèn luyện Đảng ta,
+| Anh hùng giải phóng dân tộc, Danh nhân văn hóa thế giới,
+. Người đã làm rạng rỡ dân tộc ta, non sông đất nước ta,
+] Người chiến sĩ cộng sản quốc tế mẫu mực, Người bạn thân
+ị thiết của các dân tộc đấu tranh vì hòa bình, độc lập dân
+| tộc, dân chủ và tiến bộ xã hội trên toàn thế giới. Tư tưởng
+] của Người, cùng với chủ nghĩa Mác - Lênin là nền tảng tư
+h tưởng, kim chỉ nam cho hành động của Đảng và cách P
+} mạng Việt Nam, là tài sản tỉnh thần vô cùng to lớn và quý i
+ị giá của Đảng và dân tộc ta, mãi mãi soi đường cho sự
+| nghiệp cách mạng của Đảng và nhân dân ta”,
+ị Việc nghiên cứu, học tập tư tưởng Hồ Chí Minh cần góp
+¡ phần thiết thực vào việc làm cho tư tưởng, đạo đức, phong
+| cách Hồ Chí Minh trở thành một bộ phận cấu thành nền tắng",,,,,
+es_hcm202_0057_missing,hcm202_0057,HCM202,missing,Quan điểm của Hồ Chí Minh về độc lập dân tộc gắn liền với thống nhất toàn vẹn lãnh thổ và nguyên tắc tập trung dân chủ trong Đảng có mối liên hệ như thế nào?,hard,,,,,,,
+es_hcm202_0057_partial,hcm202_0057,HCM202,partial,Quan điểm của Hồ Chí Minh về độc lập dân tộc gắn liền với thống nhất toàn vẹn lãnh thổ và nguyên tắc tập trung dân chủ trong Đảng có mối liên hệ như thế nào?,hard,parent_cd1544e2c8d27387b704,"¡ d) Độc lập dân tộc gắn liền với thống nhất và toàn vẹn
+Í lãnh thổ
+Í 'Trong lịch sử, dân tộc ta luôn đứng trước âm mưu xâm
+[ lược và chia cắt đất nước của kể thù. Thực dân Pháp khi
+| xâm lược đã chia đất nước ta ra ba kỳ, mỗi kỳ có chế độ cai
+! trị riêng. Sau Cách mạng Tháng Tám, miền Bắc nước ta bị
+| quân Tưởng Giới Thạch chiếm đóng, miền Nam bị thực
+¡ dân Pháp xâm lược và sau khi độc chiếm hoàn toàn Việt
+| Nam, một lần nữa thực dân Pháp lại bày ra cái gọi là
+Í “Nam Kỳ tự trị hòng chia cắt nước ta một lần nữa.
+Ị Nhưng, trong Thư gửi đồng bào Nam Độ (năm 1946),
+ị Hô Chí Minh khẳng định: “Đồng bào Nam Bộ là dân nước
+| Việt Nam. Sông có thể cạn, núi có thể mòn, song chân lý
+Ỉ đó không bao giờ thay đổi”. Sau khi Hiệp định Giơnevơ
+| năm 1954 được ký kết, đất nước Việt Nam tạm thời bị chia ;
+| cắt làm hai miền, Hồ Chí Minh tiếp tục kiên trì đấu tranh
+Í để thống nhất Tổ quốc. Tháng 2/1958, Người khẳng định:
+| “Nước Việt Nam là một, dân tộc Việt Nam là một”. Trong
+! Di chúc, Người cũng đã thể hiện niềm tin tuyệt đối vào sự
+¡ thắng lợi của cách mạng, vào sự thống nhất nước nhà: “Dù
+| khó khăn gian khổ đến mấy, nhân dân ta nhất định sẽ
+ị hoàn toàn thắng lợi. Đế quốc Mỹ nhất định phải cút khỏi
+nước ta. Tổ quốc ta nhất định sẽ thống nhất. Đồng bào
+|
+| 1, 2. Hồ Chí Minh: Toàn tập, Sdd, t4, tr.280, 588.
+| 79
+Nam, Bắc nhất định sẽ sum họp một nhà”. Có thể khẳng . :
+định rằng, tư tưởng độc lập dân tộc gắn liền với thống |
+nhất Tổ quốc, toàn vẹn lãnh thổ là tư tưởng xuyên suốt
+trong cuộc đời hoạt động cách mạng của Hồ Chí Minh.
+2. Về cách mạng giải phóng dân tộc [
+4) Cách mạng giải phóng dân tộc muốn thắng lợi phải
+đi theo con đường cách mạng vô sản .
+'Từ khi thực dân Pháp tiến hành xâm lược và đặt ách - ¡
+thống trị nước ta, vấn đề sống còn của dân tộc được đặt ra ị
+là phải đấu tranh để giải phóng dân tộc khỏi ách thực dân,
+¡ đế quốc. Hàng loạt những phong trào yêu nước đã nổ ra -:
+| nhưng không thành công, sự thất bại của những phong
+ị trào yêu nước trong thời kỳ này thể hiện sự khủng hoảng, ]
+bế tắc về giai cấp lãnh đạo và đường lối cách mạng. Vượt
+| qua tầm nhìn của các bậc tiền bối lúc bấy giờ, Hô Chí .
+Minh muốn tìm kiếm con đường cứu nước, giải phóng dân ñ
+tộc ở phương Tây, như Người đã nói: “Tôi muốn đi ra nước
+ngoài, xem nước Pháp và các nước khác. Sau khi xem xét
+họ làm như thế nào, tôi sẽ trở về giúp đồng bào chúng ta”?.
+Nhưng qua tìm hiểu thực tế sau đó, Người quyết định
+không chọn con đường cách mạng tư sản vì cho rằng:
+“Cách mệnh Pháp cũng như cách mệnh Mỹ, nghĩa là cách h
+ị 1. Hồ Chí Minh: Toàn tập, Sđd, t.15, tr.612. |
+| 2. Trần Dân Tiên: Những mẩu chuyện về đời hoạt động của Hồ
+ị Chủ tịch, Sđd, tr.11. |
+| 80 l
+|
+H
+T
+] !
+| mệnh tư bản, cách mệnh không đến nơi, tiếng là cộng hoà
+| và dân chủ, kỳ thực trong thì nó tước lục công nông, ngoài
+Í thì nó áp bức thuộc địa. Cách mệnh đã 4 lần rồi, mà nay
+ị công nông Pháp hãng còn phải mưu cách mệnh lần nữa
+| mới hòng thoát khỏi vòng áp bức”,
+¡ Năm 1917, Cách mạng Tháng Mười Nga thắng lợi đã
+Ệ ảnh hưởng sâu sắc tới Hồ Chí Minh trong việc lựa chọn
+[ con đường cứu nước, giải phóng dân tộc. Người cho rằng:
+| “Trong thế giới bây giờ chỉ có cách mệnh Nga là đã thành
+Ỉ công, và thành công đến nơi, nghĩa là dân chúng được
+hưởng cái hạnh phúc tự do, bình đẳng thật, không phải tự
+Ể do và bình đẳng giả dối như đế quốc chủ nghĩa Pháp khoe
+¡ khoang bên An Nam... Nói tóm lại là phải theo chủ nghĩa
+! Mã Khắc Tư và Lênin??,
+| Năm 1920, sau khi đọc bản Sơ thảo lần thứ nhất
+| những luận cương về vấn đề dân tộc và vấn đề thuộc địa
+Ỉ của V.I Lênin, Hồ Chí Minh tìm thấy ở đó con đường cứu
+| nước, giải phóng dân tộc: con đường cách mạng vô sản, ¿
+như sau này Người khẳng định: “Muốn cứu nước và giải
+Ị phóng dân tộc không có con đường nào khác con đường
+Ì cách mạng vô sản”. Đây là con đường cách mạng triệt để
+Í nhất phù hợp với yêu cầu của cách mạng Việt Nam và xu
+! thế phát triển của thời đại. Trong bài Con đường dẫn tôi
+| đến chủ nghĩa Lênin, Người kể lại: “Luận cương của Lênin
+làm cho tôi rất cảm động, phấn khởi, sáng tổ, tin tưởng
+Ỉ I
+| 1, 2. Hồ Chí Minh: Toàn tập, Sởd, t.9, tr.296, 304.
+3. Hồ Chí Minh: Toàn tập, Sđd, t.12, tr.830.
+Ỉ 81
+biết bao! Tôi vui mừng đến phát khóc lên. Ngồi một mình l
+trong buồng mà tôi nói to lên như đang nói trước quần
+chúng đông đảo: “Hỡi đồng bào bị đọa đày đau khổi Đây là
+cái cần thiết cho chúng ta, đây là con đường giải phóng
+chúng taP. Từ đó tôi hoàn toàn tin theo Lênin, tin theo
+Quốc tế thứ ba”!. Học thuyết cách mạng vô sản của chủ
+nghĩa Mác - Lênin được Người vận dụng một cách sáng
+tạo trong điều kiện cách mạng Việt Nam.
+Giải phóng dân tộc gắn với giải phóng giai cấp, trong
+đó giải phóng dân tộc là trước hết, trên bết. Theo CƠ. Mác :
+h và Ph. Ăngghen, con đường cách mạng vô sản ở châu Âu
+| là đi từ giải phóng giai cấp - giải phóng dân tộc - giải Ì
+| phóng xã hội - giải phóng con người. Còn theo Hồ Chí :
+! Minh, ở Việt Nam và các nước thuộc địa do hoàn cảnh
+] lịch sử - chính trị khác với châu Âu nên phải là: giải
+Í phóng đân tộc - giải phóng xã hội - giải phóng giai cấp -
+| giải phóng con người.
+Ị Độc lập dân tộc gắn liền với chủ nghĩa xã hội. Trong ¿
+| Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh
+Ị đã khẳng định phương hướng chiến lược cách mạng Việt
+: Nam; làm tư sản dân quyền cách mạng và thổ địa cách
+¡ mạng để đi tới xã hội cộng sản. Phương hướng này vừa
+| phù hợp với xu thế phát triển của thời đại vừa hướng tới
+¡ giải quyết một cách triệt để những yêu cầu khách quan, cụ Ì
+| thể mà cách mạng Việt Nam đặt ra vào cuối thế kỷ XIX - |
+| đầu thế kỷ XX. : |
+¡ 1, Hồ Chí Minh: Toàn tập, Sdd, t.12, tr.562.
+| 8s HÀ
+T ]
+| |",,,,,
+es_hcm202_0057_sufficient,hcm202_0057,HCM202,sufficient,Quan điểm của Hồ Chí Minh về độc lập dân tộc gắn liền với thống nhất toàn vẹn lãnh thổ và nguyên tắc tập trung dân chủ trong Đảng có mối liên hệ như thế nào?,hard,parent_cd1544e2c8d27387b704|parent_2dbe550b79b71d1ffb4b,"¡ d) Độc lập dân tộc gắn liền với thống nhất và toàn vẹn
+Í lãnh thổ
+Í 'Trong lịch sử, dân tộc ta luôn đứng trước âm mưu xâm
+[ lược và chia cắt đất nước của kể thù. Thực dân Pháp khi
+| xâm lược đã chia đất nước ta ra ba kỳ, mỗi kỳ có chế độ cai
+! trị riêng. Sau Cách mạng Tháng Tám, miền Bắc nước ta bị
+| quân Tưởng Giới Thạch chiếm đóng, miền Nam bị thực
+¡ dân Pháp xâm lược và sau khi độc chiếm hoàn toàn Việt
+| Nam, một lần nữa thực dân Pháp lại bày ra cái gọi là
+Í “Nam Kỳ tự trị hòng chia cắt nước ta một lần nữa.
+Ị Nhưng, trong Thư gửi đồng bào Nam Độ (năm 1946),
+ị Hô Chí Minh khẳng định: “Đồng bào Nam Bộ là dân nước
+| Việt Nam. Sông có thể cạn, núi có thể mòn, song chân lý
+Ỉ đó không bao giờ thay đổi”. Sau khi Hiệp định Giơnevơ
+| năm 1954 được ký kết, đất nước Việt Nam tạm thời bị chia ;
+| cắt làm hai miền, Hồ Chí Minh tiếp tục kiên trì đấu tranh
+Í để thống nhất Tổ quốc. Tháng 2/1958, Người khẳng định:
+| “Nước Việt Nam là một, dân tộc Việt Nam là một”. Trong
+! Di chúc, Người cũng đã thể hiện niềm tin tuyệt đối vào sự
+¡ thắng lợi của cách mạng, vào sự thống nhất nước nhà: “Dù
+| khó khăn gian khổ đến mấy, nhân dân ta nhất định sẽ
+ị hoàn toàn thắng lợi. Đế quốc Mỹ nhất định phải cút khỏi
+nước ta. Tổ quốc ta nhất định sẽ thống nhất. Đồng bào
+|
+| 1, 2. Hồ Chí Minh: Toàn tập, Sdd, t4, tr.280, 588.
+| 79
+Nam, Bắc nhất định sẽ sum họp một nhà”. Có thể khẳng . :
+định rằng, tư tưởng độc lập dân tộc gắn liền với thống |
+nhất Tổ quốc, toàn vẹn lãnh thổ là tư tưởng xuyên suốt
+trong cuộc đời hoạt động cách mạng của Hồ Chí Minh.
+2. Về cách mạng giải phóng dân tộc [
+4) Cách mạng giải phóng dân tộc muốn thắng lợi phải
+đi theo con đường cách mạng vô sản .
+'Từ khi thực dân Pháp tiến hành xâm lược và đặt ách - ¡
+thống trị nước ta, vấn đề sống còn của dân tộc được đặt ra ị
+là phải đấu tranh để giải phóng dân tộc khỏi ách thực dân,
+¡ đế quốc. Hàng loạt những phong trào yêu nước đã nổ ra -:
+| nhưng không thành công, sự thất bại của những phong
+ị trào yêu nước trong thời kỳ này thể hiện sự khủng hoảng, ]
+bế tắc về giai cấp lãnh đạo và đường lối cách mạng. Vượt
+| qua tầm nhìn của các bậc tiền bối lúc bấy giờ, Hô Chí .
+Minh muốn tìm kiếm con đường cứu nước, giải phóng dân ñ
+tộc ở phương Tây, như Người đã nói: “Tôi muốn đi ra nước
+ngoài, xem nước Pháp và các nước khác. Sau khi xem xét
+họ làm như thế nào, tôi sẽ trở về giúp đồng bào chúng ta”?.
+Nhưng qua tìm hiểu thực tế sau đó, Người quyết định
+không chọn con đường cách mạng tư sản vì cho rằng:
+“Cách mệnh Pháp cũng như cách mệnh Mỹ, nghĩa là cách h
+ị 1. Hồ Chí Minh: Toàn tập, Sđd, t.15, tr.612. |
+| 2. Trần Dân Tiên: Những mẩu chuyện về đời hoạt động của Hồ
+ị Chủ tịch, Sđd, tr.11. |
+| 80 l
+|
+H
+T
+] !
+| mệnh tư bản, cách mệnh không đến nơi, tiếng là cộng hoà
+| và dân chủ, kỳ thực trong thì nó tước lục công nông, ngoài
+Í thì nó áp bức thuộc địa. Cách mệnh đã 4 lần rồi, mà nay
+ị công nông Pháp hãng còn phải mưu cách mệnh lần nữa
+| mới hòng thoát khỏi vòng áp bức”,
+¡ Năm 1917, Cách mạng Tháng Mười Nga thắng lợi đã
+Ệ ảnh hưởng sâu sắc tới Hồ Chí Minh trong việc lựa chọn
+[ con đường cứu nước, giải phóng dân tộc. Người cho rằng:
+| “Trong thế giới bây giờ chỉ có cách mệnh Nga là đã thành
+Ỉ công, và thành công đến nơi, nghĩa là dân chúng được
+hưởng cái hạnh phúc tự do, bình đẳng thật, không phải tự
+Ể do và bình đẳng giả dối như đế quốc chủ nghĩa Pháp khoe
+¡ khoang bên An Nam... Nói tóm lại là phải theo chủ nghĩa
+! Mã Khắc Tư và Lênin??,
+| Năm 1920, sau khi đọc bản Sơ thảo lần thứ nhất
+| những luận cương về vấn đề dân tộc và vấn đề thuộc địa
+Ỉ của V.I Lênin, Hồ Chí Minh tìm thấy ở đó con đường cứu
+| nước, giải phóng dân tộc: con đường cách mạng vô sản, ¿
+như sau này Người khẳng định: “Muốn cứu nước và giải
+Ị phóng dân tộc không có con đường nào khác con đường
+Ì cách mạng vô sản”. Đây là con đường cách mạng triệt để
+Í nhất phù hợp với yêu cầu của cách mạng Việt Nam và xu
+! thế phát triển của thời đại. Trong bài Con đường dẫn tôi
+| đến chủ nghĩa Lênin, Người kể lại: “Luận cương của Lênin
+làm cho tôi rất cảm động, phấn khởi, sáng tổ, tin tưởng
+Ỉ I
+| 1, 2. Hồ Chí Minh: Toàn tập, Sởd, t.9, tr.296, 304.
+3. Hồ Chí Minh: Toàn tập, Sđd, t.12, tr.830.
+Ỉ 81
+biết bao! Tôi vui mừng đến phát khóc lên. Ngồi một mình l
+trong buồng mà tôi nói to lên như đang nói trước quần
+chúng đông đảo: “Hỡi đồng bào bị đọa đày đau khổi Đây là
+cái cần thiết cho chúng ta, đây là con đường giải phóng
+chúng taP. Từ đó tôi hoàn toàn tin theo Lênin, tin theo
+Quốc tế thứ ba”!. Học thuyết cách mạng vô sản của chủ
+nghĩa Mác - Lênin được Người vận dụng một cách sáng
+tạo trong điều kiện cách mạng Việt Nam.
+Giải phóng dân tộc gắn với giải phóng giai cấp, trong
+đó giải phóng dân tộc là trước hết, trên bết. Theo CƠ. Mác :
+h và Ph. Ăngghen, con đường cách mạng vô sản ở châu Âu
+| là đi từ giải phóng giai cấp - giải phóng dân tộc - giải Ì
+| phóng xã hội - giải phóng con người. Còn theo Hồ Chí :
+! Minh, ở Việt Nam và các nước thuộc địa do hoàn cảnh
+] lịch sử - chính trị khác với châu Âu nên phải là: giải
+Í phóng đân tộc - giải phóng xã hội - giải phóng giai cấp -
+| giải phóng con người.
+Ị Độc lập dân tộc gắn liền với chủ nghĩa xã hội. Trong ¿
+| Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh
+Ị đã khẳng định phương hướng chiến lược cách mạng Việt
+: Nam; làm tư sản dân quyền cách mạng và thổ địa cách
+¡ mạng để đi tới xã hội cộng sản. Phương hướng này vừa
+| phù hợp với xu thế phát triển của thời đại vừa hướng tới
+¡ giải quyết một cách triệt để những yêu cầu khách quan, cụ Ì
+| thể mà cách mạng Việt Nam đặt ra vào cuối thế kỷ XIX - |
+| đầu thế kỷ XX. : |
+¡ 1, Hồ Chí Minh: Toàn tập, Sdd, t.12, tr.562.
+| 8s HÀ
+T ]
+| |
+---
+b) Những vấn đề nguyên tắc trong hoạt động của Đảng
+- Đảng lấy chủ nghĩa Mác - Lênin làm nền tảng tư | :
+tưởng và kim chỉ nam cho hành động: Trong tác phẩm |
+Đường cách mệnh, Hồ Chí Minh khẳng định: “Đảng muốn |
+vững thì phải có chủ nghĩa làm cốt, trong đảng ai cũng phải
+hiểu, ai cũng phải theo chủ nghĩa ấy. Đảng mà không có chủ |
+nghĩa cũng như người không có trí khôn, tàu không có bàn |
+chỉ nam. Bây giờ học thuyết nhiều, chủ nghĩa nhiều, nhưng ]
+chủ nghĩa chân chính nhất, chắc chắn nhất, cách mệnh nhất i
+là chủ nghĩa Lênin”. :
+Hồ Chí Minh luôn luôn nhấn mạnh phải trung thành
+với chủ nghĩa Mác - Lênin nhưng đồng thời phải luôn luôn |
+sáng tạo, vận dụng cho phù hợp với điều kiện hoàn cảnh,
+từng lúc, từng nơi, không được phép giáo điều.
+- Tập trung dân chủ: Hồ Chí Minh đưa ra luận đề liên
+quan mật thiết với nhau: Tập trung trên nền tảng dân
+1. Hồ Chí Minh: Toàn tập, Sđd, t,15, tr.672. |
+2. Hỗ Chí Minh: Toàn tập, Sđd, t9, tr.289. |
+Ị ũ
+| chủ, dân chủ phải đi đến tập trung. Hồ Chí Minh nhấn
+| mạnh rằng, phải làm cho tất cả mọi đảng viên bày tỏ hết ý
+i kiến của mình ở trong Đảng, tức là khơi dậy tỉnh thần
+! trách nhiệm và tính tích cực chủ động của tất cả đẳng
+| viên. Khi đã thảo luận, bày tổ ý kiến rồi thì đi đến tập
+| trung, tức là đề cập ý chí thống nhất, hành động thống
+nhất, như thế mới có sức mạnh. Theo Hồ Chí Minh, lúc ấy
+| quyền tự do của đảng viên trở thành quyền phục tùng
+] chân lý, mà chân lý là những điều có lợi cho dân, cho nước.
+Điều kiện tiên quyết khi thực hiện nguyên tắc này là tổ
+| chức Đảng phải trong sạch, vững mạnh.
+| Đối với tập thể lãnh đạo, cá nhân phụ trách, có lúc
+Ỉ Hồ Chí Minh coi tập thể lãnh đạo là dân chủ, cá nhân
+| phụ trách là tập trung. Để nhấn mạnh tính chất này,
+Hồ Chí Minh lưu ý hai điều cần tránh trong hoạt động
+| của Đảng: một là, độc đoán, chuyên quyền, coi thường \
+Ị tập thể; hai là, dựa dẫm tập thể, không đám quyết đoán. u
+Hai vế tập thể lãnh đạo, cá nhân phụ trách phải luôn
+| luôn đi đôi với nhau.
+| - Tự phê bình và phê bình: Hồ Chí Minh coi tự phê
+¡ bình, tự kiểm điểm, tự sửa chữa là việc làm thường
+xuyên, “như mỗi ngày phải rửa mặt”, Người cho rằng, tự
+phê bình và phê bình là “thang thuốc” tốt nhất để làm Ị
+cho phần tốt trong mỗi tổ chức và mỗi con người nảy nở |
+như hoa mùa xuân và phần xấu bị mất dần đi; tự phê |
+1. Hồ Chí Minh: Toàn tập, Sđd, t.5, tr.279. Ị
+bình và phê bình phải trung thực, kiên quyết, đúng '
+người, đúng việc, phải có văn hóa... Người viết trong Di Ì
+¡ chúc: “Trong Đảng thực hành dân chủ rộng rãi, thường |
+| xuyên và nghiêm chỉnh tự phê bình và phê bình là cách |
+ị tốt nhất để củng cố sự đoàn kết và thống nhất trong |
+Đảng. Phải có tình đồng chí thương yêu lẫn nhau”'. ]
+| - Ký luật nghiêm minh, tự giác Hồ Chí Minh nhấn ị
+| mạnh: “Đảng tổ chức rất nghiêm, khác với các đẳng |
+Ị phái khác và các hội quần chúng. Trong Đảng chỉ kết | ;
+nạp những phần tử hắng hái nhất, cách mạng nhất. [
+Đảng có những điều kiện kỷ luật bắt buộc mỗi đẳng viên Ị
+phải theo. Không có kỷ luật sắt không có Đảng. Đã vào | -
+Đảng thì phải theo tư tưởng của Đảng. Đảng đã chỉ thị |
+nghị quyết là phải làm. Không làm thì đuổi ra khỏi Ị
+Đảng”, Sức mạnh của một đảng cộng sản bắt nguồn từ !
+kỷ luật, muôn người như một, cùng một ý chí và hành |
+động. Hồ Chí Minh cho rằng, Đảng ta tuy đông người, Ị
+nhưng khi tiến đánh chỉ như một người. Điều đó là nhờ w,
+trong Đảng có kỷ luật. Hồ Chí Minh nhấn mạnh rằng: |
+“Đảng phải giữ kỷ luật rất nghiêm từ trên xuống dưới. |
+Kỷ luật này là tư tưởng phải nhất trí, hành động phải ¡
+nhất trí. Kỷ luật này là do lòng tự giác của đẳng viên về |
+nhiệm vụ của họ đối với Đảng”; khi đã tự giác thì kỷ luật |
+của Đảng mới nghiêm và mới bền lâu, thực sự tạo sức
+mạnh cho Đảng. | |
+!
+1. Hỗ Chí Minh: Toàn tập, Sđd, t.15, tr.611. | |
+2. Hồ Chí Minh: Toàn tập, Sđd, t.6, tr.367.
+3. Hồ Chí Minh: Toàn tập, Sdd, t5, tr.590. |
+¡
+T ]
+| - Đảng phải thường xuyên tự chỉnh đốn: Quyền lực !
+của Đảng là do giai cấp công nhân, nhân dân lao động và ị
+Ị toàn dân tộc giao phó. Đảng phải không ngừng tự chỉnh |
+| đốn bản thân mình. Hồ Chí Minh cho rằng, Đảng không có
+! mục đích tự thân, Đảng không phải là tổ chức để làm
+L quan phát tài mà Đảng từ trong xã hội mà ra, hoạt động
+| vì Tổ quốc giàu mạnh, đồng bào sung sướng. Do đó,
+] thường xuyên tự chỉnh đốn trở thành một nhiệm vụ cực kỳ
+| quan trọng trong xây dựng Đảng. Điều này càng đặc biệt ũ
+| quan trọng hơn khi Đảng đứng trước những thử thách lớn
+trong quá trình hoạt động, chẳng hạn, Hồ Chí Minh nêu ý
+| kiến rằng, ngay sau khi cuộc chống Mỹ, cứu nước của
+nhân dân Việt Nam hoàn toàn thắng lợi, “việc cần phải
+| làm trước tiên là chỉnh đốn lại Đảng, làm cho mỗi đảng
+! viên, mỗi đoàn viên, mỗi chỉ bộ đều ra sức làm tròn nhiệm
+| vụ đẳng giao phó cho mình, toàn tâm toàn ý phục vụ nhân
+| dân. Làm được như vậy, thì dù công việc to lớn mấy, khó ¡
+ị khăn mấy chúng ta cũng nhất định thắng lợi”). Khi viết về
+| tư cách của đẳng chân chính cách mạng, trong tác phẩm
+! Sứa đổi lối làm việc, Hồ Chí Minh nêu lên 12 điều, trong
+| đó có Điều số 9: “Đảng phải chọn lựa những người rất
+trung thành và rất hăng hái, đoàn kết họ thành nhóm
+trung kiên lãnh đạo” và Điều số 10: “Đẳng phải luôn luôn ¡
+1. Hồ Chí Minh: Toàn tập, Sđd, t.15, tr.616.
+2. Hồ Chí Minh: Toàn tập, Sđd, t.5, tr.290.
+| 138 |
+|
+†
+Tì
+TỊ
+| tẩy bỏ những phần tử hủ hóa ra ngoài”. Nếu thực hiện | ;
+| được như thế, Đảng sẽ luôn luôn lớn mạnh cả về số lượng |
+và chất lượng: . |
+í - Đoàn kết, thống nhất trong Đảng: Đoàn kết trong | ;
+Í Đảng là điều kiện để xây dựng khối đại đoàn kết toàn dân |",,,,,
+es_hcm202_0057_wrongaspect,hcm202_0057,HCM202,wrong_aspect,Quan điểm của Hồ Chí Minh về độc lập dân tộc gắn liền với thống nhất toàn vẹn lãnh thổ và nguyên tắc tập trung dân chủ trong Đảng có mối liên hệ như thế nào?,hard,parent_0f17d6d35ca9021fbb38,"III- TƯ TƯỞNG HỒ CHÍ MINH VỀ MỐI QUAN HỆ |
+GIỮA ĐỘC LẬP DÂN TỘC VÀ CHỦ NGHĨA XÃ HỘI |
+1. Độc lập dân tộc là cơ sở, tiền đề để tiến lên |
+chủ nghĩa xã hội li:
+Vận dụng một cách sáng tạo lý luận cách mạng không |
+ngừng của chủ nghĩa Mác - Lênin trong điều kiện của |
+cách mạng Việt Nam, trong Chánh cương vắn tắt của |
+Đảng (năm 1930), Hồ Chí Minh khẳng định phương hướng !
+chiến lược của cách mạng nước ta là: “làm tư sản dân quyền |
+1. Hồ Chí Minh: Toàn tập, Sdd, t.18, tx.68. |
+2. Hỗ Chí Minh: Toàn tập, Sdd, t.5, tr.298. | ;
+3. Hỗ Chí Minh: Toàn tập, Sđd, t.11, tr.92. |
+4. Xem Hồ Chí Minh: Toàn tập, Sđd, t.5, tr.294-296. |
+114 |
+!
+cách mạng và thổ địa cách mạng để đi tới xã hội cộng
+sản”. Như vậy, giải phóng dân tộc, giành độc lập dân tộc |
+| sẽ là mục tiêu đầu tiên của cách mạng, là cơ sở, tiền đề !
+¡| cho mục tiêu tiếp theo - chủ nghĩa xã hội và chủ nghĩa |
+| cộng sản. |
+| Trong tư tưởng Hồ Chí Minh, độc lập dân tộc bao gồm !
+Í cả nội dung đân tộc và dân chủ; độc lập phải gắn liền với |
+| thống nhất, chủ quyền và toàn vẹn lãnh thổ và hơn nữa |
+l độc lập dân tộc cũng phải gắn liền với tự do, cơm no, áo |
+| ấm, hạnh phúc cho nhân dân. Vậy nên khi nêu lên mục
+| tiêu giải phóng dân tộc, Người cũng đã định hướng đến |
+| mục tiêu chủ nghĩa xã hội. ¡
+Khi đề cao mục tiêu độc lập dân tộc, Hồ Chí Minh ị
+Ị không coi đó là mục tiêu cuối cùng của cách mạng, mà là
+| tiền đề cho một cuộc cách mạng tiếp theo - cách mạng xã
+| hội chủ nghĩa. Vì vậy, cách mạng dân tộc dân chủ nhân
+¡ dân càng sâu sắc, triệt để thì càng tạo ra những tiền đề
+| thuận lợi, sức mạnh to lớn cho cách mạng xã hội chủ ¿
+nghĩa. Cách mạng giải phóng dân tộc ở Việt Nam đã được
+| Hồ Chí Minh khẳng định là con đường cách mạng vô sản,
+Ỉ vì vậy bản thân cuộc cách mạng này ngay từ đầu đã
+| mang tính định hướng xã hội chủ nghĩa. Độc lập dân tộc
+vì vậy không những là tiền đề mà còn là nguồn sức mạnh
+| to lớn cho cách mạng xã hội chủ nghĩa. h
+Tư tưởng trên của Hồ Chí Minh là đúng đắn và sáng |
+tạo vì không chỉ đáp ứng được yêu cầu khách quan, cụ thể |
+1. Hồ Chí Minh: Toàn tập, Sđd, t.3, tr.1. |
+|
+| lR
+của cách mạng Việt Nam mà còn phù hợp với quy luật mm
+phát triển của thời đại. i
+2. Chủ nghĩa xã hội là điều kiện để bảo đảm nền !
+độc lập dân tộc vững chắc |
+Chủ nghĩa xã hội là xu thế tất yếu của thời đại và phù |
+¡ hợp với lợi ích của nhân dân Việt Nam. Vì vậy, cách mạng ¡
+giải phóng dân tộc ở Việt Nam phải mang tính định hướng Ị
+: xã hội chủ nghĩa thì mới giành được thắng lợi hoàn toàn
+| và triệt để. Năm 1960, Người khẳng định: “chỉ có chủ lim
+nghĩa xã hội, chủ nghĩa cộng sản mới giải phóng được các |
+dân tộc bị áp bức và những người lao động trên thế giới | Ì
+khỏi ách nô lệ?! Theo Hồ Chí Minh, chủ nghĩa xã hội ở ị
+Việt Nam trước hết là một chế độ dân chủ, do nhân dân |
+làm chủ, dưới sự lãnh đạo của Đảng Cộng sản. Chế độ dân
+chủ thể hiện trong tất cả mọi mặt của đời sống xã hội và
+được thể chế hóa bằng pháp luật, đây là điều kiện quan
+trọng nhất để bảo đảm nền độc lập dân tộc, tạo ra nền II°¡
+| tảng ý thức xã hội bảo vệ chủ quyền dân tộc, kiên quyết |
+ì đấu tranh chống lại mọi âm mưu thôn tính, đe dọa nền í
+độc lập, tự do của dân tộc. |
+Chủ nghĩa xã hội, theo Hồ Chí Minh, là một xã hội tốt Ị
+đẹp, không còn chế độ áp bức bóc lột. Đó là một xã hội |
+bình đẳng, công bằng và hợp lý: làm nhiều hưởng nhiều, |
+làm ít hưởng ít, không làm không hưởng, bảo đảm phúc lợi |
+xã hội cho người già, trẻ em và những người còn khó khăn |",,,,,
+es_hcm202_0081_missing,hcm202_0081,HCM202,missing,"Trong Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh đã khẳng định phương hướng chiến lược của cách mạng Việt Nam như thế nào và Đảng Cộng sản Việt Nam lãnh đạo đối với mặt trận nhằm hoàn thành nhiệm vụ gì?",medium,,,,,,,
+es_hcm202_0081_partial,hcm202_0081,HCM202,partial,"Trong Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh đã khẳng định phương hướng chiến lược của cách mạng Việt Nam như thế nào và Đảng Cộng sản Việt Nam lãnh đạo đối với mặt trận nhằm hoàn thành nhiệm vụ gì?",medium,parent_cd1544e2c8d27387b704,"¡ d) Độc lập dân tộc gắn liền với thống nhất và toàn vẹn
+Í lãnh thổ
+Í 'Trong lịch sử, dân tộc ta luôn đứng trước âm mưu xâm
+[ lược và chia cắt đất nước của kể thù. Thực dân Pháp khi
+| xâm lược đã chia đất nước ta ra ba kỳ, mỗi kỳ có chế độ cai
+! trị riêng. Sau Cách mạng Tháng Tám, miền Bắc nước ta bị
+| quân Tưởng Giới Thạch chiếm đóng, miền Nam bị thực
+¡ dân Pháp xâm lược và sau khi độc chiếm hoàn toàn Việt
+| Nam, một lần nữa thực dân Pháp lại bày ra cái gọi là
+Í “Nam Kỳ tự trị hòng chia cắt nước ta một lần nữa.
+Ị Nhưng, trong Thư gửi đồng bào Nam Độ (năm 1946),
+ị Hô Chí Minh khẳng định: “Đồng bào Nam Bộ là dân nước
+| Việt Nam. Sông có thể cạn, núi có thể mòn, song chân lý
+Ỉ đó không bao giờ thay đổi”. Sau khi Hiệp định Giơnevơ
+| năm 1954 được ký kết, đất nước Việt Nam tạm thời bị chia ;
+| cắt làm hai miền, Hồ Chí Minh tiếp tục kiên trì đấu tranh
+Í để thống nhất Tổ quốc. Tháng 2/1958, Người khẳng định:
+| “Nước Việt Nam là một, dân tộc Việt Nam là một”. Trong
+! Di chúc, Người cũng đã thể hiện niềm tin tuyệt đối vào sự
+¡ thắng lợi của cách mạng, vào sự thống nhất nước nhà: “Dù
+| khó khăn gian khổ đến mấy, nhân dân ta nhất định sẽ
+ị hoàn toàn thắng lợi. Đế quốc Mỹ nhất định phải cút khỏi
+nước ta. Tổ quốc ta nhất định sẽ thống nhất. Đồng bào
+|
+| 1, 2. Hồ Chí Minh: Toàn tập, Sdd, t4, tr.280, 588.
+| 79
+Nam, Bắc nhất định sẽ sum họp một nhà”. Có thể khẳng . :
+định rằng, tư tưởng độc lập dân tộc gắn liền với thống |
+nhất Tổ quốc, toàn vẹn lãnh thổ là tư tưởng xuyên suốt
+trong cuộc đời hoạt động cách mạng của Hồ Chí Minh.
+2. Về cách mạng giải phóng dân tộc [
+4) Cách mạng giải phóng dân tộc muốn thắng lợi phải
+đi theo con đường cách mạng vô sản .
+'Từ khi thực dân Pháp tiến hành xâm lược và đặt ách - ¡
+thống trị nước ta, vấn đề sống còn của dân tộc được đặt ra ị
+là phải đấu tranh để giải phóng dân tộc khỏi ách thực dân,
+¡ đế quốc. Hàng loạt những phong trào yêu nước đã nổ ra -:
+| nhưng không thành công, sự thất bại của những phong
+ị trào yêu nước trong thời kỳ này thể hiện sự khủng hoảng, ]
+bế tắc về giai cấp lãnh đạo và đường lối cách mạng. Vượt
+| qua tầm nhìn của các bậc tiền bối lúc bấy giờ, Hô Chí .
+Minh muốn tìm kiếm con đường cứu nước, giải phóng dân ñ
+tộc ở phương Tây, như Người đã nói: “Tôi muốn đi ra nước
+ngoài, xem nước Pháp và các nước khác. Sau khi xem xét
+họ làm như thế nào, tôi sẽ trở về giúp đồng bào chúng ta”?.
+Nhưng qua tìm hiểu thực tế sau đó, Người quyết định
+không chọn con đường cách mạng tư sản vì cho rằng:
+“Cách mệnh Pháp cũng như cách mệnh Mỹ, nghĩa là cách h
+ị 1. Hồ Chí Minh: Toàn tập, Sđd, t.15, tr.612. |
+| 2. Trần Dân Tiên: Những mẩu chuyện về đời hoạt động của Hồ
+ị Chủ tịch, Sđd, tr.11. |
+| 80 l
+|
+H
+T
+] !
+| mệnh tư bản, cách mệnh không đến nơi, tiếng là cộng hoà
+| và dân chủ, kỳ thực trong thì nó tước lục công nông, ngoài
+Í thì nó áp bức thuộc địa. Cách mệnh đã 4 lần rồi, mà nay
+ị công nông Pháp hãng còn phải mưu cách mệnh lần nữa
+| mới hòng thoát khỏi vòng áp bức”,
+¡ Năm 1917, Cách mạng Tháng Mười Nga thắng lợi đã
+Ệ ảnh hưởng sâu sắc tới Hồ Chí Minh trong việc lựa chọn
+[ con đường cứu nước, giải phóng dân tộc. Người cho rằng:
+| “Trong thế giới bây giờ chỉ có cách mệnh Nga là đã thành
+Ỉ công, và thành công đến nơi, nghĩa là dân chúng được
+hưởng cái hạnh phúc tự do, bình đẳng thật, không phải tự
+Ể do và bình đẳng giả dối như đế quốc chủ nghĩa Pháp khoe
+¡ khoang bên An Nam... Nói tóm lại là phải theo chủ nghĩa
+! Mã Khắc Tư và Lênin??,
+| Năm 1920, sau khi đọc bản Sơ thảo lần thứ nhất
+| những luận cương về vấn đề dân tộc và vấn đề thuộc địa
+Ỉ của V.I Lênin, Hồ Chí Minh tìm thấy ở đó con đường cứu
+| nước, giải phóng dân tộc: con đường cách mạng vô sản, ¿
+như sau này Người khẳng định: “Muốn cứu nước và giải
+Ị phóng dân tộc không có con đường nào khác con đường
+Ì cách mạng vô sản”. Đây là con đường cách mạng triệt để
+Í nhất phù hợp với yêu cầu của cách mạng Việt Nam và xu
+! thế phát triển của thời đại. Trong bài Con đường dẫn tôi
+| đến chủ nghĩa Lênin, Người kể lại: “Luận cương của Lênin
+làm cho tôi rất cảm động, phấn khởi, sáng tổ, tin tưởng
+Ỉ I
+| 1, 2. Hồ Chí Minh: Toàn tập, Sởd, t.9, tr.296, 304.
+3. Hồ Chí Minh: Toàn tập, Sđd, t.12, tr.830.
+Ỉ 81
+biết bao! Tôi vui mừng đến phát khóc lên. Ngồi một mình l
+trong buồng mà tôi nói to lên như đang nói trước quần
+chúng đông đảo: “Hỡi đồng bào bị đọa đày đau khổi Đây là
+cái cần thiết cho chúng ta, đây là con đường giải phóng
+chúng taP. Từ đó tôi hoàn toàn tin theo Lênin, tin theo
+Quốc tế thứ ba”!. Học thuyết cách mạng vô sản của chủ
+nghĩa Mác - Lênin được Người vận dụng một cách sáng
+tạo trong điều kiện cách mạng Việt Nam.
+Giải phóng dân tộc gắn với giải phóng giai cấp, trong
+đó giải phóng dân tộc là trước hết, trên bết. Theo CƠ. Mác :
+h và Ph. Ăngghen, con đường cách mạng vô sản ở châu Âu
+| là đi từ giải phóng giai cấp - giải phóng dân tộc - giải Ì
+| phóng xã hội - giải phóng con người. Còn theo Hồ Chí :
+! Minh, ở Việt Nam và các nước thuộc địa do hoàn cảnh
+] lịch sử - chính trị khác với châu Âu nên phải là: giải
+Í phóng đân tộc - giải phóng xã hội - giải phóng giai cấp -
+| giải phóng con người.
+Ị Độc lập dân tộc gắn liền với chủ nghĩa xã hội. Trong ¿
+| Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh
+Ị đã khẳng định phương hướng chiến lược cách mạng Việt
+: Nam; làm tư sản dân quyền cách mạng và thổ địa cách
+¡ mạng để đi tới xã hội cộng sản. Phương hướng này vừa
+| phù hợp với xu thế phát triển của thời đại vừa hướng tới
+¡ giải quyết một cách triệt để những yêu cầu khách quan, cụ Ì
+| thể mà cách mạng Việt Nam đặt ra vào cuối thế kỷ XIX - |
+| đầu thế kỷ XX. : |
+¡ 1, Hồ Chí Minh: Toàn tập, Sdd, t.12, tr.562.
+| 8s HÀ
+T ]
+| |",,,,,
+es_hcm202_0081_sufficient,hcm202_0081,HCM202,sufficient,"Trong Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh đã khẳng định phương hướng chiến lược của cách mạng Việt Nam như thế nào và Đảng Cộng sản Việt Nam lãnh đạo đối với mặt trận nhằm hoàn thành nhiệm vụ gì?",medium,parent_cd1544e2c8d27387b704|parent_9599a693adf04a5d6476,"¡ d) Độc lập dân tộc gắn liền với thống nhất và toàn vẹn
+Í lãnh thổ
+Í 'Trong lịch sử, dân tộc ta luôn đứng trước âm mưu xâm
+[ lược và chia cắt đất nước của kể thù. Thực dân Pháp khi
+| xâm lược đã chia đất nước ta ra ba kỳ, mỗi kỳ có chế độ cai
+! trị riêng. Sau Cách mạng Tháng Tám, miền Bắc nước ta bị
+| quân Tưởng Giới Thạch chiếm đóng, miền Nam bị thực
+¡ dân Pháp xâm lược và sau khi độc chiếm hoàn toàn Việt
+| Nam, một lần nữa thực dân Pháp lại bày ra cái gọi là
+Í “Nam Kỳ tự trị hòng chia cắt nước ta một lần nữa.
+Ị Nhưng, trong Thư gửi đồng bào Nam Độ (năm 1946),
+ị Hô Chí Minh khẳng định: “Đồng bào Nam Bộ là dân nước
+| Việt Nam. Sông có thể cạn, núi có thể mòn, song chân lý
+Ỉ đó không bao giờ thay đổi”. Sau khi Hiệp định Giơnevơ
+| năm 1954 được ký kết, đất nước Việt Nam tạm thời bị chia ;
+| cắt làm hai miền, Hồ Chí Minh tiếp tục kiên trì đấu tranh
+Í để thống nhất Tổ quốc. Tháng 2/1958, Người khẳng định:
+| “Nước Việt Nam là một, dân tộc Việt Nam là một”. Trong
+! Di chúc, Người cũng đã thể hiện niềm tin tuyệt đối vào sự
+¡ thắng lợi của cách mạng, vào sự thống nhất nước nhà: “Dù
+| khó khăn gian khổ đến mấy, nhân dân ta nhất định sẽ
+ị hoàn toàn thắng lợi. Đế quốc Mỹ nhất định phải cút khỏi
+nước ta. Tổ quốc ta nhất định sẽ thống nhất. Đồng bào
+|
+| 1, 2. Hồ Chí Minh: Toàn tập, Sdd, t4, tr.280, 588.
+| 79
+Nam, Bắc nhất định sẽ sum họp một nhà”. Có thể khẳng . :
+định rằng, tư tưởng độc lập dân tộc gắn liền với thống |
+nhất Tổ quốc, toàn vẹn lãnh thổ là tư tưởng xuyên suốt
+trong cuộc đời hoạt động cách mạng của Hồ Chí Minh.
+2. Về cách mạng giải phóng dân tộc [
+4) Cách mạng giải phóng dân tộc muốn thắng lợi phải
+đi theo con đường cách mạng vô sản .
+'Từ khi thực dân Pháp tiến hành xâm lược và đặt ách - ¡
+thống trị nước ta, vấn đề sống còn của dân tộc được đặt ra ị
+là phải đấu tranh để giải phóng dân tộc khỏi ách thực dân,
+¡ đế quốc. Hàng loạt những phong trào yêu nước đã nổ ra -:
+| nhưng không thành công, sự thất bại của những phong
+ị trào yêu nước trong thời kỳ này thể hiện sự khủng hoảng, ]
+bế tắc về giai cấp lãnh đạo và đường lối cách mạng. Vượt
+| qua tầm nhìn của các bậc tiền bối lúc bấy giờ, Hô Chí .
+Minh muốn tìm kiếm con đường cứu nước, giải phóng dân ñ
+tộc ở phương Tây, như Người đã nói: “Tôi muốn đi ra nước
+ngoài, xem nước Pháp và các nước khác. Sau khi xem xét
+họ làm như thế nào, tôi sẽ trở về giúp đồng bào chúng ta”?.
+Nhưng qua tìm hiểu thực tế sau đó, Người quyết định
+không chọn con đường cách mạng tư sản vì cho rằng:
+“Cách mệnh Pháp cũng như cách mệnh Mỹ, nghĩa là cách h
+ị 1. Hồ Chí Minh: Toàn tập, Sđd, t.15, tr.612. |
+| 2. Trần Dân Tiên: Những mẩu chuyện về đời hoạt động của Hồ
+ị Chủ tịch, Sđd, tr.11. |
+| 80 l
+|
+H
+T
+] !
+| mệnh tư bản, cách mệnh không đến nơi, tiếng là cộng hoà
+| và dân chủ, kỳ thực trong thì nó tước lục công nông, ngoài
+Í thì nó áp bức thuộc địa. Cách mệnh đã 4 lần rồi, mà nay
+ị công nông Pháp hãng còn phải mưu cách mệnh lần nữa
+| mới hòng thoát khỏi vòng áp bức”,
+¡ Năm 1917, Cách mạng Tháng Mười Nga thắng lợi đã
+Ệ ảnh hưởng sâu sắc tới Hồ Chí Minh trong việc lựa chọn
+[ con đường cứu nước, giải phóng dân tộc. Người cho rằng:
+| “Trong thế giới bây giờ chỉ có cách mệnh Nga là đã thành
+Ỉ công, và thành công đến nơi, nghĩa là dân chúng được
+hưởng cái hạnh phúc tự do, bình đẳng thật, không phải tự
+Ể do và bình đẳng giả dối như đế quốc chủ nghĩa Pháp khoe
+¡ khoang bên An Nam... Nói tóm lại là phải theo chủ nghĩa
+! Mã Khắc Tư và Lênin??,
+| Năm 1920, sau khi đọc bản Sơ thảo lần thứ nhất
+| những luận cương về vấn đề dân tộc và vấn đề thuộc địa
+Ỉ của V.I Lênin, Hồ Chí Minh tìm thấy ở đó con đường cứu
+| nước, giải phóng dân tộc: con đường cách mạng vô sản, ¿
+như sau này Người khẳng định: “Muốn cứu nước và giải
+Ị phóng dân tộc không có con đường nào khác con đường
+Ì cách mạng vô sản”. Đây là con đường cách mạng triệt để
+Í nhất phù hợp với yêu cầu của cách mạng Việt Nam và xu
+! thế phát triển của thời đại. Trong bài Con đường dẫn tôi
+| đến chủ nghĩa Lênin, Người kể lại: “Luận cương của Lênin
+làm cho tôi rất cảm động, phấn khởi, sáng tổ, tin tưởng
+Ỉ I
+| 1, 2. Hồ Chí Minh: Toàn tập, Sởd, t.9, tr.296, 304.
+3. Hồ Chí Minh: Toàn tập, Sđd, t.12, tr.830.
+Ỉ 81
+biết bao! Tôi vui mừng đến phát khóc lên. Ngồi một mình l
+trong buồng mà tôi nói to lên như đang nói trước quần
+chúng đông đảo: “Hỡi đồng bào bị đọa đày đau khổi Đây là
+cái cần thiết cho chúng ta, đây là con đường giải phóng
+chúng taP. Từ đó tôi hoàn toàn tin theo Lênin, tin theo
+Quốc tế thứ ba”!. Học thuyết cách mạng vô sản của chủ
+nghĩa Mác - Lênin được Người vận dụng một cách sáng
+tạo trong điều kiện cách mạng Việt Nam.
+Giải phóng dân tộc gắn với giải phóng giai cấp, trong
+đó giải phóng dân tộc là trước hết, trên bết. Theo CƠ. Mác :
+h và Ph. Ăngghen, con đường cách mạng vô sản ở châu Âu
+| là đi từ giải phóng giai cấp - giải phóng dân tộc - giải Ì
+| phóng xã hội - giải phóng con người. Còn theo Hồ Chí :
+! Minh, ở Việt Nam và các nước thuộc địa do hoàn cảnh
+] lịch sử - chính trị khác với châu Âu nên phải là: giải
+Í phóng đân tộc - giải phóng xã hội - giải phóng giai cấp -
+| giải phóng con người.
+Ị Độc lập dân tộc gắn liền với chủ nghĩa xã hội. Trong ¿
+| Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh
+Ị đã khẳng định phương hướng chiến lược cách mạng Việt
+: Nam; làm tư sản dân quyền cách mạng và thổ địa cách
+¡ mạng để đi tới xã hội cộng sản. Phương hướng này vừa
+| phù hợp với xu thế phát triển của thời đại vừa hướng tới
+¡ giải quyết một cách triệt để những yêu cầu khách quan, cụ Ì
+| thể mà cách mạng Việt Nam đặt ra vào cuối thế kỷ XIX - |
+| đầu thế kỷ XX. : |
+¡ 1, Hồ Chí Minh: Toàn tập, Sdd, t.12, tr.562.
+| 8s HÀ
+T ]
+| |
+---
+b) Nguyên tắc xây dựng và hoạt động của Mặt trận
+dân tộc thống nhất
+Một là, phải được xây dựng trên nền tảng liên minh
+công nhân - nông dân - trí thức và đặt dưới sự lãnh đạo
+của Đảng. ,
+Hồ Chí Minh xác định mục đích chung của mặt trận í
+dân tộc thống nhất là nhằm tập hợp tới mức cao nhất lực
+lượng dân tộc vào khối đại đoàn kết toàn dân tộc. Mặt
+trận là một khối đoàn kết chặt chẽ, có tổ chức trên nền
+tảng khối liên minh giữa giai cấp công nhân, giai cấp
+nông dân, đội ngũ trí thức dưới sự lãnh đạo của Đảng.
+Đây là nguyên tắc cốt lõi trong chiến lược đại đoàn kết
+toàn dân tộc của Hồ Chí Minh, trên cơ sở đó để mở rộng
+Mặt trận, làm cho Mặt trận thực sự quy tụ được cả dân
+tộc, kết thành một khối vững chắc trong Mặt trận. Người
+|
+| viết: “Lực lượng chủ yếu trong khối đoàn kết dân tộc là .
+| công nông, cho nên liên minh công nông là nền tảng của
+Mặt trận dân tộc thống nhất”. Người chỉ rõ rằng, sở dĩ
+! phải lấy liên minh công nông làm nền tảng “vì họ là
+| người trực tiếp sản xuất tất cả mọi tài phú làm cho xã hội
+! sống. Vì họ đông hơn hết, mà cũng bị áp bức bóc lột nặng
+| nề hơn hết. Vì chí khí cách mạng của họ chắc chắn, bền
+| bỉ hơn của mọi tầng lớp khác”. Người căn dặn, không
+nên chỉ nhấn mạnh vai trò của công nông, mà còn phải
+thấy vai trò và sự cần thiết phải liên minh với các giai
+cấp khác, nhất là với đội ngũ trí thức.
+Đảng Cộng sản Việt Nam vừa là thành viên, vừa là
+| lực lượng lãnh đạo, Đảng không có lợi ích riêng, mà gắn
+| liền với lợi ích toàn xã hội, toàn dân tộc. Đảng lãnh đạo đối
+| với mặt trận thể hiện ở khả năng nắm bắt thực tiễn, phát
+| hiện ra quy luật khách quan sự vận động của lịch sử để
+| vạch đường lối và phương pháp cách mạng phù hợp, lãnh ¿
+đạo Mặt trận hoàn thành nhiệm vụ của mình là đấu tranh
+giải phóng dân tộc và giải phóng giai cấp, kết hợp độc lập
+dân tộc với chủ nghĩa xã hội.
+Ị Hai là, phải hoạt động theo nguyên tắc hiệp thương
+| dân chủ.
+Mặt trận đân tộc thống nhất là tổ chức chính trị - xã
+| hội rộng lớn của cả dân tộc, bao gồm nhiều giai cấp, ị
+1L _— |
+| 1. Hồ Chí Minh: Toàn tập, Sđd, t.12, tr.417.
+2. Hồ Chí Minh: Toàn tập, Sđd, t.10, tr.376. |
+| 179
+]
+R
+tầng lớp, đảng phái, dân tộc, tôn giáo khác nhau, với | \
+nhiều lợi ích khác nhau. Do vậy, hoạt động của Mặt trận
+phải dựa trên nguyên. tắc hiệp thương dân chủ. Mọi vấn
+đề của Mặt trận đều phải được đem ra để tất cả các
+thành viên cùng nhau bàn bạc công khai, để đi đến nhất
+trí, loại trừ mọi sự áp đặt hoặc dân chủ hình thức. Những. |
+lợi ích riêng chính đáng, phù hợp với lợi ích chung của Ị
+đất nước, của dân tộc cần được tôn trọng; những gì riêng
+biệt, không phù hợp sẽ dần được giải quyết bằng lợi ích ,
+chung của dân tộc, bằng sự nhận thức ngày càng đúng
+đắn hơn của mỗi người, mỗi bộ phận về mối quan hệ giữa
+lợi ích chung và lợi ích riêng. Do vậy, hoạt động của Mặt
+trận phải theo nguyên tắc hiệp thương dân chủ mới quy
+tụ được các tầng lớp, giai cấp, đảng phái, dân tộc, tôn
+giáo vào mặt trận dân tộc thống nhất.
+Đa là, phải đoàn kết lâu dài, chặt chẽ, đoàn kết thật
+sự, chân thành, thân ái giúp đỡ nhau cùng tiến bộ. ¡
+Theo Hồ Chí Minh, đoàn kết trong Mặt trận phải là
+lâu dài, chặt chẽ, đoàn kết thật sự, chân thành, thân ái,
+giúp đỡ nhau cùng tiến bộ. Trong Mặt trận, các thành viên
+có những điểm tương đồng nhưng cũng có những điểm
+khác biệt, nên cần có sự bàn bạc để đi đến nhất trí. Hồ Chí
+Minh nhấn mạnh phương châm “cầu đồng tồn dị”, lấy cái
+chung để hạn chế cái riêng, cái khác biệt; đồng thời Người
+nêu rõ: “Đoàn kết thực sự nghĩa là mục đích phải nhất trí |
+và lập trường cũng phải nhất trí. Đoàn kết thực sự nghĩa |
+là vừa đoàn kết, vừa đấu tranh, học những cái tốt của |
+nhau, phê bình những cái sai của nhau và phê bình trên `
+lập trường thân ái, vì nước, vì dân”! để tạo nên sự đoàn
+! kết gắn bó chặt chẽ, lâu dài tạo tiền đề mở rộng khối đại
+đoàn kết trong mặt trận dân tộc thống nhất.
+| 5. Phương thức xây dựng khối đại đoàn kết
+ị dân tộc
+| Một là, làm tốt công tác vận động quần chúng (dân vận).
+| Hồ Chí Minh coi đoàn kết, đại đoàn kết như một mục
+| tiêu, một nhiệm vụ hàng đầu của Đảng. Để thực hiện mục
+tiêu đó thì phải làm tốt công tác vận động quần chúng.
+| Vận động quần chúng để thu hút quần chúng chính là để
+| đoàn kết mọi người, tạo ra động lực phát triển kinh tế - xã
+| hội và văn hoá. Theo Người, để phát huy đầy đủ vai trò,
+| trí tuệ, khả năng to lớn của quần chúng nhân dân trong
+| sự nghiệp kháng chiến, kiến quốc, trong xây dựng và bảo ì
+vệ Tổ quốc, Đảng và Nhà nước cũng như mọi cần bộ, đẳng u
+| viên phải biết làm tốt công tác giáo dục, tuyên truyền, ì
+| hướng dẫn, giúp đỡ và vận động quần chúng nhân dân
+| thực hiện mọi chủ trương, đường lối của Đảng, chính sách
+| và pháp luật của Nhà nước; phải giúp nhân dân hiểu đầy
+| đủ, sâu sắc về quyền lợi, trách nhiệm và nghĩa vụ của
+| người công dân đối với Đảng, với Tổ quốc và với dân tộc, từ
+đó họ tích cực, chủ động, tự giác phấn đấu và cống hiến
+Ỉ 1. Hồ Chí Minh: Toàn tập, Sđd, t.11, tr.362. |
+]
+cho sự nghiệp cách mạng. Người căn dặn: “cần phải chịu 1] :
+khó tìm đủ cách giải thích cho họ hiểu rằng: những việc đó
+: là vì ích lợi của họ mà phải làm”!. Theo Hồ Chí Minh, mọi
+phương pháp tiếp cận và vận động quần chúng đều phải
+phù hợp với tâm tư, nguyện vọng của quần chúng; phải
+xuất phát từ thực tế trình độ dân trí và văn hoá, theo cả
+nghĩa rộng và nghĩa hẹp, bao gồm cả phong tục, tập quán
+và cụ thể đối với từng địa phương, từng đối tượng của
+nhân dân.
+Hai là, thành lập đoàn thể, tổ chức quần chúng phù
+hợp với từng đối tượng để tập hợp quần chúng.
+Theo Hồ Chí Minh, để tập quần chúng nhân dân
+một cách có hiệu quả, cần phải tổ chức đoàn thể, tổ chức
+quần chúng. Đây là những tổ chức để tập hợp, giáo dục,
+rèn luyện quần chúng cho phù hợp từng giai cấp, dân
+tộc, tôn giáo, lứa tuổi, giới tính, vùng miền... như: Công ,",,,,,
+es_hcm202_0081_wrongaspect,hcm202_0081,HCM202,wrong_aspect,"Trong Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh đã khẳng định phương hướng chiến lược của cách mạng Việt Nam như thế nào và Đảng Cộng sản Việt Nam lãnh đạo đối với mặt trận nhằm hoàn thành nhiệm vụ gì?",medium,parent_f64ecb6be258ce61552b,"| Trong Văn kiện Đại hội VI Quốc tế Cộng sắn, khái .
+niệm “Cách mạng tư sản dân quyền” không bao hàm đầy
+Ị đủ nhiệm vụ chống đế quốc, giải phóng dân tộc ở các nước
+¡ thuộc địa. Còn trong Chánh cương vắn tắt của Đảng, Hồ
+| Chí Minh nêu rõ: Cách mạng tư sản dân quyền trước hết
+! là phải đánh đổ đế quốc và bọn phong kiến, làm cho nước
+¡ Nam được hoàn toàn độc lập... Cũng theo Quốc tế Cộng
+| sản, hai nhiệm vụ chống đế quốc và chống phong kiến
+| phải được thực hiện đồng thời, khăng khít với nhau,
+Ỉ nương tựa vào nhau. Nhưng xuất phát từ một nước thuộc
+H địa, Hồ Chí Minh không coi hai nhiệm vụ đó nhất loạt
+| phải thực hiện ngang nhau, mà đặt lên hàng đầu nhiệm
+Ỉ vụ chống đế quốc, giải phóng dân tộc, còn nhiệm vụ chống
+| phong kiến, mang lại ruộng đất cho nông dân thì sẽ từng
+bước thực hiện. Cho nên trong Chánh cương vắn tắt của
+| Đảng, Người chỉ nêu “thâu hết ruộng đất của đế quốc chủ
+nghĩa làm của công, chia cho dân cày nghèo”! mà chưa nêu
+| ra chủ trương “người cày có ruộng”. Đây là nét độc đáo, ¿
+Í sáng tạo của Hồ Chí Minh.
+[ b) Cách mạng giải phóng dân tộc, trong điều kiện của
+Í Việt Nam, muốn thắng lợi phải do Đảng Cộng sản lãnh đạo
+| Về tầm quan trọng của tổ chức đẳng đối với cách
+| mạng, chủ nghĩa Mác - Lênin chỉ rõ: Đảng Cộng sản là
+! nhân tố chủ quan để giai cấp công nhân hoàn thành sứ
+| mệnh lịch sử của mình. Giai cấp công nhân phải tổ chức ra ¡
+| chính đẳng, đẳng đó phải thuyết phục, giác ngộ và tập hợp l
+Ị 1. Hồ Chí Minh: Toàn tập, Sđd, t.8, tr.2.
+¡
+đông đảo quần chúng, huấn luyện quần chúng và đưa - \
+| quần chúng ra đấu tranh. Hồ Chí Minh tiếp thu lý luận :
+của chủ nghĩa Mác - Lênin và rất chú trọng đến việc ộ
+thành lập Đảng Cộng sản, khẳng định vai trò to lớn của :
+Đảng đối với cách mạng giải phóng dân tộc theo con đường
+| cách mạng vô sản. Trong tác phẩm Đường cách mệnh
+| (năm 1927), Người đặt vấn để: Oách mệnh trước hết phải
+có cái gì? Trước hết phải có đẳng cách mệnh, để trong thì Ể
+| vận động và tổ chức dân chúng, ngoài thì liên lạc với các .
+| dân tộc bị áp bức và vô sản giai cấp mọi nơi. Đảng có vững :
+| cách mệnh mới thành công”...
+| Trong hoàn cảnh Việt Nam là một nước thuộc địa -
+phong kiến, Hồ Chí Minh cho rằng, Đảng Cộng sản vừa là [
+đội tiên phong của giai cấp công nhân vừa là đội tiên
+: phong của nhân dân lao động, kiên quyết nhất, hăng hái
+nhất, trong sạch nhất, tận tâm tận lực phụng sự Tổ quốc.
+| Đó còn là Đảng của cả dân tộc Việt Nam. Trong Báo cáo
+| chính trị tại Đại hội II của Đảng (năm 1951), Người viết:
+: “Chính vì Đảng Lao động Việt Nam là Đảng của giai cấp ị
+công nhân và nhân dân lao động, cho nên nó phải là Đảng
+của dân tộc Việt Nam”.
+Đây là một luận điểm quan trọng của Hồ Chí Minh
+| có ý nghĩa bổ sung, phát triển lý luận mácxít về đẳng
+¡ cộng sản. ị
+—.._. L
+1. Xem Hồ Chí Minh: Toàn tập, Sởd, t.2, tr.289.
+2. Hồ Chí Minh: Toàn tập, Sđd, t.7, tr.41.
+Ắ
+|",,,,,
+es_mln111_0031_missing,mln111_0031,MLN111,missing,"Dựa trên các quan điểm về triết học ở chương 1 và định nghĩa vật chất của V.I. Lênin ở chương 2, triết học được xác định là một hình thái ý thức xã hội đồng thời vật chất được định nghĩa là gì?",hard,,,,,,,
+es_mln111_0031_partial,mln111_0031,MLN111,partial,"Dựa trên các quan điểm về triết học ở chương 1 và định nghĩa vật chất của V.I. Lênin ở chương 2, triết học được xác định là một hình thái ý thức xã hội đồng thời vật chất được định nghĩa là gì?",hard,parent_6ca6d6d982006888daab,"b) Khái niệm triết học
+Ở Trung Quốc, chữ triết (哲) đã có từ rất sớm, và ngày nay, chữ triết học (哲學)
+được coi là tương đương với thuật ngữ philosophia của Hy Lạp, với ý nghĩa là sự truy
+tìm bản chất của đối tượng nhận thức, thường là con người, xã hội, vũ trụ và tư tưởng.
+Triết học là biểu hiện cao của trí tuệ, là sự hiểu biết sâu sắc của con người về toàn bộ thế
+giới thiên - địa - nhân và định hướng nhân sinh quan cho con người.
+Ở Ấn Độ, thuật ngữ Dar’sana (triết học) nghĩa gốc là chiêm ngưỡng, hàm ý là tri
+thức dựa trên lý trí, là con đường suy ngẫm để dẫn dắt con người đến với lẽ phải.
+Ở phương Tây, thuật ngữ “triết học” như đang được sử dụng phổ biến hiện nay, cũng
+như trong tất cả các hệ thống nhà trường, chính là φιλοσοφία (tiếng Hy Lạp; được sử dụng
+nghĩa gốc sang các ngôn ngữ khác: philosophy, philosophie, философия). Triết học,
+philosophia, xuất hiện ở Hy Lạp cổ đại, với nghĩa là yêu mến sự thông thái. Người Hy Lạp
+cổ đại quan niệm, philosophia vừa mang nghĩa là giải thích vũ trụ, định hướng nhận thức
+và hành vi, vừa nhấn mạnh đến khát vọng tìm kiếm chân lý của con người.
+Như vậy, cả ở phương Đông và phương Tây, ngay từ đầu, triết học đã là hoạt động
+tinh thần bậc cao, là loại hình nhận thức có trình độ trừu tượng hóa và khái quát hóa
+______________
+1. Xem David Wolfsdorf: Introduction to Ancient Western Philosophy (Khái luận về triết học phương Tây cổ
+đại), https://pdfs. semanticscholar.org/ad17/a4ae607f0ea4c46a5e49a3808d7ac26450c5.pdf.
+rất cao. Triết học nhìn nhận và đánh giá đối tượng thông qua thực tế và thông qua hiện
+tượng quan sát được về con người và vũ trụ. Ngay cả khi triết học còn bao gồm mọi
+thành tựu của nhận thức, loại hình tri thức đặc biệt này đã tồn tại với tư cách là một
+hình thái ý thức xã hội.
+Là loại hình tri thức đặc biệt của con người, triết học nào cũng có tham vọng xây
+dựng nên bức tranh tổng quát nhất về thế giới và về con người. Nhưng khác với các loại
+hình tri thức xây dựng thế giới quan dựa trên niềm tin và quan niệm tưởng tượng về thế
+giới, triết học sử dụng các công cụ lý tính, các tiêu chuẩn lôgích và những kinh nghiệm
+mà con người đã khám phá thực tại để diễn tả thế giới và khái quát thế giới quan bằng lý
+luận. Tính đặc thù của nhận thức triết học thể hiện ở đó1.
+Bách khoa thư Britannica định nghĩa: “Triết học là sự xem xét lý tính, trừu tượng và
+có phương pháp về thực tại với tính cách là một chỉnh thể hoặc những khía cạnh nền tảng
+của kinh nghiệm và sự tồn tại người. Sự truy vấn triết học (Philosophical Inquiry) là
+thành phần trung tâm của lịch sử trí tuệ của nhiều nền văn minh”2.
+Bách khoa thư triết học mới của Viện Triết học Nga xuất bản năm 2001 đưa ra định
+nghĩa: Triết học là hình thức đặc biệt của nhận thức và ý thức xã hội về thế giới, được thể
+hiện thành hệ thống tri thức về những nguyên tắc cơ bản và nền tảng của tồn tại người, về
+những đặc trưng bản chất nhất của mối quan hệ giữa con người với tự nhiên, với xã hội
+và với đời sống tinh thần3.
+Có nhiều định nghĩa về triết học, nhưng các định nghĩa thường bao hàm những nội
+dung chủ yếu sau:
+- Triết học là một hình thái ý thức xã hội.
+- Khách thể khám phá của triết học là thế giới (gồm cả thế giới bên trong và bên
+ngoài con người) trong hệ thống chỉnh thể toàn vẹn vốn có của nó.
+- Triết học giải thích tất cả mọi sự vật, hiện tượng, quá trình và quan hệ của thế giới,
+với mục đích tìm ra những quy luật phổ biến nhất chi phối, quy định và quyết định sự
+vận động của thế giới, của con người và của tư duy.
+______________
+1. Xem ИФ, РAH: Новая философская энциклопедия (Bách khoa thư triết học mới), Nxb. Từ điển Bách khoa,
+Mátxcơva, 2001, c.195.
+2.
+Philosophy
+in
+“Encyclopedia
+Britannica”
+(Triết
+học
+trong
+“Bách
+khoa
+thư
+Britanica”),
+https://www.britannica.com/topic/ philosophy. “Philosophy - the rational, abstract, and methodical consideration
+of reality as a whole or of fundamental dimensions of human existence and experience”.
+3. Xem ИФ, РAH: Новая философская энциклопедия (Bách khoa thư triết học mới), Там же, c.195.
+- Với tư cách là loại hình nhận thức đặc thù, độc lập với khoa học và khác biệt với tôn
+giáo, tri thức triết học mang tính hệ thống, lôgích và trừu tượng về thế giới, bao gồm
+những nguyên tắc cơ bản, những đặc trưng bản chất và những quan điểm nền tảng về mọi
+tồn tại.
+- Triết học là hạt nhân của thế giới quan.
+Triết học là hình thái đặc biệt của ý thức xã hội, được thể hiện thành hệ thống các
+quan điểm lý luận chung nhất về thế giới, về con người và về tư duy của con người trong
+thế giới ấy.
+Với sự ra đời của triết học Mác - Lênin, triết học là hệ thống quan điểm lý luận
+chung nhất về thế giới và vị trí con người trong thế giới đó, là khoa học về những quy
+luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy.
+Triết học khác với các khoa học khác ở tính đặc thù của hệ thống tri thức khoa học
+và phương pháp nghiên cứu. Tri thức khoa học triết học mang tính khái quát cao dựa
+trên sự trừu tượng hóa sâu sắc về thế giới, về bản chất cuộc sống con người. Phương
+pháp nghiên cứu của triết học là xem xét thế giới như một chỉnh thể trong mối quan hệ
+giữa các yếu tố và tìm cách đưa ra một hệ thống các quan niệm về chỉnh thể đó. Triết
+học là sự diễn tả thế giới quan bằng lý luận. Điều đó chỉ có thể thực hiện được khi
+triết học dựa trên cơ sở tổng kết toàn bộ lịch sử của khoa học và lịch sử của bản thân
+tư tưởng triết học.
+Không phải mọi triết học đều là khoa học. Song, các học thuyết triết học đều có đóng
+góp ít nhiều, nhất định cho sự hình thành tri thức khoa học triết học trong lịch sử; là
+những “vòng khâu”, những “mắt khâu” trên “đường xoáy ốc” vô tận của lịch sử tư tưởng
+triết học nhân loại. Trình độ khoa học của một học thuyết triết học phụ thuộc vào sự phát
+triển của đối tượng nghiên cứu, hệ thống tri thức và hệ thống phương pháp nghiên cứu.",,,,,
+es_mln111_0031_sufficient,mln111_0031,MLN111,sufficient,"Dựa trên các quan điểm về triết học ở chương 1 và định nghĩa vật chất của V.I. Lênin ở chương 2, triết học được xác định là một hình thái ý thức xã hội đồng thời vật chất được định nghĩa là gì?",hard,parent_6ca6d6d982006888daab|parent_1566c2294c415e590d88,"b) Khái niệm triết học
+Ở Trung Quốc, chữ triết (哲) đã có từ rất sớm, và ngày nay, chữ triết học (哲學)
+được coi là tương đương với thuật ngữ philosophia của Hy Lạp, với ý nghĩa là sự truy
+tìm bản chất của đối tượng nhận thức, thường là con người, xã hội, vũ trụ và tư tưởng.
+Triết học là biểu hiện cao của trí tuệ, là sự hiểu biết sâu sắc của con người về toàn bộ thế
+giới thiên - địa - nhân và định hướng nhân sinh quan cho con người.
+Ở Ấn Độ, thuật ngữ Dar’sana (triết học) nghĩa gốc là chiêm ngưỡng, hàm ý là tri
+thức dựa trên lý trí, là con đường suy ngẫm để dẫn dắt con người đến với lẽ phải.
+Ở phương Tây, thuật ngữ “triết học” như đang được sử dụng phổ biến hiện nay, cũng
+như trong tất cả các hệ thống nhà trường, chính là φιλοσοφία (tiếng Hy Lạp; được sử dụng
+nghĩa gốc sang các ngôn ngữ khác: philosophy, philosophie, философия). Triết học,
+philosophia, xuất hiện ở Hy Lạp cổ đại, với nghĩa là yêu mến sự thông thái. Người Hy Lạp
+cổ đại quan niệm, philosophia vừa mang nghĩa là giải thích vũ trụ, định hướng nhận thức
+và hành vi, vừa nhấn mạnh đến khát vọng tìm kiếm chân lý của con người.
+Như vậy, cả ở phương Đông và phương Tây, ngay từ đầu, triết học đã là hoạt động
+tinh thần bậc cao, là loại hình nhận thức có trình độ trừu tượng hóa và khái quát hóa
+______________
+1. Xem David Wolfsdorf: Introduction to Ancient Western Philosophy (Khái luận về triết học phương Tây cổ
+đại), https://pdfs. semanticscholar.org/ad17/a4ae607f0ea4c46a5e49a3808d7ac26450c5.pdf.
+rất cao. Triết học nhìn nhận và đánh giá đối tượng thông qua thực tế và thông qua hiện
+tượng quan sát được về con người và vũ trụ. Ngay cả khi triết học còn bao gồm mọi
+thành tựu của nhận thức, loại hình tri thức đặc biệt này đã tồn tại với tư cách là một
+hình thái ý thức xã hội.
+Là loại hình tri thức đặc biệt của con người, triết học nào cũng có tham vọng xây
+dựng nên bức tranh tổng quát nhất về thế giới và về con người. Nhưng khác với các loại
+hình tri thức xây dựng thế giới quan dựa trên niềm tin và quan niệm tưởng tượng về thế
+giới, triết học sử dụng các công cụ lý tính, các tiêu chuẩn lôgích và những kinh nghiệm
+mà con người đã khám phá thực tại để diễn tả thế giới và khái quát thế giới quan bằng lý
+luận. Tính đặc thù của nhận thức triết học thể hiện ở đó1.
+Bách khoa thư Britannica định nghĩa: “Triết học là sự xem xét lý tính, trừu tượng và
+có phương pháp về thực tại với tính cách là một chỉnh thể hoặc những khía cạnh nền tảng
+của kinh nghiệm và sự tồn tại người. Sự truy vấn triết học (Philosophical Inquiry) là
+thành phần trung tâm của lịch sử trí tuệ của nhiều nền văn minh”2.
+Bách khoa thư triết học mới của Viện Triết học Nga xuất bản năm 2001 đưa ra định
+nghĩa: Triết học là hình thức đặc biệt của nhận thức và ý thức xã hội về thế giới, được thể
+hiện thành hệ thống tri thức về những nguyên tắc cơ bản và nền tảng của tồn tại người, về
+những đặc trưng bản chất nhất của mối quan hệ giữa con người với tự nhiên, với xã hội
+và với đời sống tinh thần3.
+Có nhiều định nghĩa về triết học, nhưng các định nghĩa thường bao hàm những nội
+dung chủ yếu sau:
+- Triết học là một hình thái ý thức xã hội.
+- Khách thể khám phá của triết học là thế giới (gồm cả thế giới bên trong và bên
+ngoài con người) trong hệ thống chỉnh thể toàn vẹn vốn có của nó.
+- Triết học giải thích tất cả mọi sự vật, hiện tượng, quá trình và quan hệ của thế giới,
+với mục đích tìm ra những quy luật phổ biến nhất chi phối, quy định và quyết định sự
+vận động của thế giới, của con người và của tư duy.
+______________
+1. Xem ИФ, РAH: Новая философская энциклопедия (Bách khoa thư triết học mới), Nxb. Từ điển Bách khoa,
+Mátxcơva, 2001, c.195.
+2.
+Philosophy
+in
+“Encyclopedia
+Britannica”
+(Triết
+học
+trong
+“Bách
+khoa
+thư
+Britanica”),
+https://www.britannica.com/topic/ philosophy. “Philosophy - the rational, abstract, and methodical consideration
+of reality as a whole or of fundamental dimensions of human existence and experience”.
+3. Xem ИФ, РAH: Новая философская энциклопедия (Bách khoa thư triết học mới), Там же, c.195.
+- Với tư cách là loại hình nhận thức đặc thù, độc lập với khoa học và khác biệt với tôn
+giáo, tri thức triết học mang tính hệ thống, lôgích và trừu tượng về thế giới, bao gồm
+những nguyên tắc cơ bản, những đặc trưng bản chất và những quan điểm nền tảng về mọi
+tồn tại.
+- Triết học là hạt nhân của thế giới quan.
+Triết học là hình thái đặc biệt của ý thức xã hội, được thể hiện thành hệ thống các
+quan điểm lý luận chung nhất về thế giới, về con người và về tư duy của con người trong
+thế giới ấy.
+Với sự ra đời của triết học Mác - Lênin, triết học là hệ thống quan điểm lý luận
+chung nhất về thế giới và vị trí con người trong thế giới đó, là khoa học về những quy
+luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy.
+Triết học khác với các khoa học khác ở tính đặc thù của hệ thống tri thức khoa học
+và phương pháp nghiên cứu. Tri thức khoa học triết học mang tính khái quát cao dựa
+trên sự trừu tượng hóa sâu sắc về thế giới, về bản chất cuộc sống con người. Phương
+pháp nghiên cứu của triết học là xem xét thế giới như một chỉnh thể trong mối quan hệ
+giữa các yếu tố và tìm cách đưa ra một hệ thống các quan niệm về chỉnh thể đó. Triết
+học là sự diễn tả thế giới quan bằng lý luận. Điều đó chỉ có thể thực hiện được khi
+triết học dựa trên cơ sở tổng kết toàn bộ lịch sử của khoa học và lịch sử của bản thân
+tư tưởng triết học.
+Không phải mọi triết học đều là khoa học. Song, các học thuyết triết học đều có đóng
+góp ít nhiều, nhất định cho sự hình thành tri thức khoa học triết học trong lịch sử; là
+những “vòng khâu”, những “mắt khâu” trên “đường xoáy ốc” vô tận của lịch sử tư tưởng
+triết học nhân loại. Trình độ khoa học của một học thuyết triết học phụ thuộc vào sự phát
+triển của đối tượng nghiên cứu, hệ thống tri thức và hệ thống phương pháp nghiên cứu.
+---
+c) Quan niệm của triết học Mác - Lênin về vật chất
+Trong đấu tranh chống chủ nghĩa duy tâm, thuyết bất khả tri và phê phán chủ nghĩa
+duy vật siêu hình, máy móc, C. Mác và Ph. Ăngghen đã đưa ra những tư tưởng rất quan
+trọng về vật chất.
+Theo Ph. Ăngghen, để có một quan niệm đúng đắn về vật chất, cần phải có sự phân
+biệt rõ ràng giữa vật chất với tính cách là một phạm trù của triết học với bản thân các sự
+vật, hiện tượng cụ thể của thế giới vật chất. “Vật chất, với tư cách là vật chất, là một sáng
+tạo thuần túy của tư duy và là một sự trừu tượng. Chúng ta bỏ qua những sự khác nhau về
+chất của những sự vật, khi chúng ta gộp chúng, với tư cách là những vật tồn tại hữu hình,
+vào khái niệm vật chất. Do đó, khác với những vật chất nhất định và đang tồn tại, vật chất,
+với tính cách là vật chất, không có sự tồn tại cảm tính”2. Như vậy, vật chất với tính cách là
+vật chất, một sáng tạo thuần túy của tư duy, và là một trừu tượng thuần túy, không có sự
+tồn tại cảm tính.
+Ph. Ăngghen cũng chỉ ra rằng, bản thân phạm trù vật chất cũng không phải là sự sáng
+tạo tùy tiện của tư duy con người, mà trái lại, là kết quả của con đường trừu tượng hóa
+của tư duy con người về các sự vật, hiện tượng có thể cảm biết được bằng các giác quan.
+Các sự vật, hiện tượng của thế giới, dù rất phong phú, muôn vẻ nhưng chúng vẫn có một
+đặc tính chung, thống nhất đó là tính vật chất - tính tồn tại độc lập không lệ thuộc vào ý
+thức. Để bao quát được tất cả các sự vật, hiện tượng cụ thể, thì tư duy cần phải nắm lấy
+đặc tính chung này và đưa nó vào trong phạm trù vật chất. “Ê-te có tính vật chất không?
+Nếu ê-te nói chung tồn tại thì ê-te phải có tính vật chất, nó phải nằm trong khái niệm vật
+______________
+1, 2, 3. V.I. Lênin: Toàn tập, Sđd, t.18, tr.318, 388, 379.
+2, 2. C. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.20, tr.751, 737.
+chất”2.
+Đặc biệt, Ph. Ăngghen khẳng định, xét về thực chất, nội hàm của phạm trù vật chất
+chẳng qua chỉ là sự tóm tắt, tập hợp theo những thuộc tính chung của tính phong phú,
+muôn vẻ nhưng có thể cảm biết được bằng các giác quan của các sự vật, hiện tượng của
+thế giới vật chất. “Thực thể, vật chất không phải cái gì khác hơn là tổng số những vật thể
+từ đó người ta rút ra khái niệm ấy bằng con đường trừu tượng hóa; vận động với tính
+cách là vận động không phải là cái gì khác hơn là tổng số những hình thức vận động có
+thể cảm biết được bằng các giác quan; những từ như “vật chất” và “vận động” chỉ là
+những sự tóm tắt trong đó chúng ta tập hợp theo những thuộc tính chung của chúng, rất
+nhiều sự vật khác nhau có thể cảm biết được bằng các giác quan. Vì thế chỉ có thể nhận
+thức được vật chất và vận động bằng cách nghiên cứu những vật thể riêng biệt và những
+hình thức riêng lẻ của vận động, và khi chúng ta nhận thức được những cái ấy thì chúng
+ta cũng nhận thức được cả vật chất và vận động với tính cách là vật chất và vận động”1.
+C. Mác không đưa ra một định nghĩa về vật chất, nhưng đã vận dụng đúng đắn quan
+điểm duy vật biện chứng về vật chất trong phân tích những vấn đề chính trị - xã hội, đặc
+biệt là trong phân tích quá trình sản xuất vật chất của xã hội và mở rộng quan điểm duy
+vật biện chứng về vật chất để phân tích tồn tại xã hội và mối quan hệ biện chứng giữa tồn
+tại xã hội và ý thức xã hội. C. Mác và Ph. Ăngghen đã khẳng định quan điểm duy vật
+biện chứng của mình trong nghiên cứu lịch sử như sau: Những tiền đề xuất phát của tôi,
+“Đó là những cá nhân hiện thực, là hoạt động của họ và những điều kiện sinh hoạt vật
+chất của họ, những điều kiện mà họ thấy có sẵn cũng như những điều kiện do hoạt động
+của chính họ tạo ra...”2. Như vậy, vật chất trong xã hội chính là tồn tại của chính bản thân
+con người cùng với những điều kiện sinh hoạt vật chất của con người, hoạt động vật chất
+và những quan hệ vật chất giữa người với người.
+V.I. Lênin đã tiến hành tổng kết toàn diện những thành tựu mới nhất của khoa học,
+đấu tranh chống mọi biểu hiện của chủ nghĩa hoài nghi, duy tâm đang lầm lẫn hoặc
+xuyên tạc những thành tựu mới trong nhận thức cụ thể của con người về vật chất, mưu
+toan bác bỏ chủ nghĩa duy vật, qua đó bảo vệ và phát triển quan niệm duy vật biện chứng
+về phạm trù vật chất.
+Để đưa ra được một quan niệm thực sự khoa học về vật chất, V.I. Lênin đặc biệt
+______________
+1. C. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.20, tr.726-727.
+2. C. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.3, tr.28-29.
+quan tâm đến việc tìm kiếm phương pháp định nghĩa cho phạm trù này. Kế thừa những
+tư tưởng của C. Mác và Ph. Ăngghen, V.I. Lênin đã định nghĩa vật chất với tư cách là
+một phạm trù triết học và bằng cách đem đối lập với phạm trù ý thức trên phương diện
+nhận thức luận cơ bản. V.I. Lênin viết: “không thể đem lại cho hai khái niệm nhận thức
+luận này một định nghĩa nào khác ngoài cách chỉ rõ rằng trong hai khái niệm đó, cái nào
+được coi là có trước”1.
+Trong tác phẩm Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán, V.I. Lênin
+đã đưa ra định nghĩa về vật chất như sau: “Vật chất là một phạm trù triết học dùng để
+chỉ thực tại khách quan được đem lại cho con người trong cảm giác, được cảm giác của
+chúng ta chép lại, chụp lại, phản ánh, và tồn tại không lệ thuộc vào cảm giác”2. Đây là
+một định nghĩa hoàn chỉnh về vật chất mà cho đến nay các nhà khoa học hiện đại coi là
+một định nghĩa kinh điển.
+Định nghĩa vật chất của V.I. Lênin bao hàm các nội dung cơ bản sau đây:
+Thứ nhất, vật chất là thực tại khách quan - cái tồn tại hiện thực bên ngoài ý thức và
+không lệ thuộc vào ý thức.
+Khi nói vật chất là một phạm trù triết học là muốn nói phạm trù này là sản phẩm của
+sự trừu tượng hóa, không có sự tồn tại cảm tính. Nhưng khác về nguyên tắc với mọi sự
+trừu tượng hóa mang tính chất duy tâm chủ nghĩa về phạm trù này, V.I. Lênin nhấn mạnh
+rằng, phạm trù triết học này dùng để chỉ cái ““đặc tính” duy nhất của vật chất - mà chủ",,,,,
+es_mln111_0031_wrongaspect,mln111_0031,MLN111,wrong_aspect,"Dựa trên các quan điểm về triết học ở chương 1 và định nghĩa vật chất của V.I. Lênin ở chương 2, triết học được xác định là một hình thái ý thức xã hội đồng thời vật chất được định nghĩa là gì?",hard,parent_9b37da66bcb5add96b9c,"Trong thời kỳ này, V.I. Lênin đã viết các tác phẩm chủ yếu như: Những người bạn
+dân là thế nào và họ đấu tranh chống những người dân chủ - xã hội ra sao? (1894); Nội
+dung kinh tế của chủ nghĩa dân túy và sự phê phán trong cuốn sách của ông Xtơruvê về
+nội dung đó (1894); Chúng ta từ bỏ di sản nào? (1897); Làm gì? (1902), v.v.. V.I. Lênin
+đã đấu tranh chống chủ nghĩa duy tâm, phương pháp siêu hình của phái Dân túy, bảo vệ
+và phát triển phép biện chứng duy vật, quan tâm nghiên cứu các hiện tượng, quy luật phát
+triển của xã hội, phát triển nhiều quan điểm về chủ nghĩa duy vật lịch sử, đặc biệt là làm
+phong phú thêm về lý luận hình thái kinh tế - xã hội. V.I. Lênin đã phát triển tư tưởng của
+chủ nghĩa Mác về các hình thức đấu tranh giai cấp trước khi có chính quyền, đấu tranh
+kinh tế, đấu tranh chính trị và đấu tranh tư tưởng, đặc biệt nhấn mạnh vai trò quyết định
+của đấu tranh chính trị. Trong tác phẩm Hai sách lược của Đảng dân chủ - xã hội trong
+cách mạng dân chủ, V.I. Lênin đã phát triển học thuyết của C. Mác về cách mạng xã hội
+chủ nghĩa, đã nêu ra được những đặc điểm, động lực và triển vọng của cách mạng dân
+chủ tư sản trong thời đại đế quốc chủ nghĩa.
+Thời kỳ 1907 - 1917 là thời kỳ V.I. Lênin phát triển toàn diện triết học Mác và lãnh
+đạo phong trào công nhân Nga, chuẩn bị cho cách mạng xã hội chủ nghĩa.
+Sau thất bại của cuộc cách mạng 1905 - 1907, tình hình xã hội Nga cực kỳ phức tạp.
+Lực lượng phản động giữ địa vị thống trị và hoành hành trên mọi lĩnh vực của đời sống
+xã hội. Trong hàng ngũ những người cách mạng nảy sinh hiện tượng dao động, “Có tình
+trạng thoái chí, mất tinh thần, phân liệt, chạy dài, từ bỏ lập trường, nói chuyện dâm
+bôn”1. Về mặt tư tưởng, chủ nghĩa Mác bị tấn công từ nhiều phía, trong lĩnh vực triết học
+có xu hướng ngả sang chủ nghĩa duy tâm, tôn giáo, ra đời trào lưu “tìm thần” và “tạo
+thần” trong giới trí thức. Chủ nghĩa Makhơ muốn làm sống lại triết học duy tâm, chống
+chủ nghĩa duy vật biện chứng, phá hoại tư tưởng cách mạng, tước bỏ vũ khí tinh thần của
+giai cấp vô sản.
+Trước tình hình đó, V.I. Lênin tiến hành đấu tranh, bảo vệ, phát triển triết học Mác.
+Tác phẩm Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán (1908) đã khái quát
+những thành tựu mới nhất của khoa học tự nhiên, phê phán toàn diện triết học duy tâm tư
+sản và chủ nghĩa xét lại trong triết học, vạch mặt những kẻ chống lại triết học mácxít, bảo
+vệ chủ nghĩa duy vật, phát triển lý luận duy vật biện chứng về nhận thức. V.I. Lênin chỉ
+ra rằng, giữa triết học và chính trị có mối quan hệ chặt chẽ, rằng chủ nghĩa Mác là sự
+thống nhất không thể tách rời giữa lý luận khoa học với thực tiễn cách mạng.
+Trong tác phẩm này, V.I. Lênin đưa ra định nghĩa kinh điển về vật chất, giải quyết
+triệt để vấn đề cơ bản của triết học, phát triển và hoàn thiện lý luận phản ánh, vạch ra bản
+chất của ý thức, con đường biện chứng của quá trình nhận thức chân lý và đặc biệt nhấn
+mạnh vai trò của thực tiễn là tiêu chuẩn khách quan của chân lý.
+V.I. Lênin đã chỉ ra thực chất của cuộc khủng hoảng trong vật lý học vào cuối thế kỷ
+XIX đầu thế kỷ XX - chính là sự khủng hoảng về thế giới quan và phương pháp luận. V.I.
+Lênin chỉ rõ, con đường thoát khỏi cuộc khủng hoảng vật lý là phải thay thế chủ nghĩa
+duy vật siêu hình bằng chủ nghĩa duy vật biện chứng.
+V.I. Lênin đã chỉ rõ sai lầm của những người theo chủ nghĩa Makhơ, khi họ phủ nhận
+vai trò quyết định của phương thức sản xuất đối với sự phát triển xã hội, về ý thức xã hội là
+hình thức phản ánh của tồn tại xã hội. V.I. Lênin kịch liệt phê phán phái Makhơ đồng nhất
+quy luật sinh học với quy luật lịch sử, lấy quy luật sinh học giải thích các hiện tượng của
+đời sống xã hội.
+______________
+1. V.I. Lênin: Toàn tập, Sđd, t.41, tr.11.
+Trong Chiến tranh thế giới thứ nhất, V.I. Lênin nghiên cứu và phát triển hàng loạt quan
+điểm, nguyên lý triết học Mác, đáp ứng yêu cầu nhận thức giai đoạn chủ nghĩa tư bản độc
+quyền và giải quyết những vấn đề cấp bách của thực tiễn cách mạng vô sản. Qua tác phẩm
+Bút ký triết học (1914 - 1916), V.I. Lênin quan tâm nghiên cứu, bổ sung, phát triển phép
+biện chứng duy vật. V.I. Lênin tập trung phân tích tư tưởng coi phép biện chứng là khoa
+học về sự phát triển, vấn đề nguồn gốc, động lực của sự phát triển; phát triển các quy
+luật, phạm trù của phép biện chứng duy vật; về nguyên tắc thống nhất giữa phép biện
+chứng, lôgích học và lý luận nhận thức, những yếu tố căn bản của phép biện chứng,...
+V.I. Lênin bảo vệ, phát triển nhiều vấn đề quan trọng như làm sáng tỏ quan hệ giữa tồn
+tại xã hội và ý thức xã hội, tính đảng của hệ tư tưởng, vai trò của quần chúng nhân dân
+trong sự phát triển của lịch sử.
+Trong tác phẩm Chủ nghĩa đế quốc, giai đoạn tột cùng của chủ nghĩa tư bản
+(1913), V.I. Lênin đã phân tích chủ nghĩa đế quốc là giai đoạn tột cùng của chủ nghĩa tư
+bản, đêm trước của cách mạng xã hội chủ nghĩa. Đồng thời, đã phát triển sáng tạo vấn
+đề về mối quan hệ giữa những quy luật khách quan của xã hội với hoạt động có ý thức
+của con người; về vai trò của quần chúng nhân dân và cá nhân trong lịch sử, về quan hệ
+giữa tất yếu và tự do, v.v.. V.I. Lênin đã nêu lên những kết luận mới về khả năng thắng
+lợi của cách mạng vô sản ở một số nước, thậm chí ở một số nước riêng lẻ không phải ở
+trình độ phát triển cao về kinh tế; về sự chuyển biến của cách mạng dân chủ tư sản thành
+cách mạng xã hội chủ nghĩa; về những hình thức muôn vẻ của cách mạng xã hội chủ
+nghĩa, v.v.. V.I. Lênin chỉ ra rằng, cách mạng xã hội chủ nghĩa ở một nước là một bộ
+phận cấu thành của cách mạng xã hội chủ nghĩa thế giới. Vì vậy, V.I. Lênin luôn đòi hỏi
+sự thống nhất, đoàn kết trong phong trào cộng sản thế giới trên tinh thần chủ nghĩa quốc
+tế vô sản.
+Khi cách mạng vô sản đã trở nên chín muồi, trong điều kiện cụ thể của nước Nga,
+V.I. Lênin đã viết tác phẩm Nhà nước và cách mạng (cuối năm 1917) nhằm chuẩn bị về",,,,,
+es_mln111_0049_missing,mln111_0049,MLN111,missing,Mối quan hệ giữa vật chất và ý thức trên phương diện nhận thức luận khác biệt như thế nào so với quan hệ giữa lực lượng sản xuất và quan hệ sản xuất?,hard,,,,,,,
+es_mln111_0049_partial,mln111_0049,MLN111,partial,Mối quan hệ giữa vật chất và ý thức trên phương diện nhận thức luận khác biệt như thế nào so với quan hệ giữa lực lượng sản xuất và quan hệ sản xuất?,hard,parent_4b0a359cdee25c9475ac,"nghĩa duy vật triết học là gắn liền với việc thừa nhận đặc tính này - là cái đặc tính tồn tại
+với tư cách là thực tại khách quan, tồn tại ở ngoài ý thức của chúng ta”2. Nói cách khác,
+tính trừu tượng của phạm trù vật chất bắt nguồn từ cơ sở hiện thực, do đó, không tách rời
+tính hiện thực cụ thể của nó. Nói đến vật chất là nói đến tất cả những gì đã và đang hiện
+hữu thực sự bên ngoài ý thức của con người. Vật chất là hiện thực chứ không phải là hư
+vô và hiện thực này mang tính khách quan chứ không phải hiện thực chủ quan. Đây cũng
+chính là cái “phạm vi hết sức hạn chế” mà ở đó, theo V.I. Lênin, sự đối lập giữa vật chất
+và ý thức là tuyệt đối. Tuyệt đối hóa tính trừu tượng của phạm trù này sẽ không thấy vật
+chất, sẽ rơi vào quan điểm duy tâm. Ngược lại, nếu tuyệt đối hóa tính hiện thực cụ thể
+của phạm trù này sẽ đồng nhất vật chất với vật thể, và đó là thực chất quan điểm của chủ
+nghĩa duy vật trước C. Mác về vấn đề này. Như vậy, mọi sự vật, hiện tượng từ vi mô đến
+______________
+1, 2. V.I. Lênin: Toàn tập, Sđd, t.18, tr.171, 151.
+2. V.I. Lênin: Toàn tập, Sđd, t.18, tr.321.
+vĩ mô, từ những cái đã biết đến những cái chưa biết, từ những sự vật “giản đơn nhất” đến
+những hiện tượng vô cùng “kỳ lạ”, dù tồn tại trong tự nhiên hay trong xã hội cũng đều là
+những đối tượng tồn tại khách quan, độc lập với ý thức con người, nghĩa là đều thuộc
+phạm trù vật chất, đều là các dạng cụ thể của vật chất. Xã hội loài người cũng là một
+dạng tồn tại đặc biệt của vật chất. Theo V.I. Lênin, trong đời sống xã hội thì “khách quan
+không phải theo ý nghĩa là một xã hội những sinh vật có ý thức, những con người, có thể
+tồn tại và phát triển không phụ thuộc vào sự tồn tại của những sinh vật có ý thức (...),
+mà khách quan theo ý nghĩa là tồn tại xã hội không phụ thuộc vào ý thức xã hội của con
+người”1.
+Khẳng định trên đây có ý nghĩa rất quan trọng trong việc phê phán thế giới quan duy
+tâm vật lý học, giải phóng khoa học tự nhiên khỏi cuộc khủng hoảng thế giới quan,
+khuyến khích các nhà khoa học đi sâu tìm hiểu thế giới vật chất, khám phá ra những
+thuộc tính mới, kết cấu mới của vật chất, không ngừng làm phong phú tri thức của con
+người về thế giới.
+Thứ hai, vật chất là cái mà khi tác động vào các giác quan con người thì đem lại cho
+con người cảm giác.
+Trái với quan niệm “khách quan” mang tính chất duy tâm về sự tồn tại của vật chất,
+V.I. Lênin khẳng định rằng, vật chất luôn biểu hiện đặc tính hiện thực khách quan của
+mình thông qua sự tồn tại không lệ thuộc vào ý thức của các sự vật, hiện tượng cụ thể,
+tức là luôn biểu hiện sự tồn tại hiện thực của mình dưới dạng các thực thể. Các thực thể
+này do những đặc tính bản thể luận vốn có của nó, nên khi trực tiếp hoặc gián tiếp tác
+động vào các giác quan sẽ đem lại cho con người những cảm giác. Mặc dù không phải
+mọi sự vật, hiện tượng, quá trình trong thế giới khi tác động lên giác quan của con
+người đều được các giác quan con người nhận biết; có cái phải qua dụng cụ khoa học,
+thậm chí có cái bằng dụng cụ khoa học nhưng cũng chưa biết; có cái đến nay vẫn chưa có
+dụng cụ khoa học để biết được; song, nếu nó tồn tại khách quan, hiện thực ở bên ngoài,
+độc lập, không phụ thuộc vào ý thức của con người thì nó vẫn là vật chất.
+Chủ nghĩa duy vật biện chứng không bàn đến vật chất một cách chung chung, mà bàn
+đến nó trong mối quan hệ với ý thức của con người; trong đó, xét trên phương diện nhận
+thức luận thì vật chất là cái có trước, là tính thứ nhất, là cội nguồn của cảm giác (ý thức);
+______________
+1. V.I. Lênin: Toàn tập, Sđd, t.18, tr.403.
+còn cảm giác (ý thức) là cái có sau, là tính thứ hai, là cái phụ thuộc vào vật chất. Đó cũng
+là câu trả lời theo lập trường nhất nguyên duy vật của V.I. Lênin đối với mặt thứ nhất vấn
+đề cơ bản của triết học.
+Thứ ba, vật chất là cái mà ý thức chẳng qua chỉ là sự phản ánh của nó.
+Chỉ có một thế giới duy nhất là thế giới vật chất. Trong thế giới ấy, theo quy luật
+vốn có của nó mà đến một thời điểm nhất định sẽ cùng một lúc tồn tại hai hiện tượng -
+hiện tượng vật chất và hiện tượng tinh thần. Các hiện tượng vật chất luôn tồn tại khách
+quan, không lệ thuộc vào các hiện tượng tinh thần. Còn các hiện tượng tinh thần (cảm
+giác, tư duy, ý thức...) lại luôn luôn có nguồn gốc từ các hiện tượng vật chất và những
+gì có được trong các hiện tượng tinh thần ấy (nội dung của chúng) chẳng qua cũng chỉ
+là chép lại, chụp lại, là bản sao của các sự vật, hiện tượng đang tồn tại với tư cách là
+hiện thực khách quan. Như vậy, cảm giác là cơ sở duy nhất của mọi sự hiểu biết, song
+bản thân nó lại không ngừng chép lại, chụp lại, phản ánh hiện thực khách quan, nên về
+nguyên tắc, con người có thể nhận thức được thế giới vật chất. Trong thế giới vật chất
+không có gì là không thể biết, chỉ có những cái đã biết và những cái chưa biết, do hạn chế
+của con người trong từng giai đoạn lịch sử nhất định. Cùng với sự phát triển của khoa
+học, các giác quan của con người ngày càng được “nối dài”, giới hạn nhận thức của các
+thời đại bị vượt qua, bị mất đi chứ không phải vật chất mất đi như những người duy tâm
+quan niệm.
+Khẳng định trên đây có ý nghĩa hết sức quan trọng trong việc bác bỏ thuyết “bất khả
+tri”, đồng thời có tác dụng khuyến khích các nhà khoa học đi sâu tìm hiểu thế giới vật
+chất, góp phần làm giàu kho tàng tri thức nhân loại. Ngày nay, khoa học tự nhiên, khoa
+học xã hội và nhân văn ngày càng phát triển với những khám phá mới càng khẳng định
+tính đúng đắn của quan niệm duy vật biện chứng về vật chất, chứng tỏ định nghĩa vật
+chất của V.I. Lênin vẫn giữ nguyên giá trị, và do đó, chủ nghĩa duy vật biện chứng ngày
+càng khẳng định vai trò là hạt nhân thế giới quan, phương pháp luận đúng đắn của các
+khoa học hiện đại.
+Ý nghĩa phương pháp luận của quan niệm vật chất của triết học Mác - Lênin
+Định nghĩa vật chất của V.I. Lênin đã giải quyết hai mặt vấn đề cơ bản của triết học
+trên lập trường của chủ nghĩa duy vật biện chứng; cung cấp nguyên tắc thế giới quan và",,,,,
+es_mln111_0049_sufficient,mln111_0049,MLN111,sufficient,Mối quan hệ giữa vật chất và ý thức trên phương diện nhận thức luận khác biệt như thế nào so với quan hệ giữa lực lượng sản xuất và quan hệ sản xuất?,hard,parent_4b0a359cdee25c9475ac|parent_d2cb74108af946ddf412,"nghĩa duy vật triết học là gắn liền với việc thừa nhận đặc tính này - là cái đặc tính tồn tại
+với tư cách là thực tại khách quan, tồn tại ở ngoài ý thức của chúng ta”2. Nói cách khác,
+tính trừu tượng của phạm trù vật chất bắt nguồn từ cơ sở hiện thực, do đó, không tách rời
+tính hiện thực cụ thể của nó. Nói đến vật chất là nói đến tất cả những gì đã và đang hiện
+hữu thực sự bên ngoài ý thức của con người. Vật chất là hiện thực chứ không phải là hư
+vô và hiện thực này mang tính khách quan chứ không phải hiện thực chủ quan. Đây cũng
+chính là cái “phạm vi hết sức hạn chế” mà ở đó, theo V.I. Lênin, sự đối lập giữa vật chất
+và ý thức là tuyệt đối. Tuyệt đối hóa tính trừu tượng của phạm trù này sẽ không thấy vật
+chất, sẽ rơi vào quan điểm duy tâm. Ngược lại, nếu tuyệt đối hóa tính hiện thực cụ thể
+của phạm trù này sẽ đồng nhất vật chất với vật thể, và đó là thực chất quan điểm của chủ
+nghĩa duy vật trước C. Mác về vấn đề này. Như vậy, mọi sự vật, hiện tượng từ vi mô đến
+______________
+1, 2. V.I. Lênin: Toàn tập, Sđd, t.18, tr.171, 151.
+2. V.I. Lênin: Toàn tập, Sđd, t.18, tr.321.
+vĩ mô, từ những cái đã biết đến những cái chưa biết, từ những sự vật “giản đơn nhất” đến
+những hiện tượng vô cùng “kỳ lạ”, dù tồn tại trong tự nhiên hay trong xã hội cũng đều là
+những đối tượng tồn tại khách quan, độc lập với ý thức con người, nghĩa là đều thuộc
+phạm trù vật chất, đều là các dạng cụ thể của vật chất. Xã hội loài người cũng là một
+dạng tồn tại đặc biệt của vật chất. Theo V.I. Lênin, trong đời sống xã hội thì “khách quan
+không phải theo ý nghĩa là một xã hội những sinh vật có ý thức, những con người, có thể
+tồn tại và phát triển không phụ thuộc vào sự tồn tại của những sinh vật có ý thức (...),
+mà khách quan theo ý nghĩa là tồn tại xã hội không phụ thuộc vào ý thức xã hội của con
+người”1.
+Khẳng định trên đây có ý nghĩa rất quan trọng trong việc phê phán thế giới quan duy
+tâm vật lý học, giải phóng khoa học tự nhiên khỏi cuộc khủng hoảng thế giới quan,
+khuyến khích các nhà khoa học đi sâu tìm hiểu thế giới vật chất, khám phá ra những
+thuộc tính mới, kết cấu mới của vật chất, không ngừng làm phong phú tri thức của con
+người về thế giới.
+Thứ hai, vật chất là cái mà khi tác động vào các giác quan con người thì đem lại cho
+con người cảm giác.
+Trái với quan niệm “khách quan” mang tính chất duy tâm về sự tồn tại của vật chất,
+V.I. Lênin khẳng định rằng, vật chất luôn biểu hiện đặc tính hiện thực khách quan của
+mình thông qua sự tồn tại không lệ thuộc vào ý thức của các sự vật, hiện tượng cụ thể,
+tức là luôn biểu hiện sự tồn tại hiện thực của mình dưới dạng các thực thể. Các thực thể
+này do những đặc tính bản thể luận vốn có của nó, nên khi trực tiếp hoặc gián tiếp tác
+động vào các giác quan sẽ đem lại cho con người những cảm giác. Mặc dù không phải
+mọi sự vật, hiện tượng, quá trình trong thế giới khi tác động lên giác quan của con
+người đều được các giác quan con người nhận biết; có cái phải qua dụng cụ khoa học,
+thậm chí có cái bằng dụng cụ khoa học nhưng cũng chưa biết; có cái đến nay vẫn chưa có
+dụng cụ khoa học để biết được; song, nếu nó tồn tại khách quan, hiện thực ở bên ngoài,
+độc lập, không phụ thuộc vào ý thức của con người thì nó vẫn là vật chất.
+Chủ nghĩa duy vật biện chứng không bàn đến vật chất một cách chung chung, mà bàn
+đến nó trong mối quan hệ với ý thức của con người; trong đó, xét trên phương diện nhận
+thức luận thì vật chất là cái có trước, là tính thứ nhất, là cội nguồn của cảm giác (ý thức);
+______________
+1. V.I. Lênin: Toàn tập, Sđd, t.18, tr.403.
+còn cảm giác (ý thức) là cái có sau, là tính thứ hai, là cái phụ thuộc vào vật chất. Đó cũng
+là câu trả lời theo lập trường nhất nguyên duy vật của V.I. Lênin đối với mặt thứ nhất vấn
+đề cơ bản của triết học.
+Thứ ba, vật chất là cái mà ý thức chẳng qua chỉ là sự phản ánh của nó.
+Chỉ có một thế giới duy nhất là thế giới vật chất. Trong thế giới ấy, theo quy luật
+vốn có của nó mà đến một thời điểm nhất định sẽ cùng một lúc tồn tại hai hiện tượng -
+hiện tượng vật chất và hiện tượng tinh thần. Các hiện tượng vật chất luôn tồn tại khách
+quan, không lệ thuộc vào các hiện tượng tinh thần. Còn các hiện tượng tinh thần (cảm
+giác, tư duy, ý thức...) lại luôn luôn có nguồn gốc từ các hiện tượng vật chất và những
+gì có được trong các hiện tượng tinh thần ấy (nội dung của chúng) chẳng qua cũng chỉ
+là chép lại, chụp lại, là bản sao của các sự vật, hiện tượng đang tồn tại với tư cách là
+hiện thực khách quan. Như vậy, cảm giác là cơ sở duy nhất của mọi sự hiểu biết, song
+bản thân nó lại không ngừng chép lại, chụp lại, phản ánh hiện thực khách quan, nên về
+nguyên tắc, con người có thể nhận thức được thế giới vật chất. Trong thế giới vật chất
+không có gì là không thể biết, chỉ có những cái đã biết và những cái chưa biết, do hạn chế
+của con người trong từng giai đoạn lịch sử nhất định. Cùng với sự phát triển của khoa
+học, các giác quan của con người ngày càng được “nối dài”, giới hạn nhận thức của các
+thời đại bị vượt qua, bị mất đi chứ không phải vật chất mất đi như những người duy tâm
+quan niệm.
+Khẳng định trên đây có ý nghĩa hết sức quan trọng trong việc bác bỏ thuyết “bất khả
+tri”, đồng thời có tác dụng khuyến khích các nhà khoa học đi sâu tìm hiểu thế giới vật
+chất, góp phần làm giàu kho tàng tri thức nhân loại. Ngày nay, khoa học tự nhiên, khoa
+học xã hội và nhân văn ngày càng phát triển với những khám phá mới càng khẳng định
+tính đúng đắn của quan niệm duy vật biện chứng về vật chất, chứng tỏ định nghĩa vật
+chất của V.I. Lênin vẫn giữ nguyên giá trị, và do đó, chủ nghĩa duy vật biện chứng ngày
+càng khẳng định vai trò là hạt nhân thế giới quan, phương pháp luận đúng đắn của các
+khoa học hiện đại.
+Ý nghĩa phương pháp luận của quan niệm vật chất của triết học Mác - Lênin
+Định nghĩa vật chất của V.I. Lênin đã giải quyết hai mặt vấn đề cơ bản của triết học
+trên lập trường của chủ nghĩa duy vật biện chứng; cung cấp nguyên tắc thế giới quan và
+---
+triển lực lượng sản xuất là kết quả của sự thống nhất biện chứng giữa khách quan và chủ
+quan.
+Sự phát triển của lực lượng sản xuất là phát triển ở cả tính chất và trình độ. Tính chất
+của lực lượng sản xuất nói lên tính chất cá nhân hoặc tính chất xã hội hóa trong việc sử
+dụng tư liệu sản xuất. Trình độ của lực lượng sản xuất là sự phát triển của người lao động
+và công cụ lao động. Trình độ của lực lượng sản xuất được thể hiện ở trình độ của công cụ
+lao động; trình độ tổ chức lao động xã hội; trình độ ứng dụng khoa học vào sản xuất; trình
+độ, kinh nghiệm, kỹ năng của người lao động và đặc biệt là trình độ phân công lao động xã
+hội. Trong thực tế, tính chất và trình độ phát triển của lực lượng sản xuất không tách rời
+nhau.
+Nghiên cứu sự phát triển của lực lượng sản xuất trong lịch sử, C. Mác khẳng định:
+“Tri thức xã hội phổ biến [Wissen, knowledge] đã chuyển hóa đến mức độ nào thành lực
+______________
+1. C. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.23, tr.269.
+lượng sản xuất trực tiếp”1. Ngày nay, trên thế giới đang diễn ra cuộc cách mạng khoa học
+và công nghệ hiện đại, khoa học đã trở thành lực lượng sản xuất trực tiếp. Khoa học sản
+xuất ra của cải đặc biệt, hàng hóa đặc biệt. Đó là những phát minh sáng chế, những bí
+mật công nghệ, trở thành nguyên nhân của mọi biến đổi trong lực lượng sản xuất. Hiện
+nay, khoảng cách từ phát minh, sáng chế đến ứng dụng vào sản xuất đã được rút ngắn
+làm cho năng suất lao động, của cải xã hội tăng nhanh. Khoa học kịp thời giải quyết
+những mâu thuẫn, những yêu cầu do sản xuất đặt ra; có khả năng phát triển “vượt trước”
+và thâm nhập vào tất cả các yếu tố của sản xuất, trở thành mắt khâu bên trong của quá
+trình sản xuất. Tri thức khoa học được kết tinh, “vật hóa” vào người lao động, người quản
+lý, công cụ lao động và đối tượng lao động. Sự phát triển của khoa học đã kích thích sự
+phát triển năng lực làm chủ sản xuất của con người.
+Trong thời đại ngày nay, cuộc Cách mạng công nghiệp lần thứ tư đang phát triển, cả
+người lao động và công cụ lao động được trí tuệ hóa, nền kinh tế của nhiều quốc gia phát
+triển đang trở thành nền kinh tế tri thức. Đó là nền kinh tế mà trong đó sự sản sinh, phổ
+cập và sử dụng tri thức của con người đóng vai trò quyết định nhất đối với sự phát triển
+kinh tế, từ đó tạo ra của cải vật chất và nâng cao chất lượng cuộc sống con người. Đặc
+trưng của kinh tế tri thức là công nghệ cao, công nghệ thông tin, trí tuệ nhân tạo được
+ứng dụng rộng rãi trong sản xuất và trong đời sống xã hội. Lực lượng sản xuất phát triển
+trong mối quan hệ biện chứng với quan hệ sản xuất.
+* Quan hệ sản xuất là tổng hợp các quan hệ kinh tế - vật chất giữa người với người
+trong quá trình sản xuất vật chất. Đây chính là một quan hệ vật chất quan trọng nhất -
+quan hệ kinh tế, trong các mối quan hệ vật chất giữa người với người. Quá trình sản xuất
+vật chất chính là tổng thể các yếu tố trong một quá trình thống nhất, gồm sản xuất, phân
+phối, trao đổi và tiêu dùng của cải vật chất. Quan hệ sản xuất bao gồm quan hệ về sở hữu
+đối với tư liệu sản xuất, quan hệ trong tổ chức quản lý và trao đổi hoạt động với nhau,
+quan hệ về phân phối sản phẩm lao động. Quan hệ sở hữu về tư liệu sản xuất là quan hệ
+giữa các tập đoàn người trong việc chiếm hữu, sử dụng các tư liệu sản xuất xã hội. Đây là
+quan hệ quy định địa vị kinh tế - xã hội của các tập đoàn người trong sản xuất, từ đó quy
+định quan hệ quản lý và phân phối. Quan hệ sở hữu về tư liệu sản xuất là quan hệ xuất
+phát, cơ bản, trung tâm của quan hệ sản xuất, luôn có vai trò quyết định các quan hệ khác
+______________
+1. C. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.46, ph.II, tr.372.
+bởi vì, lực lượng xã hội nào nắm phương tiện vật chất chủ yếu của quá trình sản xuất thì
+sẽ quyết định việc quản lý quá trình sản xuất và phân phối sản phẩm.
+Quan hệ về tổ chức và quản lý sản xuất là quan hệ giữa các tập đoàn người trong việc
+tổ chức sản xuất và phân công lao động. Quan hệ này có vai trò quyết định trực tiếp đến
+quy mô, tốc độ, hiệu quả của nền sản xuất; có khả năng đẩy nhanh hoặc kìm hãm sự phát
+triển của nền sản xuất xã hội. Ngày nay, khoa học tổ chức quản lý sản xuất hiện đại có
+tầm quan trọng đặc biệt trong nâng cao hiệu quả quá trình sản xuất.
+Quan hệ về phân phối sản phẩm lao động là quan hệ giữa các tập đoàn người trong việc
+phân phối sản phẩm lao động xã hội, nói lên cách thức và quy mô của cải vật chất mà các
+tập đoàn người được hưởng. Quan hệ này có vai trò đặc biệt quan trọng, kích thích trực
+tiếp lợi ích con người; là “chất xúc tác” kinh tế thúc đẩy tốc độ, nhịp điệu sản xuất, làm
+năng động hóa toàn bộ đời sống kinh tế - xã hội. Hoặc ngược lại, có thể làm trì trệ, kìm
+hãm quá trình sản xuất.
+Các mặt trong quan hệ sản xuất có mối quan hệ hữu cơ, tác động qua lại, chi phối,
+ảnh hưởng lẫn nhau; trong đó quan hệ về sở hữu tư liệu sản xuất giữ vai trò quyết định
+bản chất và tính chất của quan hệ sản xuất. Quan hệ sản xuất hình thành một cách khách
+quan, là quan hệ đầu tiên, cơ bản chủ yếu, quyết định mọi quan hệ xã hội.",,,,,
+es_mln111_0049_wrongaspect,mln111_0049,MLN111,wrong_aspect,Mối quan hệ giữa vật chất và ý thức trên phương diện nhận thức luận khác biệt như thế nào so với quan hệ giữa lực lượng sản xuất và quan hệ sản xuất?,hard,parent_a732d557655efe362952,"b) Quan điểm của chủ nghĩa duy vật biện chứng
+Nắm vững phép biện chứng duy vật và luôn theo sát, kịp thời khái quát những thành
+tựu mới nhất của khoa học tự nhiên, các nhà kinh điển của chủ nghĩa Mác - Lênin đã khắc
+phục được những sai lầm, hạn chế của các quan niệm duy tâm, siêu hình và nêu lên
+những quan điểm khoa học, khái quát đúng đắn về mặt triết học trên hai lĩnh vực lớn nhất
+của thế giới là vật chất, ý thức và mối quan hệ giữa chúng.
+Theo quan điểm triết học Mác - Lênin, vật chất và ý thức có mối quan hệ biện
+chứng, trong đó vật chất quyết định ý thức, còn ý thức tác động tích cực trở lại vật
+chất.
+* Vật chất quyết định ý thức
+Vai trò quyết định của vật chất đối với ý thức được thể hiện trên những khía cạnh sau:
+Thứ nhất, vật chất quyết định nguồn gốc của ý thức.
+Vật chất “sinh” ra ý thức, vì ý thức xuất hiện gắn liền với sự xuất hiện của con người
+cách đây từ 3 đến 7 triệu năm, mà con người là kết quả của một quá trình phát triển, tiến
+hóa lâu dài, phức tạp của giới tự nhiên, của thế giới vật chất. Con người do giới tự
+nhiên, vật chất sinh ra, cho nên lẽ tất nhiên, ý thức - một thuộc tính của bộ phận con
+người - cũng do giới tự nhiên, vật chất sinh ra. Các thành tựu của khoa học tự nhiên
+hiện đại đã chứng minh rằng, giới tự nhiên có trước con người; vật chất là cái có trước,
+ý thức là cái có sau; vật chất là tính thứ nhất, ý thức là tính thứ hai. Vật chất tồn tại
+khách quan, độc lập với ý thức và là nguồn gốc sinh ra ý thức. Bộ óc người là một dạng
+vật chất có tổ chức cao nhất, là cơ quan phản ánh để hình thành ý thức. Ý thức tồn tại
+phụ thuộc vào hoạt động thần kinh của bộ não trong quá trình phản ánh hiện thực khách
+quan. Sự vận động của thế giới vật chất là yếu tố quyết định sự ra đời của cái vật chất
+có tư duy là bộ óc người.
+Thứ hai, vật chất quyết định nội dung của ý thức.
+Suy cho cùng, dưới bất kỳ hình thức nào, ý thức đều là phản ánh hiện thực khách
+quan. Ý thức mà trong nội dung của nó chẳng qua là kết quả của sự phản ánh hiện thực
+khách quan vào trong đầu óc con người. Hay nói cách khác, có thế giới hiện thực vận
+động, phát triển theo những quy luật khách quan của nó, được phản ánh vào ý thức mới
+có nội dung của ý thức.
+Thế giới khách quan, trước hết và chủ yếu là hoạt động thực tiễn có tính xã hội - lịch
+sử của loài người, là yếu tố quyết định nội dung mà ý thức phản ánh. C. Mác và Ph.
+Ăngghen chỉ rõ: “Ý thức [...] không bao giờ có thể là cái gì khác hơn là sự tồn tại được ý
+thức [...]”1. Ý thức chỉ là hình ảnh của thế giới khách quan. Sự phát triển của hoạt động
+thực tiễn cả về bề rộng và chiều sâu là động lực mạnh mẽ nhất quyết định tính phong phú
+và độ sâu sắc nội dung của tư duy, ý thức con người qua các thế hệ, qua các thời đại từ
+mông muội tới văn minh, hiện đại.
+Thứ ba, vật chất quyết định bản chất của ý thức.
+Phản ánh và sáng tạo là hai thuộc tính không tách rời trong bản chất của ý thức.
+Nhưng sự phản ánh của con người không phải là “soi gương”, “chụp ảnh” hoặc là “phản
+ánh tâm lý” mà là phản ánh tích cực, tự giác, sáng tạo thông qua thực tiễn. Khác với chủ
+nghĩa duy vật cũ, xem xét thế giới vật chất như là những sự vật, hiện tượng cảm tính, chủ
+nghĩa duy vật biện chứng xem xét thế giới vật chất là thế giới của con người hoạt động
+thực tiễn. Chính thực tiễn là hoạt động vật chất có tính cải biến thế giới của con người - là
+cơ sở để hình thành, phát triển ý thức, trong đó ý thức của con người vừa phản ánh, vừa
+sáng tạo, phản ánh để sáng tạo và sáng tạo trong phản ánh.
+Thứ tư, vật chất quyết định sự vận động, phát triển của ý thức.
+Mọi sự tồn tại, phát triển của ý thức đều gắn liền với quá trình biến đổi của vật chất;
+vật chất thay đổi thì sớm hay muộn, ý thức cũng phải thay đổi theo. Con người - một
+sinh vật có tính xã hội ngày càng phát triển cả về thể chất lẫn tinh thần, thì dĩ nhiên ý
+thức - một hình thức phản ánh của óc người cũng phát triển cả về nội dung và hình thức
+phản ánh. Đời sống xã hội ngày càng văn minh và khoa học ngày càng phát triển đã
+chứng minh điều đó.
+Loài người nguyên thủy sống bầy đàn dựa vào sản vật của thiên nhiên thì tư duy của
+họ cũng đơn sơ, giản dị. Cùng với mỗi bước phát triển của sản xuất, tư duy, ý thức của
+______________
+1. C. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.3, tr.37.
+con người cũng ngày càng mở rộng, đời sống tinh thần của con người ngày càng phong
+phú. Con người không chỉ ý thức được hiện tại, mà còn ý thức được cả những vấn đề
+trong quá khứ và dự kiến được cả trong tương lai, trên cơ sở khái quát ngày càng sâu sắc
+bản chất, quy luật vận động, phát triển của tự nhiên, xã hội và tư duy. Sự vận động, biến
+đổi không ngừng của thế giới vật chất, của thực tiễn là yếu tố quyết định sự vận động,
+biến đổi của tư duy, ý thức của con người. Khi sản xuất xã hội xuất hiện chế độ tư hữu, ý
+thức chính trị, pháp quyền cũng dần thay thế cho ý thức quần cư, cộng đồng thời nguyên
+thủy. Trong nền sản xuất tư bản, tính chất xã hội hóa của sản xuất phát triển là cơ sở để ý
+thức xã hội chủ nghĩa ra đời, đỉnh cao là sự hình thành và phát triển không ngừng lý luận
+khoa học của chủ nghĩa Mác - Lênin.
+Trong đời sống xã hội, vai trò quyết định của vật chất đối với ý thức được biểu hiện ở
+vai trò của kinh tế đối với chính trị, đời sống vật chất đối với đời sống tinh thần, tồn tại
+xã hội đối với ý thức xã hội. Trong xã hội, sự phát triển của kinh tế xét đến cùng quy định
+sự phát triển của văn hóa; đời sống vật chất thay đổi thì sớm muộn đời sống tinh thần
+cũng thay đổi theo.
+Vật chất và ý thức là hai hiện tượng đối lập nhau về bản chất, nhưng về mặt nhận
+thức luận, cần quán triệt sâu sắc tư tưởng biện chứng của V.I. Lênin, rằng “sự đối lập
+giữa vật chất và ý thức chỉ có ý nghĩa tuyệt đối trong những phạm vi hết sức hạn chế:
+trong trường hợp này, chỉ giới hạn trong vấn đề nhận thức luận cơ bản là thừa nhận cái gì
+là cái có trước và cái gì là cái có sau? Ngoài giới hạn đó, thì không còn nghi ngờ gì nữa",,,,,
+es_mln122_0005_missing,mln122_0005,MLN122,missing,"So với các chương trước nghiên cứu về kinh tế thị trường tư bản chủ nghĩa, Chương 5 có điểm gì khác biệt về đối tượng tập trung?",hard,,,,,,,
+es_mln122_0005_partial,mln122_0005,MLN122,partial,"So với các chương trước nghiên cứu về kinh tế thị trường tư bản chủ nghĩa, Chương 5 có điểm gì khác biệt về đối tượng tập trung?",hard,parent_27caf70e0f7a9043e35a|parent_d93b683547a7ea4781d3,"3. Vai trò của các chủ thể chính tham gia thị trường?
+Chương 3
+GIÁ TRỊ THẶNG DƯ
+TRONG NỀN KINH TẾ THỊ TRƯỜNG
+Sau khi đã nghiên cứu lý luận giá trị của C. Mác, Chương 3 sẽ
+tiếp tục trang bị hệ thống tri thức lý luận về giá trị thặng dư của C.
+Mác trong điều kiện nền kinh tế thị trường tự do cạnh tranh tư bản
+chủ nghĩa để thấy được các quan hệ lợi ích cơ bản nhất thông qua
+phân phối giá trị mới do lao động tạo ra giữa các chủ thể cơ bản
+trong nền kinh tế thị trường tư bản chủ nghĩa. Trên cơ sở đó, giúp
+cho sinh viên hình thành kỹ năng giải quyết có căn cứ khoa học
+quan hệ lợi ích của mình khi khởi nghiệp hoặc tham gia các hoạt
+động kinh tế - xã hội trong bối cảnh xã hội hiện đại.
+Chương 3 sẽ được trình bày với ba nội dung: i) Lý luận của C.
+Mác về giá trị thặng dư, đây cũng chính là nội dung cốt lõi học
+thuyết giá trị thặng dư của C. Mác, hòn đá tảng trong lý luận kinh
+tế chính trị của C. Mác; ii) Tích lũy tư bản (cách thức sử dụng giá
+trị thặng dư); iii) Phân phối giá trị thặng dư trong nền kinh tế thị
+trường tự do cạnh tranh tư bản chủ nghĩa
+---
+Chương 4
+CẠNH TRANH VÀ ĐỘC QUYỀN
+TRONG NỀN KINH TẾ THỊ TRƯỜNG
+Chương 4 cung cấp hệ thống tri thức lý luận của V.I. Lênin
+về độc quyền và độc quyền nhà nước trong nền kinh tế thị trường
+tư bản chủ nghĩa tiếp sau khi sinh viên đã được trang bị hệ thống
+tri thức lý luận cốt lõi về kinh tế chính trị của C. Mác. Thông qua
+đó, sinh viên có thể hiểu được bối cảnh nền kinh tế thế giới đang
+có những đặc trưng mới và hình thành được tư duy thích ứng với
+bối cảnh thế giới luôn có nhiều thách thức.
+Nội dung Chương 4 trình bày ba chủ đề: i) Quan hệ giữa cạnh
+tranh và độc quyền trong nền kinh tế thị trường; ii) Lý luận của
+V.I. Lênin về độc quyền, độc quyền nhà nước trong nền kinh tế thị
+trường tư bản chủ nghĩa; iii) Những biểu hiện mới của các trình độ
+độc quyền và giới hạn lịch sử của chủ nghĩa tư bản.",,,,,
+es_mln122_0005_sufficient,mln122_0005,MLN122,sufficient,"So với các chương trước nghiên cứu về kinh tế thị trường tư bản chủ nghĩa, Chương 5 có điểm gì khác biệt về đối tượng tập trung?",hard,parent_27caf70e0f7a9043e35a|parent_d93b683547a7ea4781d3|parent_1442d3089ff938244d55,"3. Vai trò của các chủ thể chính tham gia thị trường?
+Chương 3
+GIÁ TRỊ THẶNG DƯ
+TRONG NỀN KINH TẾ THỊ TRƯỜNG
+Sau khi đã nghiên cứu lý luận giá trị của C. Mác, Chương 3 sẽ
+tiếp tục trang bị hệ thống tri thức lý luận về giá trị thặng dư của C.
+Mác trong điều kiện nền kinh tế thị trường tự do cạnh tranh tư bản
+chủ nghĩa để thấy được các quan hệ lợi ích cơ bản nhất thông qua
+phân phối giá trị mới do lao động tạo ra giữa các chủ thể cơ bản
+trong nền kinh tế thị trường tư bản chủ nghĩa. Trên cơ sở đó, giúp
+cho sinh viên hình thành kỹ năng giải quyết có căn cứ khoa học
+quan hệ lợi ích của mình khi khởi nghiệp hoặc tham gia các hoạt
+động kinh tế - xã hội trong bối cảnh xã hội hiện đại.
+Chương 3 sẽ được trình bày với ba nội dung: i) Lý luận của C.
+Mác về giá trị thặng dư, đây cũng chính là nội dung cốt lõi học
+thuyết giá trị thặng dư của C. Mác, hòn đá tảng trong lý luận kinh
+tế chính trị của C. Mác; ii) Tích lũy tư bản (cách thức sử dụng giá
+trị thặng dư); iii) Phân phối giá trị thặng dư trong nền kinh tế thị
+trường tự do cạnh tranh tư bản chủ nghĩa
+---
+Chương 4
+CẠNH TRANH VÀ ĐỘC QUYỀN
+TRONG NỀN KINH TẾ THỊ TRƯỜNG
+Chương 4 cung cấp hệ thống tri thức lý luận của V.I. Lênin
+về độc quyền và độc quyền nhà nước trong nền kinh tế thị trường
+tư bản chủ nghĩa tiếp sau khi sinh viên đã được trang bị hệ thống
+tri thức lý luận cốt lõi về kinh tế chính trị của C. Mác. Thông qua
+đó, sinh viên có thể hiểu được bối cảnh nền kinh tế thế giới đang
+có những đặc trưng mới và hình thành được tư duy thích ứng với
+bối cảnh thế giới luôn có nhiều thách thức.
+Nội dung Chương 4 trình bày ba chủ đề: i) Quan hệ giữa cạnh
+tranh và độc quyền trong nền kinh tế thị trường; ii) Lý luận của
+V.I. Lênin về độc quyền, độc quyền nhà nước trong nền kinh tế thị
+trường tư bản chủ nghĩa; iii) Những biểu hiện mới của các trình độ
+độc quyền và giới hạn lịch sử của chủ nghĩa tư bản.
+---
+Chương 5
+KINH TẾ THỊ TRƯỜNG
+ĐỊNH HƯỚNG XÃ HỘI CHỦ NGHĨA
+VÀ CÁC QUAN HỆ LỢI ÍCH KINH TẾ
+Ở VIỆT NAM
+Sau khi nghiên cứu một cách hệ thống lý luận của C.Mác - Ph.
+Ăngghen và V.I. Lênin về các quan hệ xã hội của sản xuất và trao
+đổi trong nền kinh tế thị trường tư bản chủ nghĩa, Chương 5 cung
+cấp tri thức lý luận cơ bản về nền kinh tế thị trường mang đặc thù
+phát triển của Việt Nam, vấn đề quan hệ lợi ích và bảo đảm hài hòa
+các quan hệ lợi ích trong phát triển ở Việt Nam. Thông qua nhận
+thức một cách khoa học về nền kinh tế thị trường định hướng xã
+hội chủ nghĩa, vấn đề giải quyết các quan hệ lợi ích, sinh viên sẽ
+hiểu được lý do khách quan phát triển kinh tế thị trường định
+hướng xã hội chủ nghĩa và hình thành kỹ năng tư duy, vận dụng lý
+luận nền tảng vào giải quyết các vấn đề kinh tế khi tham gia các
+quan hệ kinh tế xã hội, các quan hệ lợi ích trong nền kinh tế thị
+trường định hướng xã hội chủ nghĩa ở Việt Nam.
+Nội dung Chương 5 sẽ được trình bày trong ba phần: i) Kinh tế thị
+trường định hướng xã hội chủ nghĩa ở Việt Nam. Cơ sở lý luận và tri
+thức tiền đề của nội dung này là hệ thống những tri thức đã được
+nghiên cứu trong các chương trước. ii) Hoàn thiện thể chế kinh tế
+thị trường định hướng xã hội chủ nghĩa ở Việt Nam; iii) Quan hệ
+lợi ích và bảo đảm hài hòa các quan hệ lợi ích trong phát triển ở
+Việt Nam.",,,,,
+es_mln122_0005_wrongaspect,mln122_0005,MLN122,wrong_aspect,"So với các chương trước nghiên cứu về kinh tế thị trường tư bản chủ nghĩa, Chương 5 có điểm gì khác biệt về đối tượng tập trung?",hard,parent_4f24e678f6f2140f59d0,"hóa sản xuất, tăng năng suất lao động để hạ giá trị cá biệt của hàng
+hóa. Do đó, chủ nghĩa tư bản càng phát triển, trình độ xã hội hóa
+của lực lượng sản xuất ngày càng cao. Trong khi quan hệ sản xuất
+lại dựa trên chế độ chiếm hữu tư nhân tư bản chủ nghĩa về tư liệu
+sản xuất. Mặc dù trong quá trình phát triển của chủ nghĩa tư bản,
+quan hệ sản xuất tư bản chủ nghĩa trong những chừng mực nhất
+định cũng đã không ngừng được điều chỉnh, mở rộng để mang tính
+xã hội hơn về hình thức cả về quan hệ sở hữu, quan hệ quản lý và
+quan hệ phân phối. Đặc biệt quan hệ sở hữu tư bản chủ nghĩa đã có
+sự vận động về mặt hình thức từ sở hữu tư nhân của các nhà tư bản
+(trong giai đoạn chủ nghĩa tư bản tự do cạnh tranh) đến sở hữu tập
+thể của các nhà tư bản (chủ nghĩa tư bản độc quyền) và hình thức
+sở hữu nhà nước tư sản với tư cách là đại diện xã hội (chủ nghĩa tư
+bản độc quyền nhà nước). Những sự điều chỉnh về quan hệ sở hữu
+đó đã có những sự phù hợp nhất định với trình độ xã hội hóa ngày
+càng cao của lực lượng sản xuất. Điều này cho thấy, nền sản xuất ở
+các nước tư bản chủ nghĩa hiện nay vẫn có những sự thích ứng và
+những sự phát triển nhất định. Mặc dù vậy, trong xã hội tư bản
+hiện đại mâu thuẫn cơ bản của chủ nghĩa tư bản vẫn tồn tại.
+Trong thời đại ngày nay, chủ nghĩa tư bản vẫn không tự giải
+quyết được mâu thuẫn cơ bản của mình. Vì vậy, chủ nghĩa tư bản
+càng phát triển, mâu thuẫn cơ bản của chủ nghĩa tư bản ngày càng
+gay gắt và chủ nghĩa tư bản phát triển đến một trình độ nhất định
+thì quan hệ sản xuất tư bản chủ nghĩa sẽ bị thay bằng một quan hệ
+sản xuất khác dựa trên sở hữu xã hội về tư liệu sản xuất để phù hợp
+với trình độ xã hội hóa ngày càng cao của lực lượng sản xuất. Đó
+là do yêu cầu của quy luật quan hệ sản xuất phải phù hợp với trình
+độ phát triển của lực lượng sản xuất quy định. Lý luận chủ nghĩa
+Mác - Lênin khẳng định: chủ nghĩa tư bản không tồn tại vĩnh viễn,
+mà phát triển đến một trình độ nhất định sẽ bị thay thế bởi một
+hình thái kinh tế - xã hội mới tiến bộ hơn.
+TÓM TẮT CHƯƠNG
+Trong nền kinh tế thị trường, cạnh tranh tất yếu dẫn đến độc
+quyền. Theo V.I. Lênin, độc quyền trong chủ nghĩa tư bản có năm đặc
+điểm kinh tế cơ bản. Trong điều kiện hiện nay các đặc điểm này có
+những biểu hiện mới.
+Trong nền kinh tế thị trường tư bản chủ nghĩa, độc quyền phát
+triển đến một trình độ nhất định sẽ xuất hiện độc quyền nhà nước.
+Độc quyền nhà nước có vai trò quan trọng đối với sự ổn định của
+nhà nước tư sản.
+Chủ nghĩa tư bản có vai trò rất lớn trong quá trình phát triển
+của xã hội, nhưng chủ nghĩa tư bản cũng có những giới hạn lịch sử
+không thể tự vượt qua được. Những giới hạn đó sẽ làm cho chủ
+nghĩa tư bản không thể tồn tại vĩnh viễn.
+CÁC THUẬT NGỮ CẦN GHI NHỚ
+Cạnh tranh, độc quyền, lợi nhuận độc quyền, giá cả độc
+quyền, độc quyền nhà nước, vai trò lịch sử của chủ nghĩa tư bản.
+VẤN ĐỀ THẢO LUẬN
+1. Những hệ lụy kinh tế gì sẽ xảy ra khi xuất hiện sự cạnh tranh
+giữa các tổ chức độc quyền trong nền kinh tế thị trường? Hãy thảo
+luận để làm rõ tính quy luật của sự hình thành các tổ chức độc quyền
+trong nền kinh tế thị trường?
+2. Độc quyền có tác động tích cực đối với nền kinh tế, vậy vì
+sao cần kiểm soát độc quyền? Có thể kiểm soát độc quyền thực
+hiện lợi ích của các tổ chức này trong quan hệ lợi ích với xã hội
+bằng những phương thức nào?
+CÂU HỎI ÔN TẬP
+1. Trình bày nguyên nhân hình thành và những đặc điểm kinh
+tế cơ bản của độc quyền trong chủ nghĩa tư bản? Những biểu hiện
+mới về kinh tế của độc quyền trong chủ nghĩa tư bản ngày nay?
+2. Phân tích nguyên nhân hình thành và đặc điểm của độc
+quyền nhà nước trong nền kinh tế thị trường tư bản chủ nghĩa? Vai
+trò và hạn chế phát triển của chủ nghĩa tư bản ngày nay?",,,,,
+es_mln122_0009_missing,mln122_0009,MLN122,missing,"Việc tổng hợp các nội dung về thị trường, cơ chế thị trường và lý luận giá trị thặng dư mang lại ý nghĩa gì cho việc nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?",hard,,,,,,,
+es_mln122_0009_partial,mln122_0009,MLN122,partial,"Việc tổng hợp các nội dung về thị trường, cơ chế thị trường và lý luận giá trị thặng dư mang lại ý nghĩa gì cho việc nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?",hard,parent_49499b9ea43dcaaac4df,"Chương 2
+HÀNG HÓA, THỊ TRƯỜNG VÀ VAI TRÒ
+CỦA CÁC CHỦ THỂ THAM GIA THỊ TRƯỜNG
+Sau khi tìm hiểu về sự hình thành, phát triển, đối tượng,
+phương pháp nghiên cứu cũng như chức năng của kinh tế chính trị
+Mác - Lênin, Chương 2 cung cấp một cách có hệ thống về lý luận
+giá trị lao động của C. Mác thông qua các phạm trù cơ bản về hàng
+hóa, tiền tệ, giá cả, quy luật giá trị, tính hai mặt của lao động sản
+xuất hàng hóa, năng suất lao động... giúp nhận thức một cách cơ
+bản cơ sở lý luận của các mối quan hệ kinh tế trong nền kinh tế thị
+trường. Trên cơ sở đó, góp phần vận dụng để hình thành tư duy và
+kỹ năng thực hiện hành vi kinh tế phù hợp với yêu cầu khách quan
+của công dân khi tham gia các hoạt động kinh tế - xã hội nói
+chung. Đây cũng là căn cứ để tiếp tục bổ sung, làm sâu sắc hơn
+một số khía cạnh lý luận của C. Mác về hàng hóa, giá trị hàng hóa
+mà thời C. Mác, do hoàn cảnh khách quan, chưa nghiên cứu được
+như trong điều kiện nền kinh tế thị trường với những quy luật của
+kinh tế thị trường hiện nay.
+Để phù hợp với mục đích nêu trên, nội dung của Chương 2 sẽ
+được trình bày gồm hai phần trọng tâm: i) Lý luận của C. Mác về
+sản xuất hàng hóa và hàng hóa. Nội dung này sẽ nhấn mạnh những
+vấn đề lý luận thuộc học thuyết giá trị của C. Mác, trong đó có chú
+ý tới khía cạnh làm sâu sắc hơn quan điểm của C. Mác về sự phong
+phú của thế giới hàng hóa trong bối cảnh ngày nay; ii) Thị trường
+và vai trò của các chủ thể tham gia thị trường. Nội dung này cung
+cấp các tri thức cơ bản về thị trường, cơ chế thị trường, kinh tế thị
+trường và các quy luật chủ yếu của nền kinh tế thị trường. Đây là
+sự bổ sung làm rõ hơn lý luận của C. Mác trong bối cảnh ngày nay.
+Trên cơ sở hệ thống lý luận này, có thể hiểu biết tri thức lý luận
+nền tảng cho nghiên cứu về kinh tế thị trường định hướng xã hội
+chủ nghĩa ở Việt Nam.",,,,,
+es_mln122_0009_sufficient,mln122_0009,MLN122,sufficient,"Việc tổng hợp các nội dung về thị trường, cơ chế thị trường và lý luận giá trị thặng dư mang lại ý nghĩa gì cho việc nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?",hard,parent_49499b9ea43dcaaac4df|parent_a84979c5ab2065a36ee6,"Chương 2
+HÀNG HÓA, THỊ TRƯỜNG VÀ VAI TRÒ
+CỦA CÁC CHỦ THỂ THAM GIA THỊ TRƯỜNG
+Sau khi tìm hiểu về sự hình thành, phát triển, đối tượng,
+phương pháp nghiên cứu cũng như chức năng của kinh tế chính trị
+Mác - Lênin, Chương 2 cung cấp một cách có hệ thống về lý luận
+giá trị lao động của C. Mác thông qua các phạm trù cơ bản về hàng
+hóa, tiền tệ, giá cả, quy luật giá trị, tính hai mặt của lao động sản
+xuất hàng hóa, năng suất lao động... giúp nhận thức một cách cơ
+bản cơ sở lý luận của các mối quan hệ kinh tế trong nền kinh tế thị
+trường. Trên cơ sở đó, góp phần vận dụng để hình thành tư duy và
+kỹ năng thực hiện hành vi kinh tế phù hợp với yêu cầu khách quan
+của công dân khi tham gia các hoạt động kinh tế - xã hội nói
+chung. Đây cũng là căn cứ để tiếp tục bổ sung, làm sâu sắc hơn
+một số khía cạnh lý luận của C. Mác về hàng hóa, giá trị hàng hóa
+mà thời C. Mác, do hoàn cảnh khách quan, chưa nghiên cứu được
+như trong điều kiện nền kinh tế thị trường với những quy luật của
+kinh tế thị trường hiện nay.
+Để phù hợp với mục đích nêu trên, nội dung của Chương 2 sẽ
+được trình bày gồm hai phần trọng tâm: i) Lý luận của C. Mác về
+sản xuất hàng hóa và hàng hóa. Nội dung này sẽ nhấn mạnh những
+vấn đề lý luận thuộc học thuyết giá trị của C. Mác, trong đó có chú
+ý tới khía cạnh làm sâu sắc hơn quan điểm của C. Mác về sự phong
+phú của thế giới hàng hóa trong bối cảnh ngày nay; ii) Thị trường
+và vai trò của các chủ thể tham gia thị trường. Nội dung này cung
+cấp các tri thức cơ bản về thị trường, cơ chế thị trường, kinh tế thị
+trường và các quy luật chủ yếu của nền kinh tế thị trường. Đây là
+sự bổ sung làm rõ hơn lý luận của C. Mác trong bối cảnh ngày nay.
+Trên cơ sở hệ thống lý luận này, có thể hiểu biết tri thức lý luận
+nền tảng cho nghiên cứu về kinh tế thị trường định hướng xã hội
+chủ nghĩa ở Việt Nam.
+---
+I- LÝ LUẬN CỦA C. MÁC VỀ GIÁ TRỊ THẶNG DƯ
+Lý luận giá trị thặng dư của C. Mác được trình bày cô đọng
+nhất trong tác phẩm Tư bản; trong đó, C. Mác luận giải khoa
+học về nguồn gốc và bản chất của giá trị thặng dư.",,,,,
+es_mln122_0009_wrongaspect,mln122_0009,MLN122,wrong_aspect,"Việc tổng hợp các nội dung về thị trường, cơ chế thị trường và lý luận giá trị thặng dư mang lại ý nghĩa gì cho việc nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?",hard,parent_2bfe1bb4df9f5348376f,"1. Khái niệm kinh tế thị trường định hướng xã hội chủ
+nghĩa ở Việt Nam
+Như đã đề cập trong Chương 2, kinh tế thị trường là sản phẩm
+của văn minh nhân loại; không có mô hình kinh tế thị trường chung
+cho mọi quốc gia và mọi giai đoạn phát triển. Mỗi nước có những
+mô hình kinh tế thị trường khác nhau phù hợp với điều kiện của
+quốc gia đó. Mỗi nền kinh tế thị trường vừa có những đặc trưng tất
+yếu không thể thiếu của nền kinh tế thị trường nói chung vừa có
+những đặc trưng phản ánh điều kiện lịch sử, chính trị, kinh tế - xã
+hội của quốc gia đó. Kinh tế thị trường định hướng xã hội chủ
+nghĩa Việt Nam là một kiểu nền kinh tế thị trường phù hợp với
+Việt Nam, phản ánh trình độ phát triển và điều kiện lịch sử của
+Việt Nam.
+Kinh tế thị trường định hướng xã hội chủ nghĩa là nền kinh tế
+vận hành theo các quy luật của thị trường, đồng thời góp phần
+hướng tới từng bước xác lập một xã hội mà ở đó dân giàu, nước
+mạnh, dân chủ, công bằng, văn minh; có sự điều tiết của Nhà nước
+do Đảng Cộng sản Việt Nam lãnh đạo.
+Thực chất, giá trị dân giàu, nước mạnh, dân chủ, công bằng,
+văn minh là những giá trị của xã hội tương lai mà loài người còn
+tiếp tục phải phấn đấu, bởi lẽ, nhìn từ thế giới hiện nay mà xét, có
+quốc gia dân rất giàu nhưng nước chưa mạnh, xã hội thiếu văn
+minh; có quốc gia nước rất mạnh, dân chủ song lại thiếu công
+bằng.
+Như vậy, một hệ giá trị toàn diện gồm cả dân giàu, nước
+mạnh, dân chủ, công bằng, văn minh là hệ giá trị của xã hội tương
+lai mà loài người còn cần phải phấn đấu mới có thể đạt được một
+cách đầy đủ trên hiện thực xã hội. Do đó, định hướng xã hội chủ
+nghĩa thực chất là hướng tới các giá trị cốt lõi của xã hội mới ấy.
+Nền kinh tế thị trường mà trong các hoạt động kinh tế của các chủ
+thể, hướng tới góp phần xác lập được các giá trị xã hội thực tế với
+hệ giá trị toàn diện như vậy là nền kinh tế thị trường định hướng xã
+hội chủ nghĩa.
+Để đạt được hệ giá trị như vậy, nền kinh tế thị trường Việt
+Nam, cũng như các nền kinh tế thị trường khác, cần có vai trò điều
+tiết của Nhà nước, nhưng đối với Việt Nam, Nhà nước phải được
+đặt dưới sự lãnh đạo của Đảng Cộng sản Việt Nam. Đảng Cộng sản
+Việt Nam là đảng cầm quyền do lịch sử khách quan quy định.
+Nền kinh tế thị trường định hướng xã hội chủ nghĩa vừa phải
+bao hàm đầy đủ các đặc trưng chung vốn có của kinh tế thị trường
+nói chung (đã được nghiên cứu tại Chương 2), vừa có những đặc
+trưng riêng của Việt Nam. Đây là kiểu mô hình kinh tế thị trường
+phù hợp với đặc trưng lịch sử, trình độ phát triển, hoàn cảnh chính
+trị - xã hội của Việt Nam. Muốn thành công phải do nhân dân nỗ
+lực xây dựng mới có thể đạt được.
+Hộp 5.1. Quá trình hình thành nhận thức
+của Đảng Cộng sản Việt Nam về kinh tế
+thị trường định hướng xã hội chủ nghĩa
+- Khi bắt đầu thực hiện công cuộc đổi mới (năm 1986) Đảng ta
+quan niệm kinh tế hàng hóa có những mặt tích cực cần vận dụng cho
+xây dựng chủ nghĩa xã hội.
+- Trong quá trình đổi mới, từ tổng kết thực tiễn và nghiên cứu lý
+luận, Đảng ta đã nhận thức rõ hơn, kinh tế hàng hóa, kinh tế thị trường
+là phương thức, điều kiện tất yếu để xây dựng chủ nghĩa xã hội; từ áp
+dụng cơ chế thị trường đến phát triển kinh tế thị trường; đưa ra quan
+niệm và từng bước cụ thể hóa mô hình và thể chế kinh tế thị trường
+định hướng xã hội chủ nghĩa.
+- Tổng kết thực tiễn đổi mới kinh tế, Đại hội IX của Đảng khẳng
+định: Kinh tế thị trường định hướng xã hội chủ nghĩa là mô hình kinh
+tế tổng quát của thời kỳ quá độ lên chủ nghĩa xã hội ở nước ta.
+- Đại hội XI của Đảng khẳng định: Nền kinh tế thị trường định
+hướng xã hội chủ nghĩa ở nước ta là nền kinh tế hàng hóa nhiều thành
+phần, vận hành theo cơ chế thị trường, có sự quản lý của Nhà nước,
+dưới sự lãnh đạo của Đảng Cộng sản.
+- Đại hội XII của Đảng có sự phát triển mới bằng việc đưa ra quan
+niệm: Nền kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam
+là nền kinh tế vận hành đầy đủ, đồng bộ theo các quy luật của kinh tế thị
+trường, đồng thời bảo đảm định hướng xã hội chủ nghĩa phù hợp với
+từng giai đoạn phát triển của đất nước. Đó là nền kinh tế thị trường hiện
+đại và hội nhập quốc tế; có sự quản lý của Nhà nước pháp quyền xã hội
+chủ nghĩa, do Đảng Cộng sản Việt Nam lãnh đạo, nhằm mục tiêu “dân
+giàu, nước mạnh, dân chủ, công bằng, văn minh”. Đại hội XIII khẳng
+định: Đó là mô hình kinh tế tổng quát của nước ta trong thời kỳ quá độ
+lên chủ nghĩa xã hội
+Nguồn: Đảng Cộng sản Việt Nam: Văn kiện Đại hội đại hội đại biểu
+toàn quốc lần thứ VI, VII, VIII, IX, X, XI, XII, XIII.",,,,,
+es_mln122_0044_missing,mln122_0044,MLN122,missing,"Từ việc V.I. Lênin kế thừa và phát triển lý luận kinh tế chính trị của C. Mác, hãy liên hệ với các điều kiện khách quan hình thành kinh tế thị trường ở Việt Nam trong bối cảnh hiện nay.",hard,,,,,,,
+es_mln122_0044_partial,mln122_0044,MLN122,partial,"Từ việc V.I. Lênin kế thừa và phát triển lý luận kinh tế chính trị của C. Mác, hãy liên hệ với các điều kiện khách quan hình thành kinh tế thị trường ở Việt Nam trong bối cảnh hiện nay.",hard,parent_33df4c397c44d15391b4,"- Dòng lý thuyết thể hiện từ D. Ricardo, kế thừa những giá trị
+trong lý luận khoa học của A. Smith, tiếp tục bổ sung, hoàn chỉnh
+nội dung luận giải về các phạm trù kinh tế chính trị, đi sâu phân
+tích các quan hệ xã hội trong nền sản xuất, tạo ra những giá trị lý
+luận khoa học chuẩn xác. C. Mác (1818 - 1883) đã kế thừa trực
+tiếp những thành quả lý luận khoa học đó của D. Ricardo để phát
+triển thành lý luận kinh tế chính trị mang tên ông về phương thức
+sản xuất tư bản chủ nghĩa.
+Dựa trên sự kế thừa một cách có phê phán lý luận kinh tế chính
+trị cổ điển, trực tiếp là của D. Ricardo, C. Mác đã xây dựng hệ
+thống lý luận kinh tế chính trị mang tính cách mạng, khoa học,
+toàn diện về nền sản xuất tư bản chủ nghĩa, tìm ra những quy
+luật kinh tế chi phối sự hình thành, phát triển và luận chứng vai
+trò lịch sử của phương thức sản xuất tư bản chủ nghĩa. Cùng với
+C. Mác, Ph. Ăngghen (1820 - 1895) cũng là người có công lao vĩ
+đại trong việc công bố lý luận kinh tế chính trị, một trong ba bộ
+phận cấu thành của chủ nghĩa Mác.
+Lý luận kinh tế chính trị của C. Mác và Ph. Ăngghen được thể
+hiện tập trung và cô đọng nhất trong bộ Tư bản. Trong bộ Tư bản,
+C. Mác trình bày một cách khoa học và chỉnh thể các phạm trù cơ
+bản của nền kinh tế thị trường tư bản chủ nghĩa như: hàng hóa, tiền
+tệ, tư bản, giá trị thặng dư, tích lũy, tuần hoàn, chu chuyển, lợi
+nhuận, lợi tức, địa tô, cạnh tranh..., rút ra các quy luật kinh tế cơ
+bản cũng như các quan hệ xã hội giữa các giai cấp trong nền kinh
+tế thị trường dưới bối cảnh nền sản xuất tư bản chủ nghĩa. C. Mác
+đã tạo ra bước nhảy vọt về lý luận khoa học so với D. Ricardo khi
+phát hiện ra tính hai mặt của lao động sản xuất hàng hóa, tạo tiền
+đề cho việc luận giải một cách khoa học về lý luận giá trị thặng dư.
+Hệ thống lý luận kinh tế chính trị của C. Mác nêu trên được
+trình bày dưới hình thức các học thuyết lớn như học thuyết giá trị,
+học thuyết giá trị thặng dư, học thuyết tích lũy, học thuyết về lợi
+nhuận, học thuyết về địa tô... Với học thuyết giá trị thặng dư nói
+riêng và bộ Tư bản nói chung, C. Mác đã xây dựng cơ sở khoa học,
+cách mạng cho sự hình thành chủ nghĩa Mác như một chỉnh thể
+làm nền tảng tư tưởng cho giai cấp công nhân và nhân dân lao
+động. Học thuyết giá trị thặng dư của C. Mác đồng thời cũng là cơ
+sở khoa học luận chứng về vai trò lịch sử của phương thức sản xuất
+tư bản chủ nghĩa.
+Sau khi C. Mác và Ph. Ăngghen qua đời, V.I. Lênin tiếp tục kế
+thừa, bổ sung, phát triển lý luận kinh tế chính trị theo phương pháp
+luận của C. Mác và có nhiều đóng góp khoa học rất lớn; trong đó, nổi
+bật là kết quả nghiên cứu chỉ ra những đặc điểm kinh tế của độc
+quyền, độc quyền nhà nước trong chủ nghĩa tư bản giai đoạn cuối thế
+kỷ XIX đầu thế kỷ XX, những vấn đề kinh tế chính trị của thời kỳ quá
+độ lên chủ nghĩa xã hội... Với ý nghĩa đó, lý thuyết kinh tế chính trị
+này được định danh với tên gọi kinh tế chính trị Mác - Lênin.
+Sau khi V.I. Lênin qua đời, các nhà nghiên cứu kinh tế của các
+đảng cộng sản trên thế giới tiếp tục nghiên cứu, bổ sung và phát
+triển kinh tế chính trị Mác - Lênin cho đến ngày nay. Cùng với lý
+luận của các đảng cộng sản, hiện nay, trên thế giới có rất nhiều nhà
+kinh tế nghiên cứu kinh tế chính trị theo cách tiếp cận của kinh tế
+chính trị của C. Mác với nhiều công trình được công bố trên khắp
+thế giới. Các công trình nghiên cứu đó được xếp vào nhánh kinh tế
+chính trị mácxít (maxist - những người theo chủ nghĩa Mác).
+Bên cạnh đó, cũng trong giai đoạn từ thế kỷ XV đến thế kỷ
+XIX, còn có một số lý thuyết kinh tế chính trị của các nhà tư
+tưởng xã hội chủ nghĩa không tưởng (thế kỷ XV - XIX) và
+kinh tế chính trị tiểu tư sản (cuối thế kỷ XIX). Các lý thuyết
+này hướng vào phê phán những khuyết tật của chủ nghĩa tư bản,
+song nhìn chung các quan điểm dựa trên cơ sở tình cảm cá nhân,
+chịu ảnh hưởng của chủ nghĩa nhân đạo, không chỉ ra được các
+quy luật kinh tế cơ bản của nền kinh tế thị trường tư bản chủ
+nghĩa và do đó không luận chứng được vai trò lịch sử của chủ
+nghĩa tư bản trong quá trình phát triển của nhân loại.
+Như vậy, kinh tế chính trị Mác - Lênin là một trong những
+dòng lý thuyết kinh tế chính trị nằm trong dòng chảy tư tưởng kinh
+tế phát triển liên tục trên thế giới, được hình thành, xây dựng bởi
+C. Mác, Ph. Ăngghen và V.I. Lênin, dựa trên cơ sở kế thừa và phát
+triển những giá trị khoa học kinh tế chính trị của nhân loại trước
+đó, trực tiếp là những giá trị khoa học của kinh tế chính trị tư sản
+cổ điển Anh. Kinh tế chính trị Mác - Lênin có quá trình phát triển
+không ngừng kể từ giữa thế kỷ XIX đến nay. Kinh tế chính trị Mác
+- Lênin là một môn khoa học trong hệ thống các môn khoa học
+kinh tế của nhân loại.",,,,,
+es_mln122_0044_sufficient,mln122_0044,MLN122,sufficient,"Từ việc V.I. Lênin kế thừa và phát triển lý luận kinh tế chính trị của C. Mác, hãy liên hệ với các điều kiện khách quan hình thành kinh tế thị trường ở Việt Nam trong bối cảnh hiện nay.",hard,parent_33df4c397c44d15391b4|parent_7d77cee70b91323fd410,"- Dòng lý thuyết thể hiện từ D. Ricardo, kế thừa những giá trị
+trong lý luận khoa học của A. Smith, tiếp tục bổ sung, hoàn chỉnh
+nội dung luận giải về các phạm trù kinh tế chính trị, đi sâu phân
+tích các quan hệ xã hội trong nền sản xuất, tạo ra những giá trị lý
+luận khoa học chuẩn xác. C. Mác (1818 - 1883) đã kế thừa trực
+tiếp những thành quả lý luận khoa học đó của D. Ricardo để phát
+triển thành lý luận kinh tế chính trị mang tên ông về phương thức
+sản xuất tư bản chủ nghĩa.
+Dựa trên sự kế thừa một cách có phê phán lý luận kinh tế chính
+trị cổ điển, trực tiếp là của D. Ricardo, C. Mác đã xây dựng hệ
+thống lý luận kinh tế chính trị mang tính cách mạng, khoa học,
+toàn diện về nền sản xuất tư bản chủ nghĩa, tìm ra những quy
+luật kinh tế chi phối sự hình thành, phát triển và luận chứng vai
+trò lịch sử của phương thức sản xuất tư bản chủ nghĩa. Cùng với
+C. Mác, Ph. Ăngghen (1820 - 1895) cũng là người có công lao vĩ
+đại trong việc công bố lý luận kinh tế chính trị, một trong ba bộ
+phận cấu thành của chủ nghĩa Mác.
+Lý luận kinh tế chính trị của C. Mác và Ph. Ăngghen được thể
+hiện tập trung và cô đọng nhất trong bộ Tư bản. Trong bộ Tư bản,
+C. Mác trình bày một cách khoa học và chỉnh thể các phạm trù cơ
+bản của nền kinh tế thị trường tư bản chủ nghĩa như: hàng hóa, tiền
+tệ, tư bản, giá trị thặng dư, tích lũy, tuần hoàn, chu chuyển, lợi
+nhuận, lợi tức, địa tô, cạnh tranh..., rút ra các quy luật kinh tế cơ
+bản cũng như các quan hệ xã hội giữa các giai cấp trong nền kinh
+tế thị trường dưới bối cảnh nền sản xuất tư bản chủ nghĩa. C. Mác
+đã tạo ra bước nhảy vọt về lý luận khoa học so với D. Ricardo khi
+phát hiện ra tính hai mặt của lao động sản xuất hàng hóa, tạo tiền
+đề cho việc luận giải một cách khoa học về lý luận giá trị thặng dư.
+Hệ thống lý luận kinh tế chính trị của C. Mác nêu trên được
+trình bày dưới hình thức các học thuyết lớn như học thuyết giá trị,
+học thuyết giá trị thặng dư, học thuyết tích lũy, học thuyết về lợi
+nhuận, học thuyết về địa tô... Với học thuyết giá trị thặng dư nói
+riêng và bộ Tư bản nói chung, C. Mác đã xây dựng cơ sở khoa học,
+cách mạng cho sự hình thành chủ nghĩa Mác như một chỉnh thể
+làm nền tảng tư tưởng cho giai cấp công nhân và nhân dân lao
+động. Học thuyết giá trị thặng dư của C. Mác đồng thời cũng là cơ
+sở khoa học luận chứng về vai trò lịch sử của phương thức sản xuất
+tư bản chủ nghĩa.
+Sau khi C. Mác và Ph. Ăngghen qua đời, V.I. Lênin tiếp tục kế
+thừa, bổ sung, phát triển lý luận kinh tế chính trị theo phương pháp
+luận của C. Mác và có nhiều đóng góp khoa học rất lớn; trong đó, nổi
+bật là kết quả nghiên cứu chỉ ra những đặc điểm kinh tế của độc
+quyền, độc quyền nhà nước trong chủ nghĩa tư bản giai đoạn cuối thế
+kỷ XIX đầu thế kỷ XX, những vấn đề kinh tế chính trị của thời kỳ quá
+độ lên chủ nghĩa xã hội... Với ý nghĩa đó, lý thuyết kinh tế chính trị
+này được định danh với tên gọi kinh tế chính trị Mác - Lênin.
+Sau khi V.I. Lênin qua đời, các nhà nghiên cứu kinh tế của các
+đảng cộng sản trên thế giới tiếp tục nghiên cứu, bổ sung và phát
+triển kinh tế chính trị Mác - Lênin cho đến ngày nay. Cùng với lý
+luận của các đảng cộng sản, hiện nay, trên thế giới có rất nhiều nhà
+kinh tế nghiên cứu kinh tế chính trị theo cách tiếp cận của kinh tế
+chính trị của C. Mác với nhiều công trình được công bố trên khắp
+thế giới. Các công trình nghiên cứu đó được xếp vào nhánh kinh tế
+chính trị mácxít (maxist - những người theo chủ nghĩa Mác).
+Bên cạnh đó, cũng trong giai đoạn từ thế kỷ XV đến thế kỷ
+XIX, còn có một số lý thuyết kinh tế chính trị của các nhà tư
+tưởng xã hội chủ nghĩa không tưởng (thế kỷ XV - XIX) và
+kinh tế chính trị tiểu tư sản (cuối thế kỷ XIX). Các lý thuyết
+này hướng vào phê phán những khuyết tật của chủ nghĩa tư bản,
+song nhìn chung các quan điểm dựa trên cơ sở tình cảm cá nhân,
+chịu ảnh hưởng của chủ nghĩa nhân đạo, không chỉ ra được các
+quy luật kinh tế cơ bản của nền kinh tế thị trường tư bản chủ
+nghĩa và do đó không luận chứng được vai trò lịch sử của chủ
+nghĩa tư bản trong quá trình phát triển của nhân loại.
+Như vậy, kinh tế chính trị Mác - Lênin là một trong những
+dòng lý thuyết kinh tế chính trị nằm trong dòng chảy tư tưởng kinh
+tế phát triển liên tục trên thế giới, được hình thành, xây dựng bởi
+C. Mác, Ph. Ăngghen và V.I. Lênin, dựa trên cơ sở kế thừa và phát
+triển những giá trị khoa học kinh tế chính trị của nhân loại trước
+đó, trực tiếp là những giá trị khoa học của kinh tế chính trị tư sản
+cổ điển Anh. Kinh tế chính trị Mác - Lênin có quá trình phát triển
+không ngừng kể từ giữa thế kỷ XIX đến nay. Kinh tế chính trị Mác
+- Lênin là một môn khoa học trong hệ thống các môn khoa học
+kinh tế của nhân loại.
+---
+2. Tính tất yếu khách quan của việc phát triển kinh tế thị
+trường định hướng xã hội chủ nghĩa ở Việt Nam
+Phát triển kinh tế thị trường định hướng xã hội chủ nghĩa là tất
+yếu ở Việt Nam xuất phát từ những lý do cơ bản sau:
+Một là, phát triển kinh tế thị trường định hướng xã hội chủ
+nghĩa là phù hợp với xu hướng phát triển khách quan của Việt Nam
+trong bối cảnh thế giới hiện nay.
+Như đã đề cập ở trên, nền kinh tế thị trường là nền kinh tế
+hàng hóa phát triển ở trình độ cao. Khi có đủ các điều kiện cho sự
+tồn tại và phát triển, nền kinh tế hàng hóa tự hình thành. Sự phát
+triển của nền kinh tế hàng hóa theo các quy luật tất yếu đạt tới trình
+độ nền kinh tế thị trường. Đó là tính quy luật. Ở Việt Nam, các
+điều kiện cho sự hình thành và phát triển kinh tế thị trường đang
+tồn tại khách quan. Do đó, sự hình thành kinh tế thị trường ở Việt
+Nam là tất yếu khách quan.
+Mong muốn dân giàu, nước mạnh, dân chủ, công bằng, văn
+minh là mong muốn chung của các quốc gia trên thế giới. Do đó,
+việc định hướng hướng tới xác lập những giá trị đó trong nền kinh
+tế thị trường ở Việt Nam là phù hợp và tất yếu trong phát triển.
+Song, trong sự tồn tại hiện thực sẽ không thể có một nền kinh tế thị
+trường trừu tượng, chung chung cho mọi hình thái kinh tế - xã hội,
+mọi quốc gia, dân tộc.
+Trong lịch sử đã có kinh tế hàng hóa giản đơn kiểu chiếm hữu nô
+lệ và phong kiến hay kinh tế thị trường tư bản chủ nghĩa, tồn tại trong
+mỗi hình thái kinh tế - xã hội cụ thể, gắn bó hữu cơ và chịu sự chi phối
+của các quan hệ sản xuất thống trị trong xã hội đó. Ngay như trong
+cùng một chế độ tư bản chủ nghĩa, kinh tế thị trường của mỗi quốc
+gia, dân tộc cũng khác nhau, mang đặc tính khác nhau.
+Thực tiễn lịch sử cho thấy, mặc dù kinh tế thị trường tư bản
+chủ nghĩa đã đạt tới giai đoạn phát triển cao và phồn thịnh ở các
+nước tư bản phát triển, nhưng những mâu thuẫn vốn có của nó
+không thể nào khắc phục được trong lòng xã hội tư bản, nền
+kinh tế thị trường tư bản chủ nghĩa đang có xu hướng tự phủ
+định, tự tiến hóa tạo ra những điều kiện cần và đủ cho một cuộc
+cách mạng xã hội - cách mạng xã hội chủ nghĩa.
+Do vậy, nhân loại muốn tiếp tục phát triển thì không chỉ
+dừng lại ở kinh tế thị trường tư bản chủ nghĩa. Với ý nghĩa đó,
+sự lựa chọn mô hình kinh tế thị trường định hướng xã hội chủ
+nghĩa của Việt Nam là phù hợp với xu thế của thời đại và đặc
+điểm phát triển của dân tộc, sự lựa chọn đó không hề mâu thuẫn
+với tiến trình phát triển của đất nước. Đây thực sự là bước đi,
+cách làm mới hiện nay của các quốc gia, dân tộc đang trên con
+đường hướng tới xã hội xã hội chủ nghĩa.
+Hai là, do tính ưu việt của kinh tế thị trường trong thúc đẩy
+phát triển Việt Nam theo định hướng xã hội chủ nghĩa.
+Thực tiễn trên thế giới và Việt Nam cho thấy kinh tế thị
+trường là phương thức phân bổ nguồn lực hiệu quả mà loài
+người đã đạt được so với các mô hình kinh tế phi thị trường.
+Kinh tế thị trường luôn là động lực thúc đẩy lực lượng sản xuất
+phát triển nhanh và có hiệu quả. Dưới tác động của các quy luật
+thị trường, nền kinh tế luôn phát triển theo hướng năng động,
+kích thích tiến bộ kỹ thuật - công nghệ, nâng cao năng suất lao
+động, chất lượng sản phẩm và hạ giá thành. Xét trên góc độ đó,
+sự phát triển của kinh tế thị trường không hề mâu thuẫn với mục
+tiêu của chủ nghĩa xã hội.
+Do vậy, Việt Nam cần phải phát triển kinh tế thị trường để
+thúc đẩy lực lượng sản xuất phát triển nhanh và có hiệu quả,
+thực hiện mục tiêu của chủ nghĩa xã hội là “dân giàu, nước
+mạnh, dân chủ, công bằng, văn minh”. Tuy nhiên, trong quá
+trình phát triển kinh tế thị trường cần chú ý tới những thất bại và
+khuyết tật của thị trường để có sự can thiệp, điều tiết kịp thời
+của Nhà nước pháp quyền xã hội chủ nghĩa. Phát triển kinh tế
+thị trường định hướng xã hội chủ nghĩa là sự lựa chọn cách làm,
+bước đi đúng quy luật kinh tế khách quan để đi đến mục tiêu của
+chủ nghĩa xã hội ở Việt Nam.
+Ba là, kinh tế thị trường định hướng xã hội chủ nghĩa phù hợp
+với nguyện vọng mong muốn dân giàu, nước mạnh, dân chủ, công
+bằng, văn minh của người dân Việt Nam.
+Trên thế giới có nhiều mô hình kinh tế thị trường, nhưng nếu
+việc phát triển mà dẫn tới tình trạng dân không giàu, nước không
+mạnh, thiếu dân chủ, kém văn minh thì không quốc gia nào mong
+muốn. Vì vậy, phấn đấu vì mục tiêu dân giàu, nước mạnh, dân
+chủ, công bằng, văn minh là khát vọng của nhân dân Việt Nam.
+Để hiện thực hóa khát vọng đó, thực hiện kinh tế thị trường, trong
+đó hướng tới những giá trị mới, do đó, là tất yếu khách quan.
+Mặt khác, kinh tế thị trường sẽ còn tồn tại lâu dài ở nước ta là
+một tất yếu khách quan, là sự cần thiết cho quá trình xây dựng và
+phát triển đất nước, bởi lẽ sự tồn tại hay không tồn tại của kinh tế
+thị trường là do những điều kiện kinh tế - xã hội khách quan sinh ra
+nó quy định. Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt
+Nam, những điều kiện cho sự ra đời và tồn tại của sản xuất hàng
+hóa như: phân công lao động xã hội, các hình thức khác nhau của
+quan hệ sở hữu về tư liệu sản xuất không hề mất đi, do đó, việc sản
+xuất và phân phối sản phẩm vẫn phải được thực hiện thông qua thị
+trường.
+Phát triển kinh tế thị trường định hướng xã hội chủ nghĩa sẽ
+phá vỡ tính chất tự cấp, tự túc, lạc hậu của nền kinh tế; đẩy
+mạnh phân công lao động xã hội, phát triển ngành, nghề; tạo
+việc làm cho người lao động; thúc đẩy lực lượng sản xuất phát
+triển mạnh mẽ, khuyến khích ứng dụng kỹ thuật công nghệ mới
+bảo đảm tăng năng suất lao động, tăng số lượng, chất lượng và
+chủng loại hàng hóa, dịch vụ góp phần từng bước cải thiện và
+nâng cao đời sống của nhân dân; thúc đẩy tích tụ và tập trung
+sản xuất, mở rộng giao lưu kinh tế giữa các vùng, miền trong
+nước và với nước ngoài; khuyến khích tính năng động, sáng tạo
+trong các hoạt động kinh tế; tạo cơ chế phân bổ và sử dụng các
+nguồn lực xã hội một cách hợp lý, tiết kiệm... Điều này phù hợp
+với khát vọng của người dân Việt Nam.",,,,,
+es_mln122_0044_wrongaspect,mln122_0044,MLN122,wrong_aspect,"Từ việc V.I. Lênin kế thừa và phát triển lý luận kinh tế chính trị của C. Mác, hãy liên hệ với các điều kiện khách quan hình thành kinh tế thị trường ở Việt Nam trong bối cảnh hiện nay.",hard,parent_49499b9ea43dcaaac4df,"Chương 2
+HÀNG HÓA, THỊ TRƯỜNG VÀ VAI TRÒ
+CỦA CÁC CHỦ THỂ THAM GIA THỊ TRƯỜNG
+Sau khi tìm hiểu về sự hình thành, phát triển, đối tượng,
+phương pháp nghiên cứu cũng như chức năng của kinh tế chính trị
+Mác - Lênin, Chương 2 cung cấp một cách có hệ thống về lý luận
+giá trị lao động của C. Mác thông qua các phạm trù cơ bản về hàng
+hóa, tiền tệ, giá cả, quy luật giá trị, tính hai mặt của lao động sản
+xuất hàng hóa, năng suất lao động... giúp nhận thức một cách cơ
+bản cơ sở lý luận của các mối quan hệ kinh tế trong nền kinh tế thị
+trường. Trên cơ sở đó, góp phần vận dụng để hình thành tư duy và
+kỹ năng thực hiện hành vi kinh tế phù hợp với yêu cầu khách quan
+của công dân khi tham gia các hoạt động kinh tế - xã hội nói
+chung. Đây cũng là căn cứ để tiếp tục bổ sung, làm sâu sắc hơn
+một số khía cạnh lý luận của C. Mác về hàng hóa, giá trị hàng hóa
+mà thời C. Mác, do hoàn cảnh khách quan, chưa nghiên cứu được
+như trong điều kiện nền kinh tế thị trường với những quy luật của
+kinh tế thị trường hiện nay.
+Để phù hợp với mục đích nêu trên, nội dung của Chương 2 sẽ
+được trình bày gồm hai phần trọng tâm: i) Lý luận của C. Mác về
+sản xuất hàng hóa và hàng hóa. Nội dung này sẽ nhấn mạnh những
+vấn đề lý luận thuộc học thuyết giá trị của C. Mác, trong đó có chú
+ý tới khía cạnh làm sâu sắc hơn quan điểm của C. Mác về sự phong
+phú của thế giới hàng hóa trong bối cảnh ngày nay; ii) Thị trường
+và vai trò của các chủ thể tham gia thị trường. Nội dung này cung
+cấp các tri thức cơ bản về thị trường, cơ chế thị trường, kinh tế thị
+trường và các quy luật chủ yếu của nền kinh tế thị trường. Đây là
+sự bổ sung làm rõ hơn lý luận của C. Mác trong bối cảnh ngày nay.
+Trên cơ sở hệ thống lý luận này, có thể hiểu biết tri thức lý luận
+nền tảng cho nghiên cứu về kinh tế thị trường định hướng xã hội
+chủ nghĩa ở Việt Nam.",,,,,
+es_mln131_0010_missing,mln131_0010,MLN131,missing,"Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, Chương 5 mô tả sự biến đổi của cơ cấu xã hội - giai cấp theo hướng nào, còn Chương 6 và Chương 7 lần lượt tập trung vào những vấn đề gì?",medium,,,,,,,
+es_mln131_0010_partial,mln131_0010,MLN131,partial,"Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, Chương 5 mô tả sự biến đổi của cơ cấu xã hội - giai cấp theo hướng nào, còn Chương 6 và Chương 7 lần lượt tập trung vào những vấn đề gì?",medium,parent_83f6fb2b7ccf72d1135e,"III- CƠ CẤU XÃ HỘI - GIAI CẤP VÀ LIÊN MINH
+GIAI CẤP, TẦNG LỚP TRONG THỜI KỲ
+QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI Ở VIỆT NAM
+1. Cơ cấu xã hội - giai cấp trong thời kỳ quá độ
+lên chủ nghĩa xã hội ở Việt Nam
+Sau thắng lợi của cuộc cách mạng dân tộc dân chủ
+nhân dân, đánh đuổi thực dân đế quốc và thống nhất đất
+nước, cả nước bước vào thời kỳ quá độ lên chủ nghĩa xã
+hội. Trong thời kỳ này, cơ cấu xã hội - giai cấp ở Việt Nam
+có những đặc điểm nổi bật sau:
+- Sự biến đổi cơ cấu xã hội - giai cấp vừa đầm bảo
+tính quy luật phổ biến vừa mang tính đặc thù của xã
+hội Việt Nam.
+Trong thời kỳ quá độ lên chủ nghĩa xã hội ở nước ta, cơ
+cấu xã hội - giai cấp cũng vận động, biến đổi theo đúng
+quy luật: đó là sự biến đổi của cơ cấu xã hội - giai cấp bị chi
+phối bởi những biến đổi trong cơ cấu kinh tế. Từ Đại hội VI
+(1986), dưới sự lãnh đạo của Đảng, Việt Nam chuyển mạnh
+sang cơ chế thị trường với việc xây dựng nền kinh tế nhiều
+thành phần định hướng xã hội chủ nghĩa. Sự chuyển đổi
+trong eơ cấu kinh tế đã dẫn đến những biến đổi trong cơ
+cấu xã hội - giai cấp với việc hình thành một cơ cấu xã hội -
+giai cấp đa dạng thay thế cho cơ cấu xã hội đơn giản gồm
+giai cấp công nhân, giai cấp nông dân, đội ngũ trí thức của
+thời kỳ trước đổi mới. Sự biến đổi phức tạp, đa dạng của cơ
+cấu xã hội - giai cấp Việt Nam diễn ra trong nội bộ từng
+giai cấp, tầng lớp cơ bản của xã hội; thậm chí có sự chuyển
+hóa lẫn nhau giữa các giai cấp, tầng lớp, đồng thời xuất
+hiện những tầng lớp xã hội mới. Những biến đổi này là một
+trong những yếu tố có tác động trở lại làm cho nền kinh tế
+đất nước phát triển năng động, đa dạng hơn, là trở thành
+động lực góp phần quan trọng vào sự nghiệp đổi mới đất
+nước, xây dựng chủ nghĩa xã hội.
+- Trong sự biến đổi của cơ cấu xã hội - giai cấp, vị trí,
+vai trò của các giai cấp, tầng lớp xã hội ngày càng được
+khẳng định
+Cơ cấu xã hội - giai cấp của Việt Nam ở thời kỳ quá độ
+lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp œơ
+bản sau:
+Giai cấp công nhân Việt Nam có vai trò quan trọng
+đặc biệt, là giai cấp lãnh đạo cách mạng thông qua đội tiền
+phong là Đảng Cộng sản Việt Nam; đại diện cho phương
+thức sản xuất tiên tiến; giữ vị trí tiên phong trong sự
+nghiệp xây dựng chủ nghĩa xã hội, là lực lượng đi đầu
+trong sự nghiệp công nghiệp hóa, hiện đại hóa đất nước, vì
+mục tiêu dân giàu, nước mạnh, dân chủ, công bằng, văn
+minh và là lực lượng nòng cốt trong liên minh giai cấp
+công nhân với giai cấp nông dân và đội ngũ trí thức'.
+Trong thời kỳ quá độ lên chủ nghĩa xã hội, nhiệm vụ
+trung tâm là phát triển kinh tế, tiến hành công nghiệp
+hóa, hiện đại hóa. Giai cấp công nhân - lực lượng đi đầu
+của quá trình này sẽ có những biến đổi nhanh cả về số
+lượng, chất lượng và có sự thay đổi đa dạng về cơ cấu. Sự
+đa dạng của giai cấp công nhân không chỉ phát triển theo
+thành phần kinh tế mà còn phát triển theo ngành nghề.
+Bộ phận “công nhân hiện đại”, “công nhân tri thức” sẽ
+ngày càng lớn mạnh. Trình độ chuyên môn kỹ thuật, kỹ
+năng nghề nghiệp, ý thức tổ chức kỷ luật lao động, tác
+phong công nghiệp của công nhân cũng ngày càng được
+nâng lên nhằm đáp ứng yêu cầu của quá trình công
+nghiệp hóa, hiện đại hóa gắn với kinh tế trì thức và Cách
+mạng công nghiệp lần thứ tư đang có xu hướng phát triển
+mạnh. Bên cạnh đó, sự phân hóa giàu - nghềo trong nội bộ
+công nhân cũng ngày càng rõ nét. Một bộ phận công nhân
+thu nhập thấp, giác ngộ ý thức chính trị giai cấp chưa cao
+và còn nhiều khó khăn về mọi mặt vẫn tồn tại.
+Giai cấp nông dân cùng với nông nghiệp, nông thôn có
+vị trí chiến lược trong sự nghiệp công nghiệp hóa, hiện đại
+1. Xem Đảng Cộng sản Việt Nam: Văn kiện Đảng toàn tập,
+Sdd, t.65, tr.214.
+hóa nông nghiệp, nông thôn gắn với xây dựng nông thôn
+mới, góp phần xây dựng và bảo vệ Tổ quốc, là cơ sở và lực
+lượng quan trọng để phát triển kinh tế - xã hội bền vững,
+giữ vững ổn định chính trị, đảm bảo an ninh, quốc phòng;
+giữ gìn, phát huy bản sắc văn hóa dân tộc và bảo vệ môi
+trường sinh thái; là chủ thể của quá trình phát triển, xây
+dựng nông thôn mới gắn với xây dựng các cơ sở công
+nghiệp, dịch vụ và phát triển đô thị theo quy hoạch; phát
+triển toàn diện, hiện đại hóa nông nghiệp...!.
+Trong thời kỳ quá độ lên chủ nghĩa xã hội, giai cấp nông
+dân cũng có sự biến đổi, đa dạng về cơ cấu giai cấp; có xu
+hướng giảm dần về số lượng và tỷ lệ trong cơ cấu xã hội -
+giai cấp. Một bộ phận nông dân chuyển sang lao động trong
+các khu công nghiệp hoặc dịch vụ có tính chất công nghiệp
+và trở thành công nhân. Trong giai cấp nông dân xuất hiện
+những chủ trang trại lớn, đồng thời vẫn còn những nông dân
+mất ruộng đất, nông dân đi làm thuê... sự phân hóa giàu
+nghèo trong nội bộ nông dân cũng ngày càng rõ.
+Đội ngũ trí thức là lực lượng lao động sáng tạo đặc biệt
+quan trọng trong tiến trình đẩy mạnh công nghiệp hóa,
+hiện đại hóa đất nước và hội nhập quốc tế, xây dựng kinh
+tế tri thức, phát triển nền văn hóa Việt Nam tiên tiến,
+đậm đà bản sắc dân tộc; là một lực lượng trong khối liên
+minh. Xây dựng đội ngũ trí thức vững mạnh là trực tiếp
+nâng tầm trí tuệ của dân tộc, sức mạnh của đất nước,
+1. Xem Đảng Cộng sản Việt Nam; Văn kiện Đảng toàn tập, Sđd,
+1.67, tr.827.
+nâng cao năng lực lãnh đạo của Đảng và chất lượng hoạt
+động của hệ thống chính trị'.
+Hiện nay, cùng với yêu cầu đẩy mạnh công nghiệp hóa,
+hiện đại hóa gắn với phát triển kinh tế tri thức trong điều
+kiện khoa học - công nghệ và Cách mạng công nghiệp lần
+thứ tư đang phát triển mạnh mẽ thì vai trò của đội ngũ trí
+thức càng trở nên quan trọng.
+Đội ngũ doanh nhân: Hiện nay ỏ Việt Nam, đội ngũ
+doanh nhân phát triển nhanh cả về số lượng và quy mô
+với vai trò không ngừng tăng lên. Đây là tầng lớp xã hội
+đặc biệt được Đảng ta chủ trương xây dựng thành một đội
+ngũ vững mạnh. Trong đội ngũ này có doanh nhân với
+tiềm lực kinh tế lớn, có doanh nhân vừa và nhỏ thuộc các
+thành phần kinh tế khác nhau, đang đóng góp tích cực vào
+việc thực hiện chiến lược phát triển kinh tế - xã hội, giải
+quyết việc làm cho người lao động và tham gia giải quyết
+các vấn đề an sinh xã hội, xóa đói, giảm nghềo. Vì vậy, xây
+dựng đội ngũ doanh nhân lớn mạnh, có năng lực, trình độ",,,,,
+es_mln131_0010_sufficient,mln131_0010,MLN131,sufficient,"Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, Chương 5 mô tả sự biến đổi của cơ cấu xã hội - giai cấp theo hướng nào, còn Chương 6 và Chương 7 lần lượt tập trung vào những vấn đề gì?",medium,parent_83f6fb2b7ccf72d1135e|parent_c227f5c1e458777bb600|parent_3f60f424072f51a2c301,"III- CƠ CẤU XÃ HỘI - GIAI CẤP VÀ LIÊN MINH
+GIAI CẤP, TẦNG LỚP TRONG THỜI KỲ
+QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI Ở VIỆT NAM
+1. Cơ cấu xã hội - giai cấp trong thời kỳ quá độ
+lên chủ nghĩa xã hội ở Việt Nam
+Sau thắng lợi của cuộc cách mạng dân tộc dân chủ
+nhân dân, đánh đuổi thực dân đế quốc và thống nhất đất
+nước, cả nước bước vào thời kỳ quá độ lên chủ nghĩa xã
+hội. Trong thời kỳ này, cơ cấu xã hội - giai cấp ở Việt Nam
+có những đặc điểm nổi bật sau:
+- Sự biến đổi cơ cấu xã hội - giai cấp vừa đầm bảo
+tính quy luật phổ biến vừa mang tính đặc thù của xã
+hội Việt Nam.
+Trong thời kỳ quá độ lên chủ nghĩa xã hội ở nước ta, cơ
+cấu xã hội - giai cấp cũng vận động, biến đổi theo đúng
+quy luật: đó là sự biến đổi của cơ cấu xã hội - giai cấp bị chi
+phối bởi những biến đổi trong cơ cấu kinh tế. Từ Đại hội VI
+(1986), dưới sự lãnh đạo của Đảng, Việt Nam chuyển mạnh
+sang cơ chế thị trường với việc xây dựng nền kinh tế nhiều
+thành phần định hướng xã hội chủ nghĩa. Sự chuyển đổi
+trong eơ cấu kinh tế đã dẫn đến những biến đổi trong cơ
+cấu xã hội - giai cấp với việc hình thành một cơ cấu xã hội -
+giai cấp đa dạng thay thế cho cơ cấu xã hội đơn giản gồm
+giai cấp công nhân, giai cấp nông dân, đội ngũ trí thức của
+thời kỳ trước đổi mới. Sự biến đổi phức tạp, đa dạng của cơ
+cấu xã hội - giai cấp Việt Nam diễn ra trong nội bộ từng
+giai cấp, tầng lớp cơ bản của xã hội; thậm chí có sự chuyển
+hóa lẫn nhau giữa các giai cấp, tầng lớp, đồng thời xuất
+hiện những tầng lớp xã hội mới. Những biến đổi này là một
+trong những yếu tố có tác động trở lại làm cho nền kinh tế
+đất nước phát triển năng động, đa dạng hơn, là trở thành
+động lực góp phần quan trọng vào sự nghiệp đổi mới đất
+nước, xây dựng chủ nghĩa xã hội.
+- Trong sự biến đổi của cơ cấu xã hội - giai cấp, vị trí,
+vai trò của các giai cấp, tầng lớp xã hội ngày càng được
+khẳng định
+Cơ cấu xã hội - giai cấp của Việt Nam ở thời kỳ quá độ
+lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp œơ
+bản sau:
+Giai cấp công nhân Việt Nam có vai trò quan trọng
+đặc biệt, là giai cấp lãnh đạo cách mạng thông qua đội tiền
+phong là Đảng Cộng sản Việt Nam; đại diện cho phương
+thức sản xuất tiên tiến; giữ vị trí tiên phong trong sự
+nghiệp xây dựng chủ nghĩa xã hội, là lực lượng đi đầu
+trong sự nghiệp công nghiệp hóa, hiện đại hóa đất nước, vì
+mục tiêu dân giàu, nước mạnh, dân chủ, công bằng, văn
+minh và là lực lượng nòng cốt trong liên minh giai cấp
+công nhân với giai cấp nông dân và đội ngũ trí thức'.
+Trong thời kỳ quá độ lên chủ nghĩa xã hội, nhiệm vụ
+trung tâm là phát triển kinh tế, tiến hành công nghiệp
+hóa, hiện đại hóa. Giai cấp công nhân - lực lượng đi đầu
+của quá trình này sẽ có những biến đổi nhanh cả về số
+lượng, chất lượng và có sự thay đổi đa dạng về cơ cấu. Sự
+đa dạng của giai cấp công nhân không chỉ phát triển theo
+thành phần kinh tế mà còn phát triển theo ngành nghề.
+Bộ phận “công nhân hiện đại”, “công nhân tri thức” sẽ
+ngày càng lớn mạnh. Trình độ chuyên môn kỹ thuật, kỹ
+năng nghề nghiệp, ý thức tổ chức kỷ luật lao động, tác
+phong công nghiệp của công nhân cũng ngày càng được
+nâng lên nhằm đáp ứng yêu cầu của quá trình công
+nghiệp hóa, hiện đại hóa gắn với kinh tế trì thức và Cách
+mạng công nghiệp lần thứ tư đang có xu hướng phát triển
+mạnh. Bên cạnh đó, sự phân hóa giàu - nghềo trong nội bộ
+công nhân cũng ngày càng rõ nét. Một bộ phận công nhân
+thu nhập thấp, giác ngộ ý thức chính trị giai cấp chưa cao
+và còn nhiều khó khăn về mọi mặt vẫn tồn tại.
+Giai cấp nông dân cùng với nông nghiệp, nông thôn có
+vị trí chiến lược trong sự nghiệp công nghiệp hóa, hiện đại
+1. Xem Đảng Cộng sản Việt Nam: Văn kiện Đảng toàn tập,
+Sdd, t.65, tr.214.
+hóa nông nghiệp, nông thôn gắn với xây dựng nông thôn
+mới, góp phần xây dựng và bảo vệ Tổ quốc, là cơ sở và lực
+lượng quan trọng để phát triển kinh tế - xã hội bền vững,
+giữ vững ổn định chính trị, đảm bảo an ninh, quốc phòng;
+giữ gìn, phát huy bản sắc văn hóa dân tộc và bảo vệ môi
+trường sinh thái; là chủ thể của quá trình phát triển, xây
+dựng nông thôn mới gắn với xây dựng các cơ sở công
+nghiệp, dịch vụ và phát triển đô thị theo quy hoạch; phát
+triển toàn diện, hiện đại hóa nông nghiệp...!.
+Trong thời kỳ quá độ lên chủ nghĩa xã hội, giai cấp nông
+dân cũng có sự biến đổi, đa dạng về cơ cấu giai cấp; có xu
+hướng giảm dần về số lượng và tỷ lệ trong cơ cấu xã hội -
+giai cấp. Một bộ phận nông dân chuyển sang lao động trong
+các khu công nghiệp hoặc dịch vụ có tính chất công nghiệp
+và trở thành công nhân. Trong giai cấp nông dân xuất hiện
+những chủ trang trại lớn, đồng thời vẫn còn những nông dân
+mất ruộng đất, nông dân đi làm thuê... sự phân hóa giàu
+nghèo trong nội bộ nông dân cũng ngày càng rõ.
+Đội ngũ trí thức là lực lượng lao động sáng tạo đặc biệt
+quan trọng trong tiến trình đẩy mạnh công nghiệp hóa,
+hiện đại hóa đất nước và hội nhập quốc tế, xây dựng kinh
+tế tri thức, phát triển nền văn hóa Việt Nam tiên tiến,
+đậm đà bản sắc dân tộc; là một lực lượng trong khối liên
+minh. Xây dựng đội ngũ trí thức vững mạnh là trực tiếp
+nâng tầm trí tuệ của dân tộc, sức mạnh của đất nước,
+1. Xem Đảng Cộng sản Việt Nam; Văn kiện Đảng toàn tập, Sđd,
+1.67, tr.827.
+nâng cao năng lực lãnh đạo của Đảng và chất lượng hoạt
+động của hệ thống chính trị'.
+Hiện nay, cùng với yêu cầu đẩy mạnh công nghiệp hóa,
+hiện đại hóa gắn với phát triển kinh tế tri thức trong điều
+kiện khoa học - công nghệ và Cách mạng công nghiệp lần
+thứ tư đang phát triển mạnh mẽ thì vai trò của đội ngũ trí
+thức càng trở nên quan trọng.
+Đội ngũ doanh nhân: Hiện nay ỏ Việt Nam, đội ngũ
+doanh nhân phát triển nhanh cả về số lượng và quy mô
+với vai trò không ngừng tăng lên. Đây là tầng lớp xã hội
+đặc biệt được Đảng ta chủ trương xây dựng thành một đội
+ngũ vững mạnh. Trong đội ngũ này có doanh nhân với
+tiềm lực kinh tế lớn, có doanh nhân vừa và nhỏ thuộc các
+thành phần kinh tế khác nhau, đang đóng góp tích cực vào
+việc thực hiện chiến lược phát triển kinh tế - xã hội, giải
+quyết việc làm cho người lao động và tham gia giải quyết
+các vấn đề an sinh xã hội, xóa đói, giảm nghềo. Vì vậy, xây
+dựng đội ngũ doanh nhân lớn mạnh, có năng lực, trình độ
+---
+Chương 6
+VẤN ĐỀ DÂN TỘC VÀ TÔN GIÁO
+TRONG THỜI KỲ QUÁ ĐỘ
+LÊN CHỦ NGHĨA XÃ HỘI
+---
+Chương 7
+VẤN ĐỀ GIA ĐÌNH TRONG THỜI KỲ
+QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI",,,,,
+es_mln131_0010_wrongaspect,mln131_0010,MLN131,wrong_aspect,"Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, Chương 5 mô tả sự biến đổi của cơ cấu xã hội - giai cấp theo hướng nào, còn Chương 6 và Chương 7 lần lượt tập trung vào những vấn đề gì?",medium,parent_07944bec42ef246cbcd6,"này dẫn đến những biến đổi đa dạng, phức tạp trong cơ
+cấu xã hội - giai cấp mà biểu hiện của nó là trong thời kỳ
+quá độ lên chủ nghĩa xã hội còn tồn tại các giai cấp, tầng
+lớp xã hội khác nhau. Ngoài giai cấp công nhân, giai cấp
+nông dân, tầng lớp trí thức, giai cấp tư sản (tuy đã bị đánh
+bại nhưng vẫn còn sức mạnh - V.I. Lênin) đã xuất hiện sự
+tồn tại và phát triển của các tầng lớp xã hội mới như: tầng
+lớp doanh nhân, tiểu chủ, tầng lớp những người giàu có và
+trung lưu trong xã hội...
+Ba là, cơ cấu xã hội - giai cấp biến đổi trong mối quan hệ
+vừa đấu tranh, vừa liên minh, từng bước xóa bỏ bất bình
+đẳng xã hội dẫn đến sự xích lại gần nhau.
+_———.
+1. Xem C. Mác và Ph. Ăngghen: Toàn tập, Sdd, t.19, tr.33,
+Trong thời kỳ quá độ từ chủ nghĩa tư bản lên chủ
+nghĩa xã hội, cơ cấu xã hội - giai cấp biến đổi và phát triển
+trong mối quan hệ vừa có mâu thuần, đấu tranh, vừa có
+mối quan hệ liên minh với nhau, xích lại gần nhau giữa
+các giai cấp, tầng lớp cơ bản trong xã hội, đặc biệt là giữa
+giai cấp công nhân, giai cấp nông dân và tầng lớp trí thức.
+Mức độ liên minh, xích lại gần nhau giữa các giai cấp,
+tầng lớp trong xã hội tùy thuộc vào các điều kiện kinh tế -
+xã hội của đất nước trong từng giai đoạn của thời kỳ quá
+độ. Tính đa dạng và tính độc lập tương đối của các giai
+cấp, tầng lớp sẽ diễn ra việc hòa nhập, chuyển đổi bộ phận
+giữa các nhóm xã hội và có xu hướng tiến tới từng bước
+xóa bỏ dần tình trạng bóc lột giai cấp trong xã hội, vươn
+tới những giá trị công bằng, bình đẳng. Đây là một quá
+trình lâu dài thông qua những cải biến cách mạng toàn
+diện của thời kỳ quá độ lên chủ nghĩa xã hội. Đó là xu
+hướng tất yếu và là biện chứng của sự vận động, phát
+triển cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ
+nghĩa xã hội.
+Trong cơ cấu xã hội - giai cấp ấy, giai cấp công nhân.
+lực lượng tiêu biểu cho phương thức sản xuất mới giữ vai
+trò chủ đạo, tiên phong trong quá trình công nghiệp hóa,
+hiện đại hóa đất nước, cải tạo xã hội cũ, xây dựng xã hội
+mới. Vai trò chủ đạo của giai cấp công nhân còn được thể
+hiện ở sự phát triển mối quan hệ liên minh giữa giai cặp
+công nhân, giai cấp nông dân và đội ngũ trí thức ngày càng
+giữ vị trí nền tảng chính trị - xã hội, từ đó tạo nên sự thống
+nhất của cơ cấu xã hội - giai cấp trong suốt thời kỳ quá độ
+lên chủ nghĩa xã hội.",,,,,
+es_mln131_0028_missing,mln131_0028,MLN131,missing,Quá trình sản xuất ra tư liệu sinh hoạt kết hợp với sản xuất ra bản thân con người quy định điều gì đối với trật tự xã hội và gia đình?,hard,,,,,,,
+es_mln131_0028_partial,mln131_0028,MLN131,partial,Quá trình sản xuất ra tư liệu sinh hoạt kết hợp với sản xuất ra bản thân con người quy định điều gì đối với trật tự xã hội và gia đình?,hard,parent_a34961f4761def647aa9,"a) Gia đình là tế bào của xã hội
+Gia đình có vai trò quyết định đối với sự tồn tại, vận
+động và phát triển của xã hội. Ph. Ăngghen đã chỉ rõ:
+“Theo quan điểm duy vật, nhân tố quyết định trong lịch
+sử, quy đến cùng, là sản xuất và tái sản xuất ra đời sống
+trực tiếp. Nhưng bản thân sự sản xuất đó lại có hai loại.
+Một mặt là sản xuất ra tư liệu sinh hoạt: thực phẩm, quần
+áo, nhà ở và những công cụ cần thiết để sản xuất ra những
+thứ đó; mặt khác là sự sản xuất ra bản thân con người, là
+sự truyền nòi giống. Những trật tự xã hội, trong đó những
+con người của một thời đại lịch sử nhất định và của một
+nước nhất định đang sống, là do hai loại sản xuất quyết
+định: một mặt là do trình độ phát triển của lao động và
+mặt khác là do trình độ phát triển của gia đình”'.
+Với việc sản xuất ra tư liệu tiêu dùng, tư liệu sản
+xuất, tái sản xuất ra con người, gia đình như một tế bào tự
+nhiên, là một đơn vị cơ sở để tạo nên cơ thể - xã hội.
+Không có gia đình để tái tạo ra con người thì xã hội không
+thể tồn tại và phát triển được. Vì vậy, muốn có một xã hội
+phát triển lành mạnh thì phải quan tâm xây dựng tế bào
+gia đình tốt, như Chủ tịch Hồ Chí Minh đã nói: “... nhiều
+gia đình cộng lại mới thành xã hội, xã hội tốt thì gia đình
+càng tốt, gia đình tốt thì xã hội mới tốt. Hạt nhân của xã
+hội là gia đình”?.
+Tuy nhiên, mức độ tác động của gia đình đối với xã
+hội lại phụ thuộc vào bản chất của từng chế độ xã hội,
+vào đường lối, chính sách của giai cấp cầm quyền, và phụ
+thuộc vào chính bản thân mô hình, kết cấu, đặc điểm của
+mỗi hình thức gia đình trong lịch sử. Vì vậy, trong mỗi
+giai đoạn của lịch sử, tác động của gia đình đối với xã hội
+không hoàn toàn giống nhau. Trong các xã hội dựa trên
+cơ sở của chế độ tư hữu về tư liệu sản xuất, sự bất bình
+1. C. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.21, tr.44.
+9. Hồ Chí Minh: Toàn tập, Sđd, t.12, tr.300.
+đẳng trong quan hệ xã hội và quan hệ gia đình đã hạn
+chế rất lớn đến sự tác động của gia đình đối với xã hội.
+Chỉ khi con người được yên ấm, hòa thuận trong gia đình
+thì mới có thể yên tâm lao động, sáng tạo và đóng góp sức
+mình cho xã hội và ngược lại. Chính vì vậy, quan tâm xây
+dựng quan hệ xã hội, quan hệ gia đình bình đẳng, hạnh
+phúc là vấn đề hết sức quan trọng trong cách mạng xã
+hội chủ nghĩa.",,,,,
+es_mln131_0028_sufficient,mln131_0028,MLN131,sufficient,Quá trình sản xuất ra tư liệu sinh hoạt kết hợp với sản xuất ra bản thân con người quy định điều gì đối với trật tự xã hội và gia đình?,hard,parent_a34961f4761def647aa9|parent_5117d6290c0b0763cc03,"a) Gia đình là tế bào của xã hội
+Gia đình có vai trò quyết định đối với sự tồn tại, vận
+động và phát triển của xã hội. Ph. Ăngghen đã chỉ rõ:
+“Theo quan điểm duy vật, nhân tố quyết định trong lịch
+sử, quy đến cùng, là sản xuất và tái sản xuất ra đời sống
+trực tiếp. Nhưng bản thân sự sản xuất đó lại có hai loại.
+Một mặt là sản xuất ra tư liệu sinh hoạt: thực phẩm, quần
+áo, nhà ở và những công cụ cần thiết để sản xuất ra những
+thứ đó; mặt khác là sự sản xuất ra bản thân con người, là
+sự truyền nòi giống. Những trật tự xã hội, trong đó những
+con người của một thời đại lịch sử nhất định và của một
+nước nhất định đang sống, là do hai loại sản xuất quyết
+định: một mặt là do trình độ phát triển của lao động và
+mặt khác là do trình độ phát triển của gia đình”'.
+Với việc sản xuất ra tư liệu tiêu dùng, tư liệu sản
+xuất, tái sản xuất ra con người, gia đình như một tế bào tự
+nhiên, là một đơn vị cơ sở để tạo nên cơ thể - xã hội.
+Không có gia đình để tái tạo ra con người thì xã hội không
+thể tồn tại và phát triển được. Vì vậy, muốn có một xã hội
+phát triển lành mạnh thì phải quan tâm xây dựng tế bào
+gia đình tốt, như Chủ tịch Hồ Chí Minh đã nói: “... nhiều
+gia đình cộng lại mới thành xã hội, xã hội tốt thì gia đình
+càng tốt, gia đình tốt thì xã hội mới tốt. Hạt nhân của xã
+hội là gia đình”?.
+Tuy nhiên, mức độ tác động của gia đình đối với xã
+hội lại phụ thuộc vào bản chất của từng chế độ xã hội,
+vào đường lối, chính sách của giai cấp cầm quyền, và phụ
+thuộc vào chính bản thân mô hình, kết cấu, đặc điểm của
+mỗi hình thức gia đình trong lịch sử. Vì vậy, trong mỗi
+giai đoạn của lịch sử, tác động của gia đình đối với xã hội
+không hoàn toàn giống nhau. Trong các xã hội dựa trên
+cơ sở của chế độ tư hữu về tư liệu sản xuất, sự bất bình
+1. C. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.21, tr.44.
+9. Hồ Chí Minh: Toàn tập, Sđd, t.12, tr.300.
+đẳng trong quan hệ xã hội và quan hệ gia đình đã hạn
+chế rất lớn đến sự tác động của gia đình đối với xã hội.
+Chỉ khi con người được yên ấm, hòa thuận trong gia đình
+thì mới có thể yên tâm lao động, sáng tạo và đóng góp sức
+mình cho xã hội và ngược lại. Chính vì vậy, quan tâm xây
+dựng quan hệ xã hội, quan hệ gia đình bình đẳng, hạnh
+phúc là vấn đề hết sức quan trọng trong cách mạng xã
+hội chủ nghĩa.
+---
+a) Khái niệm giai cấp công nhân
+C. Mác và Ph. Ăngghen đã sử dụng nhiều thuật ngữ
+khác nhau để chỉ giai cấp công nhân như giai cấp vô sản;
+giai cấp vô sản hiện đại; giai cấp công nhân hiện đại; giai
+cấp công nhân đại công nghiệp... Đó là những cụm từ đồng
+nghĩa để chỉ giai cấp công nhân - con đề của nền đại công
+nghiệp tư bản chủ nghĩa, giai cấp đại biểu cho lực lượng
+sản xuất tiên tiến, cho phương thức sản xuất hiện đại.
+Ngoài ra, các ông còn dùng những thuật ngữ có nội dung
+hẹp hơn để chỉ các loại công nhân trong các ngành sản
+xuất khác nhau, trong những giai đoạn phát triển khác
+nhau của công nghiệp như: công nhân khoáng sản, công
+nhân công trường thủ công, công nhân công xưởng, công
+nhân nông nghiệp...
+Dù diễn đạt bằng những thuật ngữ khác nhau, song
+giai cấp công nhân được các nhà kinh điển xác định theo
+hai phương diện cơ bản:
+- Về phương diện kinh tế - xã hội:
+Là sản phẩm và là chủ thể của nền sản xuất đại công
+nghiệp, giai cấp công nhân là những người lao động trực
+tiếp hay gián tiếp vận hành các công cụ sản xuất có tính
+chất công nghiệp ngày càng hiện đại và xã hội hóa cao. Họ
+lao động bằng phương thức công nghiệp ngày càng hiện đại
+với những đặc điểm nổi bật: sắn xuất bằng máy móc, lao
+động có tính chất xã hội hóa, năng suất lao động cao và tạo
+ra những tiền đề của cải vật chất cho xã hội mới.
+Mô tả quá trình phát triển của giai cấp công nhân,
+C. Mác và Ph. Ăngghen chỉ rõ: “Trong công trường thủ
+công và trong nghề thủ công, người công nhân sử dụng công
+cụ của mình, còn trong công xưởng thì người công nhân phải
+phục vụ máy móc”. Theo CƠ. Mác và Ph. Ăngghen, công
+nhân công nghiệp công xưởng là bộ phận tiêu biểu cho giai
+cấp công nhân hiện đại.
+Trong tác phẩm Tuyên ngôn của Đảng Cộng sản, các
+ông nhấn mạnh: “các giai cấp khác đều suy tàn và tiêu
+vong cùng với sự phát triển của đại công nghiệp, còn giai
+cấp vô sản lại là sản phẩm của bản thân nền đại công
+nghiệp”? và “công nhân cũng là một phát mình của thời đại
+mới, giống như máy móc vậy... Công nhân Anh là đứa con
+đầu lòng của nền công nghiệp hiện đại”?.
+1. C. Mác và Ph. Ăngghen: Toàn tập, Sdd, t.23, tr.605.
+2. C. Mác và Ph. Ăngghen: Toàn tập, Sdd, t.4, tr.610.
+3. CƠ. Mác và Ph. Ăngghen: Toàn tập, Sđd, t.12, tr.11.
+- Về phương diện chính trị - xã hội:
+Từ lịch sử phát triển của chủ nghĩa tư bản, giai cấp
+công nhân còn là sản phẩm xã hội của quá trình phát triển
+tư bản chủ nghĩa, một xã hội có “điều kiện tồn tại dựa trên
+cơ sở chế độ làm thuê”. Trong quan hệ sản xuất tư bản chủ
+nghĩa, “giai cấp vô sản là giai cấp những công nhân làm
+thuê hiện đại, vì mất các tư liệu sản xuất của bản thân, nên
+buộc phải bán sức lao động của mình để sống”.
+C. Mác và Ph. Ăngghen chỉ rõ, đó là giai cấp của
+những người lao động không có sở hữu tư liệu sản xuất
+chủ yếu của xã hội. Họ phải bán sức lao động cho nhà tư
+bản và bị chủ tư bản bóc lột giá trị thặng dư. Đối diện với
+nhà tư bản, công nhân là những người lao động tự do, với
+nghĩa là tự do bán sức lao động của mình để kiếm sống.
+Chính điều này khiến cho giai cấp công nhân trở thành
+giai cấp đối kháng với giai cấp tư sản. “Những công nhân
+ấy, buộc phải tự bán mình để kiếm ăn từng bữa một, là
+một hàng hóa, tức là một món hàng đem bán như bất cứ
+món hàng nào khác, vì thế, họ phải chịu hết mọi sự may
+rủi của cạnh tranh, mọi sự lên xuống của thị trường với
+mức độ như nhau”.
+Mâu thuẫn cơ bản của phương thức sản xuất tư bản
+chủ nghĩa là mâu thuẫn giữa lực lượng sản xuất xã hội
+hóa ngày càng rộng lớn với quan hệ sản xuất tư bản chủ
+nghĩa dựa trên chế độ tư hữu tư bản chủ nghĩa về tư liệu
+1, 2. Ơ. Mác và Ph. Ăngghen: Toàn tập, Sdd, t.4, tr.596, 605.
+sản xuất. Mâu thuẫn cơ bản này thể hiện về mặt xã hội là
+mâu thuấn về lợi ích giữa giai cấp công nhân và giai cấp
+tư sản. Lao động sống của công nhân là nguồn gốc của giá
+trị thặng dư và sự giàu có của giai cấp tư sản cũng chủ
+yếu nhờ vào việc bóc lột được ngày càng nhiều hơn giá trị
+thặng dư.
+Mâu thuẫn đó cho thấy tính chất đối kháng không thể
+điều hòa giữa giai cấp công nhân (giai cấp vô sản) với giai
+cấp tư sản trong phương thức sản xuất tư bản chủ nghĩa
+và trong chế độ tư bản chủ nghĩa.
+Từ phân tích trên, theo chủ nghĩa Mác - Lênin: Giai
+cấp công nhân là một tập đoàn xã hội, hình thành và phát
+triển cùng với quá trình phát triển của nền công nghiệp
+hiện đại; họ lao động bằng phương thức công nghiệp ngày
+càng hiện đại và gắn liền với quá trình sản xuất vật chất
+hiện đại, là đại biểu cho phương thức sản xuất mang tính
+xã hội hóa ngày càng cao. Họ là người làm thuê do không
+có tư liệu sản xuất, buộc phải bán sức lao động để sống và
+bị giai cấp tư sản bóc lột giá trị thặng dư; vì vậy lợi ích cơ
+bản của họ đối lập với lợi ích cơ bản của giai cấp tư sản. Đó
+là giai cấp có sứ mệnh phủ định chế độ tư bản chủ nghĩa,
+xây dựng thành công chủ nghĩa xã hội và chủ nghĩa cộng
+sản trên toàn thế giới.",,,,,
+es_mln131_0028_wrongaspect,mln131_0028,MLN131,wrong_aspect,Quá trình sản xuất ra tư liệu sinh hoạt kết hợp với sản xuất ra bản thân con người quy định điều gì đối với trật tự xã hội và gia đình?,hard,parent_310a50ffe0f80fe7eab1,"c) Chức năng kinh tế và tổ chức tiêu dùng
+Cũng như các đơn vị kinh tế khác, gia đình tham gia
+trực tiếp vào quá trình sản xuất và tái sản xuất ra tư liệu
+sản xuất và tư liệu tiêu dùng. Tuy nhiên, đặc thù của gia
+đình mà các đơn vị kinh tế khác không có được là ở chố,
+gia đình là đơn vị duy nhất tham gia vào quá trình sản
+xuất và tái sản xuất ra sức lao động cho xã hội.
+Gia đình không chỉ tham gia trực tiếp vào sản xuất và
+tái sản xuất ra của cải vật chất và sức lao động, mà còn là
+một đơn vị tiêu dùng trong xã hội. Gia đình thực hiện chức
+năng tổ chức tiêu dùng hàng hóa để duy trì đời sống của
+gia đình về lao động sản xuất cũng như các sinh hoạt
+trong gia đình. Đó là việc sử dụng hợp lý các khoản thu
+nhập của các thành viên trong gia đình vào việc đảm bảo
+đời sống vật chất và tỉnh thần của mỗi thành viên cùng
+với việc sử dụng quỹ thời gian nhàn rối để tạo ra một môi
+trường văn hóa lành mạnh trong gia đình, nhằm nâng cao
+sức khỏe, đồng thời để duy trì sở thích, sắc thái riêng của
+mỗi người.
+Cùng với sự phát triển của xã hội, ở các hình thức gia
+đình khác nhau và ngay cả ở một hình thức gia đình,
+nhưng tùy theo từng giai đoạn phát triển của xã hội, chức
+năng kinh tế của gia đình có sự khác nhau, về quy mô sản
+xuất, sở hữu tư liệu sản xuất và cách thức tổ chức sản
+xuất và phân phối. Vị trí, vai trò của kinh tế gia đình và
+mối quan hệ của kinh tế gia đình với các đơn vị kinh tế
+khác trong xã hội cũng không hoàn toàn giống nhau.
+Thực hiện chức năng này, gia đình đảm bảo nguồn
+sinh sống, đáp ứng nhu cầu vật chất, tỉnh thần của các
+thành viên trong gia đình. Hiệu quả hoạt động kinh tế
+của gia đình quyết định hiệu quả đời sống vật chất và
+tinh thần của mỗi thành viên gia đình. Đồng thời, gia
+đình đóng góp vào quá trình sản xuất và tái sản xuất ra
+của cải, sự giàu có của xã hội. Gia đình có thể phát huy
+một cách có hiệu quả mọi tiềm năng của mình về vốn, về
+sức lao động, tay nghề của người lao động, tăng nguồn của
+cải vật chất cho gia đình và xã hội. Thực hiện tốt chức
+năng này không những tạo cho gia đình có cơ sở để tổ chức
+tốt đời sống, nuôi dạy con cái, mà còn đóng góp to lớn đối
+với sự phát triển của xã hội.",,,,,
+es_mln131_0035_missing,mln131_0035,MLN131,missing,"Thời kỳ quá độ lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp nào, và lực lượng nào đóng vai trò đội tiên phong lãnh đạo họ hợp lực tạo sức mạnh tổng hợp?",hard,,,,,,,
+es_mln131_0035_partial,mln131_0035,MLN131,partial,"Thời kỳ quá độ lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp nào, và lực lượng nào đóng vai trò đội tiên phong lãnh đạo họ hợp lực tạo sức mạnh tổng hợp?",hard,parent_c485fae9fc56a8e231b8,"a) Khái niệm cơ cấu xã hội và cơ cấu xã hội - giai cấp
+Cơ cấu xã hội là những cộng đồng người cùng toàn bộ
+những mối quan hệ xã hội do sự tác động lẫn nhau của các
+cộng đồng ấy tạo nên.
+Cơ cấu xã hội có nhiều loại, như: cơ cấu xã hội - dân
+cư, cơ cấu xã hội - nghề nghiệp, cơ cấu xã hội - giai cấp, cơ
+cấu xã hội - dân tộc, cơ cấu xã hội - tôn giáo, v.v.. Dưới góc
+độ chính trị - xã hội, môn Chủ nghĩa xã hội khoa học tập
+trung nghiên cứu cơ cấu xã hội - giai cấp vì đó là một
+trong những cơ sở để nghiên cứu vấn đề liên minh giai
+cấp, tầng lớp trong một chế độ xã hội nhất định.
+Cơ cấu xã hội - giai cấp là hệ thống các giai cấp, tầng
+lớp xã hội tồn tại khách quan trong một chế độ xã hội nhất
+định, thông qua những mối quan hệ về sở hữu tư liệu sản
+xuất, về tổ chức quản lý quá trình sản xuất, về địa vị
+chính trị - xã hội... giữa các giai cấp và tầng lớp đó.
+Trong thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã
+hội - giai cấp là tổng thể các giai cấp, tầng lớp, các nhóm xã
+hội có mối quan hệ hợp tác và gắn bó chặt chẽ với nhau.
+Yếu tố quyết định mối quan hệ đó là họ cùng chung sức cải
+tạo xã hội cũ và xây dựng xã hội mới trên mọi lĩnh vực của
+đời sống xã hội. Các giai cấp, tầng lớp xã hội và các nhóm
+xã hội cơ bản trong cơ cấu xã hội - giai cấp của thời kỳ quá
+độ lên chủ nghĩa xã hội bao gồm: giai cấp công nhân, giai
+cấp nông dân, tầng lớp trí thức, tầng lớp doanh nhân, tầng
+lớp tiểu chủ, tầng lớp thanh niên, phụ nữ, v.v.. Mỗi giai cấp,
+tầng lớp và các nhóm xã hội này có những vị trí và vai trò
+xác định song dưới sự lãnh đạo của Đảng Cộng sản - đội
+tiền phong của giai cấp công nhân cùng hợp lực, tạo sức
+mạnh tổng hợp để thực hiện những mục tiêu, nội dung,
+nhiệm vụ của thời kỳ quá độ lên chủ nghĩa xã hội, tiến tới
+xây dựng thành công chủ nghĩa xã hội và chủ nghĩa cộng
+sản với tư cách là một hình thái kinh tế - xã hội mới thay
+thế hình thái kinh tế - xã hội cũ đã lõi thời.",,,,,
+es_mln131_0035_sufficient,mln131_0035,MLN131,sufficient,"Thời kỳ quá độ lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp nào, và lực lượng nào đóng vai trò đội tiên phong lãnh đạo họ hợp lực tạo sức mạnh tổng hợp?",hard,parent_c485fae9fc56a8e231b8|parent_eefa5acd5cf08192caf9,"a) Khái niệm cơ cấu xã hội và cơ cấu xã hội - giai cấp
+Cơ cấu xã hội là những cộng đồng người cùng toàn bộ
+những mối quan hệ xã hội do sự tác động lẫn nhau của các
+cộng đồng ấy tạo nên.
+Cơ cấu xã hội có nhiều loại, như: cơ cấu xã hội - dân
+cư, cơ cấu xã hội - nghề nghiệp, cơ cấu xã hội - giai cấp, cơ
+cấu xã hội - dân tộc, cơ cấu xã hội - tôn giáo, v.v.. Dưới góc
+độ chính trị - xã hội, môn Chủ nghĩa xã hội khoa học tập
+trung nghiên cứu cơ cấu xã hội - giai cấp vì đó là một
+trong những cơ sở để nghiên cứu vấn đề liên minh giai
+cấp, tầng lớp trong một chế độ xã hội nhất định.
+Cơ cấu xã hội - giai cấp là hệ thống các giai cấp, tầng
+lớp xã hội tồn tại khách quan trong một chế độ xã hội nhất
+định, thông qua những mối quan hệ về sở hữu tư liệu sản
+xuất, về tổ chức quản lý quá trình sản xuất, về địa vị
+chính trị - xã hội... giữa các giai cấp và tầng lớp đó.
+Trong thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã
+hội - giai cấp là tổng thể các giai cấp, tầng lớp, các nhóm xã
+hội có mối quan hệ hợp tác và gắn bó chặt chẽ với nhau.
+Yếu tố quyết định mối quan hệ đó là họ cùng chung sức cải
+tạo xã hội cũ và xây dựng xã hội mới trên mọi lĩnh vực của
+đời sống xã hội. Các giai cấp, tầng lớp xã hội và các nhóm
+xã hội cơ bản trong cơ cấu xã hội - giai cấp của thời kỳ quá
+độ lên chủ nghĩa xã hội bao gồm: giai cấp công nhân, giai
+cấp nông dân, tầng lớp trí thức, tầng lớp doanh nhân, tầng
+lớp tiểu chủ, tầng lớp thanh niên, phụ nữ, v.v.. Mỗi giai cấp,
+tầng lớp và các nhóm xã hội này có những vị trí và vai trò
+xác định song dưới sự lãnh đạo của Đảng Cộng sản - đội
+tiền phong của giai cấp công nhân cùng hợp lực, tạo sức
+mạnh tổng hợp để thực hiện những mục tiêu, nội dung,
+nhiệm vụ của thời kỳ quá độ lên chủ nghĩa xã hội, tiến tới
+xây dựng thành công chủ nghĩa xã hội và chủ nghĩa cộng
+sản với tư cách là một hình thái kinh tế - xã hội mới thay
+thế hình thái kinh tế - xã hội cũ đã lõi thời.
+---
+B. NỘI DỤNG.
+I- CHỦ NGHĨA XÃ HỘI
+Chủ nghĩa xã hội được tiếp cận từ các góc độ sau đây:
+1) Là phong trào thực tiễn, phong trào đấu tranh của
+86 ¡
+nhân dân lao động chống lại áp bức, bất công, chống các
+giai cấp thống trị; 2) Là trào lưu tư tưởng, lý luận phản
+ánh lý tưởng giải phóng nhân dân lao động khỏi áp bức,
+bóc lột, bất công; 3) Là một khoa học - chủ nghĩa xã hội
+khoa học là khoa học về sứ mệnh lịch sử của giai cấp công
+nhân; 4) Là một chế độ xã hội tốt đẹp, giai đoạn đầu của
+hình thái kinh tế - xã hội cộng sản chủ nghĩa.
+1. Chủ nghĩa xã hội, giai đoạn đầu của hình thái
+kinh tế - xã hội cộng sản chủ nghĩa
+Các nhà sáng lập chủ nghĩa xã hội khoa học C. Mác và
+Ph. Ăngghen khi nghiên cứu lịch sử phát triển của xã hội
+loài người, nhất là lịch sử xã hội tư bản, đã xây dựng nên
+học thuyết về hình thái kinh tế - xã hội. Học thuyết vạch rõ
+những quy luật cơ bản của vận động xã hội, chỉ ra phương
+pháp khoa học để giải thích lịch sử. Học thuyết hình thái
+kinh tế - xã hội của Ơ. Mác không chỉ làm rõ những yếu tố
+cấu thành hình thái kinh tế - xã hội mà còn xem xét xã hội
+trong quá trình biến đổi và phát triển không ngừng.
+Học thuyết về hình thái kinh tế - xã hội do C. Mác và
+Ph. Ăngghen khởi xướng, được V.I. Lênin bổ sung, phát triển
+và hiện thực hóa trong công cuộc xây dựng chủ nghĩa xã hội ở
+nước Nga Xôviết trở thành học thuyết hình thái kinh tế - xã
+hội của chủ nghĩa Mác - Lênin, tài sản vô giá của nhân loại.
+Học thuyết hình thái kinh tế - xã hội của chủ nghĩa
+Mác - Lênin đã chỉ ra tính tất yếu sự thay thế hình thái
+kinh tế - xã hội tư bản chủ nghĩa bằng hình thái kinh tế -
+xã hội cộng sản chủ nghĩa, đó là quá trình lịch sử - tự nhiên.
+Sự thay thế này được thực hiện thông qua cách mạng xã
+hội chủ nghĩa xuất phát từ hai tiền đề vật chất quan trọng
+nhất là sự phát triển của lực lượng sản xuất và sự trưởng
+thành của giai cấp công nhân.
+Học thuyết hình thái kinh tế - xã hội của chủ nghĩa
+Mác - Lênin đã cung cấp những tiêu chuẩn thực sự duy
+vật, khoa học cho sự phân kỳ lịch sử, trong đó có sự phân
+kỳ hình thái kinh tế - xã hội cộng sản chủ nghĩa.
+Khi phân tích hình thái kinh tế - xã hội cộng sản chủ
+nghĩa, C. Mác và Ph. Ăngghen cho rằng, hình thái kinh tế -
+xã hội cộng sản chủ nghĩa phát triển từ thấp lên cao qua
+hai giai đoạn, giai đoạn thấp và giai đoạn cao; giữa xã hội
+tư bản chủ nghĩa và xã hội cộng sản chủ nghĩa là thời kỳ
+quá độ lên chủ nghĩa cộng sản. Trong tác phẩm Phê phán
+cương lĩnh Gôta (1875), C. Mác đã cho rằng: “Giữa xã hội
+tư bản chủ nghĩa và xã hội cộng sản chủ nghĩa là một thời
+kỳ cải biến cách mạng từ xã hội nọ sang xã hội kia.
+Thích ứng với thời kỳ ấy là một thời kỳ quá độ chính trị,
+và nhà nước của thời kỳ ấy không thể là cái gì khác hơn
+là nền chuyên chính cách mạng của giai cấp vô sản”.
+Khẳng định quan điểm của Ơ. Mác, V.I. Lênin cho rằng:
+“Về lý luận, không thể nghĩ ngờ gì được rằng giữa chủ
+nghĩa tư bản và chủ nghĩa cộng sản, có một thời kỳ quá
+độ nhất định””.
+Mi, Ăngghen: Toàn tập, Sđd, t.19, tr.47.
+2.V.I. Lênin: Toàn tập, Sdd, t.39, tr.309.
+Về xã hội của thời kỳ quá độ, C. Mác cho rằng đó là xã
+hội vừa thoát thai từ xã hội tư bản chủ nghĩa, xã hội chưa
+phát triển trên cơ sở của chính nó còn mang nhiều dấu vết
+của xã hội cũ để lại: “Cái xã hội mà chúng ta nói ở đây
+không phải là một xã hội cộng sản chủ nghĩa đã phát triển
+trên những cơ sở của chính nó, mà trái lại là một xã hội
+cộng sản chủ nghĩa vừa thoát thai từ xã hội tư bản chủ
+nghĩa, do đó là một xã hội, về mọi phương diện - kinh tế, đạo
+đức, tình thần - cồn mang những dấu vết của xã hội cũ mà
+nó đã lọt lòng ra”.
+Sau này, từ thực tiễn nước Nga, V.I. Lênin cho rằng,
+đối với những nước chưa có chủ nghĩa tư bản phát triển cao
+“cần phải có một thời kỳ quá độ khá lâu dài từ chủ nghĩa
+tư bản lên chủ nghĩa xã hội”?
+Vậy là, về mặt lý luận và thực tiễn, thời kỳ quá độ từ
+chủ nghĩa tư bản lên chủ nghĩa cộng sản được hiểu theo hai
+nghĩa: Thứ nhất, đối với các nước chưa trải qua chủ nghĩa
+tư bản phát triển, cần thiết phải có thời kỳ quá độ khá lâu
+dài từ chủ nghĩa tư bản lên chủ nghĩa xã hội - những cơn
+đau để kéo dài: Thứ hai, đối với những nước đã trải qua
+chủ nghĩa tư bản phát triển, giữa chủ nghĩa tư bản và chủ
+nghĩa cộng sản có một thời kỳ quá độ nhất định, thời kỷ cải
+biến cách mạng từ xã hội này sang xã hội kia, thời kỳ quá
+độ từ chủ nghĩa tư bản lên chủ nghĩa cộng sản.
+————Á
+1. C. Mác và Ph. Ăngghen: 7bàn tập, Sdd, t.19, tr.39.
+2. V.I. Lênin: Toàn tập, Sdd, t.38, tr.464.
+3. Xem V.I. Lênin: Toàn tập, Sdd, t.33, tr.228.
+2. Điều kiện ra đời chủ nghĩa xã hội
+Bằng lý luận hình thái kinh tế - xã hội, Ơ. Mác đã đi
+sâu phân tích, tìm ra quy luật vận động của hình thái
+kinh tế - xã hội tư bản chủ nghĩa, từ đó cho phép ông dự
+báo khoa học về sự ra đời và tương lai của hình thái kinh
+tế - xã hội cộng sản chủ nghĩa. V.I Lênin cho rằng: C. Mác
+xuất phát từ chỗ là chủ nghĩa cộng sản hình thành từ chủ
+nghĩa tư bản, phát triển lên từ chủ nghĩa tư bản là kết
+quả tác động của một lực lượng xã hội do chủ nghĩa tư bản
+sinh ra - giai cấp vô sản, giai cấp công nhân hiện đại. Sự
+ra đời của chủ nghĩa xã hội theo chủ nghĩa Mác - Lênin có
+hai điều kiện chủ yếu sau đây:
+4) Điều kiện kinh tế
+Các nhà sáng lập chủ nghĩa xã hội khoa học đã thừa
+nhận vai trò to lớn của chủ nghĩa tư bản khi khẳng định:
+sự ra đời của chủ nghĩa tư bản là một giai đoạn mới trong
+lịch sử phát triển mới của nhân loại. Nhờ những bước tiến
+to lớn của lực lượng sần xuất, biểu hiện tập trung nhất là
+sự ra đời của công nghiệp cơ khí (Cách mạng công nghiệp
+lần thứ hai), chủ nghĩa tư bản đã tạo ra bước phát triển
+vượt bậc của lực lượng sản xuất. Trong vòng chưa đầy một
+thế kỷ, chủ nghĩa tư bản đã tạo ra được những lực lượng",,,,,
+es_mln131_0035_wrongaspect,mln131_0035,MLN131,wrong_aspect,"Thời kỳ quá độ lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp nào, và lực lượng nào đóng vai trò đội tiên phong lãnh đạo họ hợp lực tạo sức mạnh tổng hợp?",hard,parent_3f6081edba00468ad78c,"C. CÂU HỎI ÔN TẬP
+1. Phân tích rõ eơ cấu xã hội - giai cấp trong thời kỳ
+quá độ lên chủ nghĩa xã hội và liên hệ ở Việt Nam?
+2. Trong thời kỳ quá độ lên chủ nghĩa xã hội, vì sao
+phải thực hiện liên minh giai cấp, tầng lớp? Phân tích vị
+trí, vai trò của các giai cấp, tầng lớp cơ bản trong cơ cấu xã
+hội - giai cấp Việt Nam?
+3. Phân tích nội dung của liên minh giai cấp, tầng lớp
+trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam và
+đề xuất phương hướng, giải pháp nhằm tăng cường khối
+liên minh giai cấp, tầng lớp ở nước ta hiện nay?
+4. Làm rõ trách nhiệm của thanh niên, sinh viên trong
+việc góp phần củng cố khối liên minh giai cấp, tầng lớp và
+xây dựng khối đại đoàn kết toàn dân?",,,,,
+es_vnr202_0005_missing,vnr202_0005,VNR202,missing,"Hãy tổng hợp các mốc thời gian và nội dung trọng tâm của Chương 1, Chương 2 và Chương 3 trong chương trình môn học VNR202.",hard,,,,,,,
+es_vnr202_0005_partial,vnr202_0005,VNR202,partial,"Hãy tổng hợp các mốc thời gian và nội dung trọng tâm của Chương 1, Chương 2 và Chương 3 trong chương trình môn học VNR202.",hard,parent_56650d4157fc5d356570,"Chương 1
+ĐẢNG CỘNG SẢN VIỆT NAM RA ĐỜI VÀ LÃNH ĐẠO
+ĐẦU TRANH GIÀNH CHÍNH QUYỀN (1930 - 1945)
+MỤC TIÊU
+Về kiến thức:
+Cung cấp cho sinh viên những tri thức có tính hệ thống quá trình ra đời của Đảng
+Cộng sản Việt Nam (1920-1930), nội dung cơ bản, giá trị lịch sử của Cương lĩnh chính trị
+đầu tiên của Đảng và quá trình Đảng lãnh đạo cuộc đấu tranh giải phóng dân tộc, giành
+chính quyền (1930-1945).
+Về tư tưởng:
+Cung cấp cơ sở lịch sử, góp phần củng cố niềm tin của thế hệ trẻ vào con đường
+cách mạng giải phóng dân tộc và phát triển đất nước-sự lựa chọn đúng đắn, tất yếu, khách
+quan của lãnh tụ Nguyễn Ái Quốc và Đảng Cộng sản Việt Nam thời kỳ đầu dựng Đảng.
+Về kỹ năng:
+Từ việc nhận thức lịch sử thời kỳ đầu dựng Đảng, góp phần trang bị cho sinh viên
+phương pháp nhận thức biện chứng, khách quan về quá trình Đảng ra đời và vai trò lãnh
+đạo của Đảng trong cuộc đấu tranh giải phóng dân tộc, xác lập chính quyền cách mạng.",,,,,
+es_vnr202_0005_sufficient,vnr202_0005,VNR202,sufficient,"Hãy tổng hợp các mốc thời gian và nội dung trọng tâm của Chương 1, Chương 2 và Chương 3 trong chương trình môn học VNR202.",hard,parent_56650d4157fc5d356570|parent_635e819de034bac5319d|parent_8a3ac12f937bf10afab6,"Chương 1
+ĐẢNG CỘNG SẢN VIỆT NAM RA ĐỜI VÀ LÃNH ĐẠO
+ĐẦU TRANH GIÀNH CHÍNH QUYỀN (1930 - 1945)
+MỤC TIÊU
+Về kiến thức:
+Cung cấp cho sinh viên những tri thức có tính hệ thống quá trình ra đời của Đảng
+Cộng sản Việt Nam (1920-1930), nội dung cơ bản, giá trị lịch sử của Cương lĩnh chính trị
+đầu tiên của Đảng và quá trình Đảng lãnh đạo cuộc đấu tranh giải phóng dân tộc, giành
+chính quyền (1930-1945).
+Về tư tưởng:
+Cung cấp cơ sở lịch sử, góp phần củng cố niềm tin của thế hệ trẻ vào con đường
+cách mạng giải phóng dân tộc và phát triển đất nước-sự lựa chọn đúng đắn, tất yếu, khách
+quan của lãnh tụ Nguyễn Ái Quốc và Đảng Cộng sản Việt Nam thời kỳ đầu dựng Đảng.
+Về kỹ năng:
+Từ việc nhận thức lịch sử thời kỳ đầu dựng Đảng, góp phần trang bị cho sinh viên
+phương pháp nhận thức biện chứng, khách quan về quá trình Đảng ra đời và vai trò lãnh
+đạo của Đảng trong cuộc đấu tranh giải phóng dân tộc, xác lập chính quyền cách mạng.
+---
+Chương 2
+ĐẢNG LÃNH ĐẠO HAI CUỘC KHÁNG CHIẾN,
+HOÀN THÀNH GIẢI PHÓNG DÂN TỘC, THÓNG NHẮT ĐẮT NƯỚC
+(1945 - 1975)
+MỤC TIÊU
+Về kiến thức:
+Cung cấp cho sinh viên những nội dung lịch sử cơ bản, hệ thống, khách quan về sự
+lãnh đạo của Đảng đối với hai cuộc. kháng chiến chống ngoại xâm thời kỳ 1945-1975.
+Về tư tướng:
+Giúp sinh viên có nhận thức đúng đắn thực tiễn lịch sử và những kinh nghiệm rút ra
+từ quá trình Đảng lãnh đạo hai cuộc kháng chiến chống ngoại xâm thời kỳ 1945-1975,
+nâng cao niềm tin vào sự lãnh đạo của Đảng và sức mạnh đoàn kết của toàn dân trong sự
+nghiệp cách mạng của dân tộc
+Về kỹ năng:
+Trang bị kỹ năng tìm chọn tài liệu nghiên cứu, năng lực phân tích sự kiện, phương
+pháp đúc rút kinh nghiệm lịch sử về sự lãnh đạo kháng chiến của Đảng và ý thức phê
+phán những nhận thức sai trái về lịch sử của Đảng.
+---
+Chương 3
+ĐẢNG LÃNH ĐẠO CẢ NƯỚC QUÁ ĐỘ LÊN
+| CHỦ NGHĨA XÃ HỘI VÀ TIỀN HÀNH CÔNG CUỘC ĐÓI MỚI
+(1975 -2018)
+| MỤC TIÊU
+| Về kiến thức:
+Giúp sinh viên nắm được đường lối, Cương lĩnh, những tri thức có hệ thống về quá
+| trình phát triển đường lối và lãnh đạo của Đảng đưa cả nước quá độ lên chủ nghĩa xã hội
+| và tiền hành công cuộc đồi mới từ sau ngày thống nhất đất nước năm 1975 đến nay.
+Về tư tưởng:
+| Củng cố niềm tin của sinh viên về những thắng lợi của Đảng trong lãnh đạo đưa cả
+nước quá độ xây dưng chủ nghĩa xã hội và tiến hành công cuộc đổi mới (1975-2018),
+củng cố niềm tin và lòng tự hào vào sự lãnh đạo của Đảng đối với sự nghiệp cách mạng
+hiện nay.
+về kỹ năng:
+Rèn luyện cho học viên phong cách tư duy lý luận gắn liền với thực tiễn, phát huy
+tính năng động, sáng tạo của người học; vận dụng những tri thức về sự lãnh đạo của Đảng
+vào thực tiễn cuộc sống.",,,,,
+es_vnr202_0005_wrongaspect,vnr202_0005,VNR202,wrong_aspect,"Hãy tổng hợp các mốc thời gian và nội dung trọng tâm của Chương 1, Chương 2 và Chương 3 trong chương trình môn học VNR202.",hard,parent_d57a66f2a5689195b11b,"BỘ GIÁO DỤC VÀ ĐÀO TẠO
+La u
+GIÁO TRÌNH
+LỊCH SỬ ĐẢNG CỘNG SẲN VIỆT NAM
+| (SỬ DỤNG TRONG CÁC TRƯỜNG ĐẠI HỌC- HỆ KHÔNG CHUYÊN LÝ LUẬN CHÍNH TRỊ)
+| ¬ = H _> Mì
+NA nà ngng t6 SH
+0 4 J4 .
+.
+| HÀ NỘI 9-2019 444 hàng
+CHỈ ĐẠO BIÊN SOẠN
+Đồng chí Võ Văn Thưởng, Ủy viên Bộ Chính trị,
+Bí thư Trung ương Đảng, Trưởng Ban Tuyên giáo Trung ương.
+Đồng chí GS.TS Phùng Xuân Nhạ, Ủy viên Trung ương Đảng,
+Bộ trưởng Bộ Giáo dục và Đào tạo
+Đồng chí PGS.TS Phạm Văn Linh, Phó Chủ tịch Hội đồng Lý luận Trung ương,
+Trưởng Ban Chỉ đạo biên soạn giáo trình các môn Lý luận chính trị.
+HỘI ĐỒNG BIÊN SOẠN
+1. PGS. TS Nguyễn Trọng Phúc Chủ tịch Hội đồng
+| 2. PGS. TS Ngô Đăng Tri Phó Chủ tịch Hội đồng
+! 3. PGS. TS Nguyễn Ngọc Hà Thư ký chuyên môn
+! 4. Thiếu tướng, PGS. TS Nguyễn Bình Ban Ủy viên
+5. PGS. TS Vũ Quang Hiển Ủy viên
+| 6. PGS. TS Phạm Xuân Mỹ Ủy viên
+7. PGS. TS Nguyễn Mạnh Hà Ủy viên
+8. TS Nguyễn Hữu Công Ủy viên
+9. Đại tá, PGS. TS Nguyễn Văn §ự Ủy viên
+10. PGS.TS Nguyễn Văn Giang Ủy viên
+| II. PGS. TS Trần Thị Thu Hương Ủy viên
+| 12. TS Nguyễn Thị Hoàn Ủy viên
+13. TS Dương Văn Khoa Ủy viên
+| 14. TS Ngô Quang Định Ủy viên
+| 15. Nguyễn Đức Trung Thư ký hành chính
+| (Theo Quyết dịnh số 5001/0Đ-BGDĐT, ngày 29 tháng 11 năm 2017,
+| của Bộ trưởng Bộ Giáo dục và Đào tạo)
+|
+| 4
+|
+|
+LỜI MỞ ĐẦU
+Thực hiện Kết luận số 94-KL/TW của Ban Bí thư Trung ương Đảng, ngày 28-3-
+2014, “Về tiếp tục đổi mới học tập lý luận chính trị trong hệ thống giáo dục quốc dân”;
+thực hiện Quyết định số 5001/QĐ-BGDĐT của Bộ trưởng Bộ Giáo dục và Đào tạo,
+ngày 29-11-2017, về việc thành lập Hội đồng biên soạn chương trình, giáo trình môn
+học Lịch sử Đảng Cộng sản Việt Nam của các chuyên ngành đào tạo chuyên và không
+chuyên về lý luận chính trị trình độ đại học, nhiệm vụ biên soạn đã được Hội đồng
+biên soạn triển khai nghiêm túc, đúng tiến độ theo định hướng của lãnh đạo Ban
+Tuyên giáo Trung ương, lãnh đạo Bộ Giáo dục và Đào tạo, trực tiếp là Ban Chỉ đạo.
+Quá trình biên soạn giáo trình, Hội đồng đã kế thừa các giáo trình Lịch sử Đảng
+Cộng sản Việt Nam của Hội đồng Trung ương chỉ đạo biên soạn giáo trình quốc gia
+các môn lý luận Mác-Lênin, tư tưởng Hồ Chí Minh, giáo trình của Bộ Giáo dục và
+Đào tạo và giáo trình của Học viện Chính trị quốc gia Hồ Chí Minh. Giáo trình biên
+| soạn lần này cho cả hai hệ cố gắng thể hiện rõ những kết quả nghiên cứu mới của khoa
+học Lịch sử Đảng Cộng sản Việt Nam, những tổng kết và kết luận của các Đại hội
+Đảng toàn quốc và một số Hội nghị Trung ương, bảo đảm tính Đảng và tính khoa học.
+Với hệ chuyên lý luận chính trị, nội dung sâu hơn, nhất là các Cương lĩnh và những bài
+học lớn trong sự lãnh đạo của Đảng hướng vào làm rõ một số vấn đề có tính quy luật,
+lý luận của cách mạng Việt Nam.
+Các Cương lĩnh của Đảng (2-1930, 10-1930, 2-1951, 6-1991 và Cương lĩnh xây
+dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (Bổ sung, phát triển năm
+2011) được trình bày gắn với các chương về các thời kỳ lịch sử. Nhiệm vụ xây dựng
+| chủ nghĩa xã hội và bảo vệ miền Bắc (1954-1975) được trình bày trong Chương 2 về
+| hai cuộc kháng chiến giành độc lập hoàn toàn và thống nhất Tổ quốc.
+| Hội đồng biên soạn đã nhận được sự quan tâm chỉ đạo của đồng chí Võ Văn
+| Thưởng, Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Trưởng Ban Tuyên giáo
+Trung ương: GS.TS Phùng Xuân Nhạ, Ủy viên Trung ương Đảng, Bộ trưởng Bộ Giáo
+dục và Đào tạo; PGS.TS Phạm Văn Linh, Phó Chủ tịch Hội đồng Lý luận Trung ương,
+Trưởng Ban Chỉ đạo biên soạn giáo trình các môn Lý luận chính trị.
+Hội đồng biên soạn đã nhận được ý kiến đóng góp cả về nội dung và kết cấu giáo
+| trình của các thày, cô giáo trực tiếp giảng dạy môn Lịch sử Đảng Cộng sản Việt Nam
+ở các Học viện, trường đại học trong cả nước qua các cuộc hội thảo, tọa đàm, tập huấn
+và giảng dạy thí điểm. Hội đồng đã nhận ý kiến đóng góp trực tiếp của các nhà khoa
+học: GS.T§ Phùng Hữu Phú; GS.TS Nguyễn Ngọc Cơ; PGS.TS Trần Đức Cường:
+PGS.TS Đoàn Ngọc Hải; PGS.TS Trịnh Đình Tùng; PGS. T§ Bùi Kim Đỉnh; PGS.TS
+Nguyễn Danh Tiên; PGS.TS Nguyễn Xuân Tú; PGS.TS Huỳnh Thị Gấm; TS Đào Thị
+Bích Hồng; PGS.TS Nguyễn Đình Lê; T§ Nguyễn Thị Thanh Huyền: TS Nguyễn
+Đình Cả và nhiều nhà khoa học khác.
+Mặc dù đã có nhiều cố gắng trong biên soạn, sửa chữa, bổ sung, song giáo trình
+khó tránh khỏi những thiểu sót, hạn chế. Quá trình giàng dạy, học tập rất mong được
+tiếp tục bổ sung, tu chỉnh để không ngừng nâng cao chất lượng giáo trình môn học
+Lịch sử Đảng Cộng sản Việt Nam.
+Hà Nội, ngày 6 tháng 9 năm 2019
+HỘI ĐÒNG BIÊN SOẠN
+Ấ",,,,,

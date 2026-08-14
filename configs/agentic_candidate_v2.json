@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "candidate": "evidence_guided_recovery_v2_1",
+  "status": "accepted_on_public_development_not_hidden_validated",
+  "baseline": "structured_hybrid_qwen_reranker_parent_expansion_B0",
+  "activation": {
+    "judge_planner": "Gemini recovery_v2_evidence_guided_v1",
+    "max_queries": 2,
+    "development_activations": 33,
+    "development_questions": 331
+  },
+  "recovery": {
+    "retriever": "frozen_B0",
+    "recovery_top_k": 5,
+    "fusion": "conservative_missing_aspect_insertion",
+    "support_scorer": "Qwen3-Reranker-0.6B",
+    "support_margin": 0.0,
+    "maximum_insertions": 2
+  },
+  "development_result": {
+    "b0_full_evidence_at_5": 0.9395770392749244,
+    "agentic_full_evidence_at_5": 0.9425981873111783,
+    "wins": 1,
+    "losses": 0,
+    "ties": 330,
+    "insertion_count": 6
+  },
+  "limitations": [
+    "The improvement is small and measured on public development only.",
+    "Natural QA hidden was not rerun.",
+    "The candidate remains opt-in in production through VIETTHEORY_AGENTIC=1."
+  ]
+}

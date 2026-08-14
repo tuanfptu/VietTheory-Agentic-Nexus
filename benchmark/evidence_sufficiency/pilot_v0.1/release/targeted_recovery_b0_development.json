@@ -1,0 +1,664 @@
+{
+  "schema_version": "1.0",
+  "benchmark_version": "mln_evidence_sufficiency_pilot_v0.1",
+  "split": "development",
+  "policy": "J1 partial/missing -> one deterministic BM25 targeted query",
+  "retriever": "b0",
+  "candidate_k": 30,
+  "parent_k": 5,
+  "held_out_accessed": false,
+  "case_count": 32,
+  "baseline_deficient_cases": 24,
+  "activated_deficient_cases": 15,
+  "agent_activation_count": 15,
+  "agent_activation_rate": 0.46875,
+  "recovery_success_count": 2,
+  "recovery_success_rate": 0.13333333333333333,
+  "full_coverage_before": 0.25,
+  "full_coverage_after": 0.3125,
+  "latency_p50_ms": 0.005049980245530605,
+  "per_case": [
+    {
+      "case_id": "es_hcm202_0037_missing",
+      "source_question_id": "hcm202_0037",
+      "gold_label": "missing",
+      "j1_label": "missing",
+      "activated": true,
+      "queries": [
+        "Việc khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng diễn ra trong mốc lịch sử nào và gắn liền với các sự kiện nào ảnh hưởng tới tư tưởng của Người? Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng",
+        "Việc khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng diễn ra trong mốc lịch sử nào và gắn liền với các sự kiện nào ảnh hưởng tới tư tưởng của Người? Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "baseline_parent_ids": [],
+      "recovered_parent_ids": [
+        "parent_05f8d31d20a8217e3170",
+        "parent_77f5a0d3633bc6f0159e",
+        "parent_8be65a2824224f3b4c63",
+        "parent_e4fc48d12ed787c15f14",
+        "parent_cd1544e2c8d27387b704"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 22591.6154999868
+    },
+    {
+      "case_id": "es_hcm202_0037_partial",
+      "source_question_id": "hcm202_0037",
+      "gold_label": "partial",
+      "j1_label": "partial",
+      "activated": true,
+      "queries": [
+        "Việc khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng diễn ra trong mốc lịch sử nào và gắn liền với các sự kiện nào ảnh hưởng tới tư tưởng của Người? Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "baseline_parent_ids": [
+        "parent_05f8d31d20a8217e3170"
+      ],
+      "recovered_parent_ids": [
+        "parent_05f8d31d20a8217e3170",
+        "parent_77f5a0d3633bc6f0159e",
+        "parent_8be65a2824224f3b4c63",
+        "parent_cd1544e2c8d27387b704",
+        "parent_e4fc48d12ed787c15f14"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 11129.272899997886
+    },
+    {
+      "case_id": "es_hcm202_0037_sufficient",
+      "source_question_id": "hcm202_0037",
+      "gold_label": "sufficient",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_05f8d31d20a8217e3170",
+        "parent_8b1d6fbb41abef9e0d6c"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": true,
+      "after_full_coverage": true,
+      "recovery_success": false,
+      "latency_ms": 0.0033999676816165447
+    },
+    {
+      "case_id": "es_hcm202_0037_wrongaspect",
+      "source_question_id": "hcm202_0037",
+      "gold_label": "wrong_aspect",
+      "j1_label": "wrong_aspect",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_8be65a2824224f3b4c63"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.0024999608285725117
+    },
+    {
+      "case_id": "es_hcm202_0081_missing",
+      "source_question_id": "hcm202_0081",
+      "gold_label": "missing",
+      "j1_label": "missing",
+      "activated": true,
+      "queries": [
+        "Trong Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh đã khẳng định phương hướng chiến lược của cách mạng Việt Nam như thế nào và Đảng Cộng sản Việt Nam lãnh đạo đối với mặt trận nhằm hoàn thành nhiệm vụ gì? Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930",
+        "Trong Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh đã khẳng định phương hướng chiến lược của cách mạng Việt Nam như thế nào và Đảng Cộng sản Việt Nam lãnh đạo đối với mặt trận nhằm hoàn thành nhiệm vụ gì? Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "baseline_parent_ids": [],
+      "recovered_parent_ids": [
+        "parent_f64ecb6be258ce61552b",
+        "parent_cd1544e2c8d27387b704",
+        "parent_531152468929ce45a953",
+        "parent_1eb601c4a3bd2db1e2ae",
+        "parent_ece6b818d3bbfe7fa09a",
+        "parent_9d57b3f33c19b3a50a7d"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 22446.770399983507
+    },
+    {
+      "case_id": "es_hcm202_0081_partial",
+      "source_question_id": "hcm202_0081",
+      "gold_label": "partial",
+      "j1_label": "partial",
+      "activated": true,
+      "queries": [
+        "Trong Chánh cương vắn tắt của Đảng năm 1930, Hồ Chí Minh đã khẳng định phương hướng chiến lược của cách mạng Việt Nam như thế nào và Đảng Cộng sản Việt Nam lãnh đạo đối với mặt trận nhằm hoàn thành nhiệm vụ gì? Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "baseline_parent_ids": [
+        "parent_cd1544e2c8d27387b704"
+      ],
+      "recovered_parent_ids": [
+        "parent_f64ecb6be258ce61552b",
+        "parent_cd1544e2c8d27387b704",
+        "parent_531152468929ce45a953",
+        "parent_1eb601c4a3bd2db1e2ae",
+        "parent_9d57b3f33c19b3a50a7d"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 11213.277200004086
+    },
+    {
+      "case_id": "es_hcm202_0081_sufficient",
+      "source_question_id": "hcm202_0081",
+      "gold_label": "sufficient",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_9599a693adf04a5d6476",
+        "parent_cd1544e2c8d27387b704"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": true,
+      "after_full_coverage": true,
+      "recovery_success": false,
+      "latency_ms": 0.0034999684430658817
+    },
+    {
+      "case_id": "es_hcm202_0081_wrongaspect",
+      "source_question_id": "hcm202_0081",
+      "gold_label": "wrong_aspect",
+      "j1_label": "wrong_aspect",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_f64ecb6be258ce61552b"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.004799978341907263
+    },
+    {
+      "case_id": "es_mln111_0031_missing",
+      "source_question_id": "mln111_0031",
+      "gold_label": "missing",
+      "j1_label": "missing",
+      "activated": true,
+      "queries": [
+        "Dựa trên các quan điểm về triết học ở chương 1 và định nghĩa vật chất của V.I. Lênin ở chương 2, triết học được xác định là một hình thái ý thức xã hội đồng thời vật chất được định nghĩa là gì? Triết học là một hình thái ý thức xã hội",
+        "Dựa trên các quan điểm về triết học ở chương 1 và định nghĩa vật chất của V.I. Lênin ở chương 2, triết học được xác định là một hình thái ý thức xã hội đồng thời vật chất được định nghĩa là gì? Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "baseline_parent_ids": [],
+      "recovered_parent_ids": [
+        "parent_1566c2294c415e590d88",
+        "parent_9b37da66bcb5add96b9c",
+        "parent_4b0a359cdee25c9475ac",
+        "parent_2d662cbc91b92a1c9799",
+        "parent_7eee8bb92b81f2f27393"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 20340.406099974643
+    },
+    {
+      "case_id": "es_mln111_0031_partial",
+      "source_question_id": "mln111_0031",
+      "gold_label": "partial",
+      "j1_label": "partial",
+      "activated": true,
+      "queries": [
+        "Dựa trên các quan điểm về triết học ở chương 1 và định nghĩa vật chất của V.I. Lênin ở chương 2, triết học được xác định là một hình thái ý thức xã hội đồng thời vật chất được định nghĩa là gì? Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "baseline_parent_ids": [
+        "parent_6ca6d6d982006888daab"
+      ],
+      "recovered_parent_ids": [
+        "parent_1566c2294c415e590d88",
+        "parent_9b37da66bcb5add96b9c",
+        "parent_4b0a359cdee25c9475ac",
+        "parent_7eee8bb92b81f2f27393",
+        "parent_2d662cbc91b92a1c9799"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": true,
+      "recovery_success": true,
+      "latency_ms": 10197.72939995164
+    },
+    {
+      "case_id": "es_mln111_0031_sufficient",
+      "source_question_id": "mln111_0031",
+      "gold_label": "sufficient",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_1566c2294c415e590d88",
+        "parent_6ca6d6d982006888daab"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": true,
+      "after_full_coverage": true,
+      "recovery_success": false,
+      "latency_ms": 0.003300025127828121
+    },
+    {
+      "case_id": "es_mln111_0031_wrongaspect",
+      "source_question_id": "mln111_0031",
+      "gold_label": "wrong_aspect",
+      "j1_label": "wrong_aspect",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_9b37da66bcb5add96b9c"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.0031999661587178707
+    },
+    {
+      "case_id": "es_mln122_0005_missing",
+      "source_question_id": "mln122_0005",
+      "gold_label": "missing",
+      "j1_label": "missing",
+      "activated": true,
+      "queries": [
+        "So với các chương trước nghiên cứu về kinh tế thị trường tư bản chủ nghĩa, Chương 5 có điểm gì khác biệt về đối tượng tập trung? Sự khác biệt về đối tượng tập trung giữa Chương 5 và các chương trước"
+      ],
+      "baseline_parent_ids": [],
+      "recovered_parent_ids": [
+        "parent_1442d3089ff938244d55",
+        "parent_bbe47b3fefce3789a699",
+        "parent_0c720582e60b8e7192f6",
+        "parent_4f24e678f6f2140f59d0",
+        "parent_5c9bbbf98285e1876ad2"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 10870.507900021039
+    },
+    {
+      "case_id": "es_mln122_0005_partial",
+      "source_question_id": "mln122_0005",
+      "gold_label": "partial",
+      "j1_label": "partial",
+      "activated": true,
+      "queries": [
+        "So với các chương trước nghiên cứu về kinh tế thị trường tư bản chủ nghĩa, Chương 5 có điểm gì khác biệt về đối tượng tập trung? Đối tượng tập trung của Chương 5",
+        "So với các chương trước nghiên cứu về kinh tế thị trường tư bản chủ nghĩa, Chương 5 có điểm gì khác biệt về đối tượng tập trung? Sự khác biệt giữa Chương 5 và các chương trước"
+      ],
+      "baseline_parent_ids": [
+        "parent_27caf70e0f7a9043e35a",
+        "parent_d93b683547a7ea4781d3"
+      ],
+      "recovered_parent_ids": [
+        "parent_1442d3089ff938244d55",
+        "parent_bbe47b3fefce3789a699",
+        "parent_0c720582e60b8e7192f6",
+        "parent_5c9bbbf98285e1876ad2",
+        "parent_4f24e678f6f2140f59d0",
+        "parent_7d77cee70b91323fd410"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": true,
+      "recovery_success": true,
+      "latency_ms": 21822.4382000044
+    },
+    {
+      "case_id": "es_mln122_0005_sufficient",
+      "source_question_id": "mln122_0005",
+      "gold_label": "sufficient",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_1442d3089ff938244d55",
+        "parent_27caf70e0f7a9043e35a",
+        "parent_d93b683547a7ea4781d3"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": true,
+      "after_full_coverage": true,
+      "recovery_success": false,
+      "latency_ms": 0.005299982149153948
+    },
+    {
+      "case_id": "es_mln122_0005_wrongaspect",
+      "source_question_id": "mln122_0005",
+      "gold_label": "wrong_aspect",
+      "j1_label": "wrong_aspect",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_4f24e678f6f2140f59d0"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.003600027412176132
+    },
+    {
+      "case_id": "es_mln122_0009_missing",
+      "source_question_id": "mln122_0009",
+      "gold_label": "missing",
+      "j1_label": "missing",
+      "activated": true,
+      "queries": [
+        "Việc tổng hợp các nội dung về thị trường, cơ chế thị trường và lý luận giá trị thặng dư mang lại ý nghĩa gì cho việc nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam? Ý nghĩa của thị trường, cơ chế thị trường và lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "baseline_parent_ids": [],
+      "recovered_parent_ids": [
+        "parent_49499b9ea43dcaaac4df",
+        "parent_1442d3089ff938244d55",
+        "parent_2bfe1bb4df9f5348376f",
+        "parent_d1e946955f980984e60e",
+        "parent_27caf70e0f7a9043e35a"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 11262.764599989168
+    },
+    {
+      "case_id": "es_mln122_0009_partial",
+      "source_question_id": "mln122_0009",
+      "gold_label": "partial",
+      "j1_label": "partial",
+      "activated": true,
+      "queries": [
+        "Việc tổng hợp các nội dung về thị trường, cơ chế thị trường và lý luận giá trị thặng dư mang lại ý nghĩa gì cho việc nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam? Ý nghĩa của lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "baseline_parent_ids": [
+        "parent_49499b9ea43dcaaac4df"
+      ],
+      "recovered_parent_ids": [
+        "parent_49499b9ea43dcaaac4df",
+        "parent_1442d3089ff938244d55",
+        "parent_2bfe1bb4df9f5348376f",
+        "parent_d1e946955f980984e60e",
+        "parent_27caf70e0f7a9043e35a"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 11227.439599984791
+    },
+    {
+      "case_id": "es_mln122_0009_sufficient",
+      "source_question_id": "mln122_0009",
+      "gold_label": "sufficient",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_49499b9ea43dcaaac4df",
+        "parent_a84979c5ab2065a36ee6"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": true,
+      "after_full_coverage": true,
+      "recovery_success": false,
+      "latency_ms": 0.003300025127828121
+    },
+    {
+      "case_id": "es_mln122_0009_wrongaspect",
+      "source_question_id": "mln122_0009",
+      "gold_label": "wrong_aspect",
+      "j1_label": "wrong_aspect",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_2bfe1bb4df9f5348376f"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.002700020559132099
+    },
+    {
+      "case_id": "es_mln131_0010_missing",
+      "source_question_id": "mln131_0010",
+      "gold_label": "missing",
+      "j1_label": "missing",
+      "activated": true,
+      "queries": [
+        "Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, Chương 5 mô tả sự biến đổi của cơ cấu xã hội - giai cấp theo hướng nào, còn Chương 6 và Chương 7 lần lượt tập trung vào những vấn đề gì? Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+        "Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, Chương 5 mô tả sự biến đổi của cơ cấu xã hội - giai cấp theo hướng nào, còn Chương 6 và Chương 7 lần lượt tập trung vào những vấn đề gì? Vấn đề tập trung của Chương 6"
+      ],
+      "baseline_parent_ids": [],
+      "recovered_parent_ids": [
+        "parent_83f6fb2b7ccf72d1135e",
+        "parent_07944bec42ef246cbcd6",
+        "parent_7619768b7c41e2846de6",
+        "parent_69a8cf01606c9e4c7ca0",
+        "parent_3f6081edba00468ad78c"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 21999.34999999823
+    },
+    {
+      "case_id": "es_mln131_0010_partial",
+      "source_question_id": "mln131_0010",
+      "gold_label": "partial",
+      "j1_label": "partial",
+      "activated": true,
+      "queries": [
+        "Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, Chương 5 mô tả sự biến đổi của cơ cấu xã hội - giai cấp theo hướng nào, còn Chương 6 và Chương 7 lần lượt tập trung vào những vấn đề gì? Vấn đề tập trung của Chương 6",
+        "Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, Chương 5 mô tả sự biến đổi của cơ cấu xã hội - giai cấp theo hướng nào, còn Chương 6 và Chương 7 lần lượt tập trung vào những vấn đề gì? Vấn đề tập trung của Chương 7"
+      ],
+      "baseline_parent_ids": [
+        "parent_83f6fb2b7ccf72d1135e"
+      ],
+      "recovered_parent_ids": [
+        "parent_83f6fb2b7ccf72d1135e",
+        "parent_07944bec42ef246cbcd6",
+        "parent_69a8cf01606c9e4c7ca0",
+        "parent_7619768b7c41e2846de6",
+        "parent_3f6081edba00468ad78c"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 22018.646399956197
+    },
+    {
+      "case_id": "es_mln131_0010_sufficient",
+      "source_question_id": "mln131_0010",
+      "gold_label": "sufficient",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_3f60f424072f51a2c301",
+        "parent_83f6fb2b7ccf72d1135e",
+        "parent_c227f5c1e458777bb600"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": true,
+      "after_full_coverage": true,
+      "recovery_success": false,
+      "latency_ms": 0.004299974534660578
+    },
+    {
+      "case_id": "es_mln131_0010_wrongaspect",
+      "source_question_id": "mln131_0010",
+      "gold_label": "wrong_aspect",
+      "j1_label": "wrong_aspect",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_07944bec42ef246cbcd6"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.002700020559132099
+    },
+    {
+      "case_id": "es_mln131_0035_missing",
+      "source_question_id": "mln131_0035",
+      "gold_label": "missing",
+      "j1_label": "missing",
+      "activated": true,
+      "queries": [
+        "Thời kỳ quá độ lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp nào, và lực lượng nào đóng vai trò đội tiên phong lãnh đạo họ hợp lực tạo sức mạnh tổng hợp? Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Thời kỳ quá độ lên chủ nghĩa xã hội bao gồm những giai cấp, tầng lớp nào, và lực lượng nào đóng vai trò đội tiên phong lãnh đạo họ hợp lực tạo sức mạnh tổng hợp? Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "baseline_parent_ids": [],
+      "recovered_parent_ids": [
+        "parent_c485fae9fc56a8e231b8",
+        "parent_83f6fb2b7ccf72d1135e",
+        "parent_07944bec42ef246cbcd6",
+        "parent_db4e6f8f1db770d6dd06",
+        "parent_9c5fa04a61ce1a6a2fcd",
+        "parent_c051cd9aac4bf2aaaa11"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 21003.944500000216
+    },
+    {
+      "case_id": "es_mln131_0035_partial",
+      "source_question_id": "mln131_0035",
+      "gold_label": "partial",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_c485fae9fc56a8e231b8"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.004299974534660578
+    },
+    {
+      "case_id": "es_mln131_0035_sufficient",
+      "source_question_id": "mln131_0035",
+      "gold_label": "sufficient",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_c485fae9fc56a8e231b8",
+        "parent_eefa5acd5cf08192caf9"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": true,
+      "after_full_coverage": true,
+      "recovery_success": false,
+      "latency_ms": 0.002800021320581436
+    },
+    {
+      "case_id": "es_mln131_0035_wrongaspect",
+      "source_question_id": "mln131_0035",
+      "gold_label": "wrong_aspect",
+      "j1_label": "wrong_aspect",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_3f6081edba00468ad78c"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.002500019036233425
+    },
+    {
+      "case_id": "es_vnr202_0005_missing",
+      "source_question_id": "vnr202_0005",
+      "gold_label": "missing",
+      "j1_label": "missing",
+      "activated": true,
+      "queries": [
+        "Hãy tổng hợp các mốc thời gian và nội dung trọng tâm của Chương 1, Chương 2 và Chương 3 trong chương trình môn học VNR202. Mốc thời gian và nội dung trọng tâm của Chương 1",
+        "Hãy tổng hợp các mốc thời gian và nội dung trọng tâm của Chương 1, Chương 2 và Chương 3 trong chương trình môn học VNR202. Mốc thời gian và nội dung trọng tâm của Chương 2"
+      ],
+      "baseline_parent_ids": [],
+      "recovered_parent_ids": [
+        "parent_56650d4157fc5d356570",
+        "parent_bf65bab7e03295bfc009",
+        "parent_ce27880fd176eca26754",
+        "parent_acf2ceac6ac0419415de",
+        "parent_b21283cb12d376e06495",
+        "parent_635e819de034bac5319d"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 22435.579299984965
+    },
+    {
+      "case_id": "es_vnr202_0005_partial",
+      "source_question_id": "vnr202_0005",
+      "gold_label": "partial",
+      "j1_label": "partial",
+      "activated": true,
+      "queries": [
+        "Hãy tổng hợp các mốc thời gian và nội dung trọng tâm của Chương 1, Chương 2 và Chương 3 trong chương trình môn học VNR202. Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Hãy tổng hợp các mốc thời gian và nội dung trọng tâm của Chương 1, Chương 2 và Chương 3 trong chương trình môn học VNR202. Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "baseline_parent_ids": [
+        "parent_56650d4157fc5d356570"
+      ],
+      "recovered_parent_ids": [
+        "parent_56650d4157fc5d356570",
+        "parent_635e819de034bac5319d",
+        "parent_bf65bab7e03295bfc009",
+        "parent_ce27880fd176eca26754",
+        "parent_b21283cb12d376e06495",
+        "parent_acf2ceac6ac0419415de"
+      ],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 22421.29709996516
+    },
+    {
+      "case_id": "es_vnr202_0005_sufficient",
+      "source_question_id": "vnr202_0005",
+      "gold_label": "sufficient",
+      "j1_label": "sufficient",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_56650d4157fc5d356570",
+        "parent_635e819de034bac5319d",
+        "parent_8a3ac12f937bf10afab6"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": true,
+      "after_full_coverage": true,
+      "recovery_success": false,
+      "latency_ms": 0.0037999707274138927
+    },
+    {
+      "case_id": "es_vnr202_0005_wrongaspect",
+      "source_question_id": "vnr202_0005",
+      "gold_label": "wrong_aspect",
+      "j1_label": "wrong_aspect",
+      "activated": false,
+      "queries": [],
+      "baseline_parent_ids": [
+        "parent_d57a66f2a5689195b11b"
+      ],
+      "recovered_parent_ids": [],
+      "baseline_full_coverage": false,
+      "after_full_coverage": false,
+      "recovery_success": false,
+      "latency_ms": 0.002700020559132099
+    }
+  ]
+}

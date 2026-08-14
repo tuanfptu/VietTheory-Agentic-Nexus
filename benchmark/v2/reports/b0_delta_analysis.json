@@ -1,0 +1,1196 @@
+{
+  "benchmark_version": "natural_qa_v2_gold_v1.0",
+  "split": "development",
+  "transitions": {
+    "within_subject_bm25 -> within_subject_dense": {
+      "win": 52,
+      "tie": 196,
+      "loss": 75,
+      "mixed": 8
+    },
+    "within_subject_dense -> within_subject_hybrid_rrf": {
+      "tie": 236,
+      "loss": 23,
+      "win": 65,
+      "mixed": 7
+    },
+    "within_subject_hybrid_rrf -> within_subject_hybrid_reranker": {
+      "tie": 234,
+      "win": 66,
+      "loss": 30,
+      "mixed": 1
+    },
+    "within_subject_hybrid_reranker -> within_subject_parent_aware_b0": {
+      "tie": 286,
+      "win": 44,
+      "mixed": 1
+    },
+    "global_bm25 -> global_dense": {
+      "win": 55,
+      "mixed": 9,
+      "tie": 187,
+      "loss": 80
+    },
+    "global_dense -> global_hybrid_rrf": {
+      "tie": 230,
+      "loss": 26,
+      "win": 66,
+      "mixed": 9
+    },
+    "global_hybrid_rrf -> global_hybrid_reranker": {
+      "tie": 235,
+      "win": 67,
+      "loss": 27,
+      "mixed": 2
+    },
+    "global_hybrid_reranker -> global_parent_aware_b0": {
+      "tie": 284,
+      "win": 44,
+      "mixed": 3
+    }
+  },
+  "residual_failures": {
+    "within_subject_parent_aware_b0": {
+      "count": 20,
+      "by_subject": {
+        "HCM202": 6,
+        "MLN111": 2,
+        "MLN122": 4,
+        "MLN131": 7,
+        "VNR202": 1
+      },
+      "by_category": {
+        "multi_chunk": 6,
+        "multi_hop_cross_chapter": 5,
+        "synthesis": 5,
+        "comparison_relationship": 3,
+        "direct": 1
+      },
+      "by_difficulty": {
+        "hard": 16,
+        "medium": 3,
+        "easy": 1
+      },
+      "queries": [
+        {
+          "question_id": "hcm202_0037",
+          "subject_code": "HCM202",
+          "category": "multi_chunk",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_05f8d31d20a8217e3170",
+            "parent_8be65a2824224f3b4c63",
+            "parent_77f5a0d3633bc6f0159e",
+            "parent_e4fc48d12ed787c15f14",
+            "parent_cd1544e2c8d27387b704",
+            "parent_2dbe550b79b71d1ffb4b",
+            "parent_715ef9f9325d832a229a",
+            "parent_db0a04cf304dc0df3ac1"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "hcm202_0039",
+          "subject_code": "HCM202",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_e4fc48d12ed787c15f14",
+            "parent_ece6b818d3bbfe7fa09a",
+            "parent_77f5a0d3633bc6f0159e",
+            "parent_05f8d31d20a8217e3170",
+            "parent_cd1544e2c8d27387b704",
+            "parent_0e77ac0df8eaa946ef3b"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "hcm202_0052",
+          "subject_code": "HCM202",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_1eb601c4a3bd2db1e2ae",
+            "parent_16b7c9907dfd96c51889",
+            "parent_e6333ffd3d549957e7e2",
+            "parent_39145effea4764573666",
+            "parent_24f47ce02efaa6ca8bc1",
+            "parent_77f5a0d3633bc6f0159e",
+            "parent_9ca353c941ddf830cb6d",
+            "parent_27c769ff627cfed06d5b",
+            "parent_7dff0c990be82ff1590f"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "hcm202_0057",
+          "subject_code": "HCM202",
+          "category": "multi_chunk",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_cd1544e2c8d27387b704",
+            "parent_0f17d6d35ca9021fbb38",
+            "parent_77f5a0d3633bc6f0159e",
+            "parent_27c769ff627cfed06d5b",
+            "parent_eaf8d2bed242633c4ccc",
+            "parent_16b7c9907dfd96c51889",
+            "parent_2dbe550b79b71d1ffb4b",
+            "parent_5baaf1283ce6ad8585ca"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": 7
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "hcm202_0058",
+          "subject_code": "HCM202",
+          "category": "synthesis",
+          "difficulty": "medium",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_17429f39c83247a89951",
+            "parent_234052fdde8e4624d96e",
+            "parent_ddce4f7e27b94da5740a",
+            "parent_3ea3fb856582bad5684b",
+            "parent_232af46388647ba098ec",
+            "parent_9599a693adf04a5d6476",
+            "parent_5baaf1283ce6ad8585ca"
+          ],
+          "first_gold_rank": 2,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 2
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "hcm202_0081",
+          "subject_code": "HCM202",
+          "category": "multi_chunk",
+          "difficulty": "medium",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_f64ecb6be258ce61552b",
+            "parent_cd1544e2c8d27387b704",
+            "parent_531152468929ce45a953",
+            "parent_9d57b3f33c19b3a50a7d",
+            "parent_1eb601c4a3bd2db1e2ae",
+            "parent_ece6b818d3bbfe7fa09a",
+            "parent_0f17d6d35ca9021fbb38"
+          ],
+          "first_gold_rank": 2,
+          "group_first_ranks": {
+            "g1": 2,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln111_0031",
+          "subject_code": "MLN111",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_1566c2294c415e590d88",
+            "parent_9b37da66bcb5add96b9c",
+            "parent_4b0a359cdee25c9475ac",
+            "parent_7eee8bb92b81f2f27393",
+            "parent_7fe367a97209ec96503d",
+            "parent_2d662cbc91b92a1c9799",
+            "parent_a93bceb18372ffe02d1b",
+            "parent_7a26b1e10256417c58ba"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 1
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln111_0049",
+          "subject_code": "MLN111",
+          "category": "comparison_relationship",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_a732d557655efe362952",
+            "parent_7eee8bb92b81f2f27393",
+            "parent_d2cb74108af946ddf412",
+            "parent_d9edff10bc4a7442c802",
+            "parent_0794afe2a2fcf86604be",
+            "parent_bdd8800eebe3619455b8",
+            "parent_85454250f3720bff722c",
+            "parent_1566c2294c415e590d88",
+            "parent_1f1b7ef0d071ef8d1ac7"
+          ],
+          "first_gold_rank": 3,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 3
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln122_0005",
+          "subject_code": "MLN122",
+          "category": "comparison_relationship",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_1442d3089ff938244d55",
+            "parent_4f24e678f6f2140f59d0",
+            "parent_bbe47b3fefce3789a699",
+            "parent_7d77cee70b91323fd410",
+            "parent_0c720582e60b8e7192f6",
+            "parent_27caf70e0f7a9043e35a",
+            "parent_d93b683547a7ea4781d3",
+            "parent_2bfe1bb4df9f5348376f",
+            "parent_49499b9ea43dcaaac4df"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 6,
+            "g2": 1
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln122_0009",
+          "subject_code": "MLN122",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_49499b9ea43dcaaac4df",
+            "parent_2bfe1bb4df9f5348376f",
+            "parent_1442d3089ff938244d55",
+            "parent_d1e946955f980984e60e",
+            "parent_03ba336d33b887b5572c",
+            "parent_27caf70e0f7a9043e35a",
+            "parent_33df4c397c44d15391b4",
+            "parent_7d77cee70b91323fd410",
+            "parent_52014568e9cb89e9203c"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln122_0036",
+          "subject_code": "MLN122",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_33df4c397c44d15391b4",
+            "parent_563b11c260bac3a6fee7",
+            "parent_bbe47b3fefce3789a699",
+            "parent_e5cf2e14ed9813a053f7",
+            "parent_4388c9007d6deb9074bf",
+            "parent_49499b9ea43dcaaac4df"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 1
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln122_0044",
+          "subject_code": "MLN122",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_33df4c397c44d15391b4",
+            "parent_49499b9ea43dcaaac4df",
+            "parent_1442d3089ff938244d55",
+            "parent_e5cf2e14ed9813a053f7",
+            "parent_d93b683547a7ea4781d3",
+            "parent_7d77cee70b91323fd410"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": 6
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln131_0002",
+          "subject_code": "MLN131",
+          "category": "direct",
+          "difficulty": "easy",
+          "reasoning_scope": "single_chunk",
+          "retrieved_ids": [
+            "parent_14647f6f0d6304d414f1",
+            "parent_23c3915536d4abbda63d",
+            "parent_e078f5f04f6cf5755d75",
+            "parent_a6f88db585cb2c8f990e",
+            "parent_f09b17e382395785279f",
+            "parent_be37d808c6ca972b6f23",
+            "parent_db4e6f8f1db770d6dd06",
+            "parent_5117d6290c0b0763cc03"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln131_0010",
+          "subject_code": "MLN131",
+          "category": "multi_chunk",
+          "difficulty": "medium",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_83f6fb2b7ccf72d1135e",
+            "parent_07944bec42ef246cbcd6",
+            "parent_7619768b7c41e2846de6",
+            "parent_69a8cf01606c9e4c7ca0",
+            "parent_3f6081edba00468ad78c",
+            "parent_8e2c436b61226b19ca76"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null,
+            "g3": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln131_0023",
+          "subject_code": "MLN131",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_07944bec42ef246cbcd6",
+            "parent_85dfa7db51d4698a0154",
+            "parent_7619768b7c41e2846de6",
+            "parent_d45001d625fc8f5302c9",
+            "parent_83f6fb2b7ccf72d1135e",
+            "parent_79ab9580ff60b48af9fc",
+            "parent_7b8857cd237b623b073a"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln131_0028",
+          "subject_code": "MLN131",
+          "category": "multi_chunk",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_a34961f4761def647aa9",
+            "parent_310a50ffe0f80fe7eab1",
+            "parent_4aeab4d639c5028fe9ed",
+            "parent_740e8653e8591840c706",
+            "parent_2eab6b8f22f8fa0d24c4",
+            "parent_ea0a94eac470ca2262be",
+            "parent_dc7fd2b0e77f15a91adb"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln131_0035",
+          "subject_code": "MLN131",
+          "category": "multi_chunk",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_c485fae9fc56a8e231b8",
+            "parent_83f6fb2b7ccf72d1135e",
+            "parent_07944bec42ef246cbcd6",
+            "parent_db4e6f8f1db770d6dd06",
+            "parent_c051cd9aac4bf2aaaa11",
+            "parent_3f6081edba00468ad78c",
+            "parent_9c5fa04a61ce1a6a2fcd"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln131_0044",
+          "subject_code": "MLN131",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_5117d6290c0b0763cc03",
+            "parent_a4743e18e46c336d43ca",
+            "parent_7b8857cd237b623b073a",
+            "parent_be37d808c6ca972b6f23",
+            "parent_d45001d625fc8f5302c9",
+            "parent_6f14b892d3ad7d88934f",
+            "parent_07221256d5b239c12f0b"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "mln131_0054",
+          "subject_code": "MLN131",
+          "category": "comparison_relationship",
+          "difficulty": "hard",
+          "reasoning_scope": "single_chunk",
+          "retrieved_ids": [
+            "parent_502a998fe25541b887ea",
+            "parent_51868a6667d2bd62b1fc",
+            "parent_103a5f4b2135028c34d4",
+            "parent_fcb67a293beee40d245a",
+            "parent_fe44caa3d7c594bb5882",
+            "parent_49709d61995d846dfc88"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        },
+        {
+          "question_id": "vnr202_0005",
+          "subject_code": "VNR202",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_d57a66f2a5689195b11b",
+            "parent_56650d4157fc5d356570",
+            "parent_635e819de034bac5319d",
+            "parent_b21283cb12d376e06495",
+            "parent_bf65bab7e03295bfc009",
+            "parent_ce27880fd176eca26754",
+            "parent_ac4994146261af18c428",
+            "parent_738263678b46ff9577fa"
+          ],
+          "first_gold_rank": 2,
+          "group_first_ranks": {
+            "g1": 2,
+            "g2": 3,
+            "g3": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 10350.046898554801
+        }
+      ]
+    },
+    "global_parent_aware_b0": {
+      "count": 26,
+      "by_subject": {
+        "HCM202": 8,
+        "MLN111": 3,
+        "MLN122": 2,
+        "MLN131": 9,
+        "VNR202": 4
+      },
+      "by_category": {
+        "comparison_relationship": 3,
+        "multi_hop_cross_chapter": 6,
+        "multi_chunk": 7,
+        "synthesis": 7,
+        "direct": 1,
+        "explanation": 2
+      },
+      "by_difficulty": {
+        "medium": 7,
+        "hard": 18,
+        "easy": 1
+      },
+      "queries": [
+        {
+          "question_id": "hcm202_0005",
+          "subject_code": "HCM202",
+          "category": "comparison_relationship",
+          "difficulty": "medium",
+          "reasoning_scope": "single_chunk",
+          "retrieved_ids": [
+            "parent_1442d3089ff938244d55",
+            "parent_411f4aea2d15435c9c68",
+            "parent_52c630029a0200daa2d5",
+            "parent_d93b683547a7ea4781d3",
+            "parent_4a87830751c6451a6edd",
+            "parent_27caf70e0f7a9043e35a",
+            "parent_4b8727d14bc147525158",
+            "parent_075d3d09a6fa5dd6a82f",
+            "parent_da5d29056a37ed73b797",
+            "parent_c17bb1ef661b4e963638"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "hcm202_0032",
+          "subject_code": "HCM202",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_5c9486adb6405799c6b7",
+            "parent_d443115a3e022461a3e7",
+            "parent_f0b7d605380f2c6cb615",
+            "parent_cd1544e2c8d27387b704",
+            "parent_d3d201285198719e2057",
+            "parent_8b1d6fbb41abef9e0d6c",
+            "parent_8c74747e24c24bf193a3",
+            "parent_8873b9e9b4db990b16a2",
+            "parent_2877f0fb0ad2774f3a19"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 6,
+            "g2": 1
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "hcm202_0037",
+          "subject_code": "HCM202",
+          "category": "multi_chunk",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_05f8d31d20a8217e3170",
+            "parent_e4fc48d12ed787c15f14",
+            "parent_63f0f6b503ac39092e49",
+            "parent_8be65a2824224f3b4c63",
+            "parent_77f5a0d3633bc6f0159e",
+            "parent_cd1544e2c8d27387b704",
+            "parent_2dbe550b79b71d1ffb4b",
+            "parent_78c7b05b6494a960c1b6"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "hcm202_0039",
+          "subject_code": "HCM202",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_e4fc48d12ed787c15f14",
+            "parent_ece6b818d3bbfe7fa09a",
+            "parent_77f5a0d3633bc6f0159e",
+            "parent_cd1544e2c8d27387b704",
+            "parent_e5ead257fb28da2256ba",
+            "parent_8b1d6fbb41abef9e0d6c",
+            "parent_9d57b3f33c19b3a50a7d",
+            "parent_b62efc8e479811343a4f"
+          ],
+          "first_gold_rank": 6,
+          "group_first_ranks": {
+            "g1": 6,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "hcm202_0057",
+          "subject_code": "HCM202",
+          "category": "multi_chunk",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_cd1544e2c8d27387b704",
+            "parent_0f17d6d35ca9021fbb38",
+            "parent_715ef9f9325d832a229a",
+            "parent_27c769ff627cfed06d5b",
+            "parent_eaf8d2bed242633c4ccc",
+            "parent_16b7c9907dfd96c51889",
+            "parent_2dbe550b79b71d1ffb4b",
+            "parent_5baaf1283ce6ad8585ca"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": 7
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "hcm202_0058",
+          "subject_code": "HCM202",
+          "category": "synthesis",
+          "difficulty": "medium",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_234052fdde8e4624d96e",
+            "parent_8126f1f485942f07d3cf",
+            "parent_ddce4f7e27b94da5740a",
+            "parent_3ea3fb856582bad5684b",
+            "parent_232af46388647ba098ec",
+            "parent_878bffda3794e79d786e",
+            "parent_9599a693adf04a5d6476",
+            "parent_5baaf1283ce6ad8585ca"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 1
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "hcm202_0069",
+          "subject_code": "HCM202",
+          "category": "synthesis",
+          "difficulty": "medium",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_d3d201285198719e2057",
+            "parent_d0a3c0fd43011e0f7fc0",
+            "parent_e4fc48d12ed787c15f14",
+            "parent_ac4994146261af18c428",
+            "parent_2877f0fb0ad2774f3a19",
+            "parent_77f5a0d3633bc6f0159e"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "hcm202_0081",
+          "subject_code": "HCM202",
+          "category": "multi_chunk",
+          "difficulty": "medium",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_f64ecb6be258ce61552b",
+            "parent_738263678b46ff9577fa",
+            "parent_78c7b05b6494a960c1b6",
+            "parent_cd1544e2c8d27387b704",
+            "parent_531152468929ce45a953",
+            "parent_ece6b818d3bbfe7fa09a",
+            "parent_108688da1b866552ad21",
+            "parent_966d3fcf5fcbe82c30f3"
+          ],
+          "first_gold_rank": 4,
+          "group_first_ranks": {
+            "g1": 4,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln111_0030",
+          "subject_code": "MLN111",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_2db03ee537cb124fd61c",
+            "parent_df449336628d52ca7b68",
+            "parent_9394d2164961cfdcefea",
+            "parent_d69d0c6e177f1fba2a05",
+            "parent_aad3c22ea3af19be1430",
+            "parent_db8d6083f7b03634c0cb",
+            "parent_0991597fff26e44074df",
+            "parent_db0a04cf304dc0df3ac1",
+            "parent_23c3915536d4abbda63d",
+            "parent_2023bc95c3ad2d77ec7b"
+          ],
+          "first_gold_rank": 2,
+          "group_first_ranks": {
+            "g1": 2,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln111_0031",
+          "subject_code": "MLN111",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_1566c2294c415e590d88",
+            "parent_9b37da66bcb5add96b9c",
+            "parent_4b0a359cdee25c9475ac",
+            "parent_7eee8bb92b81f2f27393",
+            "parent_7fe367a97209ec96503d",
+            "parent_2d662cbc91b92a1c9799",
+            "parent_a93bceb18372ffe02d1b",
+            "parent_7a26b1e10256417c58ba"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 1
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln111_0049",
+          "subject_code": "MLN111",
+          "category": "comparison_relationship",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_a732d557655efe362952",
+            "parent_7eee8bb92b81f2f27393",
+            "parent_d2cb74108af946ddf412",
+            "parent_d9edff10bc4a7442c802",
+            "parent_0794afe2a2fcf86604be",
+            "parent_bdd8800eebe3619455b8",
+            "parent_85454250f3720bff722c",
+            "parent_1f1b7ef0d071ef8d1ac7"
+          ],
+          "first_gold_rank": 3,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 3
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln122_0009",
+          "subject_code": "MLN122",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_49499b9ea43dcaaac4df",
+            "parent_2bfe1bb4df9f5348376f",
+            "parent_1442d3089ff938244d55",
+            "parent_d1e946955f980984e60e",
+            "parent_03ba336d33b887b5572c",
+            "parent_27caf70e0f7a9043e35a",
+            "parent_33df4c397c44d15391b4",
+            "parent_52014568e9cb89e9203c",
+            "parent_0b9643b20cac316bf9ab"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln122_0036",
+          "subject_code": "MLN122",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_33df4c397c44d15391b4",
+            "parent_bbe47b3fefce3789a699",
+            "parent_aad3c22ea3af19be1430",
+            "parent_d3c460ad6ff66dc5a6df",
+            "parent_4eb1b807337e48fe0ea8",
+            "parent_f09b17e382395785279f",
+            "parent_c9b05e3c2faeb3d4beab"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 1
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0002",
+          "subject_code": "MLN131",
+          "category": "direct",
+          "difficulty": "easy",
+          "reasoning_scope": "single_chunk",
+          "retrieved_ids": [
+            "parent_aad3c22ea3af19be1430",
+            "parent_e2c7a770dbb40972f0d1",
+            "parent_14647f6f0d6304d414f1",
+            "parent_4eb1b807337e48fe0ea8",
+            "parent_f5c9748e58e3bd20c75b",
+            "parent_c370650846f33ac03e77",
+            "parent_01bec7a149cf18988b45",
+            "parent_2a62379cfaaff3ec0c74",
+            "parent_a6f88db585cb2c8f990e"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0004",
+          "subject_code": "MLN131",
+          "category": "explanation",
+          "difficulty": "medium",
+          "reasoning_scope": "single_chunk",
+          "retrieved_ids": [
+            "parent_57c47c0aff0deabb13f8",
+            "parent_f09b17e382395785279f",
+            "parent_7ae8c26afd66101bf6c6",
+            "parent_d3c460ad6ff66dc5a6df",
+            "parent_9b37da66bcb5add96b9c",
+            "parent_e7e6182f82ac0bff69a7",
+            "parent_e4fc48d12ed787c15f14",
+            "parent_aad3c22ea3af19be1430"
+          ],
+          "first_gold_rank": 6,
+          "group_first_ranks": {
+            "g1": 6
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0010",
+          "subject_code": "MLN131",
+          "category": "multi_chunk",
+          "difficulty": "medium",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_83f6fb2b7ccf72d1135e",
+            "parent_07944bec42ef246cbcd6",
+            "parent_7619768b7c41e2846de6",
+            "parent_69a8cf01606c9e4c7ca0",
+            "parent_3f6081edba00468ad78c",
+            "parent_b8351ee89e40d27bb5e0",
+            "parent_8e2c436b61226b19ca76"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null,
+            "g3": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0023",
+          "subject_code": "MLN131",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_07944bec42ef246cbcd6",
+            "parent_85dfa7db51d4698a0154",
+            "parent_7619768b7c41e2846de6",
+            "parent_d45001d625fc8f5302c9",
+            "parent_83f6fb2b7ccf72d1135e",
+            "parent_79ab9580ff60b48af9fc",
+            "parent_7b8857cd237b623b073a"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0028",
+          "subject_code": "MLN131",
+          "category": "multi_chunk",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_a34961f4761def647aa9",
+            "parent_df449336628d52ca7b68",
+            "parent_529f44afe639def4816d",
+            "parent_310a50ffe0f80fe7eab1",
+            "parent_4aeab4d639c5028fe9ed",
+            "parent_2eab6b8f22f8fa0d24c4",
+            "parent_a7ab9bf550ed207b8f96",
+            "parent_85454250f3720bff722c"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0035",
+          "subject_code": "MLN131",
+          "category": "multi_chunk",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_c485fae9fc56a8e231b8",
+            "parent_83f6fb2b7ccf72d1135e",
+            "parent_07944bec42ef246cbcd6",
+            "parent_db4e6f8f1db770d6dd06",
+            "parent_b8351ee89e40d27bb5e0",
+            "parent_3f6081edba00468ad78c",
+            "parent_9c5fa04a61ce1a6a2fcd"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0037",
+          "subject_code": "MLN131",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_79ab9580ff60b48af9fc",
+            "parent_378afd9d3d030b3551a8",
+            "parent_eefa5acd5cf08192caf9",
+            "parent_28ac2872daccbdf1cf9e",
+            "parent_d69d0c6e177f1fba2a05",
+            "parent_5117d6290c0b0763cc03",
+            "parent_563b11c260bac3a6fee7",
+            "parent_c315ca0e8a1ff7536b1f",
+            "parent_961338af60ec711dc68a"
+          ],
+          "first_gold_rank": 3,
+          "group_first_ranks": {
+            "g1": 3,
+            "g2": 6
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0044",
+          "subject_code": "MLN131",
+          "category": "multi_hop_cross_chapter",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_hop",
+          "retrieved_ids": [
+            "parent_5117d6290c0b0763cc03",
+            "parent_a4743e18e46c336d43ca",
+            "parent_7b8857cd237b623b073a",
+            "parent_be37d808c6ca972b6f23",
+            "parent_d45001d625fc8f5302c9",
+            "parent_6f14b892d3ad7d88934f",
+            "parent_07221256d5b239c12f0b"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": 1,
+            "g2": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "mln131_0076",
+          "subject_code": "MLN131",
+          "category": "multi_chunk",
+          "difficulty": "medium",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_be37d808c6ca972b6f23",
+            "parent_14647f6f0d6304d414f1",
+            "parent_e7e6182f82ac0bff69a7",
+            "parent_e078f5f04f6cf5755d75",
+            "parent_aad3c22ea3af19be1430",
+            "parent_57c47c0aff0deabb13f8",
+            "parent_e5ead257fb28da2256ba",
+            "parent_b9dc7cadb8c967b0900f"
+          ],
+          "first_gold_rank": 1,
+          "group_first_ranks": {
+            "g1": null,
+            "g2": 1
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "vnr202_0003",
+          "subject_code": "VNR202",
+          "category": "comparison_relationship",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_b8273e11629b21b2c77d",
+            "parent_6d1fc4ea315ca053fba1",
+            "parent_56650d4157fc5d356570",
+            "parent_73f7291b6fb13a6df59c",
+            "parent_1933fbb5d121092a1b37",
+            "parent_f3845a06a89a35767006",
+            "parent_075d3d09a6fa5dd6a82f",
+            "parent_635e819de034bac5319d",
+            "parent_eaa297c32bd774f362d2",
+            "parent_8a3ac12f937bf10afab6"
+          ],
+          "first_gold_rank": 3,
+          "group_first_ranks": {
+            "g1": 3,
+            "g2": 8
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "vnr202_0005",
+          "subject_code": "VNR202",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_4b8727d14bc147525158",
+            "parent_411f4aea2d15435c9c68",
+            "parent_075d3d09a6fa5dd6a82f",
+            "parent_56650d4157fc5d356570",
+            "parent_49499b9ea43dcaaac4df",
+            "parent_2e51b7b3de93df9e7231",
+            "parent_fb89998e7d93f2ac1902",
+            "parent_573757fef8571e168659",
+            "parent_c7e31b61b60f49d4e43b",
+            "parent_5fa3a0d614a1a7147c89"
+          ],
+          "first_gold_rank": 4,
+          "group_first_ranks": {
+            "g1": 4,
+            "g2": null,
+            "g3": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "vnr202_0019",
+          "subject_code": "VNR202",
+          "category": "synthesis",
+          "difficulty": "hard",
+          "reasoning_scope": "multi_chunk",
+          "retrieved_ids": [
+            "parent_a7662db362cf42f803fa",
+            "parent_e91a14f132d7935849d6",
+            "parent_6c3fb11a9cbb04ff4c66",
+            "parent_c315ca0e8a1ff7536b1f",
+            "parent_b8351ee89e40d27bb5e0",
+            "parent_f0b7d605380f2c6cb615",
+            "parent_06eb3e94e88e0718178d"
+          ],
+          "first_gold_rank": 2,
+          "group_first_ranks": {
+            "g1": 6,
+            "g2": 2
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        },
+        {
+          "question_id": "vnr202_0078",
+          "subject_code": "VNR202",
+          "category": "explanation",
+          "difficulty": "hard",
+          "reasoning_scope": "single_chunk",
+          "retrieved_ids": [
+            "parent_b62efc8e479811343a4f",
+            "parent_8735dad5437d5943111b",
+            "parent_0ba52344f0fea12cf904",
+            "parent_85dfa7db51d4698a0154",
+            "parent_43d8bbeff842bb95568c",
+            "parent_d75b1e36e1d4a21275f6",
+            "parent_eefa5acd5cf08192caf9",
+            "parent_87c5032ba6bc08d949ca"
+          ],
+          "first_gold_rank": null,
+          "group_first_ranks": {
+            "g1": null
+          },
+          "full_evidence_at_5": false,
+          "latency_ms": 9800.975305780248
+        }
+      ]
+    }
+  }
+}

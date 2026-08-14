@@ -5,7 +5,7 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 from threading import Lock
-from typing import Any, Protocol, cast
+from typing import Any, Literal, Protocol, cast
 
 from fastapi import Depends, FastAPI, Header, HTTPException
 from pydantic import BaseModel, ConfigDict, Field
@@ -25,6 +25,7 @@ class AskRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     question: str = Field(min_length=1, max_length=4000)
+    subject_code: Literal["MLN111", "MLN122", "MLN131", "HCM202", "VNR202"] | None = None
 
 
 class ChatRequest(AskRequest):
@@ -99,7 +100,7 @@ def create_app(
     conversation_path: Path | None = None,
 ) -> FastAPI:
     """Build an app without loading model artifacts at import time."""
-    app = FastAPI(title="MLN111 Assistant API", version="1.0.0")
+    app = FastAPI(title="VietTheory Agentic Nexus API", version="2.0.0")
     feedback_store = FeedbackStore(feedback_path)
     conversation_store = ConversationStore(
         conversation_path or feedback_path.with_name("mln111_conversations.sqlite3")
@@ -119,8 +120,8 @@ def create_app(
         return {
             "status": "ok",
             "pipeline_ready": pipeline is not None,
-            "subject": "MLN111",
-            "benchmark_version": "1.0.0",
+            "subject": "MLN111, MLN122, MLN131, HCM202, VNR202",
+            "benchmark_version": "2.0.0",
         }
 
     @app.post("/ask", response_model=Answer)
@@ -128,13 +129,20 @@ def create_app(
         if pipeline is None:
             raise HTTPException(status_code=503, detail="RAG pipeline is not configured")
         try:
-            return pipeline.ask(request.question.strip())
+            if request.subject_code is None:
+                return pipeline.ask(request.question.strip())
+            return cast(
+                Answer,
+                cast(Any, pipeline).ask(
+                    request.question.strip(), subject_code=request.subject_code
+                ),
+            )
         except ValueError as exc:
             raise HTTPException(status_code=422, detail=str(exc)) from exc
         except GenerationError as exc:
             raise HTTPException(
                 status_code=502,
-                detail="Mô hình tạo câu trả lời tạm thời không trả về dữ liệu hợp lệ. Hãy thử lại.",
+                detail="Gemini tạm thời không tạo được câu trả lời hợp lệ. Hãy thử lại.",
             ) from exc
 
     @app.post("/auth/register", response_model=SessionResponse, status_code=201)
@@ -199,7 +207,12 @@ def create_app(
         try:
             context = conversation_store.recent_context(user[0], request.conversation_id)
             conversation_store.append_user(user[0], request.conversation_id, question)
-            answer = cast(Any, pipeline).ask(question, context)
+            if request.subject_code is None:
+                answer = cast(Any, pipeline).ask(question, context)
+            else:
+                answer = cast(Any, pipeline).ask(
+                    question, context, subject_code=request.subject_code
+                )
             return conversation_store.append_assistant(user[0], request.conversation_id, answer)
         except KeyError as exc:
             raise HTTPException(status_code=404, detail="Không tìm thấy cuộc trò chuyện") from exc

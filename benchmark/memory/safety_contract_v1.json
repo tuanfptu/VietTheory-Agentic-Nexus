@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "evaluation": "memory_safety_contract_v1",
+  "check_count": 5,
+  "passed": 5,
+  "all_passed": true,
+  "checks": {
+    "alice_cannot_read_bob": true,
+    "bob_cannot_delete_alice": true,
+    "owner_can_delete": true,
+    "deletion_is_effective": true,
+    "false_memory_evidence_rejected": true
+  }
+}

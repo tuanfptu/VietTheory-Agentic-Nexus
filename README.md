@@ -1,304 +1,349 @@
-# VietTheory-RAG
+# VietTheory Agentic Nexus
 
-**A research-grade, citation-grounded RAG framework for five Vietnamese political-theory
-subjects.**
+**Evidence-guided Agentic RAG for five Vietnamese political-theory subjects at FPT University.**
 
-VietTheory-RAG is being developed as one shared data, retrieval, generation, agentic, and
-evaluation framework for MLN111, MLN122, MLN131, HCM202, and VNR202. It retrieves textbook
-evidence, answers in Vietnamese, cites exact PDF pages, resolves conversational follow-ups, and
-keeps each account's chat history private.
+VietTheory Agentic Nexus is a research-oriented question-answering system for **MLN111,
+MLN122, MLN131, HCM202, and VNR202**. It combines hybrid retrieval, neural reranking,
+parent-aware evidence expansion, a bounded Evidence Judge/Recovery loop, grounded generation,
+and deterministic PDF citations in one subject-agnostic runtime.
 
-[![MLN111 Assistant demo](docs/assets/mln111-assistant-demo.png)](https://drive.google.com/drive/folders/1P9UV9NdyWku3mCpswza__0zfxnKPtfmK?usp=sharing)
+[![VietTheory Agentic Nexus demo](docs/assets/mln111-assistant-demo.png)](https://drive.google.com/drive/folders/1KsY9tnl6FhBWzuIPTpQljdTq2umZT42b?usp=sharing)
 
-**[Watch the full demo](https://drive.google.com/drive/folders/1P9UV9NdyWku3mCpswza__0zfxnKPtfmK?usp=sharing)** ·
-**[Architecture](docs/architecture.md)** · **[Benchmark protocol](docs/benchmark.md)**
+**[Watch the full demo](https://drive.google.com/drive/folders/1KsY9tnl6FhBWzuIPTpQljdTq2umZT42b?usp=sharing)** ·
+**[Architecture](docs/architecture.md)** ·
+**[Benchmark protocol](docs/benchmark.md)** ·
+**[Experimental results](docs/experimental-results-v1.md)**
 
-> **Current release boundary:** all five corpora have validated extraction, parent/child chunks,
-> provenance, and dense indexes. The conversational runtime and frozen quantitative benchmark are
-> still MLN111-only. The other four subjects are not claimed as production-ready until shared
-> routing and human-reviewed transfer benchmarks are complete.
->
-> **Ready means artifact/index integrity ready—not benchmark-ready or production-ready.**
+> **Release boundary — 15 August 2026.** All five corpora pass deterministic artifact and index
+> readiness checks. Natural QA v2 Gold v1.0 contains 500 human-verified questions: 350 public
+> development questions and 150 private held-out questions. Frozen B0 was evaluated once on the
+> held-out split. Recovery V2.1 passed its public-development gate but has not been hidden-tested,
+> so it remains opt-in. Graph and role-separated coordination candidates are retained as negative
+> ablations rather than marketed as improvements.
 
-## Five-subject scope
+## At a glance
 
-| Subject | Textbook | Extraction | Pages | Searchable children | Data/index gate |
-|---|---|---|---:|---:|---|
+| Layer | Implementation | Current evidence |
+|---|---|---|
+| Corpus | Five textbooks, native extraction or OCR, stable provenance | 5/5 readiness audits pass |
+| Retrieval B0 | BM25 + Qwen dense + RRF + Qwen reranker + parent expansion | 98.64% held-out Recall@5 |
+| Evidence completeness | Required evidence groups and Full Evidence@k | 94.56% held-out Full Evidence@5 |
+| Agentic candidate | Gemini Evidence Judge + bounded targeted recovery | 94.26% dev Full Evidence@5; +1 win, 0 losses |
+| Grounded generation | Structured Gemini output materialized against local evidence | deterministic citation IDs and page spans |
+| Product | FastAPI, Streamlit, SQLite, authentication, isolated histories | local GPU demo |
+| Evaluation | Natural QA, Evidence Sufficiency, memory/tool contracts, ablations | 500 verified natural questions |
+
+## 1. Problem
+
+A textbook assistant can sound convincing while being wrong. For Vietnamese political-theory
+courses, a reliable answer must solve several problems at once:
+
+1. **Lexical and semantic mismatch.** A student may paraphrase a concept instead of copying the
+   terminology used in the textbook.
+2. **Incomplete evidence.** Comparison, synthesis, and cause-effect questions often require more
+   than one passage. Retrieving one relevant chunk is not enough.
+3. **Lost document structure.** Small chunks rank well but may remove a heading, definition, or
+   conclusion needed to interpret the passage correctly.
+4. **Unsupported generation.** An LLM can fill missing information from parametric knowledge and
+   produce an answer that the selected textbook does not support.
+5. **Citation hallucination.** Page numbers and quotations generated directly by an LLM cannot be
+   trusted without deterministic validation.
+6. **Cross-subject ambiguity.** The same political terms may appear in several courses. Requiring
+   users to choose a subject is inconvenient, but unrestricted retrieval can contaminate results.
+7. **Evaluation leakage.** Tuning against every benchmark question makes final metrics unreliable.
+8. **Agentic cost and regressions.** Running an agent loop for every easy question adds latency and
+   may displace evidence that frozen retrieval already found.
+
+The research question is therefore not simply *“Can an LLM answer these questions?”* It is:
+
+> Can a five-subject assistant retrieve all required textbook evidence, recognize when evidence
+> is incomplete, recover only the missing aspect, and return a verifiable answer without damaging
+> already-correct retrieval?
+
+## 2. Design questions
+
+- How should native PDFs and OCR documents share one provenance-preserving schema?
+- How can child chunks optimize retrieval while parent context preserves complete arguments?
+- How should lexical and dense rankings be combined without calibrating incompatible scores?
+- When should the runtime search one subject, and when should it search globally?
+- Can evidence sufficiency be judged independently from answer generation?
+- How can recovery be bounded so a false activation cannot freely rewrite B0's top results?
+- Which agentic, graph, memory, and tool components produce measured gains rather than architectural
+  complexity alone?
+- How should natural QA, controlled Judge cases, and private held-out evaluation complement each
+  other?
+
+## 3. Solution and key contributions
+
+### 3.1 One canonical five-subject corpus
+
+Every extracted block preserves subject, document, PDF page, printed page when available,
+bounding box, line text, heading path, parent ID, child ID, extraction method, and artifact
+checksum. The same registry drives offline processing and online retrieval; there are not five
+separate chatbot implementations.
+
+| Subject | Course | Extraction | Pages | Searchable children | Readiness |
+|---|---|---:|---:|---:|---|
 | MLN111 | Marxist-Leninist Philosophy | Native PDF | 285 | 602 | Passed |
 | MLN122 | Marxist-Leninist Political Economy | Native PDF | 262 | 346 | Passed |
 | MLN131 | Scientific Socialism | Tesseract OCR | 273 | 334 | Passed |
 | HCM202 | Ho Chi Minh Ideology | Tesseract OCR | 271 | 331 | Passed |
-| VNR202 | History of the Communist Party of Vietnam | Tesseract OCR | 230 | 490 | Passed |
+| VNR202 | History of the Communist Party of Vietnam | Tesseract OCR | 230 | 459 | Passed |
 
-The deterministic artifact audit validates all five subjects. See the
-[five-subject protocol](docs/five-subject-protocol.md),
-[implementation roadmap](docs/five-subject-roadmap.md), and
-[advanced research program](docs/advanced-research-program.md), plus the
-[machine-readable readiness report](reports/five_subject_readiness.json).
+“Ready” here means artifact, provenance, parent-child, checksum, subject-purity, and vector-mapping
+integrity. It does **not** mean every OCR line or heading has been manually certified.
 
-The [Natural QA v2 foundation](benchmark/v2/README.md) defines the 5 × 50 pilot, four human-review
-gates, and the staged path toward 1,250 reviewed natural questions.
+### 3.2 Parent-child retrieval
 
-## Problem
+Small child chunks are used as retrieval units. After reranking, each selected child expands to a
+bounded parent passage for evidence judging, answer generation, and citation display. This avoids
+forcing one chunk size to serve two conflicting objectives: ranking precision and explanatory
+completeness.
 
-Answering questions from a long Vietnamese textbook is not just a text-generation problem. A
-useful academic assistant must retrieve the right passage despite paraphrases, preserve enough
-context to explain an argument, handle questions requiring several pieces of evidence, and show
-where every claim came from. It must also refuse unsupported or out-of-scope questions instead of
-producing a plausible-sounding answer.
+### 3.3 Hybrid retrieval and neural reranking
 
-The project therefore targets five coupled problems:
+- **BM25** captures exact terminology, names, dates, and textbook phrases.
+- **Qwen3-Embedding-0.6B + FAISS** captures Vietnamese paraphrases and semantic similarity.
+- **Reciprocal Rank Fusion** combines rankings without treating BM25 and cosine scores as directly
+  comparable.
+- **Qwen3-Reranker-0.6B** reranks a bounded candidate pool on CUDA.
+- **Automatic scope routing** selects a strong subject match or leaves ambiguous/cross-subject
+  questions in global mode. The public UI no longer requires a subject selector.
 
-1. **Retrieval:** find the correct evidence for direct, paraphrased, comparative, and multi-part
-   questions.
-2. **Grounding:** answer only from retrieved MLN111 evidence and attach verifiable PDF citations.
-3. **Conversation:** resolve short follow-ups such as “What is their relationship?” without
-   allowing older topics to contaminate retrieval.
-4. **Productization:** provide authentication, isolated chat history, a usable interface, and a
-   reproducible evaluation contract.
-5. **Cross-subject generalization:** develop the method deeply on MLN111, then apply it unchanged
-   to four additional subjects and measure transfer rather than silently retuning each corpus.
+### 3.4 Evidence-guided Agentic Recovery
 
-## Design Questions
+The optional V2.1 path does not create an unbounded autonomous loop. It is a measured,
+fail-safe controller:
 
-- How should a structured textbook be chunked without losing headings, arguments, and page
-  provenance?
-- When should lexical retrieval outperform semantic retrieval, and how can both be combined
-  without calibrating incompatible scores?
-- How can comparison and multi-evidence questions retrieve all required concepts rather than one
-  locally relevant passage?
-- How much context should be given to the generator without weakening retrieval precision?
-- When should the system retry retrieval, answer, or refuse?
-- How can citations be made deterministic instead of trusting citation text produced by an LLM?
-- How should follow-up context be used while preventing topic drift?
-- How can a benchmark remain useful for tuning without leaking its hidden test?
+1. Run frozen B0.
+2. Ask a structured Evidence Judge whether required aspects are covered.
+3. If evidence is incomplete, generate at most two missing-aspect recovery queries.
+4. Retrieve candidates through the same frozen hybrid path.
+5. Use a local Qwen support gate before inserting recovered evidence.
+6. Preserve B0 ordering and replace only the tail when the recovery candidate has stronger
+   missing-aspect support.
+7. Judge once more, then answer or abstain.
 
-## Key Contributions
+The unrestricted V2.0 design was rejected because false activations damaged good B0 evidence.
+V2.1 exists specifically to constrain that failure mode.
 
-- **Structure-aware parent/child corpus:** small child chunks optimize retrieval; bounded parent
-  passages preserve complete arguments for generation and display.
-- **Vietnamese hybrid retrieval:** BM25 and Qwen3 dense search are fused with Reciprocal Rank
-  Fusion, then reranked by a Qwen3 cross-encoder on CUDA.
-- **Comparison-aware planning:** decomposed query variants retrieve both sides of a comparison and
-  merge candidates before reranking.
-- **Evidence-aware answering:** a calibrated evidence gate permits at most one corrective retrieval
-  attempt before answering or refusing.
-- **Deterministic citation grounding:** generated citations are canonicalized against retrieved
-  spans, deduplicated, and verified claim by claim.
-- **Conversation isolation:** immediate-turn context resolves ellipsis while authenticated ownership
-  checks keep every user's conversations private.
-- **Frozen evaluation:** MLN111 Benchmark v1.0 contains 70 public development questions and a
-  private 30-question hidden test with manifests and SHA-256 integrity records.
+### 3.5 Deterministic citation grounding
 
-## System
+Gemini returns answer claims plus IDs of retrieved evidence. The server—not the model—materializes
+canonical page citations, source spans, excerpt text, and citation IDs from local corpus metadata.
+Unknown IDs fail validation; duplicate citations are removed; unsupported claims can be refused.
+
+### 3.6 Account-isolated conversations
+
+The application provides username/password authentication, opaque session tokens, ownership
+checks on every conversation operation, and separate SQLite-backed history for each account.
+Immediate conversation context resolves follow-ups without treating memory as textbook evidence.
+
+## 4. System architecture
 
 ```mermaid
-flowchart LR
-    subgraph Offline["Offline indexing"]
-        PDF["MLN111 PDF"] --> Extract["Layout-aware extraction"]
-        Extract --> Chunk["Heading-aware parent / child chunks"]
+flowchart TD
+    subgraph Offline["Offline corpus and indexing"]
+        PDF["Five subject PDFs"] --> Extract["PyMuPDF or OCR extraction"]
+        Extract --> Structure["Heading and layout parsing"]
+        Structure --> Chunk["Parent-child chunks + provenance"]
+        Chunk --> BM25Index["BM25 corpus"]
         Chunk --> Embed["Qwen3 embeddings"]
-        Embed --> Index["FAISS index + manifest"]
+        Embed --> FAISS["FAISS index + stable vector mapping"]
     end
 
-    subgraph Online["Online question answering"]
-        User["Question + immediate context"] --> Plan["Scope routing + query planning"]
-        Plan --> BM25["BM25"]
-        Plan --> Dense["Dense retrieval"]
-        Index -.-> Dense
-        BM25 --> RRF["Reciprocal Rank Fusion"]
-        Dense --> RRF
-        RRF --> Rerank["Qwen3 GPU reranker"]
-        Rerank --> Parent["Parent expansion"]
-        Parent --> Gate{"Evidence gate"}
-        Gate -->|sufficient| Gemini["Gemini structured generation"]
-        Gate -->|one retry| Plan
-        Gate -->|unsupported| Refuse["Explicit refusal"]
-        Gemini --> Verify["Citation canonicalization + verification"]
-        Verify --> API["FastAPI + SQLite"]
-        API --> UI["Streamlit chat"]
-    end
+    Q["Question + immediate chat context"] --> Router["Automatic subject/scope router"]
+    Router --> BM25["BM25 retrieval"]
+    Router --> Dense["Qwen3 dense retrieval"]
+    BM25Index -.-> BM25
+    FAISS -.-> Dense
+    BM25 --> RRF["Reciprocal Rank Fusion"]
+    Dense --> RRF
+    RRF --> Rerank["Qwen3 GPU reranker"]
+    Rerank --> Parent["Parent expansion"]
+    Parent --> Judge{"Evidence sufficient?"}
+    Judge -->|yes| Generate["Gemini structured generation"]
+    Judge -->|no, bounded| Recover["Missing-aspect query recovery"]
+    Recover --> Support["Local support gate"]
+    Support --> Judge
+    Judge -->|unsupported| Abstain["Explicit abstention"]
+    Generate --> Cite["Local citation materialization + verification"]
+    Cite --> API["FastAPI + authentication + SQLite"]
+    API --> UI["Streamlit chat"]
 ```
 
-| Stage | Implementation | Responsibility |
+### Responsibilities by stage
+
+| Stage | Main technique | Responsibility |
 |---|---|---|
-| Extraction | PyMuPDF, bounding boxes, OCR fallback | Preserve page, block, line, and layout metadata |
-| Chunking | Heading-aware parent/child chunks | Balance retrieval precision and complete context |
-| Lexical retrieval | BM25 | Match terminology, named entities, and exact phrases |
-| Dense retrieval | Qwen3-Embedding-0.6B + FAISS | Match Vietnamese paraphrases and related concepts |
-| Fusion | Reciprocal Rank Fusion | Combine rankings without score calibration |
-| Planning | Comparison query variants | Cover both sides of comparison questions |
-| Reranking | Qwen3-Reranker-0.6B | Score question–passage relevance on CUDA |
-| Grounding | Parent expansion + evidence gate | Supply complete evidence and reject weak context |
-| Generation | Gemini Flash Lite, JSON schema, temperature 0.1 | Produce constrained Vietnamese answers |
-| Verification | Canonical spans + deterministic checks | Remove duplicate or unsupported citations |
-| Application | FastAPI, Streamlit, SQLite | Serve accounts, conversations, feedback, and UI |
+| Extraction | PyMuPDF, bounding boxes, Tesseract OCR fallback | preserve page/layout provenance |
+| Structure | deterministic parsing with selective Gemini audit tools | infer headings and parent boundaries |
+| Chunking | heading-aware parent/child hierarchy | separate retrieval and generation granularity |
+| Retrieval | BM25 + Qwen dense | lexical and semantic candidate recall |
+| Fusion | RRF | combine heterogeneous ranks |
+| Reranking | Qwen cross-encoder on CUDA | improve early precision |
+| Agentic control | Evidence Judge + bounded Recovery V2.1 | act only on missing evidence |
+| Generation | Gemini structured output, low temperature | grounded Vietnamese answer composition |
+| Verification | local evidence IDs, spans, citation canonicalization | prevent fabricated source metadata |
+| Serving | FastAPI, Streamlit, SQLite | API, UI, auth, histories, feedback |
 
-The embedding model is pinned to revision
-`97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3`. Model weights, indexes, and processed
-corpora are local artifacts and are not committed.
+## 5. Benchmark design
 
-## Benchmark
+### 5.1 Natural QA v2 Gold v1.0
 
-**MLN111 Benchmark v1.0** was frozen on **2026-08-12** against corpus artifact
-`mln111_corpus_2026_07_1`.
+Natural QA v2 contains **500 human-verified questions**, 100 for each subject. Every item records
+question type, difficulty, answerability, gold answer, pages, evidence groups, acceptable child
+and parent evidence, review gates, and provenance.
 
-| Property | Development | Hidden test |
-|---|---:|---:|
-| Total questions | 70 | 30 |
-| Retrieval-answerable questions | 68 | 28 |
-| Explicit out-of-scope questions | 2 | 2 |
-| Human review | Verified | Verified |
-| Public question-level data | Yes | No |
+| Split | Per subject | Total | Visibility | Purpose |
+|---|---:|---:|---|---|
+| Development | 70 | 350 | Public | design, ablation, error analysis |
+| Held-out | 30 | 150 | Private question-level data | one-shot final evaluation |
 
-The development split contains 21 easy, 31 medium, and 18 hard questions; 59 single-chunk and
-11 multi-chunk questions; and a mix of definition, explanation, paraphrase, synthesis,
-misconception, temporal, entity, cause–effect, enumeration, comparison, and application types.
+Three held-out questions are intentionally unanswerable, so retrieval metrics use 147 answerable
+questions. The public release contains development data, aggregate held-out metrics, manifests,
+and SHA-256 checksums—not private question-level rankings.
 
-Multi-evidence questions define required evidence groups. A retrieval is fully successful only if
-at least one acceptable chunk is returned for **every** required group. The hidden questions,
-answers, gold evidence, reviews, and per-question results remain Git-ignored; only aggregate
-metrics and checksums are published.
+### 5.2 Evidence-group evaluation
 
-## Baselines & Ablations
+A multi-evidence question is successful only when the top-k contains at least one acceptable
+passage from **every required evidence group**. This produces metrics that ordinary Recall@k
+cannot express:
 
-All ablations below were measured on the same 68 retrieval-answerable development questions. The
-two explicit out-of-scope questions remain benchmark items but have no gold retrieval groups. Dense
-variants share the pinned Qwen3 embeddings; hybrid retrieval uses RRF with a 30-result pool; and
-reranker variants score 12 candidates with Qwen3-Reranker-0.6B.
+- Evidence Group Recall@k
+- Partial Evidence Coverage@k
+- Full Evidence Success@k
 
-| Corpus and retrieval configuration | Recall@1 | Recall@5 | MRR | nDCG@5 | Full evidence@5 |
+### 5.3 Evidence Sufficiency benchmark
+
+A separate controlled pilot evaluates whether a Judge can distinguish `SUFFICIENT`, `PARTIAL`,
+`MISSING`, and `WRONG_ASPECT` contexts. Source-question grouping prevents related perturbations
+from leaking across development and held-out splits. Lexical and TF-IDF shortcut baselines test
+whether the task can be solved without evidence reasoning.
+
+### 5.4 Human verification and freezing
+
+The 500-question draft received 452 approve, 26 revise, and 22 reject decisions. Revised questions
+and replacements were rechecked before release; generation alone never grants `verified` status.
+The final release validates 500/500 records with manifests and checksums.
+
+## 6. Baselines and ablations
+
+### Historical MLN111 development ablation
+
+| Configuration | Recall@1 | Recall@5 | MRR | nDCG@5 | Full Evidence@5 |
 |---|---:|---:|---:|---:|---:|
-| Fixed-size · BM25 | 52.94% | 86.76% | 66.93% | 53.04% | 86.76% |
-| Fixed-size · Dense | 66.18% | 89.71% | 76.45% | 59.69% | 86.76% |
-| Fixed-size · BM25 + Dense + RRF | 75.00% | 95.59% | 82.86% | 63.72% | **95.59%** |
-| Structured child · BM25 | 51.47% | 85.29% | 66.33% | 67.60% | 77.94% |
-| Structured child · Dense | 58.82% | 92.65% | 74.15% | 75.34% | 85.29% |
-| Structured child · BM25 + Dense + RRF | 61.76% | 95.59% | 76.48% | 78.19% | 89.71% |
-| Structured child · Hybrid + reranker | **83.82%** | **98.53%** | **90.69%** | **88.78%** | 92.65% |
-| Structured child · Planner + hybrid + reranker | **83.82%** | **98.53%** | **90.69%** | **88.78%** | 92.65% |
+| Structured BM25 | 51.47% | 85.29% | 66.33% | 67.60% | 77.94% |
+| Structured dense | 58.82% | 92.65% | 74.15% | 75.34% | 85.29% |
+| Structured hybrid RRF | 61.76% | 95.59% | 76.48% | 78.19% | 89.71% |
+| Hybrid + reranker | **83.82%** | **98.53%** | **90.69%** | **88.78%** | 92.65% |
+| Planner + hybrid + reranker | **83.82%** | **98.53%** | **90.69%** | **88.78%** | 92.65% |
 
-Fixed-size gold IDs cannot be compared directly with structured child IDs. For that ablation, each
-verified gold child is mapped to fixed chunks through exact shared source spans (page ID, bounding
-box, and line text). Quality is computed from cached rankings, so ablation latency is deliberately
-omitted; the end-to-end latency in the Results section comes from the canonical evaluator.
+Per-query transitions show that the reranker produced 21 wins, 2 losses, 1 mixed result, and 44
+ties. The original comparison planner produced 0 wins, 0 losses, and 68 ties, so it is preserved
+as an operationally redundant negative ablation—not claimed as an agentic contribution.
 
-The experiment shows three useful trade-offs. First, dense retrieval improves over BM25 alone and
-RRF improves over either component. Second, the reranker is responsible for the largest structured
-ranking gain: +22.06 points Recall@1 over structured hybrid. Third, the current comparison planner
-does not change aggregate development metrics; its query variants converge to the same final
-candidate set after fusion and reranking. Fixed-size hybrid achieves the strongest full-evidence
-coverage in this isolated retrieval test, while structured children achieve materially higher
-nDCG after reranking and retain bounded parent context for generation and citations.
+### Five-subject candidate decisions
 
-Reproduce the table with:
+| Candidate | Development observation | Decision |
+|---|---:|---|
+| Frozen B0 within-subject | 98.49% Recall@5; 93.96% Full Evidence@5 | default baseline |
+| J1 Gemini Evidence Judge | 96.88% accuracy / 96.86% macro-F1 | freeze for held-out |
+| J1 held-out | 100% accuracy / macro-F1 on 16 cases | accepted pilot evidence |
+| Original targeted recovery | 2/15 complete recoveries | reject |
+| Recovery V2.0 joint reranking | 2 wins, 8 losses | reject |
+| Recovery V2.1 conservative insertion | 1 win, 0 losses, 330 ties | opt-in candidate |
+| Adjacent-parent graph | 2 wins, 16 losses, 313 ties | reject from default |
+| Role-separated coordination | same graph regression | keep single controller |
+| Memory isolation contract | 5/5 safety checks | accept engineering contract |
+| Typed rule router | 12/12 sanity cases | accept engineering contract |
 
-```powershell
-.\.venv\Scripts\python.exe scripts\evaluate_mln111_ablations.py
-```
+The repository includes graph, memory, tools, and coordination research modules so experiments are
+reproducible. Their presence is not presented as evidence that a larger architecture is better.
 
-The machine-readable report is
-[`benchmark/reports/mln111_v1_ablations.json`](benchmark/reports/mln111_v1_ablations.json).
+## 7. Results
 
-## Results
+### Natural QA v2 one-shot held-out retrieval
 
-The configuration was frozen before the hidden test was evaluated.
+| Frozen B0 mode | Recall@1 | Recall@5 | MRR | nDCG@5 | Evidence Group Recall@5 | Full Evidence@5 |
+|---|---:|---:|---:|---:|---:|---:|
+| Within-subject | **87.76%** | **98.64%** | **92.60%** | **92.44%** | **95.38%** | **94.56%** |
+| Global | 85.03% | 97.28% | 90.74% | 90.47% | 93.64% | 93.20% |
 
-| Metric | Development (n=68) | Hidden test (n=28) |
-|---|---:|---:|
-| Recall@1 | 83.82% | 64.29% |
-| Recall@3 | 98.53% | 82.14% |
-| Recall@5 | **98.53%** | **92.86%** |
-| Recall@10 | 98.53% | 92.86% |
-| MRR | 90.69% | 75.12% |
-| nDCG@5 | 88.78% | 78.04% |
-| Evidence Group Recall@1 | 74.68% | 60.00% |
-| Evidence Group Recall@3 | 92.41% | 80.00% |
-| Evidence Group Recall@5 | 93.67% | 93.33% |
-| Evidence Group Recall@10 | 94.94% | 93.33% |
-| Partial Evidence Coverage@5 | 95.59% | 92.86% |
-| Full Evidence Success@5 | **92.65%** | **92.86%** |
-| Full Evidence Success@10 | 94.12% | 92.86% |
-| Latency p50 | 11.41 s | 10.33 s |
-| Latency p95 | 11.91 s | 10.86 s |
+The held-out run occurred once after candidate freeze. Results were not used for post-hoc model,
+prompt, index, or threshold changes.
 
-The two out-of-scope questions in each split are validated benchmark items but are excluded from
-the retrieval denominator. See [docs/benchmark.md](docs/benchmark.md) and the public
-[release manifest](benchmark/v1.0/release_manifest.json) for the evaluation contract and hashes.
+### Agentic Recovery V2.1 public-development result
 
-## Error Analysis
-
-- **Ranking is the main remaining gap.** Hidden Recall@5 is 92.86%, but Recall@1 is 64.29% and
-  MRR is 75.12%. Relevant evidence is often present in the candidate set but not consistently
-  ranked first.
-- **Most retrieval gains saturate by k=5.** Hidden Recall@5 and Recall@10 are identical, so simply
-  returning more passages does not recover the remaining failures.
-- **Multi-evidence coverage is harder at shallow ranks.** Hidden Evidence Group Recall rises from
-  60.00% at k=1 to 93.33% at k=5, supporting explicit query decomposition and group-aware
-  evaluation.
-- **Development performance is more optimistic at early ranks.** The development-to-hidden gap is
-  18.06 points at Recall@1 but only 4.20 points at Recall@5, indicating that ranking quality
-  generalizes less strongly than candidate recall.
-- **Latency is dominated by the neural path.** Approximately 10.3 s median latency is acceptable
-  for a local research demo, not for a responsive production service. Reranking and generation
-  remain the primary optimization targets.
-
-These conclusions use aggregate metrics only. Hidden examples are intentionally not exposed or
-used for post-hoc tuning.
-
-### Per-query delta analysis
-
-Cached development rankings provide a more diagnostic view of each pipeline transition:
-
-| Transition | Wins | Losses | Mixed | Ties |
+| System | Full Evidence@5 | Wins | Losses | Ties |
 |---|---:|---:|---:|---:|
-| Structured BM25 → Dense | 20 | 14 | 0 | 34 |
-| Dense → Hybrid RRF | 19 | 9 | 1 | 39 |
-| Hybrid RRF → Reranker | **21** | 2 | 1 | 44 |
-| Reranker → Comparison planner | 0 | 0 | 0 | 68 |
+| Frozen B0 | 93.96% | — | — | — |
+| Recovery V2.1 | **94.26%** | **1** | **0** | 330 |
 
-“Mixed” means first-gold rank and complete evidence coverage moved in opposite directions. This
-matters for multi-evidence questions: a higher first relevant passage can still hide the loss of a
-second required evidence group.
+Gemini activated recovery for 33/331 answerable development questions. The conservative support
+gate inserted evidence for 6 questions and completely recovered one. The +0.30 percentage-point
+gain is real but small and has not been tested on Natural QA held-out; therefore B0 remains the
+default and V2.1 is opt-in.
 
-Child-level evaluation reports five incomplete top-five cases. Manual parent-aware review shows
-that four are already resolved by production parent expansion: the retrieved child and missing
-gold sibling share the same parent. Only one case remains a genuine parent-context miss. This
-narrows the next research question considerably: an evidence-guided retry must first distinguish a
-true context gap from a child-ID evaluation gap. The current comparison planner is a measured
-no-op on this development set and is retained as a negative ablation, not part of baseline B0.
+## 8. Error analysis
 
-See the complete question-level changes in
-[`reports/mln111_v1_per_query_deltas.md`](reports/mln111_v1_per_query_deltas.md) and the
-[machine-readable delta report](benchmark/reports/mln111_v1_per_query_deltas.json).
-The manual audit is documented in
-[`reports/mln111_v1_failure_analysis.md`](reports/mln111_v1_failure_analysis.md).
+- **Early ranking remains harder than candidate recall.** Evidence is commonly present by rank 5,
+  while rank-1 metrics are lower.
+- **Multi-evidence questions drive residual failures.** Missing relationship or synthesis passages
+  cannot be fixed by returning more copies of the same aspect.
+- **Parent-aware evaluation matters.** Four apparent MLN111 child-level failures were already
+  resolved when production parent expansion was considered.
+- **Unrestricted agentic insertion is unsafe.** Recovery V2.0 reduced Full Evidence@5 because false
+  Judge activations displaced correct B0 passages.
+- **Graph expansion is not automatically GraphRAG improvement.** Adjacent-parent expansion caused
+  16 regressions and only 2 wins on development.
+- **Global retrieval trades convenience for contamination risk.** Automatic routing improves the
+  practical no-selector UI, but within-subject retrieval remains stronger in controlled evaluation.
+- **Broad summary questions remain difficult.** A question such as “summarize three major periods
+  in Party history” can retrieve three local periods instead of the intended book-level taxonomy.
+  Future work should add hierarchy-aware summary routing and benchmark coverage for this failure.
+- **Latency is a production limitation.** Local Qwen reranking and Gemini calls suit a research demo
+  but require batching, caching, quantization, and service-level monitoring for production use.
 
-## Production Implementation
+## 9. Production implementation
 
 ### Repository layout
 
 ```text
 src/viettheory/
-├── extraction/       PDF extraction, OCR fallback, and structure parsing
-├── chunking/         fixed-size and structured parent/child chunking
-├── retrieval/        BM25, FAISS, RRF, planner, reranker, parent expansion
-├── pipeline/         routing, evidence gate, generation, citation verification
-├── backend/          FastAPI, authentication, conversations, feedback
-├── frontend/         Streamlit chat interface and assets
-├── evaluation/       retrieval and evidence-group metrics
-└── runtime.py        MLN111-only production assembly
+├── extraction/          native PDF, OCR, Gemini structure-audit utilities
+├── chunking/            fixed and structured parent-child chunking
+├── retrieval/           BM25, FAISS, RRF, planning, reranking, expansion
+├── pipeline/            routing, evidence gate, generation, verification
+├── backend/             FastAPI, authentication, conversations, feedback
+├── frontend/            Streamlit ChatGPT-style interface
+├── evaluation/          retrieval and evidence-group metrics
+├── evidence_judge.py    controlled sufficiency decision contract
+├── recovery_v2.py       conservative agentic recovery policy
+├── graph.py             provenance-safe graph research candidate
+├── memory.py            account-isolated memory contracts
+├── tools.py             typed tool interfaces
+└── runtime.py           shared five-subject assembly
 
-benchmark/v1.0/       public development set and frozen release manifest
-benchmark_private/    hidden test and private reports; always Git-ignored
-scripts/              corpus, benchmark, and evaluation commands
-tests/                unit, contract, isolation, and smoke tests
+benchmark/v1.0/          frozen historical MLN111 benchmark
+benchmark/v2/            Natural QA v2 public release and manifests
+benchmark_private/       held-out question-level data; Git-ignored
+configs/                 frozen candidate and runtime configurations
+docs/                    architecture, protocols, reports, research notes
+reports/                 machine-readable and Markdown audits
+scripts/                 data, benchmark, evaluation, and release commands
+tests/                   unit, contract, safety, and integration tests
 ```
 
-### Local installation
+### Installation
 
-Requirements: Python 3.11+, an NVIDIA CUDA-capable GPU for the production configuration, local
-embedding/reranker weights under `models/`, the processed MLN111 artifacts, and a Gemini API key.
+Requirements:
+
+- Python 3.11+
+- NVIDIA CUDA GPU for the demonstrated neural runtime
+- local Qwen embedding/reranker weights under `models/`
+- processed artifacts/indexes for the selected subjects
+- Gemini API key
 
 ```powershell
 python -m venv .venv
@@ -306,46 +351,101 @@ python -m venv .venv
 Copy-Item .env.example .env
 ```
 
-Set `GEMINI_API_KEY` in `.env`. Never commit `.env` or expose the key in screenshots, logs, or
-videos.
+Fill `GEMINI_API_KEY` only in `.env`. Never place a key in source code, benchmark files, logs,
+screenshots, or Git history.
 
 Run the API:
 
 ```powershell
-.\.venv\Scripts\mln111-api.exe
+.\.venv\Scripts\viettheory-api.exe
 ```
 
-After `Application startup complete`, run the interface in a second terminal:
+Run the UI in another terminal:
 
 ```powershell
-.\.venv\Scripts\python.exe -m streamlit run src\viettheory\frontend\app.py
+.\.venv\Scripts\viettheory-ui.exe
 ```
 
-Open `http://localhost:8501`; API health is available at `http://127.0.0.1:8000/health`.
+Open `http://127.0.0.1:8501`. API health is at `http://127.0.0.1:8000/health`.
 
-### Security and operational boundary
+### Runtime modes
 
-- Passwords use scrypt with a random salt; plaintext passwords are never stored.
-- Session tokens are random opaque values; only SHA-256 digests and expiration times are stored.
-- Every conversation query enforces `conversation_id` and `user_id` ownership.
-- `.env`, `API KEY/`, PDFs, models, indexes, processed data, SQLite databases, logs, and hidden
-  benchmark data are Git-ignored.
-- Internet search is disabled. Questions outside MLN111 are explicitly refused.
-- SQLite and a single CUDA-backed API process suit a local demo. Multi-user deployment should add
-  PostgreSQL, managed secrets, TLS, rate limiting, backups, monitoring, and horizontal-worker
-  coordination.
+```dotenv
+# Frozen five-subject baseline
+VIETTHEORY_SEARCH_MODE=global
+VIETTHEORY_AGENTIC=0
 
-### Verification
+# Opt-in development-gated Recovery V2.1
+VIETTHEORY_AGENTIC=1
+VIETTHEORY_RECOVERY_TOP_K=5
+VIETTHEORY_RECOVERY_SUPPORT_MARGIN=0.0
+```
+
+### Security boundary
+
+- Passwords use scrypt with a random salt; plaintext passwords are not stored.
+- Session tokens are random opaque values; only token digests and expirations are persisted.
+- Conversation reads, writes, and deletion enforce user ownership.
+- `.env`, `API KEY/`, PDFs, models, indexes, processed data, SQLite files, logs, outputs, and
+  private benchmarks are Git-ignored.
+- Gemini receives only the current question and selected retrieved contexts when explicitly
+  enabled; it does not receive API keys, passwords, account records, hidden benchmark data, or
+  whole source PDFs.
+- Internet search is disabled in the answer path. Corpus evidence remains the source of truth.
+- The current SQLite/single-GPU deployment is a local research demo. A public multi-user service
+  should add managed secrets, PostgreSQL, TLS, rate limiting, quotas, backups, monitoring, audit
+  logs, and horizontally coordinated workers.
+
+## 10. Reproducibility and verification
+
+Core quality gates:
 
 ```powershell
 .\.venv\Scripts\python.exe -m ruff check src tests
 .\.venv\Scripts\python.exe -m ruff format --check src tests
 .\.venv\Scripts\python.exe -m mypy src
 .\.venv\Scripts\python.exe -m pytest -q
+git diff --check
 ```
 
-Release status: **84 tests passed**, Ruff clean, formatting clean, and Mypy strict clean.
+Important public artifacts:
+
+- [`benchmark/v2/releases/v1.0/manifest.json`](benchmark/v2/releases/v1.0/manifest.json)
+- [`benchmark/v2/releases/v1.0/splits/split_manifest.json`](benchmark/v2/releases/v1.0/splits/split_manifest.json)
+- [`docs/experimental-results-v1.md`](docs/experimental-results-v1.md)
+- [`docs/recovery-v2-results.md`](docs/recovery-v2-results.md)
+- [`reports/five_subject_readiness_final.json`](reports/five_subject_readiness_final.json)
+- [`releases/v1.0/release_manifest.json`](releases/v1.0/release_manifest.json)
+
+## 11. Limitations and next steps
+
+1. Add hierarchy-aware retrieval for book-level summaries and chapter taxonomies.
+2. Expand the controlled Evidence Sufficiency benchmark beyond the 48-case pilot.
+3. Evaluate Recovery V2.1 on a newly frozen hidden protocol before making it default.
+4. Replace adjacency-only graph expansion with an evidence-grounded concept/relation graph, then
+   compare Hybrid, Graph, Hybrid+Graph, and adaptive routing.
+5. Evaluate memory on conversational learning outcomes without allowing memory to become evidence.
+6. Compare the bounded single controller against role-separated agents only after each tool has a
+   reviewed task benchmark.
+7. Optimize latency through embedding caches, batched/quantized reranking, and provider observability.
+8. Move from local SQLite/tunnel deployment to managed infrastructure before sustained public use.
+
+## 12. Project principles
+
+- **Evidence before fluency.** A short supported answer is better than a polished hallucination.
+- **Benchmark before feature claims.** Modules are not improvements until measured against B0.
+- **Negative results stay visible.** Failed graph, planner, and recovery variants remain documented.
+- **Hidden means hidden.** Private examples are not exposed or reused for tuning.
+- **Agentic only when necessary.** Easy questions should not pay for an avoidable reasoning loop.
+- **Memory is not evidence.** Personalization may shape teaching style, never textbook truth.
 
 ## Author
 
-Created by **Tuan**, an AI engineer and gym enthusiast who enjoys studying philosophy.
+Built by **Ha Manh Tuan** — AI Engineer · Computer Vision · LLM/RAG.
+
+The assistant was created by Tuan, a gym enthusiast with a serious interest in philosophy—and a
+slightly less serious desire to make five political-theory courses easier to survive.
+
+- [GitHub](https://github.com/tuanfptu)
+- [Hugging Face](https://huggingface.co/tuan3110)
+- [LinkedIn](https://www.linkedin.com/in/muan3110/)

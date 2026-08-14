@@ -1,0 +1,630 @@
+{
+  "benchmark_version": "mln_evidence_sufficiency_pilot_v0.1",
+  "split": "development",
+  "judge": "J1_gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "evidence_judge_v1",
+  "case_count": 32,
+  "gold_labels_not_sent_to_model": true,
+  "accuracy": 0.96875,
+  "macro_f1": 0.9686274509803922,
+  "f1_by_label": {
+    "sufficient": 0.9411764705882353,
+    "partial": 0.9333333333333333,
+    "missing": 1.0,
+    "wrong_aspect": 1.0,
+    "contradicted": 0.0
+  },
+  "confusion": {
+    "sufficient": {
+      "sufficient": 8,
+      "partial": 0,
+      "missing": 0,
+      "wrong_aspect": 0,
+      "contradicted": 0
+    },
+    "partial": {
+      "sufficient": 1,
+      "partial": 7,
+      "missing": 0,
+      "wrong_aspect": 0,
+      "contradicted": 0
+    },
+    "missing": {
+      "sufficient": 0,
+      "partial": 0,
+      "missing": 8,
+      "wrong_aspect": 0,
+      "contradicted": 0
+    },
+    "wrong_aspect": {
+      "sufficient": 0,
+      "partial": 0,
+      "missing": 0,
+      "wrong_aspect": 8,
+      "contradicted": 0
+    },
+    "contradicted": {
+      "sufficient": 0,
+      "partial": 0,
+      "missing": 0,
+      "wrong_aspect": 0,
+      "contradicted": 0
+    }
+  },
+  "predicted_distribution": {
+    "missing": 8,
+    "partial": 7,
+    "sufficient": 9,
+    "wrong_aspect": 8
+  },
+  "per_case": [
+    {
+      "case_id": "es_hcm202_0037_missing",
+      "source_question_id": "hcm202_0037",
+      "gold": "missing",
+      "predicted": "missing",
+      "correct": true,
+      "required_aspects": [
+        "Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng",
+        "Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng",
+        "Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "rationale": "Không có văn bản ngữ cảnh nào được cung cấp cho trường hợp này."
+    },
+    {
+      "case_id": "es_hcm202_0037_partial",
+      "source_question_id": "hcm202_0037",
+      "gold": "partial",
+      "predicted": "partial",
+      "correct": true,
+      "required_aspects": [
+        "Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng",
+        "Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "covered_aspects": [
+        "Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng"
+      ],
+      "missing_aspects": [
+        "Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "rationale": "Ngữ cảnh chỉ đề cập đến các mốc lịch sử khi Đảng khẳng định nền tảng tư tưởng (như Đại hội VI, v.v.) nhưng không cung cấp thông tin về các sự kiện ảnh hưởng tới tư tưởng của Hồ Chí Minh."
+    },
+    {
+      "case_id": "es_hcm202_0037_sufficient",
+      "source_question_id": "hcm202_0037",
+      "gold": "sufficient",
+      "predicted": "sufficient",
+      "correct": true,
+      "required_aspects": [
+        "Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng",
+        "Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "covered_aspects": [
+        "Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng",
+        "Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "missing_aspects": [],
+      "rationale": "Các ngữ cảnh được cung cấp chứa đầy đủ thông tin về mốc lịch sử Đảng khẳng định nền tảng tư tưởng cũng như các sự kiện thế giới ảnh hưởng tới tư tưởng của Hồ Chí Minh."
+    },
+    {
+      "case_id": "es_hcm202_0037_wrongaspect",
+      "source_question_id": "hcm202_0037",
+      "gold": "wrong_aspect",
+      "predicted": "wrong_aspect",
+      "correct": true,
+      "required_aspects": [
+        "Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng",
+        "Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Mốc lịch sử khẳng định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng",
+        "Các sự kiện lịch sử ảnh hưởng tới tư tưởng của Người"
+      ],
+      "rationale": "Ngữ cảnh đề cập đến ý nghĩa của tư tưởng Hồ Chí Minh và quan hệ quốc tế, nhưng không cung cấp đúng các khía cạnh về mốc lịch sử khẳng định nền tảng tư tưởng hay các sự kiện ảnh hưởng đến tư tưởng của Người."
+    },
+    {
+      "case_id": "es_hcm202_0081_missing",
+      "source_question_id": "hcm202_0081",
+      "gold": "missing",
+      "predicted": "missing",
+      "correct": true,
+      "required_aspects": [
+        "Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930",
+        "Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930",
+        "Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "rationale": "Không có văn bản ngữ cảnh nào được cung cấp để trả lời các khía cạnh của câu hỏi."
+    },
+    {
+      "case_id": "es_hcm202_0081_partial",
+      "source_question_id": "hcm202_0081",
+      "gold": "partial",
+      "predicted": "partial",
+      "correct": true,
+      "required_aspects": [
+        "Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930",
+        "Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "covered_aspects": [
+        "Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930"
+      ],
+      "missing_aspects": [
+        "Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "rationale": "Ngữ cảnh chỉ đề cập đến phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930 mà không nói về nhiệm vụ của mặt trận do Đảng Cộng sản Việt Nam lãnh đạo."
+    },
+    {
+      "case_id": "es_hcm202_0081_sufficient",
+      "source_question_id": "hcm202_0081",
+      "gold": "sufficient",
+      "predicted": "sufficient",
+      "correct": true,
+      "required_aspects": [
+        "Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930",
+        "Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "covered_aspects": [
+        "Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930",
+        "Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "missing_aspects": [],
+      "rationale": "Các ngữ cảnh được cung cấp chứa đầy đủ thông tin về phương hướng chiến lược của cách mạng trong Chánh cương vắn tắt năm 1930 và nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng."
+    },
+    {
+      "case_id": "es_hcm202_0081_wrongaspect",
+      "source_question_id": "hcm202_0081",
+      "gold": "wrong_aspect",
+      "predicted": "wrong_aspect",
+      "correct": true,
+      "required_aspects": [
+        "Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930",
+        "Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "covered_aspects": [
+        "Quan điểm về cách mạng tư sản dân quyền và vai trò của Đảng Cộng sản"
+      ],
+      "missing_aspects": [
+        "Phương hướng chiến lược của cách mạng Việt Nam trong Chánh cương vắn tắt năm 1930",
+        "Nhiệm vụ của mặt trận dưới sự lãnh đạo của Đảng Cộng sản Việt Nam"
+      ],
+      "rationale": "Ngữ cảnh nói về cách mạng tư sản dân quyền và vai trò lãnh đạo của Đảng nhưng không đề cập trực tiếp đến phương hướng chiến lược cụ thể trong Chánh cương vắn tắt năm 1930 và nhiệm vụ của mặt trận."
+    },
+    {
+      "case_id": "es_mln111_0031_missing",
+      "source_question_id": "mln111_0031",
+      "gold": "missing",
+      "predicted": "missing",
+      "correct": true,
+      "required_aspects": [
+        "Triết học là một hình thái ý thức xã hội",
+        "Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Triết học là một hình thái ý thức xã hội",
+        "Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "rationale": "Không có ngữ cảnh nào được cung cấp nên không thể trích xuất các khía cạnh trả lời."
+    },
+    {
+      "case_id": "es_mln111_0031_partial",
+      "source_question_id": "mln111_0031",
+      "gold": "partial",
+      "predicted": "partial",
+      "correct": true,
+      "required_aspects": [
+        "Triết học là một hình thái ý thức xã hội",
+        "Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "covered_aspects": [
+        "Triết học là một hình thái ý thức xã hội"
+      ],
+      "missing_aspects": [
+        "Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "rationale": "Ngữ cảnh chỉ cung cấp nội dung về khái niệm và bản chất của triết học (bao gồm việc xác định triết học là một hình thái ý thức xã hội), nhưng hoàn toàn thiếu thông tin về định nghĩa vật chất của V.I. Lênin."
+    },
+    {
+      "case_id": "es_mln111_0031_sufficient",
+      "source_question_id": "mln111_0031",
+      "gold": "sufficient",
+      "predicted": "sufficient",
+      "correct": true,
+      "required_aspects": [
+        "Triết học là một hình thái ý thức xã hội",
+        "Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "covered_aspects": [
+        "Triết học là một hình thái ý thức xã hội",
+        "Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "missing_aspects": [],
+      "rationale": "Các ngữ cảnh được cung cấp chứa đầy đủ thông tin xác định triết học là một hình thái ý thức xã hội và định nghĩa kinh điển về vật chất của V.I. Lênin."
+    },
+    {
+      "case_id": "es_mln111_0031_wrongaspect",
+      "source_question_id": "mln111_0031",
+      "gold": "wrong_aspect",
+      "predicted": "wrong_aspect",
+      "correct": true,
+      "required_aspects": [
+        "Triết học là một hình thái ý thức xã hội",
+        "Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Triết học là một hình thái ý thức xã hội",
+        "Định nghĩa vật chất của V.I. Lênin"
+      ],
+      "rationale": "Ngữ cảnh chỉ bàn về hoàn cảnh lịch sử V.I. Lênin viết các tác phẩm, đấu tranh chống chủ nghĩa duy tâm và phát triển triết học Mác, nhưng không trình bày khái niệm triết học hay câu định nghĩa vật chất đầy đủ."
+    },
+    {
+      "case_id": "es_mln122_0005_missing",
+      "source_question_id": "mln122_0005",
+      "gold": "missing",
+      "predicted": "missing",
+      "correct": true,
+      "required_aspects": [
+        "Sự khác biệt về đối tượng tập trung giữa Chương 5 và các chương trước"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Sự khác biệt về đối tượng tập trung giữa Chương 5 và các chương trước"
+      ],
+      "rationale": "Không có ngữ cảnh nào được cung cấp để trả lời câu hỏi."
+    },
+    {
+      "case_id": "es_mln122_0005_partial",
+      "source_question_id": "mln122_0005",
+      "gold": "partial",
+      "predicted": "partial",
+      "correct": true,
+      "required_aspects": [
+        "Đối tượng tập trung của các chương trước",
+        "Đối tượng tập trung của Chương 5",
+        "Sự khác biệt giữa Chương 5 và các chương trước"
+      ],
+      "covered_aspects": [
+        "Đối tượng tập trung của các chương trước (Chương 3 và Chương 4)"
+      ],
+      "missing_aspects": [
+        "Đối tượng tập trung của Chương 5",
+        "Sự khác biệt giữa Chương 5 và các chương trước"
+      ],
+      "rationale": "Ngữ cảnh chỉ cung cấp thông tin về Chương 3 và Chương 4 mà thiếu thông tin về Chương 5 để so sánh sự khác biệt."
+    },
+    {
+      "case_id": "es_mln122_0005_sufficient",
+      "source_question_id": "mln122_0005",
+      "gold": "sufficient",
+      "predicted": "sufficient",
+      "correct": true,
+      "required_aspects": [
+        "Đối tượng tập trung của các chương trước",
+        "Đối tượng tập trung của Chương 5",
+        "Sự khác biệt giữa Chương 5 và các chương trước"
+      ],
+      "covered_aspects": [
+        "Đối tượng tập trung của các chương trước",
+        "Đối tượng tập trung của Chương 5",
+        "Sự khác biệt giữa Chương 5 và các chương trước"
+      ],
+      "missing_aspects": [],
+      "rationale": "Ngữ cảnh cung cấp đầy đủ thông tin về nội dung của các chương trước (nghiên cứu kinh tế thị trường tư bản chủ nghĩa) và Chương 5 (kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam và các quan hệ lợi ích kinh tế), cho phép làm rõ điểm khác biệt."
+    },
+    {
+      "case_id": "es_mln122_0005_wrongaspect",
+      "source_question_id": "mln122_0005",
+      "gold": "wrong_aspect",
+      "predicted": "wrong_aspect",
+      "correct": true,
+      "required_aspects": [
+        "Sự khác biệt về đối tượng tập trung giữa Chương 5 và các chương trước"
+      ],
+      "covered_aspects": [
+        "Các đặc điểm và giới hạn của chủ nghĩa tư bản, độc quyền nhà nước"
+      ],
+      "missing_aspects": [
+        "Sự khác biệt về đối tượng tập trung giữa Chương 5 và các chương trước"
+      ],
+      "rationale": "Ngữ cảnh chỉ nói về tổng kết Chương 4 (độc quyền, chủ nghĩa tư bản) chứ không đề cập đến Chương 5 hay sự khác biệt về đối tượng tập trung."
+    },
+    {
+      "case_id": "es_mln122_0009_missing",
+      "source_question_id": "mln122_0009",
+      "gold": "missing",
+      "predicted": "missing",
+      "correct": true,
+      "required_aspects": [
+        "Ý nghĩa của thị trường, cơ chế thị trường và lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Ý nghĩa của thị trường, cơ chế thị trường và lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "rationale": "Không có ngữ cảnh nào được cung cấp."
+    },
+    {
+      "case_id": "es_mln122_0009_partial",
+      "source_question_id": "mln122_0009",
+      "gold": "partial",
+      "predicted": "partial",
+      "correct": true,
+      "required_aspects": [
+        "Ý nghĩa của thị trường và cơ chế thị trường đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam",
+        "Ý nghĩa của lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "covered_aspects": [
+        "Ý nghĩa của thị trường và cơ chế thị trường đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "missing_aspects": [
+        "Ý nghĩa của lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "rationale": "Ngữ cảnh chỉ đề cập đến ý nghĩa của hệ thống lý luận thị trường và cơ chế thị trường làm nền tảng cho nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa, nhưng không đề cập đến lý luận giá trị thặng dư."
+    },
+    {
+      "case_id": "es_mln122_0009_sufficient",
+      "source_question_id": "mln122_0009",
+      "gold": "sufficient",
+      "predicted": "sufficient",
+      "correct": true,
+      "required_aspects": [
+        "Ý nghĩa của thị trường và cơ chế thị trường đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam",
+        "Ý nghĩa của lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "covered_aspects": [
+        "Ý nghĩa của thị trường và cơ chế thị trường đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam",
+        "Ý nghĩa của lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "missing_aspects": [],
+      "rationale": "Các ngữ cảnh cung cấp đủ thông tin về lý luận thị trường, cơ chế thị trường cũng như lý luận giá trị thặng dư làm cơ sở để nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam."
+    },
+    {
+      "case_id": "es_mln122_0009_wrongaspect",
+      "source_question_id": "mln122_0009",
+      "gold": "wrong_aspect",
+      "predicted": "wrong_aspect",
+      "correct": true,
+      "required_aspects": [
+        "Ý nghĩa của thị trường, cơ chế thị trường và lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Ý nghĩa của thị trường, cơ chế thị trường và lý luận giá trị thặng dư đối với nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam"
+      ],
+      "rationale": "Ngữ cảnh chỉ bàn về khái niệm kinh tế thị trường định hướng xã hội chủ nghĩa, các đặc trưng và quá trình hình thành nhận thức của Đảng mà không nêu rõ ý nghĩa của thị trường, cơ chế thị trường và giá trị thặng dư theo yêu cầu của câu hỏi."
+    },
+    {
+      "case_id": "es_mln131_0010_missing",
+      "source_question_id": "mln131_0010",
+      "gold": "missing",
+      "predicted": "missing",
+      "correct": true,
+      "required_aspects": [
+        "Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+        "Vấn đề tập trung của Chương 6",
+        "Vấn đề tập trung của Chương 7"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+        "Vấn đề tập trung của Chương 6",
+        "Vấn đề tập trung của Chương 7"
+      ],
+      "rationale": "Không có ngữ cảnh nào được cung cấp nên không thể trả lời câu hỏi."
+    },
+    {
+      "case_id": "es_mln131_0010_partial",
+      "source_question_id": "mln131_0010",
+      "gold": "partial",
+      "predicted": "partial",
+      "correct": true,
+      "required_aspects": [
+        "Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+        "Vấn đề tập trung của Chương 6",
+        "Vấn đề tập trung của Chương 7"
+      ],
+      "covered_aspects": [
+        "Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam"
+      ],
+      "missing_aspects": [
+        "Vấn đề tập trung của Chương 6",
+        "Vấn đề tập trung của Chương 7"
+      ],
+      "rationale": "Ngữ cảnh cung cấp thông tin về sự biến đổi cơ cấu xã hội - giai cấp ở Việt Nam (thuộc nội dung Chương 5) nhưng thiếu thông tin về nội dung của Chương 6 và Chương 7."
+    },
+    {
+      "case_id": "es_mln131_0010_sufficient",
+      "source_question_id": "mln131_0010",
+      "gold": "sufficient",
+      "predicted": "sufficient",
+      "correct": true,
+      "required_aspects": [
+        "Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+        "Vấn đề tập trung của Chương 6",
+        "Vấn đề tập trung của Chương 7"
+      ],
+      "covered_aspects": [
+        "Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+        "Vấn đề tập trung của Chương 6",
+        "Vấn đề tập trung của Chương 7"
+      ],
+      "missing_aspects": [],
+      "rationale": "Các ngữ cảnh cung cấp đầy đủ thông tin về sự biến đổi cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, đồng thời nêu rõ Chương 6 tập trung vào vấn đề dân tộc và tôn giáo, Chương 7 tập trung vào vấn đề gia đình."
+    },
+    {
+      "case_id": "es_mln131_0010_wrongaspect",
+      "source_question_id": "mln131_0010",
+      "gold": "wrong_aspect",
+      "predicted": "wrong_aspect",
+      "correct": true,
+      "required_aspects": [
+        "Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+        "Vấn đề tập trung của Chương 6",
+        "Vấn đề tập trung của Chương 7"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Sự biến đổi của cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+        "Vấn đề tập trung của Chương 6",
+        "Vấn đề tập trung của Chương 7"
+      ],
+      "rationale": "Ngữ cảnh đề cập đến một số khía cạnh chung về sự biến đổi cơ cấu xã hội trong thời kỳ quá độ nói chung (từ chủ nghĩa tư bản lên chủ nghĩa xã hội) nhưng không chứa đựng đầy đủ và chính xác các khía cạnh yêu cầu của câu hỏi (đặc thù Việt Nam, nội dung Chương 6 và Chương 7)."
+    },
+    {
+      "case_id": "es_mln131_0035_missing",
+      "source_question_id": "mln131_0035",
+      "gold": "missing",
+      "predicted": "missing",
+      "correct": true,
+      "required_aspects": [
+        "Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "rationale": "Không có ngữ cảnh nào được cung cấp để trả lời câu hỏi."
+    },
+    {
+      "case_id": "es_mln131_0035_partial",
+      "source_question_id": "mln131_0035",
+      "gold": "partial",
+      "predicted": "sufficient",
+      "correct": false,
+      "required_aspects": [
+        "Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "covered_aspects": [
+        "Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "missing_aspects": [],
+      "rationale": "Ngữ cảnh cung cấp đầy đủ thông tin về các giai cấp, tầng lớp (công nhân, nông dân, trí thức, doanh nhân, tiểu chủ, thanh niên, phụ nữ) và lực lượng lãnh đạo là Đảng Cộng sản - đội tiên phong của giai cấp công nhân."
+    },
+    {
+      "case_id": "es_mln131_0035_sufficient",
+      "source_question_id": "mln131_0035",
+      "gold": "sufficient",
+      "predicted": "sufficient",
+      "correct": true,
+      "required_aspects": [
+        "Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "covered_aspects": [
+        "Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "missing_aspects": [],
+      "rationale": "Ngữ cảnh chứa đựng đầy đủ thông tin chi tiết về các giai cấp, tầng lớp cơ bản cũng như vai trò lãnh đạo của Đảng Cộng sản trong thời kỳ quá độ."
+    },
+    {
+      "case_id": "es_mln131_0035_wrongaspect",
+      "source_question_id": "mln131_0035",
+      "gold": "wrong_aspect",
+      "predicted": "wrong_aspect",
+      "correct": true,
+      "required_aspects": [
+        "Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Các giai cấp và tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+        "Lực lượng đóng vai trò đội tiên phong lãnh đạo hợp lực tạo sức mạnh tổng hợp"
+      ],
+      "rationale": "Ngữ cảnh chỉ chứa danh mục các câu hỏi ôn tập, không cung cấp nội dung trả lời cho các khía cạnh của câu hỏi."
+    },
+    {
+      "case_id": "es_vnr202_0005_missing",
+      "source_question_id": "vnr202_0005",
+      "gold": "missing",
+      "predicted": "missing",
+      "correct": true,
+      "required_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 1",
+        "Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 1",
+        "Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "rationale": "Không có ngữ cảnh nào được cung cấp để trả lời câu hỏi."
+    },
+    {
+      "case_id": "es_vnr202_0005_partial",
+      "source_question_id": "vnr202_0005",
+      "gold": "partial",
+      "predicted": "partial",
+      "correct": true,
+      "required_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 1",
+        "Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "covered_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 1"
+      ],
+      "missing_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "rationale": "Ngữ cảnh chỉ cung cấp thông tin về Chương 1, thiếu hoàn toàn thông tin về Chương 2 và Chương 3."
+    },
+    {
+      "case_id": "es_vnr202_0005_sufficient",
+      "source_question_id": "vnr202_0005",
+      "gold": "sufficient",
+      "predicted": "sufficient",
+      "correct": true,
+      "required_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 1",
+        "Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "covered_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 1",
+        "Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "missing_aspects": [],
+      "rationale": "Các ngữ cảnh được cung cấp đầy đủ thông tin về mốc thời gian và nội dung trọng tâm của cả ba chương 1, 2 và 3."
+    },
+    {
+      "case_id": "es_vnr202_0005_wrongaspect",
+      "source_question_id": "vnr202_0005",
+      "gold": "wrong_aspect",
+      "predicted": "wrong_aspect",
+      "correct": true,
+      "required_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 1",
+        "Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "covered_aspects": [],
+      "missing_aspects": [
+        "Mốc thời gian và nội dung trọng tâm của Chương 1",
+        "Mốc thời gian và nội dung trọng tâm của Chương 2",
+        "Mốc thời gian và nội dung trọng tâm của Chương 3"
+      ],
+      "rationale": "Ngữ cảnh cung cấp thông tin về quyết định biên soạn, lời mở đầu và hội đồng biên soạn giáo trình, không chứa nội dung chi tiết hay mốc thời gian của Chương 1, 2 và 3."
+    }
+  ]
+}

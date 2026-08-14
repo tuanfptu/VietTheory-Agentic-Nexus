@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from itertools import groupby
 
 from viettheory.chunking.chunker import count_tokens
-from viettheory.extraction.structure_parser import SectionPath, parse_structure
+from viettheory.extraction.structure_parser import ParsedStructure, SectionPath, parse_structure
 from viettheory.ids import stable_id
 from viettheory.schema import BlockRole, Chunk, Page, SourceSpan, TextLine
 
@@ -41,20 +41,20 @@ class _Unit:
     tokens: int
 
 
-def _units(pages: tuple[Page, ...]) -> list[_Unit]:
-    structure = parse_structure(pages)
+def _units(pages: tuple[Page, ...], structure: ParsedStructure | None = None) -> list[_Unit]:
+    active_structure = structure or parse_structure(pages)
     return [
         _Unit(
             page=page,
             line=line,
-            path=structure.line_paths[line.line_id],
+            path=active_structure.line_paths[line.line_id],
             tokens=max(1, count_tokens(line.text)),
         )
         for page in pages
         for block in page.blocks
         if block.role is BlockRole.BODY
         for line in block.lines
-        if line.text.strip() and line.line_id not in structure.excluded_line_ids
+        if line.text.strip() and line.line_id not in active_structure.excluded_line_ids
     ]
 
 
@@ -159,10 +159,12 @@ def _children(units: list[_Unit], parent: Chunk, config: StructuredChunkingConfi
 def chunk_pages_structured(
     pages: tuple[Page, ...],
     config: StructuredChunkingConfig | None = None,
+    *,
+    structure: ParsedStructure | None = None,
 ) -> StructuredChunks:
     """Create parent and child artifacts without crossing section boundaries."""
     active_config = config or StructuredChunkingConfig()
-    units = _units(pages)
+    units = _units(pages, structure)
     parents: list[Chunk] = []
     children: list[Chunk] = []
     for _, section_units_iter in groupby(units, key=lambda unit: unit.path):

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "split": "development",
+  "baseline": "single_controller_frozen_B0",
+  "candidate": "role_separated_retriever_graph_evidence_pool_v0",
+  "fairness": {
+    "same_B0_rankings": true,
+    "same_top_k": 5,
+    "candidate_extra_role": "adjacent_parent_graph",
+    "benchmark_gold_used_in_coordination": false
+  },
+  "hidden_accessed": false,
+  "all": {
+    "count": 331,
+    "b0_full_evidence_at_5": 0.9395770392749244,
+    "graph_only_full_evidence_at_5": 0.0030211480362537764,
+    "b0_plus_graph_full_evidence_at_5": 0.8972809667673716,
+    "wins": 2,
+    "losses": 16,
+    "ties": 313,
+    "graph_overhead_p50_ms": 2.9286000062711537,
+    "mean_graph_candidates": 6.867069486404834
+  },
+  "relationship_multihop_slice": {
+    "count": 101,
+    "b0_full_evidence_at_5": 0.8217821782178217,
+    "graph_only_full_evidence_at_5": 0.0,
+    "b0_plus_graph_full_evidence_at_5": 0.7128712871287128,
+    "wins": 2,
+    "losses": 13,
+    "ties": 86,
+    "graph_overhead_p50_ms": 3.0237999744713306,
+    "mean_graph_candidates": 6.861386138613861
+  },
+  "decision": "reject_candidate_keep_single_controller",
+  "reason": "The role-separated graph candidate caused more Full Evidence@5 losses than wins on both the full development set and its intended relationship/multi-hop slice."
+}

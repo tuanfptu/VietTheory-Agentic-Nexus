@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "subject": "VNR202",
+  "scope": "five_page_quick_human_audit",
+  "status": "pending_human_review",
+  "cases": [
+    {
+      "case_id": "vnr202_page_022",
+      "pdf_page_zero_based": 21,
+      "pdf_page_human": 22,
+      "category": "Chapter 1 opening",
+      "detected_headings": [
+        {
+          "heading_id": "heading_2db50ae2faf81c9e2c7b",
+          "parent_heading_id": null,
+          "level": 1,
+          "text": "Chương 1: ĐẢNG CỘNG SẢN VIỆT NAM RA ĐỜI VÀ LÃNH ĐẠO",
+          "pdf_page": 21,
+          "block_id": "ocr-line-block_24aaa5416a020f77ac10"
+        },
+        {
+          "heading_id": "heading_c11ae1e5fc207e54bf6f",
+          "parent_heading_id": "heading_2db50ae2faf81c9e2c7b",
+          "level": 2,
+          "text": "I. Đảng Cộng sản Việt Nam ra đời và Cương lĩnh chính trị đầu tiên của Đáng",
+          "pdf_page": 21,
+          "block_id": "ocr-line-block_b55278d5c3b268e8cfc5"
+        },
+        {
+          "heading_id": "heading_a0f4018c953305528090",
+          "parent_heading_id": "heading_c11ae1e5fc207e54bf6f",
+          "level": 3,
+          "text": "1. Bối cảnh lịch sử",
+          "pdf_page": 21,
+          "block_id": "ocr-line-block_0f4d69c233be417a7b22"
+        }
+      ],
+      "parent_chunk_ids": [
+        "parent_56650d4157fc5d356570",
+        "parent_b8f9e63fd5c1b3a14648",
+        "parent_f0b7d605380f2c6cb615"
+      ],
+      "human_review": {
+        "ocr": "pending",
+        "heading": "pending",
+        "parent_and_chapter": "pending",
+        "notes": ""
+      }
+    },
+    {
+      "case_id": "vnr202_page_069",
+      "pdf_page_zero_based": 68,
+      "pdf_page_human": 69,
+      "category": "Chapter 2 opening",
+      "detected_headings": [
+        {
+          "heading_id": "heading_37320cebc7de2a1677af",
+          "parent_heading_id": null,
+          "level": 1,
+          "text": "Chương 2: ĐẢNG LÃNH ĐẠO HAI CUỘC KHÁNG CHIẾN,",
+          "pdf_page": 68,
+          "block_id": "ocr-line-block_3289dadb648a1703a133"
+        },
+        {
+          "heading_id": "heading_35c9712607d7b878532b",
+          "parent_heading_id": "heading_37320cebc7de2a1677af",
+          "level": 2,
+          "text": "I. Lãnh đạo xây dựng, bảo vệ chính quyền cách mạng, kháng chiến chống thực dân Pháp xâm lược 1945-1954",
+          "pdf_page": 68,
+          "block_id": "ocr-line-block_aae765bfa630077a0055"
+        },
+        {
+          "heading_id": "heading_5141c96a64ad84f2caa1",
+          "parent_heading_id": "heading_35c9712607d7b878532b",
+          "level": 3,
+          "text": "1. Xây dựng và bảo vệ chính quyền cách mạng 1945-1946",
+          "pdf_page": 68,
+          "block_id": "ocr-line-block_98cdb1de6f1c96dc0265"
+        }
+      ],
+      "parent_chunk_ids": [
+        "parent_635e819de034bac5319d",
+        "parent_a7662db362cf42f803fa"
+      ],
+      "human_review": {
+        "ocr": "pending",
+        "heading": "pending",
+        "parent_and_chapter": "pending",
+        "notes": ""
+      }
+    },
+    {
+      "case_id": "vnr202_page_125",
+      "pdf_page_zero_based": 124,
+      "pdf_page_human": 125,
+      "category": "Chapter 3 opening",
+      "detected_headings": [
+        {
+          "heading_id": "heading_1ca059f42109cf1c6d13",
+          "parent_heading_id": null,
+          "level": 1,
+          "text": "Chương 3: ĐẢNG LÃNH ĐẠO CẢ NƯỚC QUÁ ĐỘ LÊN",
+          "pdf_page": 124,
+          "block_id": "ocr-line-block_d3e997b8c36e88bf9168"
+        },
+        {
+          "heading_id": "heading_1b4e686b373bf104839f",
+          "parent_heading_id": "heading_1ca059f42109cf1c6d13",
+          "level": 2,
+          "text": "I Lãnh đạo cả nước xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc (1975-1986)",
+          "pdf_page": 124,
+          "block_id": "ocr-line-block_bd27a530d41297b7c630"
+        },
+        {
+          "heading_id": "heading_030bbe683f6fd2d35c0e",
+          "parent_heading_id": "heading_1b4e686b373bf104839f",
+          "level": 3,
+          "text": "1. Xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc 1975-1981",
+          "pdf_page": 124,
+          "block_id": "ocr-line-block_fe95808f1c35f6b77e49"
+        }
+      ],
+      "parent_chunk_ids": [
+        "parent_8a3ac12f937bf10afab6",
+        "parent_774009b2a8a634bdf58f"
+      ],
+      "human_review": {
+        "ocr": "pending",
+        "heading": "pending",
+        "parent_and_chapter": "pending",
+        "notes": ""
+      }
+    },
+    {
+      "case_id": "vnr202_page_181",
+      "pdf_page_zero_based": 180,
+      "pdf_page_human": 181,
+      "category": "Normal content control",
+      "detected_headings": [],
+      "parent_chunk_ids": [
+        "parent_401ef813edf9224ff7d4",
+        "parent_525e3ef85bcc86d94c27"
+      ],
+      "human_review": {
+        "ocr": "pending",
+        "heading": "pending",
+        "parent_and_chapter": "pending",
+        "notes": ""
+      }
+    },
+    {
+      "case_id": "vnr202_page_226",
+      "pdf_page_zero_based": 225,
+      "pdf_page_human": 226,
+      "category": "Late review-section exclusion control",
+      "detected_headings": [],
+      "parent_chunk_ids": [],
+      "human_review": {
+        "ocr": "pending",
+        "heading": "pending",
+        "parent_and_chapter": "pending",
+        "notes": ""
+      }
+    }
+  ]
+}

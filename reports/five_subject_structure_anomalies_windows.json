@@ -1,0 +1,938 @@
+{
+  "schema_version": "1.0",
+  "status": "local_window_selection_complete_gemini_not_called",
+  "method": "four_spaced_anomaly_windows_per_subject_v1",
+  "window_size": 5,
+  "window_count": 20,
+  "selected_page_count": 100,
+  "estimated_requests": 20,
+  "windows": [
+    {
+      "subject": "MLN111",
+      "anchor_pdf_page": 1,
+      "anchor_score": 11,
+      "anchor_reasons": [
+        "low_extraction_quality",
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "subject": "MLN111",
+      "anchor_pdf_page": 10,
+      "anchor_score": 6,
+      "anchor_reasons": [
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "subject": "MLN111",
+      "anchor_pdf_page": 15,
+      "anchor_score": 6,
+      "anchor_reasons": [
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "subject": "MLN111",
+      "anchor_pdf_page": 283,
+      "anchor_score": 14,
+      "anchor_reasons": [
+        "substantive_page_without_parent",
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        280,
+        281,
+        282,
+        283,
+        284
+      ]
+    },
+    {
+      "subject": "MLN122",
+      "anchor_pdf_page": 2,
+      "anchor_score": 6,
+      "anchor_reasons": [
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "subject": "MLN122",
+      "anchor_pdf_page": 12,
+      "anchor_score": 6,
+      "anchor_reasons": [
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "subject": "MLN122",
+      "anchor_pdf_page": 110,
+      "anchor_score": 9,
+      "anchor_reasons": [
+        "moderate_extraction_quality",
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        108,
+        109,
+        110,
+        111,
+        112
+      ]
+    },
+    {
+      "subject": "MLN122",
+      "anchor_pdf_page": 259,
+      "anchor_score": 14,
+      "anchor_reasons": [
+        "substantive_page_without_parent",
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        257,
+        258,
+        259,
+        260,
+        261
+      ]
+    },
+    {
+      "subject": "MLN131",
+      "anchor_pdf_page": 46,
+      "anchor_score": 13,
+      "anchor_reasons": [
+        "low_extraction_quality",
+        "heading_like_text_not_detected",
+        "extractor_still_flags_ocr"
+      ],
+      "pdf_pages": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "subject": "MLN131",
+      "anchor_pdf_page": 160,
+      "anchor_score": 11,
+      "anchor_reasons": [
+        "low_extraction_quality",
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ]
+    },
+    {
+      "subject": "MLN131",
+      "anchor_pdf_page": 234,
+      "anchor_score": 11,
+      "anchor_reasons": [
+        "low_extraction_quality",
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        232,
+        233,
+        234,
+        235,
+        236
+      ]
+    },
+    {
+      "subject": "MLN131",
+      "anchor_pdf_page": 269,
+      "anchor_score": 14,
+      "anchor_reasons": [
+        "substantive_page_without_parent",
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        267,
+        268,
+        269,
+        270,
+        271
+      ]
+    },
+    {
+      "subject": "HCM202",
+      "anchor_pdf_page": 71,
+      "anchor_score": 13,
+      "anchor_reasons": [
+        "moderate_extraction_quality",
+        "heading_like_text_not_detected",
+        "ocr_noise_markers"
+      ],
+      "pdf_pages": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "subject": "HCM202",
+      "anchor_pdf_page": 77,
+      "anchor_score": 13,
+      "anchor_reasons": [
+        "moderate_extraction_quality",
+        "heading_like_text_not_detected",
+        "ocr_noise_markers"
+      ],
+      "pdf_pages": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ]
+    },
+    {
+      "subject": "HCM202",
+      "anchor_pdf_page": 83,
+      "anchor_score": 13,
+      "anchor_reasons": [
+        "moderate_extraction_quality",
+        "heading_like_text_not_detected",
+        "ocr_noise_markers"
+      ],
+      "pdf_pages": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "subject": "HCM202",
+      "anchor_pdf_page": 266,
+      "anchor_score": 21,
+      "anchor_reasons": [
+        "moderate_extraction_quality",
+        "substantive_page_without_parent",
+        "heading_like_text_not_detected",
+        "ocr_noise_markers"
+      ],
+      "pdf_pages": [
+        264,
+        265,
+        266,
+        267,
+        268
+      ]
+    },
+    {
+      "subject": "VNR202",
+      "anchor_pdf_page": 6,
+      "anchor_score": 18,
+      "anchor_reasons": [
+        "substantive_page_without_parent",
+        "heading_like_text_not_detected",
+        "ocr_noise_markers"
+      ],
+      "pdf_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "subject": "VNR202",
+      "anchor_pdf_page": 12,
+      "anchor_score": 18,
+      "anchor_reasons": [
+        "substantive_page_without_parent",
+        "heading_like_text_not_detected",
+        "ocr_noise_markers"
+      ],
+      "pdf_pages": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "subject": "VNR202",
+      "anchor_pdf_page": 17,
+      "anchor_score": 14,
+      "anchor_reasons": [
+        "substantive_page_without_parent",
+        "heading_like_text_not_detected"
+      ],
+      "pdf_pages": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "subject": "VNR202",
+      "anchor_pdf_page": 224,
+      "anchor_score": 18,
+      "anchor_reasons": [
+        "substantive_page_without_parent",
+        "heading_like_text_not_detected",
+        "ocr_noise_markers"
+      ],
+      "pdf_pages": [
+        222,
+        223,
+        224,
+        225,
+        226
+      ]
+    }
+  ],
+  "selected_pages": [
+    {
+      "subject": "MLN111",
+      "pdf_page": 0,
+      "pdf_page_human": 1,
+      "window_anchor_pdf_page": 1
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 1,
+      "pdf_page_human": 2,
+      "window_anchor_pdf_page": 1
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 2,
+      "pdf_page_human": 3,
+      "window_anchor_pdf_page": 1
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 3,
+      "pdf_page_human": 4,
+      "window_anchor_pdf_page": 1
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 4,
+      "pdf_page_human": 5,
+      "window_anchor_pdf_page": 1
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 8,
+      "pdf_page_human": 9,
+      "window_anchor_pdf_page": 10
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 9,
+      "pdf_page_human": 10,
+      "window_anchor_pdf_page": 10
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 10,
+      "pdf_page_human": 11,
+      "window_anchor_pdf_page": 10
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 11,
+      "pdf_page_human": 12,
+      "window_anchor_pdf_page": 10
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 12,
+      "pdf_page_human": 13,
+      "window_anchor_pdf_page": 10
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 13,
+      "pdf_page_human": 14,
+      "window_anchor_pdf_page": 15
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 14,
+      "pdf_page_human": 15,
+      "window_anchor_pdf_page": 15
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 15,
+      "pdf_page_human": 16,
+      "window_anchor_pdf_page": 15
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 16,
+      "pdf_page_human": 17,
+      "window_anchor_pdf_page": 15
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 17,
+      "pdf_page_human": 18,
+      "window_anchor_pdf_page": 15
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 280,
+      "pdf_page_human": 281,
+      "window_anchor_pdf_page": 283
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 281,
+      "pdf_page_human": 282,
+      "window_anchor_pdf_page": 283
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 282,
+      "pdf_page_human": 283,
+      "window_anchor_pdf_page": 283
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 283,
+      "pdf_page_human": 284,
+      "window_anchor_pdf_page": 283
+    },
+    {
+      "subject": "MLN111",
+      "pdf_page": 284,
+      "pdf_page_human": 285,
+      "window_anchor_pdf_page": 283
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 0,
+      "pdf_page_human": 1,
+      "window_anchor_pdf_page": 2
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 1,
+      "pdf_page_human": 2,
+      "window_anchor_pdf_page": 2
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 2,
+      "pdf_page_human": 3,
+      "window_anchor_pdf_page": 2
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 3,
+      "pdf_page_human": 4,
+      "window_anchor_pdf_page": 2
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 4,
+      "pdf_page_human": 5,
+      "window_anchor_pdf_page": 2
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 10,
+      "pdf_page_human": 11,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 11,
+      "pdf_page_human": 12,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 12,
+      "pdf_page_human": 13,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 13,
+      "pdf_page_human": 14,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 14,
+      "pdf_page_human": 15,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 108,
+      "pdf_page_human": 109,
+      "window_anchor_pdf_page": 110
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 109,
+      "pdf_page_human": 110,
+      "window_anchor_pdf_page": 110
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 110,
+      "pdf_page_human": 111,
+      "window_anchor_pdf_page": 110
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 111,
+      "pdf_page_human": 112,
+      "window_anchor_pdf_page": 110
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 112,
+      "pdf_page_human": 113,
+      "window_anchor_pdf_page": 110
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 257,
+      "pdf_page_human": 258,
+      "window_anchor_pdf_page": 259
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 258,
+      "pdf_page_human": 259,
+      "window_anchor_pdf_page": 259
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 259,
+      "pdf_page_human": 260,
+      "window_anchor_pdf_page": 259
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 260,
+      "pdf_page_human": 261,
+      "window_anchor_pdf_page": 259
+    },
+    {
+      "subject": "MLN122",
+      "pdf_page": 261,
+      "pdf_page_human": 262,
+      "window_anchor_pdf_page": 259
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 44,
+      "pdf_page_human": 45,
+      "window_anchor_pdf_page": 46
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 45,
+      "pdf_page_human": 46,
+      "window_anchor_pdf_page": 46
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 46,
+      "pdf_page_human": 47,
+      "window_anchor_pdf_page": 46
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 47,
+      "pdf_page_human": 48,
+      "window_anchor_pdf_page": 46
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 48,
+      "pdf_page_human": 49,
+      "window_anchor_pdf_page": 46
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 158,
+      "pdf_page_human": 159,
+      "window_anchor_pdf_page": 160
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 159,
+      "pdf_page_human": 160,
+      "window_anchor_pdf_page": 160
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 160,
+      "pdf_page_human": 161,
+      "window_anchor_pdf_page": 160
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 161,
+      "pdf_page_human": 162,
+      "window_anchor_pdf_page": 160
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 162,
+      "pdf_page_human": 163,
+      "window_anchor_pdf_page": 160
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 232,
+      "pdf_page_human": 233,
+      "window_anchor_pdf_page": 234
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 233,
+      "pdf_page_human": 234,
+      "window_anchor_pdf_page": 234
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 234,
+      "pdf_page_human": 235,
+      "window_anchor_pdf_page": 234
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 235,
+      "pdf_page_human": 236,
+      "window_anchor_pdf_page": 234
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 236,
+      "pdf_page_human": 237,
+      "window_anchor_pdf_page": 234
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 267,
+      "pdf_page_human": 268,
+      "window_anchor_pdf_page": 269
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 268,
+      "pdf_page_human": 269,
+      "window_anchor_pdf_page": 269
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 269,
+      "pdf_page_human": 270,
+      "window_anchor_pdf_page": 269
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 270,
+      "pdf_page_human": 271,
+      "window_anchor_pdf_page": 269
+    },
+    {
+      "subject": "MLN131",
+      "pdf_page": 271,
+      "pdf_page_human": 272,
+      "window_anchor_pdf_page": 269
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 69,
+      "pdf_page_human": 70,
+      "window_anchor_pdf_page": 71
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 70,
+      "pdf_page_human": 71,
+      "window_anchor_pdf_page": 71
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 71,
+      "pdf_page_human": 72,
+      "window_anchor_pdf_page": 71
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 72,
+      "pdf_page_human": 73,
+      "window_anchor_pdf_page": 71
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 73,
+      "pdf_page_human": 74,
+      "window_anchor_pdf_page": 71
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 75,
+      "pdf_page_human": 76,
+      "window_anchor_pdf_page": 77
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 76,
+      "pdf_page_human": 77,
+      "window_anchor_pdf_page": 77
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 77,
+      "pdf_page_human": 78,
+      "window_anchor_pdf_page": 77
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 78,
+      "pdf_page_human": 79,
+      "window_anchor_pdf_page": 77
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 79,
+      "pdf_page_human": 80,
+      "window_anchor_pdf_page": 77
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 81,
+      "pdf_page_human": 82,
+      "window_anchor_pdf_page": 83
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 82,
+      "pdf_page_human": 83,
+      "window_anchor_pdf_page": 83
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 83,
+      "pdf_page_human": 84,
+      "window_anchor_pdf_page": 83
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 84,
+      "pdf_page_human": 85,
+      "window_anchor_pdf_page": 83
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 85,
+      "pdf_page_human": 86,
+      "window_anchor_pdf_page": 83
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 264,
+      "pdf_page_human": 265,
+      "window_anchor_pdf_page": 266
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 265,
+      "pdf_page_human": 266,
+      "window_anchor_pdf_page": 266
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 266,
+      "pdf_page_human": 267,
+      "window_anchor_pdf_page": 266
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 267,
+      "pdf_page_human": 268,
+      "window_anchor_pdf_page": 266
+    },
+    {
+      "subject": "HCM202",
+      "pdf_page": 268,
+      "pdf_page_human": 269,
+      "window_anchor_pdf_page": 266
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 4,
+      "pdf_page_human": 5,
+      "window_anchor_pdf_page": 6
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 5,
+      "pdf_page_human": 6,
+      "window_anchor_pdf_page": 6
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 6,
+      "pdf_page_human": 7,
+      "window_anchor_pdf_page": 6
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 7,
+      "pdf_page_human": 8,
+      "window_anchor_pdf_page": 6
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 8,
+      "pdf_page_human": 9,
+      "window_anchor_pdf_page": 6
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 10,
+      "pdf_page_human": 11,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 11,
+      "pdf_page_human": 12,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 12,
+      "pdf_page_human": 13,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 13,
+      "pdf_page_human": 14,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 14,
+      "pdf_page_human": 15,
+      "window_anchor_pdf_page": 12
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 15,
+      "pdf_page_human": 16,
+      "window_anchor_pdf_page": 17
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 16,
+      "pdf_page_human": 17,
+      "window_anchor_pdf_page": 17
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 17,
+      "pdf_page_human": 18,
+      "window_anchor_pdf_page": 17
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 18,
+      "pdf_page_human": 19,
+      "window_anchor_pdf_page": 17
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 19,
+      "pdf_page_human": 20,
+      "window_anchor_pdf_page": 17
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 222,
+      "pdf_page_human": 223,
+      "window_anchor_pdf_page": 224
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 223,
+      "pdf_page_human": 224,
+      "window_anchor_pdf_page": 224
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 224,
+      "pdf_page_human": 225,
+      "window_anchor_pdf_page": 224
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 225,
+      "pdf_page_human": 226,
+      "window_anchor_pdf_page": 224
+    },
+    {
+      "subject": "VNR202",
+      "pdf_page": 226,
+      "pdf_page_human": 227,
+      "window_anchor_pdf_page": 224
+    }
+  ]
+}

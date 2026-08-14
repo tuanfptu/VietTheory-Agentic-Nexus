@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "viettheory-rag"
 version = "1.0.0"
-description = "Citation-grounded RAG research framework for five Vietnamese political-theory subjects."
+description = "VietTheory Agentic Nexus: evidence-guided Agentic RAG for five Vietnamese political-theory subjects."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Proprietary" }
@@ -41,6 +41,8 @@ viettheory-structure-chunk = "viettheory.chunking.structured_cli:main"
 viettheory-index = "viettheory.retrieval.cli:main"
 mln111-api = "viettheory.backend.cli:main"
 mln111-ui = "viettheory.frontend.app:main"
+viettheory-api = "viettheory.backend.cli:main"
+viettheory-ui = "viettheory.frontend.app:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -51,7 +53,7 @@ viettheory = ["py.typed", "frontend/assets/*.png"]
 [tool.pytest.ini_options]
 addopts = "-ra --strict-config --strict-markers"
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = [".", "src"]
 
 [tool.ruff]
 target-version = "py311"

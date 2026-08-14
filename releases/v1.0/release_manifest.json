@@ -1,0 +1,119 @@
+{
+  "candidate_frozen_before_hidden": true,
+  "evidence_sufficiency_held_out_evaluated": true,
+  "natural_qa_hidden_evaluated_once": true,
+  "private_artifact_checksums": [
+    {
+      "path": "benchmark_private/evidence_sufficiency/pilot_v0.1/held_out_16.jsonl",
+      "sha256": "ee31f28418d18bb0eeee3b79b1483566d78b03544a33bbf2be1d9b98547eedfb"
+    },
+    {
+      "path": "benchmark_private/evidence_sufficiency/pilot_v0.1/j1_held_out_checkpoint.jsonl",
+      "sha256": "223bd8f5e32e5d443065386cdbd79346c5d54f9337d53c31c19d72dfb70a4dd1"
+    },
+    {
+      "path": "benchmark_private/evidence_sufficiency/pilot_v0.1/j1_held_out_report.json",
+      "sha256": "8f4bb866e05d2f13bb82b26fce1f980c80db67f832611b1858851cc50a5e6bfa"
+    },
+    {
+      "path": "benchmark_private/v2/b0_hidden_150_frozen.json",
+      "sha256": "8b56e7d31f01ff671ca748def19ab2899ba950c89f2165e0a36f2f9c43dc3c98"
+    },
+    {
+      "path": "benchmark_private/v2/natural_qa_v2_hidden_150.jsonl",
+      "sha256": "0e296766b9d555436150867f487f0bff3485c57535e9573d117a6715076eabbe"
+    }
+  ],
+  "public_files": [
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/SHA256SUMS",
+      "sha256": "f0f4653e51f0ae96e5cf0582746900ff00d84502596f5cdc2e0f6ba78598fa02"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/development_32.jsonl",
+      "sha256": "ec6abbacc553cb7f356b8dedf7b3c264bc010d5b8c051ae49c9f0afcf84462fd"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/j1_development.json",
+      "sha256": "7e96553d2063bd88cb0c8a535c30cae6b30a31fd0268ee1165177d7c01732464"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/j1_freeze.json",
+      "sha256": "8ac3392441287dec03863e1ebafa2520b800d1cd8b318b1bd2811dc6d27822e7"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/j1_held_out_aggregate.json",
+      "sha256": "5db13d28ef72d77c5e3e36bb76f0b8514fcad810a0125fa9483d79b65f7aa76d"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/j1_sha256.json",
+      "sha256": "6447f47a6ae8f53dac3f2b4e50b0f3f531d1df85450e5934879828fc82a91236"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/shortcut_baselines.json",
+      "sha256": "01bc71272abdf7b24b02c1bec9eee74ef1fffc80713cc0e595b0988db3d6812d"
+    },
+    {
+      "path": "benchmark/evidence_sufficiency/pilot_v0.1/release/targeted_recovery_b0_development.json",
+      "sha256": "f2d0f138c78d1a5b5b61a1de44ffc7b52200605fa3452108b5f7139a55415f62"
+    },
+    {
+      "path": "benchmark/memory/safety_contract_v1.json",
+      "sha256": "6636b82b39fc8de1bcecefbe582b4d98c1278d541f7c198a591f699cd6f75b2b"
+    },
+    {
+      "path": "benchmark/tool_selection/development.jsonl",
+      "sha256": "8cf9b50d89d53cbc940d58c2d43e23b7fe83852b69b657bd985191992745e2e9"
+    },
+    {
+      "path": "benchmark/tool_selection/rule_router_development.json",
+      "sha256": "01acbdc1e7ce585581a2648e761cefff2511f8cbdf151714e1322ea6db8a6dd3"
+    },
+    {
+      "path": "benchmark/v2/releases/v1.0/portfolio_profile_500_gold.json",
+      "sha256": "2fb200b2956939252a246361756adaf842a13e0bfbf462d835635db50fba7779"
+    },
+    {
+      "path": "benchmark/v2/releases/v1.0/splits/natural_qa_v2_development_350.jsonl",
+      "sha256": "75db9afdbf0fc133e8aa11046b24d89458798b0e612b6f303cf6b8456a75abfb"
+    },
+    {
+      "path": "benchmark/v2/releases/v1.0/splits/split_manifest.json",
+      "sha256": "4889628bb876a55354cf215baf82f1be4ce823e65aa4a569ec4e6d0562a51814"
+    },
+    {
+      "path": "benchmark/v2/reports/b0_development_350_answerable.json",
+      "sha256": "4a892046d6a349d1cdd734c102744dc5e818f1260d5e771efbcc5544000f895a"
+    },
+    {
+      "path": "benchmark/v2/reports/b0_hidden_150_aggregate.json",
+      "sha256": "0d21e44c13540ab781b10f83969833b2c6c3ad2661538c67ce2fe13c904c50e6"
+    },
+    {
+      "path": "benchmark/v2/reports/coordination_ablation_development.json",
+      "sha256": "3ae001f415a6497cb249260e9a302857ba0b75f8023c4ea423ead8f57b2807d4"
+    },
+    {
+      "path": "benchmark/v2/reports/natural_qa_v2_gold_500_validation.json",
+      "sha256": "23c50fb0ac441303bd47178dc2eeea192a74c986e02d453cd4047ab439fc0445"
+    },
+    {
+      "path": "benchmark/v2/reports/parent_graph_development.json",
+      "sha256": "3c13fe9012b22109789d14361ffdd4257b871f0ef589eb91f35b83647d3a627c"
+    },
+    {
+      "path": "configs/final_candidate_v1.json",
+      "sha256": "90ca2cd35764e393b839a097814cba5eb2742d67142b966231722423ffa5ea52"
+    },
+    {
+      "path": "docs/experimental-results-v1.md",
+      "sha256": "547c829607ea75c3606803ec4f9ce3e06bc1298bc674df33f2c88841721202f6"
+    },
+    {
+      "path": "reports/five_subject_readiness_final.json",
+      "sha256": "732816b286dd77fa8b4f7b8744c67b104a4bdced48777576f29de7b7cf9cb206"
+    }
+  ],
+  "release": "viettheory_final_candidate_v1_2026-08-15",
+  "schema_version": "1.0"
+}

@@ -1,4 +1,11 @@
-from viettheory.pipeline.generator import _canonicalize_citations, _deduplicate_citations
+from viettheory.pipeline.generator import (
+    GeneratedAnswer,
+    GeneratedClaim,
+    _canonicalize_citations,
+    _deduplicate_citations,
+    _materialize_answer,
+    _normalize_schema_versions,
+)
 from viettheory.schema import Answer, Chunk, Citation, Claim, RetrievedEvidence, SourceSpan
 
 
@@ -67,3 +74,47 @@ def test_canonical_citation_includes_full_retrieved_passage() -> None:
     result = _canonicalize_citations(answer, (evidence,))
 
     assert result.citations[0].context_text == chunk.text
+
+
+def test_provider_schema_version_aliases_are_normalized_recursively() -> None:
+    raw = {
+        "schema_version": "v1",
+        "citations": [{"schema_version": "v1"}],
+        "claims": [{"schema_version": "1"}],
+    }
+    _normalize_schema_versions(raw)
+    assert raw["schema_version"] == "1.0"
+    assert raw["citations"][0]["schema_version"] == "1.0"
+    assert raw["claims"][0]["schema_version"] == "1.0"
+
+
+def test_minimal_provider_answer_materializes_canonical_provenance() -> None:
+    span = SourceSpan(
+        page_id="VNR202_p1",
+        pdf_page=0,
+        bbox=(0.0, 0.0, 10.0, 10.0),
+        text="Giai đoạn 1930-1945.",
+    )
+    chunk = Chunk(
+        chunk_id="parent_vnr",
+        document_id="doc",
+        subject_code="VNR202",
+        text="Giai đoạn 1930-1945 là giai đoạn đấu tranh giành chính quyền.",
+        token_count=10,
+        source_spans=(span,),
+    )
+    evidence = RetrievedEvidence(
+        evidence_id="ev1",
+        chunk=chunk,
+        score=1.0,
+        rank=1,
+        retrieval_method="parent_expansion",
+    )
+    generated = GeneratedAnswer(
+        direct_answer="Giai đoạn đầu là 1930-1945.",
+        claims=(GeneratedClaim(text="Giai đoạn đầu là 1930-1945.", evidence_ids=("ev1",)),),
+    )
+    answer = _materialize_answer("Tóm tắt các giai đoạn.", generated, (evidence,))
+    assert answer.citations[0].source_span == span
+    assert answer.citations[0].context_text == chunk.text
+    assert answer.claims[0].citation_ids == (answer.citations[0].citation_id,)

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_development_candidate",
+  "judge": "J1_gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "evidence_judge_v1",
+  "temperature": 0.0,
+  "batching": "one source question and its four perturbations per request",
+  "development_case_count": 32,
+  "development_accuracy": 0.96875,
+  "development_macro_f1": 0.9686274509803922,
+  "gold_labels_sent_to_model": false,
+  "gold_evidence_sent_to_model": false,
+  "held_out_accessed": false,
+  "frozen_before_recovery": true,
+  "known_annotation_findings": [
+    "es_mln131_0035_partial"
+  ]
+}

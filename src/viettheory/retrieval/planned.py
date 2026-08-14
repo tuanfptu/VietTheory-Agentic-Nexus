@@ -1,4 +1,4 @@
-"""MLN111 query planning and reranking."""
+"""Bounded comparison-query planning and reranking."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from viettheory.schema import RetrievedEvidence
 
 
 class PlannedRerankedRetriever:
-    """Retrieve one or both sides of an MLN111 question, then rerank once."""
+    """Retrieve one or both sides of a question, then rerank once."""
 
     def __init__(
         self,
@@ -31,15 +31,13 @@ class PlannedRerankedRetriever:
         top_k: int = 5,
         subject_codes: frozenset[str] | None = None,
     ) -> tuple[RetrievedEvidence, ...]:
-        if subject_codes and subject_codes != frozenset({"MLN111"}):
-            return ()
         rankings = tuple(
             tuple(
                 item
                 for item in self._candidate_retriever.search(
                     variant,
                     top_k=self._candidate_k * 2,
-                    subject_codes=frozenset({"MLN111"}),
+                    subject_codes=subject_codes,
                 )
                 if item.chunk.chapter is not None
             )

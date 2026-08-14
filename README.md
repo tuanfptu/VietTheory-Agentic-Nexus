@@ -3,7 +3,7 @@
 **Evidence-guided Agentic RAG for five Vietnamese political-theory subjects at FPT University.**
 
 VietTheory Agentic Nexus is a research-oriented question-answering system for **MLN111,
-MLN122, MLN131, HCM202, and VNR202** in FPT University. It combines hybrid retrieval, neural reranking,
+MLN122, MLN131, HCM202, and VNR202**. It combines hybrid retrieval, neural reranking,
 parent-aware evidence expansion, a bounded Evidence Judge/Recovery loop, grounded generation,
 and deterministic PDF citations in one subject-agnostic runtime.
 

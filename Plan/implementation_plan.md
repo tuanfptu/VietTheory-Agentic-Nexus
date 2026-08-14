@@ -55,7 +55,7 @@ Answer + Chương + Mục + Trang + PDF highlight (bbox)
 
 ---
 
-## 10 điểm đã sửa so với v1
+## v2 so với v1
 
 | # | Vấn đề | Cách sửa |
 |---|--------|----------|
@@ -608,7 +608,7 @@ Mỗi query:
 
 ---
 
-## Quyết định đã chốt
+## 
 
 ### 1. API LLM generator chính
 - **Generator ban đầu**: Gemini 3.5 Flash (Free Tier)

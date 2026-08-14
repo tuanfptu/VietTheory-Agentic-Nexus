@@ -7,7 +7,13 @@ MLN122, MLN131, HCM202, and VNR202**. It combines hybrid retrieval, neural reran
 parent-aware evidence expansion, a bounded Evidence Judge/Recovery loop, grounded generation,
 and deterministic PDF citations in one subject-agnostic runtime.
 
-[![VietTheory Agentic Nexus demo](docs/assets/mln111-assistant-demo.png)](https://drive.google.com/drive/folders/1KsY9tnl6FhBWzuIPTpQljdTq2umZT42b?usp=sharing)
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1KsY9tnl6FhBWzuIPTpQljdTq2umZT42b?usp=sharing">
+    <img src="docs/assets/viettheory-agentic-nexus-mobile-demo.png"
+         alt="VietTheory Agentic Nexus mobile demo"
+         width="420">
+  </a>
+</p>
 
 **[Watch the full demo](https://drive.google.com/drive/folders/1KsY9tnl6FhBWzuIPTpQljdTq2umZT42b?usp=sharing)** ·
 **[Architecture](docs/architecture.md)** ·

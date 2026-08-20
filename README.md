@@ -447,7 +447,7 @@ Important public artifacts:
 
 ## Author
 
-Built by **Ha Manh Tuan** — AI Engineer · Computer Vision · LLM/RAG.
+Built by **Ha Manh Tuan** - AI Engineer · Computer Vision · LLM/RAG.
 
 The assistant was created by Tuan, a gym enthusiast with a serious interest in philosophy—and a
 slightly less serious desire to make five political-theory courses easier to survive.
